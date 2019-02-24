@@ -1,0 +1,169 @@
+2018-11-05 15:21:23,955 INFO  DownloadService - Downloading "https://github.com/bosphere/Android-FadingEdgeLayout/archive/master.zip", attempt 3
+2018-11-05 15:21:25,754 INFO  DownloadService - Downloaded https://github.com/bosphere/Android-FadingEdgeLayout/archive/master.zip, attempt 3
+2018-11-05 15:21:25,755 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406083945-0/master.zip": 4 MB
+2018-11-05 15:21:25,755 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-05 15:21:25,756 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406083945-0/master.zip: true
+2018-11-05 15:21:25,756 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406083945-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406083945-0/src'.
+2018-11-05 15:21:25,804 INFO  FullProcessService - Size of directory with sources: 4 MB
+2018-11-05 15:21:25,804 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406083945-0/src]
+2018-11-05 15:21:25,822 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406083945-0/src/.git/
+
+2018-11-05 15:21:25,825 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406083945-0/src/Android-FadingEdgeLayout-master/gradlew
+2018-11-05 15:21:25,827 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406083945-0/src/Android-FadingEdgeLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406083945-0/src/Android-FadingEdgeLayout-master/fadingedgelayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406083945-0/src/Android-FadingEdgeLayout-master/build.gradle
+2018-11-05 15:21:25,830 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406083945-0/src/Android-FadingEdgeLayout-master/fadingedgelayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406083945-0/src/Android-FadingEdgeLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406083945-0/src/Android-FadingEdgeLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406083945-0/src/Android-FadingEdgeLayout-master/settings.gradle
+2018-11-05 15:21:25,830 INFO  ProjectBuildService - Remote scripts: none
+2018-11-05 15:21:25,830 INFO  ProjectFixService - Fixing project...
+2018-11-05 15:21:25,838 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406083945-0/src/Android-FadingEdgeLayout-master/app/local.properties
+2018-11-05 15:21:25,839 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406083945-0/src/Android-FadingEdgeLayout-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-11-05 15:21:25,839 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406083945-0/src/Android-FadingEdgeLayout-master/fadingedgelayout/local.properties
+2018-11-05 15:21:25,840 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406083945-0/src/Android-FadingEdgeLayout-master/fadingedgelayout/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=9,targetSdkVersion=28]
+2018-11-05 15:21:25,840 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406083945-0/src/Android-FadingEdgeLayout-master/local.properties
+2018-11-05 15:21:25,841 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-11-05 15:21:25,841 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-11-05 15:21:25,842 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406083945-0/src/Android-FadingEdgeLayout-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=9,targetSdkVersion=28]
+2018-11-05 15:21:25,842 INFO  ProjectFixService - Project was maybe fixed
+2018-11-05 15:21:25,842 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-05 15:21:25,843 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406083945-0/src/Android-FadingEdgeLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406083945-0/src/Android-FadingEdgeLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-05 15:21:33,994 INFO  ProjectTaskService - Detected possible tasks: 71
+2018-11-05 15:21:33,994 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-11-05 15:21:33,994 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406083945-0/src/Android-FadingEdgeLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406083945-0/src/Android-FadingEdgeLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-11-05 15:22:08,108 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+Download https://dl.google.com/dl/android/maven2/androidx/gridlayout/gridlayout/1.0.0/gridlayout-1.0.0.pom
+:app:checkDebugClasspath
+Download https://dl.google.com/dl/android/maven2/androidx/gridlayout/gridlayout/1.0.0/gridlayout-1.0.0.aar
+:app:preBuild UP-TO-DATE
+:fadingedgelayout:preBuild UP-TO-DATE
+:fadingedgelayout:preDebugBuild UP-TO-DATE
+:fadingedgelayout:checkDebugManifest
+:fadingedgelayout:processDebugManifest
+:app:preDebugBuild
+:fadingedgelayout:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:fadingedgelayout:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:fadingedgelayout:compileDebugRenderscript
+:fadingedgelayout:generateDebugResValues
+:fadingedgelayout:generateDebugResources
+:fadingedgelayout:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:fadingedgelayout:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:fadingedgelayout:generateDebugBuildConfig
+:fadingedgelayout:prepareLintJar
+:fadingedgelayout:generateDebugSources
+:fadingedgelayout:javaPreCompileDebug
+:fadingedgelayout:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406083945-0/src/Android-FadingEdgeLayout-master/fadingedgelayout/src/main/java/com/bosphere/fadingedgelayout/FadingEdgeLayout.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:fadingedgelayout:processDebugJavaRes NO-SOURCE
+:fadingedgelayout:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:fadingedgelayout:mergeDebugShaders
+:fadingedgelayout:compileDebugShaders
+:fadingedgelayout:generateDebugAssets
+:fadingedgelayout:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:fadingedgelayout:compileDebugNdk NO-SOURCE
+:fadingedgelayout:mergeDebugJniLibFolders
+:fadingedgelayout:transformNativeLibsWithMergeJniLibsForDebug
+:fadingedgelayout:transformNativeLibsWithStripDebugSymbolForDebug
+:fadingedgelayout:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:fadingedgelayout:preReleaseBuild UP-TO-DATE
+:fadingedgelayout:checkReleaseManifest
+:fadingedgelayout:processReleaseManifest
+:app:preReleaseBuild
+:fadingedgelayout:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:fadingedgelayout:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:fadingedgelayout:compileReleaseRenderscript
+:fadingedgelayout:generateReleaseResValues
+:fadingedgelayout:generateReleaseResources
+:fadingedgelayout:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:fadingedgelayout:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:fadingedgelayout:generateReleaseBuildConfig
+:fadingedgelayout:generateReleaseSources
+:fadingedgelayout:javaPreCompileRelease
+:fadingedgelayout:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406083945-0/src/Android-FadingEdgeLayout-master/fadingedgelayout/src/main/java/com/bosphere/fadingedgelayout/FadingEdgeLayout.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:fadingedgelayout:processReleaseJavaRes NO-SOURCE
+:fadingedgelayout:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:fadingedgelayout:mergeReleaseShaders
+:fadingedgelayout:compileReleaseShaders
+:fadingedgelayout:generateReleaseAssets
+:fadingedgelayout:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:fadingedgelayout:compileReleaseNdk NO-SOURCE
+:fadingedgelayout:mergeReleaseJniLibFolders
+:fadingedgelayout:transformNativeLibsWithMergeJniLibsForRelease
+:fadingedgelayout:transformNativeLibsWithStripDebugSymbolForRelease
+:fadingedgelayout:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 33s
+90 actionable tasks: 90 executed
+
+2018-11-05 15:22:08,188 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406083945-0/src/Android-FadingEdgeLayout-master/app/build/outputs/apk/debug/app-debug.apk

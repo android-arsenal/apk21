@@ -1,0 +1,1418 @@
+2019-01-22 16:20:46,359 INFO  DownloadService - Downloading "https://github.com/tonyofrancis/Fetch/archive/master.zip", attempt 3
+2019-01-22 16:20:52,897 INFO  DownloadService - Downloaded https://github.com/tonyofrancis/Fetch/archive/master.zip, attempt 3
+2019-01-22 16:20:52,897 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/master.zip": 1 MB
+2019-01-22 16:20:52,897 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-22 16:20:52,906 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/master.zip: true
+2019-01-22 16:20:52,906 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src'.
+2019-01-22 16:20:53,217 INFO  FullProcessService - Size of directory with sources: 15 MB
+2019-01-22 16:20:53,217 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src]
+2019-01-22 16:20:53,241 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/.git/
+
+2019-01-22 16:20:53,267 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/gradlew
+2019-01-22 16:20:53,293 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2downloaders/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2fileserver/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2okhttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2rx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetchmigrator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/sampleApp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/build.gradle
+2019-01-22 16:20:53,318 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2fileserver/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2downloaders/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetchmigrator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2rx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2okhttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/sampleApp/build.gradle
+2019-01-22 16:20:53,319 INFO  ProjectBuildService - Remote scripts: none
+2019-01-22 16:20:53,319 INFO  ProjectFixService - Fixing project...
+2019-01-22 16:20:53,371 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2/local.properties
+2019-01-22 16:20:53,377 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-22 16:20:53,377 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-22 16:20:53,378 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2core/local.properties
+2019-01-22 16:20:53,383 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-22 16:20:53,384 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-22 16:20:53,385 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2downloaders/local.properties
+2019-01-22 16:20:53,390 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2downloaders/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-22 16:20:53,390 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2downloaders/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-22 16:20:53,391 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2fileserver/local.properties
+2019-01-22 16:20:53,397 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2fileserver/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-22 16:20:53,397 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2fileserver/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-22 16:20:53,398 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2okhttp/local.properties
+2019-01-22 16:20:53,403 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2okhttp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-22 16:20:53,403 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2okhttp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-22 16:20:53,404 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2rx/local.properties
+2019-01-22 16:20:53,410 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2rx/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-22 16:20:53,410 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2rx/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-22 16:20:53,411 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetchmigrator/local.properties
+2019-01-22 16:20:53,417 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetchmigrator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-22 16:20:53,417 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetchmigrator/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-22 16:20:53,418 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/sampleApp/local.properties
+2019-01-22 16:20:53,424 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/sampleApp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-22 16:20:53,424 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/sampleApp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-22 16:20:53,425 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/local.properties
+2019-01-22 16:20:53,426 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-22 16:20:53,426 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-22 16:20:53,431 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-22 16:20:53,431 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-22 16:20:53,432 INFO  ProjectFixService - Project was maybe fixed
+2019-01-22 16:20:53,432 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-22 16:20:53,432 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-22 16:21:01,594 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-01-22 16:21:01,594 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-22 16:21:01,594 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-22 16:21:51,457 INFO  SysUtils - Configuration on demand is an incubating feature.
+:fetch2:preBuild UP-TO-DATE
+:fetch2:preDebugBuild UP-TO-DATE
+:fetch2core:preBuild UP-TO-DATE
+:fetch2core:preDebugBuild UP-TO-DATE
+:fetch2core:compileDebugAidl NO-SOURCE
+:fetch2:compileDebugAidl NO-SOURCE
+:fetch2core:packageDebugRenderscript NO-SOURCE
+:fetch2:compileDebugRenderscript
+:fetch2:checkDebugManifest
+:fetch2:generateDebugBuildConfig
+:fetch2:generateDebugResValues
+:fetch2:generateDebugResources
+:fetch2:packageDebugResources
+:fetch2:processDebugManifest
+:fetch2core:compileDebugRenderscript
+:fetch2core:generateDebugResValues
+:fetch2core:generateDebugResources
+:fetch2core:packageDebugResources
+:fetch2core:checkDebugManifest
+:fetch2core:processDebugManifest
+:fetch2core:generateDebugRFile
+:fetch2:generateDebugRFile
+:fetch2core:generateDebugBuildConfig
+:fetch2core:kaptGenerateStubsDebugKotlin
+:fetch2core:kaptDebugKotlin
+:fetch2core:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2core/src/main/java/com/tonyodev/fetch2core/AndroidExtentions.kt: (13, 27): 'getter for type: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2core/src/main/java/com/tonyodev/fetch2core/AndroidExtentions.kt: (13, 55): 'TYPE_WIFI: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2core/src/main/java/com/tonyodev/fetch2core/FileResource.kt: (90, 33): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2core/src/main/java/com/tonyodev/fetch2core/FileResource.kt: (92, 33): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2core/src/main/java/com/tonyodev/fetch2core/FileResource.kt: (94, 32): Type mismatch: inferred type is String? but String was expected
+:fetch2core:prepareLintJar
+:fetch2core:generateDebugSources
+:fetch2core:javaPreCompileDebug
+:fetch2core:compileDebugJavaWithJavac
+:fetch2core:processDebugJavaRes NO-SOURCE
+:fetch2core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:fetch2:kaptGenerateStubsDebugKotlin
+:fetch2:kaptDebugKotlin
+:fetch2:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2/src/main/java/com/tonyodev/fetch2/provider/NetworkInfoProvider.kt: (51, 107): 'CONNECTIVITY_ACTION: String' is deprecated. Deprecated in Java
+:fetch2:prepareLintJar
+:fetch2:generateDebugSources
+:fetch2:javaPreCompileDebug
+:fetch2:compileDebugJavaWithJavac
+:fetch2:extractDebugAnnotations
+:fetch2:mergeDebugConsumerProguardFiles
+:fetch2:mergeDebugShaders
+:fetch2:compileDebugShaders
+:fetch2:generateDebugAssets
+:fetch2:packageDebugAssets
+:fetch2:packageDebugRenderscript NO-SOURCE
+:fetch2:processDebugJavaRes NO-SOURCE
+:fetch2:transformResourcesWithMergeJavaResForDebug
+:fetch2:transformClassesAndResourcesWithSyncLibJarsForDebug
+:fetch2:compileDebugNdk NO-SOURCE
+:fetch2:mergeDebugJniLibFolders
+:fetch2:transformNativeLibsWithMergeJniLibsForDebug
+:fetch2:transformNativeLibsWithStripDebugSymbolForDebug
+:fetch2:transformNativeLibsWithSyncJniLibsForDebug
+:fetch2:bundleDebugAar
+:fetch2:compileDebugSources
+:fetch2:assembleDebug
+:fetch2:preReleaseBuild UP-TO-DATE
+:fetch2core:preReleaseBuild UP-TO-DATE
+:fetch2core:compileReleaseAidl NO-SOURCE
+:fetch2:compileReleaseAidl NO-SOURCE
+:fetch2core:packageReleaseRenderscript NO-SOURCE
+:fetch2:compileReleaseRenderscript
+:fetch2:checkReleaseManifest
+:fetch2:generateReleaseBuildConfig
+:fetch2:generateReleaseResValues
+:fetch2:generateReleaseResources
+:fetch2:packageReleaseResources
+:fetch2:processReleaseManifest
+:fetch2core:compileReleaseRenderscript
+:fetch2core:generateReleaseResValues
+:fetch2core:generateReleaseResources
+:fetch2core:packageReleaseResources
+:fetch2core:checkReleaseManifest
+:fetch2core:processReleaseManifest
+:fetch2core:generateReleaseRFile
+:fetch2:generateReleaseRFile
+:fetch2core:generateReleaseBuildConfig
+:fetch2core:kaptGenerateStubsReleaseKotlin
+:fetch2core:kaptReleaseKotlin
+:fetch2core:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2core/src/main/java/com/tonyodev/fetch2core/AndroidExtentions.kt: (13, 27): 'getter for type: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2core/src/main/java/com/tonyodev/fetch2core/AndroidExtentions.kt: (13, 55): 'TYPE_WIFI: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2core/src/main/java/com/tonyodev/fetch2core/FileResource.kt: (90, 33): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2core/src/main/java/com/tonyodev/fetch2core/FileResource.kt: (92, 33): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2core/src/main/java/com/tonyodev/fetch2core/FileResource.kt: (94, 32): Type mismatch: inferred type is String? but String was expected
+:fetch2core:generateReleaseSources
+:fetch2core:javaPreCompileRelease
+:fetch2core:compileReleaseJavaWithJavac
+:fetch2core:processReleaseJavaRes NO-SOURCE
+:fetch2core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:fetch2:kaptGenerateStubsReleaseKotlin
+:fetch2:kaptReleaseKotlin
+:fetch2:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2/src/main/java/com/tonyodev/fetch2/provider/NetworkInfoProvider.kt: (51, 107): 'CONNECTIVITY_ACTION: String' is deprecated. Deprecated in Java
+:fetch2:generateReleaseSources
+:fetch2:javaPreCompileRelease
+:fetch2:compileReleaseJavaWithJavac
+:fetch2:extractReleaseAnnotations
+:fetch2:mergeReleaseConsumerProguardFiles
+:fetch2:mergeReleaseShaders
+:fetch2:compileReleaseShaders
+:fetch2:generateReleaseAssets
+:fetch2:packageReleaseAssets
+:fetch2:packageReleaseRenderscript NO-SOURCE
+:fetch2:processReleaseJavaRes NO-SOURCE
+:fetch2:transformResourcesWithMergeJavaResForRelease
+:fetch2:transformClassesAndResourcesWithSyncLibJarsForRelease
+:fetch2:compileReleaseNdk NO-SOURCE
+:fetch2:mergeReleaseJniLibFolders
+:fetch2:transformNativeLibsWithMergeJniLibsForRelease
+:fetch2:transformNativeLibsWithStripDebugSymbolForRelease
+:fetch2:transformNativeLibsWithSyncJniLibsForRelease
+:fetch2:bundleReleaseAar
+:fetch2:compileReleaseSources
+:fetch2:mergeReleaseResources
+:fetch2:verifyReleaseResources
+:fetch2:assembleRelease
+:fetch2:assemble
+:fetch2:build
+
+BUILD SUCCESSFUL in 49s
+78 actionable tasks: 78 executed
+
+2019-01-22 16:21:51,542 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-22 16:21:51,542 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-22 16:21:57,487 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-01-22 16:21:57,487 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-22 16:21:57,487 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-22 16:22:04,871 INFO  SysUtils - Configuration on demand is an incubating feature.
+:fetch2core:preBuild UP-TO-DATE
+:fetch2core:preDebugBuild UP-TO-DATE
+:fetch2core:compileDebugAidl NO-SOURCE
+:fetch2core:compileDebugRenderscript UP-TO-DATE
+:fetch2core:checkDebugManifest UP-TO-DATE
+:fetch2core:generateDebugBuildConfig UP-TO-DATE
+:fetch2core:generateDebugResValues UP-TO-DATE
+:fetch2core:generateDebugResources UP-TO-DATE
+:fetch2core:packageDebugResources UP-TO-DATE
+:fetch2core:processDebugManifest UP-TO-DATE
+:fetch2core:generateDebugRFile UP-TO-DATE
+:fetch2core:kaptGenerateStubsDebugKotlin UP-TO-DATE
+:fetch2core:kaptDebugKotlin UP-TO-DATE
+:fetch2core:compileDebugKotlin UP-TO-DATE
+:fetch2core:prepareLintJar UP-TO-DATE
+:fetch2core:generateDebugSources UP-TO-DATE
+:fetch2core:javaPreCompileDebug UP-TO-DATE
+:fetch2core:compileDebugJavaWithJavac UP-TO-DATE
+:fetch2core:extractDebugAnnotations
+:fetch2core:mergeDebugConsumerProguardFiles
+:fetch2core:mergeDebugShaders
+:fetch2core:compileDebugShaders
+:fetch2core:generateDebugAssets
+:fetch2core:packageDebugAssets
+:fetch2core:packageDebugRenderscript NO-SOURCE
+:fetch2core:processDebugJavaRes NO-SOURCE
+:fetch2core:transformResourcesWithMergeJavaResForDebug
+:fetch2core:transformClassesAndResourcesWithSyncLibJarsForDebug
+:fetch2core:compileDebugNdk NO-SOURCE
+:fetch2core:mergeDebugJniLibFolders
+:fetch2core:transformNativeLibsWithMergeJniLibsForDebug
+:fetch2core:transformNativeLibsWithStripDebugSymbolForDebug
+:fetch2core:transformNativeLibsWithSyncJniLibsForDebug
+:fetch2core:bundleDebugAar
+:fetch2core:compileDebugSources UP-TO-DATE
+:fetch2core:assembleDebug
+:fetch2core:preReleaseBuild UP-TO-DATE
+:fetch2core:compileReleaseAidl NO-SOURCE
+:fetch2core:compileReleaseRenderscript UP-TO-DATE
+:fetch2core:checkReleaseManifest UP-TO-DATE
+:fetch2core:generateReleaseBuildConfig UP-TO-DATE
+:fetch2core:generateReleaseResValues UP-TO-DATE
+:fetch2core:generateReleaseResources UP-TO-DATE
+:fetch2core:packageReleaseResources UP-TO-DATE
+:fetch2core:processReleaseManifest UP-TO-DATE
+:fetch2core:generateReleaseRFile UP-TO-DATE
+:fetch2core:kaptGenerateStubsReleaseKotlin UP-TO-DATE
+:fetch2core:kaptReleaseKotlin UP-TO-DATE
+:fetch2core:compileReleaseKotlin UP-TO-DATE
+:fetch2core:generateReleaseSources UP-TO-DATE
+:fetch2core:javaPreCompileRelease UP-TO-DATE
+:fetch2core:compileReleaseJavaWithJavac UP-TO-DATE
+:fetch2core:extractReleaseAnnotations
+:fetch2core:mergeReleaseConsumerProguardFiles
+:fetch2core:mergeReleaseShaders
+:fetch2core:compileReleaseShaders
+:fetch2core:generateReleaseAssets
+:fetch2core:packageReleaseAssets
+:fetch2core:packageReleaseRenderscript NO-SOURCE
+:fetch2core:processReleaseJavaRes NO-SOURCE
+:fetch2core:transformResourcesWithMergeJavaResForRelease
+:fetch2core:transformClassesAndResourcesWithSyncLibJarsForRelease
+:fetch2core:compileReleaseNdk NO-SOURCE
+:fetch2core:mergeReleaseJniLibFolders
+:fetch2core:transformNativeLibsWithMergeJniLibsForRelease
+:fetch2core:transformNativeLibsWithStripDebugSymbolForRelease
+:fetch2core:transformNativeLibsWithSyncJniLibsForRelease
+:fetch2core:bundleReleaseAar
+:fetch2core:compileReleaseSources UP-TO-DATE
+:fetch2core:mergeReleaseResources
+:fetch2core:verifyReleaseResources
+:fetch2core:assembleRelease
+:fetch2core:assemble
+:fetch2core:build
+
+BUILD SUCCESSFUL in 7s
+51 actionable tasks: 26 executed, 25 up-to-date
+
+2019-01-22 16:22:04,963 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-22 16:22:04,963 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2downloaders/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-22 16:22:09,883 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-01-22 16:22:09,883 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-01-22 16:22:09,884 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-01-22 16:22:09,884 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2downloaders/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-22 16:22:14,767 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-22 16:22:14,767 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2downloaders/build.gradle' line: 65
+
+* What went wrong:
+A problem occurred evaluating root project 'fetch2downloaders'.
+> Project with path ':fetch2core' could not be found in root project 'fetch2downloaders'.
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.GradleScriptException: A problem occurred evaluating root project 'fetch2downloaders'.
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:92)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:204)
+	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:209)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.run(BuildOperationScriptPlugin.java:61)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:58)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:41)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:64)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:110)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:667)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:136)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$ConfigureBuild.run(DefaultGradleLauncher.java:261)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.initialization.DefaultGradleLauncher.configureBuild(DefaultGradleLauncher.java:173)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:132)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:115)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:49)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:32)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:64)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:285)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:258)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:251)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:185)
+	at org.gradle.launcher.Main.doAction(Main.java:36)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.UnknownProjectException: Project with path ':fetch2core' could not be found in root project 'fetch2downloaders'.
+	at org.gradle.api.internal.project.DefaultProject.project(DefaultProject.java:603)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:479)
+	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
+	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
+	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
+	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:134)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:78)
+	at build_edh7oqszqhy798f3k2f3od3aj$_run_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2downloaders/build.gradle:65)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
+	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
+	at org.gradle.api.internal.project.DefaultProject.dependencies(DefaultProject.java:1162)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:479)
+	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
+	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
+	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
+	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:134)
+	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
+	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:83)
+	at build_edh7oqszqhy798f3k2f3od3aj.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2downloaders/build.gradle:61)
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
+	... 81 more
+
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+See https://docs.gradle.org/4.6/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 4s
+
+2019-01-22 16:22:14,858 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-22 16:22:14,859 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2fileserver/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-22 16:22:20,902 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-01-22 16:22:20,903 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-22 16:22:20,903 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2fileserver/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-22 16:22:46,938 INFO  SysUtils - Configuration on demand is an incubating feature.
+:fetch2core:preBuild UP-TO-DATE
+:fetch2core:preDebugBuild UP-TO-DATE
+:fetch2core:compileDebugAidl NO-SOURCE
+:fetch2fileserver:preBuild UP-TO-DATE
+:fetch2fileserver:preDebugBuild UP-TO-DATE
+:fetch2fileserver:compileDebugAidl NO-SOURCE
+:fetch2core:compileDebugRenderscript UP-TO-DATE
+:fetch2core:checkDebugManifest UP-TO-DATE
+:fetch2core:generateDebugBuildConfig UP-TO-DATE
+:fetch2core:generateDebugResValues UP-TO-DATE
+:fetch2core:generateDebugResources UP-TO-DATE
+:fetch2core:packageDebugResources UP-TO-DATE
+:fetch2core:processDebugManifest UP-TO-DATE
+:fetch2core:generateDebugRFile UP-TO-DATE
+:fetch2core:kaptGenerateStubsDebugKotlin UP-TO-DATE
+:fetch2core:kaptDebugKotlin UP-TO-DATE
+:fetch2core:compileDebugKotlin UP-TO-DATE
+:fetch2core:prepareLintJar UP-TO-DATE
+:fetch2core:generateDebugSources UP-TO-DATE
+:fetch2core:javaPreCompileDebug UP-TO-DATE
+:fetch2core:compileDebugJavaWithJavac UP-TO-DATE
+:fetch2core:processDebugJavaRes NO-SOURCE
+:fetch2core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:fetch2core:packageDebugRenderscript NO-SOURCE
+:fetch2fileserver:compileDebugRenderscript
+:fetch2fileserver:checkDebugManifest
+:fetch2fileserver:generateDebugBuildConfig
+:fetch2fileserver:generateDebugResValues
+:fetch2fileserver:generateDebugResources
+:fetch2fileserver:packageDebugResources
+:fetch2fileserver:processDebugManifest
+:fetch2fileserver:generateDebugRFile
+:fetch2fileserver:kaptGenerateStubsDebugKotlin
+:fetch2fileserver:kaptDebugKotlin
+:fetch2fileserver:compileDebugKotlin
+:fetch2fileserver:prepareLintJar
+:fetch2fileserver:generateDebugSources
+:fetch2fileserver:javaPreCompileDebug
+:fetch2fileserver:compileDebugJavaWithJavac
+:fetch2fileserver:extractDebugAnnotations
+:fetch2fileserver:mergeDebugConsumerProguardFiles
+:fetch2fileserver:mergeDebugShaders
+:fetch2fileserver:compileDebugShaders
+:fetch2fileserver:generateDebugAssets
+:fetch2fileserver:packageDebugAssets
+:fetch2fileserver:packageDebugRenderscript NO-SOURCE
+:fetch2fileserver:processDebugJavaRes NO-SOURCE
+:fetch2fileserver:transformResourcesWithMergeJavaResForDebug
+:fetch2fileserver:transformClassesAndResourcesWithSyncLibJarsForDebug
+:fetch2fileserver:compileDebugNdk NO-SOURCE
+:fetch2fileserver:mergeDebugJniLibFolders
+:fetch2fileserver:transformNativeLibsWithMergeJniLibsForDebug
+:fetch2fileserver:transformNativeLibsWithStripDebugSymbolForDebug
+:fetch2fileserver:transformNativeLibsWithSyncJniLibsForDebug
+:fetch2fileserver:bundleDebugAar
+:fetch2fileserver:compileDebugSources
+:fetch2fileserver:assembleDebug
+:fetch2core:preReleaseBuild UP-TO-DATE
+:fetch2core:compileReleaseAidl NO-SOURCE
+:fetch2fileserver:preReleaseBuild UP-TO-DATE
+:fetch2fileserver:compileReleaseAidl NO-SOURCE
+:fetch2core:compileReleaseRenderscript UP-TO-DATE
+:fetch2core:checkReleaseManifest UP-TO-DATE
+:fetch2core:generateReleaseBuildConfig UP-TO-DATE
+:fetch2core:generateReleaseResValues UP-TO-DATE
+:fetch2core:generateReleaseResources UP-TO-DATE
+:fetch2core:packageReleaseResources UP-TO-DATE
+:fetch2core:processReleaseManifest UP-TO-DATE
+:fetch2core:generateReleaseRFile UP-TO-DATE
+:fetch2core:kaptGenerateStubsReleaseKotlin UP-TO-DATE
+:fetch2core:kaptReleaseKotlin UP-TO-DATE
+:fetch2core:compileReleaseKotlin UP-TO-DATE
+:fetch2core:generateReleaseSources UP-TO-DATE
+:fetch2core:javaPreCompileRelease UP-TO-DATE
+:fetch2core:compileReleaseJavaWithJavac UP-TO-DATE
+:fetch2core:processReleaseJavaRes NO-SOURCE
+:fetch2core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:fetch2core:packageReleaseRenderscript NO-SOURCE
+:fetch2fileserver:compileReleaseRenderscript
+:fetch2fileserver:checkReleaseManifest
+:fetch2fileserver:generateReleaseBuildConfig
+:fetch2fileserver:generateReleaseResValues
+:fetch2fileserver:generateReleaseResources
+:fetch2fileserver:packageReleaseResources
+:fetch2fileserver:processReleaseManifest
+:fetch2fileserver:generateReleaseRFile
+:fetch2fileserver:kaptGenerateStubsReleaseKotlin
+:fetch2fileserver:kaptReleaseKotlin
+:fetch2fileserver:compileReleaseKotlin
+:fetch2fileserver:generateReleaseSources
+:fetch2fileserver:javaPreCompileRelease
+:fetch2fileserver:compileReleaseJavaWithJavac
+:fetch2fileserver:extractReleaseAnnotations
+:fetch2fileserver:mergeReleaseConsumerProguardFiles
+:fetch2fileserver:mergeReleaseShaders
+:fetch2fileserver:compileReleaseShaders
+:fetch2fileserver:generateReleaseAssets
+:fetch2fileserver:packageReleaseAssets
+:fetch2fileserver:packageReleaseRenderscript NO-SOURCE
+:fetch2fileserver:processReleaseJavaRes NO-SOURCE
+:fetch2fileserver:transformResourcesWithMergeJavaResForRelease
+:fetch2fileserver:transformClassesAndResourcesWithSyncLibJarsForRelease
+:fetch2fileserver:compileReleaseNdk NO-SOURCE
+:fetch2fileserver:mergeReleaseJniLibFolders
+:fetch2fileserver:transformNativeLibsWithMergeJniLibsForRelease
+:fetch2fileserver:transformNativeLibsWithStripDebugSymbolForRelease
+:fetch2fileserver:transformNativeLibsWithSyncJniLibsForRelease
+:fetch2fileserver:bundleReleaseAar
+:fetch2fileserver:compileReleaseSources
+:fetch2fileserver:mergeReleaseResources
+:fetch2fileserver:verifyReleaseResources
+:fetch2fileserver:assembleRelease
+:fetch2fileserver:assemble
+:fetch2fileserver:build
+
+BUILD SUCCESSFUL in 25s
+78 actionable tasks: 51 executed, 27 up-to-date
+
+2019-01-22 16:22:47,087 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-22 16:22:47,087 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2okhttp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-22 16:22:52,972 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-01-22 16:22:52,973 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-22 16:22:52,973 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2okhttp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-22 16:23:07,131 INFO  SysUtils - Configuration on demand is an incubating feature.
+:fetch2core:preBuild UP-TO-DATE
+:fetch2core:preDebugBuild UP-TO-DATE
+:fetch2core:compileDebugAidl NO-SOURCE
+:fetch2okhttp:preBuild UP-TO-DATE
+:fetch2okhttp:preDebugBuild UP-TO-DATE
+:fetch2okhttp:compileDebugAidl NO-SOURCE
+:fetch2core:compileDebugRenderscript UP-TO-DATE
+:fetch2core:checkDebugManifest UP-TO-DATE
+:fetch2core:generateDebugBuildConfig UP-TO-DATE
+:fetch2core:generateDebugResValues UP-TO-DATE
+:fetch2core:generateDebugResources UP-TO-DATE
+:fetch2core:packageDebugResources UP-TO-DATE
+:fetch2core:processDebugManifest UP-TO-DATE
+:fetch2core:generateDebugRFile UP-TO-DATE
+:fetch2core:kaptGenerateStubsDebugKotlin UP-TO-DATE
+:fetch2core:kaptDebugKotlin UP-TO-DATE
+:fetch2core:compileDebugKotlin UP-TO-DATE
+:fetch2core:prepareLintJar UP-TO-DATE
+:fetch2core:generateDebugSources UP-TO-DATE
+:fetch2core:javaPreCompileDebug UP-TO-DATE
+:fetch2core:compileDebugJavaWithJavac UP-TO-DATE
+:fetch2core:processDebugJavaRes NO-SOURCE
+:fetch2core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:fetch2core:packageDebugRenderscript NO-SOURCE
+:fetch2okhttp:compileDebugRenderscript
+:fetch2okhttp:checkDebugManifest
+:fetch2okhttp:generateDebugBuildConfig
+:fetch2okhttp:generateDebugResValues
+:fetch2okhttp:generateDebugResources
+:fetch2okhttp:packageDebugResources
+:fetch2okhttp:processDebugManifest
+:fetch2okhttp:generateDebugRFile
+:fetch2okhttp:compileDebugKotlin
+:fetch2okhttp:prepareLintJar
+:fetch2okhttp:generateDebugSources
+:fetch2okhttp:javaPreCompileDebug
+:fetch2okhttp:compileDebugJavaWithJavac
+:fetch2okhttp:extractDebugAnnotations
+:fetch2okhttp:mergeDebugConsumerProguardFiles
+:fetch2okhttp:mergeDebugShaders
+:fetch2okhttp:compileDebugShaders
+:fetch2okhttp:generateDebugAssets
+:fetch2okhttp:packageDebugAssets
+:fetch2okhttp:packageDebugRenderscript NO-SOURCE
+:fetch2okhttp:processDebugJavaRes NO-SOURCE
+:fetch2okhttp:transformResourcesWithMergeJavaResForDebug
+:fetch2okhttp:transformClassesAndResourcesWithSyncLibJarsForDebug
+:fetch2okhttp:compileDebugNdk NO-SOURCE
+:fetch2okhttp:mergeDebugJniLibFolders
+:fetch2okhttp:transformNativeLibsWithMergeJniLibsForDebug
+:fetch2okhttp:transformNativeLibsWithStripDebugSymbolForDebug
+:fetch2okhttp:transformNativeLibsWithSyncJniLibsForDebug
+:fetch2okhttp:bundleDebugAar
+:fetch2okhttp:compileDebugSources
+:fetch2okhttp:assembleDebug
+:fetch2core:preReleaseBuild UP-TO-DATE
+:fetch2core:compileReleaseAidl NO-SOURCE
+:fetch2okhttp:preReleaseBuild UP-TO-DATE
+:fetch2okhttp:compileReleaseAidl NO-SOURCE
+:fetch2core:compileReleaseRenderscript UP-TO-DATE
+:fetch2core:checkReleaseManifest UP-TO-DATE
+:fetch2core:generateReleaseBuildConfig UP-TO-DATE
+:fetch2core:generateReleaseResValues UP-TO-DATE
+:fetch2core:generateReleaseResources UP-TO-DATE
+:fetch2core:packageReleaseResources UP-TO-DATE
+:fetch2core:processReleaseManifest UP-TO-DATE
+:fetch2core:generateReleaseRFile UP-TO-DATE
+:fetch2core:kaptGenerateStubsReleaseKotlin UP-TO-DATE
+:fetch2core:kaptReleaseKotlin UP-TO-DATE
+:fetch2core:compileReleaseKotlin UP-TO-DATE
+:fetch2core:generateReleaseSources UP-TO-DATE
+:fetch2core:javaPreCompileRelease UP-TO-DATE
+:fetch2core:compileReleaseJavaWithJavac UP-TO-DATE
+:fetch2core:processReleaseJavaRes NO-SOURCE
+:fetch2core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:fetch2core:packageReleaseRenderscript NO-SOURCE
+:fetch2okhttp:compileReleaseRenderscript
+:fetch2okhttp:checkReleaseManifest
+:fetch2okhttp:generateReleaseBuildConfig
+:fetch2okhttp:generateReleaseResValues
+:fetch2okhttp:generateReleaseResources
+:fetch2okhttp:packageReleaseResources
+:fetch2okhttp:processReleaseManifest
+:fetch2okhttp:generateReleaseRFile
+:fetch2okhttp:compileReleaseKotlin
+:fetch2okhttp:generateReleaseSources
+:fetch2okhttp:javaPreCompileRelease
+:fetch2okhttp:compileReleaseJavaWithJavac
+:fetch2okhttp:extractReleaseAnnotations
+:fetch2okhttp:mergeReleaseConsumerProguardFiles
+:fetch2okhttp:mergeReleaseShaders
+:fetch2okhttp:compileReleaseShaders
+:fetch2okhttp:generateReleaseAssets
+:fetch2okhttp:packageReleaseAssets
+:fetch2okhttp:packageReleaseRenderscript NO-SOURCE
+:fetch2okhttp:processReleaseJavaRes NO-SOURCE
+:fetch2okhttp:transformResourcesWithMergeJavaResForRelease
+:fetch2okhttp:transformClassesAndResourcesWithSyncLibJarsForRelease
+:fetch2okhttp:compileReleaseNdk NO-SOURCE
+:fetch2okhttp:mergeReleaseJniLibFolders
+:fetch2okhttp:transformNativeLibsWithMergeJniLibsForRelease
+:fetch2okhttp:transformNativeLibsWithStripDebugSymbolForRelease
+:fetch2okhttp:transformNativeLibsWithSyncJniLibsForRelease
+:fetch2okhttp:bundleReleaseAar
+:fetch2okhttp:compileReleaseSources
+:fetch2okhttp:mergeReleaseResources
+:fetch2okhttp:verifyReleaseResources
+:fetch2okhttp:assembleRelease
+:fetch2okhttp:assemble
+:fetch2okhttp:build
+
+BUILD SUCCESSFUL in 13s
+74 actionable tasks: 47 executed, 27 up-to-date
+
+2019-01-22 16:23:07,299 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-22 16:23:07,299 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2rx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-22 16:23:13,189 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-01-22 16:23:13,189 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-22 16:23:13,189 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2rx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-22 16:23:34,662 INFO  SysUtils - Configuration on demand is an incubating feature.
+:fetch2:preBuild UP-TO-DATE
+:fetch2:preDebugBuild UP-TO-DATE
+:fetch2core:preBuild UP-TO-DATE
+:fetch2core:preDebugBuild UP-TO-DATE
+:fetch2core:compileDebugAidl NO-SOURCE
+:fetch2:compileDebugAidl NO-SOURCE
+:fetch2rx:preBuild UP-TO-DATE
+:fetch2rx:preDebugBuild UP-TO-DATE
+:fetch2rx:compileDebugAidl NO-SOURCE
+:fetch2core:packageDebugRenderscript NO-SOURCE
+:fetch2:compileDebugRenderscript UP-TO-DATE
+:fetch2:checkDebugManifest UP-TO-DATE
+:fetch2:generateDebugBuildConfig UP-TO-DATE
+:fetch2:generateDebugResValues UP-TO-DATE
+:fetch2:generateDebugResources UP-TO-DATE
+:fetch2:packageDebugResources UP-TO-DATE
+:fetch2:processDebugManifest UP-TO-DATE
+:fetch2core:compileDebugRenderscript UP-TO-DATE
+:fetch2core:generateDebugResValues UP-TO-DATE
+:fetch2core:generateDebugResources UP-TO-DATE
+:fetch2core:packageDebugResources UP-TO-DATE
+:fetch2core:checkDebugManifest UP-TO-DATE
+:fetch2core:processDebugManifest UP-TO-DATE
+:fetch2core:generateDebugRFile UP-TO-DATE
+:fetch2:generateDebugRFile UP-TO-DATE
+:fetch2core:generateDebugBuildConfig UP-TO-DATE
+:fetch2core:kaptGenerateStubsDebugKotlin UP-TO-DATE
+:fetch2core:kaptDebugKotlin UP-TO-DATE
+:fetch2core:compileDebugKotlin UP-TO-DATE
+:fetch2core:prepareLintJar UP-TO-DATE
+:fetch2core:generateDebugSources UP-TO-DATE
+:fetch2core:javaPreCompileDebug UP-TO-DATE
+:fetch2core:compileDebugJavaWithJavac UP-TO-DATE
+:fetch2core:processDebugJavaRes NO-SOURCE
+:fetch2core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:fetch2:kaptGenerateStubsDebugKotlin UP-TO-DATE
+:fetch2:kaptDebugKotlin UP-TO-DATE
+:fetch2:compileDebugKotlin UP-TO-DATE
+:fetch2:prepareLintJar UP-TO-DATE
+:fetch2:generateDebugSources UP-TO-DATE
+:fetch2:javaPreCompileDebug UP-TO-DATE
+:fetch2:compileDebugJavaWithJavac UP-TO-DATE
+:fetch2:processDebugJavaRes NO-SOURCE
+:fetch2:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:fetch2:packageDebugRenderscript NO-SOURCE
+:fetch2rx:compileDebugRenderscript
+:fetch2rx:checkDebugManifest
+:fetch2rx:generateDebugBuildConfig
+:fetch2rx:generateDebugResValues
+:fetch2rx:generateDebugResources
+:fetch2rx:packageDebugResources
+:fetch2rx:processDebugManifest
+:fetch2rx:generateDebugRFile
+:fetch2rx:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2rx/src/main/java/com/tonyodev/fetch2rx/RxFetchImpl.kt: (371, 54): The corresponding parameter in the supertype 'RxFetch' is named 'statuses'. This may cause problems when calling this function with named arguments.
+:fetch2rx:prepareLintJar
+:fetch2rx:generateDebugSources
+:fetch2rx:javaPreCompileDebug
+:fetch2rx:compileDebugJavaWithJavac
+:fetch2rx:extractDebugAnnotations
+:fetch2rx:mergeDebugConsumerProguardFiles
+:fetch2rx:mergeDebugShaders
+:fetch2rx:compileDebugShaders
+:fetch2rx:generateDebugAssets
+:fetch2rx:packageDebugAssets
+:fetch2rx:packageDebugRenderscript NO-SOURCE
+:fetch2rx:processDebugJavaRes NO-SOURCE
+:fetch2rx:transformResourcesWithMergeJavaResForDebug
+:fetch2rx:transformClassesAndResourcesWithSyncLibJarsForDebug
+:fetch2rx:compileDebugNdk NO-SOURCE
+:fetch2rx:mergeDebugJniLibFolders
+:fetch2rx:transformNativeLibsWithMergeJniLibsForDebug
+:fetch2rx:transformNativeLibsWithStripDebugSymbolForDebug
+:fetch2rx:transformNativeLibsWithSyncJniLibsForDebug
+:fetch2rx:bundleDebugAar
+:fetch2rx:compileDebugSources
+:fetch2rx:assembleDebug
+:fetch2:preReleaseBuild UP-TO-DATE
+:fetch2core:preReleaseBuild UP-TO-DATE
+:fetch2core:compileReleaseAidl NO-SOURCE
+:fetch2:compileReleaseAidl NO-SOURCE
+:fetch2rx:preReleaseBuild UP-TO-DATE
+:fetch2rx:compileReleaseAidl NO-SOURCE
+:fetch2core:packageReleaseRenderscript NO-SOURCE
+:fetch2:compileReleaseRenderscript UP-TO-DATE
+:fetch2:checkReleaseManifest UP-TO-DATE
+:fetch2:generateReleaseBuildConfig UP-TO-DATE
+:fetch2:generateReleaseResValues UP-TO-DATE
+:fetch2:generateReleaseResources UP-TO-DATE
+:fetch2:packageReleaseResources UP-TO-DATE
+:fetch2:processReleaseManifest UP-TO-DATE
+:fetch2core:compileReleaseRenderscript UP-TO-DATE
+:fetch2core:generateReleaseResValues UP-TO-DATE
+:fetch2core:generateReleaseResources UP-TO-DATE
+:fetch2core:packageReleaseResources UP-TO-DATE
+:fetch2core:checkReleaseManifest UP-TO-DATE
+:fetch2core:processReleaseManifest UP-TO-DATE
+:fetch2core:generateReleaseRFile UP-TO-DATE
+:fetch2:generateReleaseRFile UP-TO-DATE
+:fetch2core:generateReleaseBuildConfig UP-TO-DATE
+:fetch2core:kaptGenerateStubsReleaseKotlin UP-TO-DATE
+:fetch2core:kaptReleaseKotlin UP-TO-DATE
+:fetch2core:compileReleaseKotlin UP-TO-DATE
+:fetch2core:generateReleaseSources UP-TO-DATE
+:fetch2core:javaPreCompileRelease UP-TO-DATE
+:fetch2core:compileReleaseJavaWithJavac UP-TO-DATE
+:fetch2core:processReleaseJavaRes NO-SOURCE
+:fetch2core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:fetch2:kaptGenerateStubsReleaseKotlin UP-TO-DATE
+:fetch2:kaptReleaseKotlin UP-TO-DATE
+:fetch2:compileReleaseKotlin UP-TO-DATE
+:fetch2:generateReleaseSources UP-TO-DATE
+:fetch2:javaPreCompileRelease UP-TO-DATE
+:fetch2:compileReleaseJavaWithJavac UP-TO-DATE
+:fetch2:processReleaseJavaRes NO-SOURCE
+:fetch2:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:fetch2:packageReleaseRenderscript NO-SOURCE
+:fetch2rx:compileReleaseRenderscript
+:fetch2rx:checkReleaseManifest
+:fetch2rx:generateReleaseBuildConfig
+:fetch2rx:generateReleaseResValues
+:fetch2rx:generateReleaseResources
+:fetch2rx:packageReleaseResources
+:fetch2rx:processReleaseManifest
+:fetch2rx:generateReleaseRFile
+:fetch2rx:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetch2rx/src/main/java/com/tonyodev/fetch2rx/RxFetchImpl.kt: (371, 54): The corresponding parameter in the supertype 'RxFetch' is named 'statuses'. This may cause problems when calling this function with named arguments.
+:fetch2rx:generateReleaseSources
+:fetch2rx:javaPreCompileRelease
+:fetch2rx:compileReleaseJavaWithJavac
+:fetch2rx:extractReleaseAnnotations
+:fetch2rx:mergeReleaseConsumerProguardFiles
+:fetch2rx:mergeReleaseShaders
+:fetch2rx:compileReleaseShaders
+:fetch2rx:generateReleaseAssets
+:fetch2rx:packageReleaseAssets
+:fetch2rx:packageReleaseRenderscript NO-SOURCE
+:fetch2rx:processReleaseJavaRes NO-SOURCE
+:fetch2rx:transformResourcesWithMergeJavaResForRelease
+:fetch2rx:transformClassesAndResourcesWithSyncLibJarsForRelease
+:fetch2rx:compileReleaseNdk NO-SOURCE
+:fetch2rx:mergeReleaseJniLibFolders
+:fetch2rx:transformNativeLibsWithMergeJniLibsForRelease
+:fetch2rx:transformNativeLibsWithStripDebugSymbolForRelease
+:fetch2rx:transformNativeLibsWithSyncJniLibsForRelease
+:fetch2rx:bundleReleaseAar
+:fetch2rx:compileReleaseSources
+:fetch2rx:mergeReleaseResources
+:fetch2rx:verifyReleaseResources
+:fetch2rx:assembleRelease
+:fetch2rx:assemble
+:fetch2rx:build
+
+BUILD SUCCESSFUL in 20s
+101 actionable tasks: 49 executed, 52 up-to-date
+
+2019-01-22 16:23:34,853 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-22 16:23:34,853 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetchmigrator/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-22 16:23:40,653 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-01-22 16:23:40,653 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-22 16:23:40,653 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/fetchmigrator/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-22 16:23:56,134 INFO  SysUtils - Configuration on demand is an incubating feature.
+:fetch2:preBuild UP-TO-DATE
+:fetch2:preDebugBuild UP-TO-DATE
+:fetch2core:preBuild UP-TO-DATE
+:fetch2core:preDebugBuild UP-TO-DATE
+:fetch2core:compileDebugAidl NO-SOURCE
+:fetch2:compileDebugAidl NO-SOURCE
+:fetchmigrator:preBuild UP-TO-DATE
+:fetchmigrator:preDebugBuild UP-TO-DATE
+:fetchmigrator:compileDebugAidl NO-SOURCE
+:fetch2core:packageDebugRenderscript NO-SOURCE
+:fetch2:compileDebugRenderscript UP-TO-DATE
+:fetch2:checkDebugManifest UP-TO-DATE
+:fetch2:generateDebugBuildConfig UP-TO-DATE
+:fetch2:generateDebugResValues UP-TO-DATE
+:fetch2:generateDebugResources UP-TO-DATE
+:fetch2:packageDebugResources UP-TO-DATE
+:fetch2:processDebugManifest UP-TO-DATE
+:fetch2core:compileDebugRenderscript UP-TO-DATE
+:fetch2core:generateDebugResValues UP-TO-DATE
+:fetch2core:generateDebugResources UP-TO-DATE
+:fetch2core:packageDebugResources UP-TO-DATE
+:fetch2core:checkDebugManifest UP-TO-DATE
+:fetch2core:processDebugManifest UP-TO-DATE
+:fetch2core:generateDebugRFile UP-TO-DATE
+:fetch2:generateDebugRFile UP-TO-DATE
+:fetch2core:generateDebugBuildConfig UP-TO-DATE
+:fetch2core:kaptGenerateStubsDebugKotlin UP-TO-DATE
+:fetch2core:kaptDebugKotlin UP-TO-DATE
+:fetch2core:compileDebugKotlin UP-TO-DATE
+:fetch2core:prepareLintJar UP-TO-DATE
+:fetch2core:generateDebugSources UP-TO-DATE
+:fetch2core:javaPreCompileDebug UP-TO-DATE
+:fetch2core:compileDebugJavaWithJavac UP-TO-DATE
+:fetch2core:processDebugJavaRes NO-SOURCE
+:fetch2core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:fetch2:kaptGenerateStubsDebugKotlin UP-TO-DATE
+:fetch2:kaptDebugKotlin UP-TO-DATE
+:fetch2:compileDebugKotlin UP-TO-DATE
+:fetch2:prepareLintJar UP-TO-DATE
+:fetch2:generateDebugSources UP-TO-DATE
+:fetch2:javaPreCompileDebug UP-TO-DATE
+:fetch2:compileDebugJavaWithJavac UP-TO-DATE
+:fetch2:processDebugJavaRes NO-SOURCE
+:fetch2:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:fetch2:packageDebugRenderscript NO-SOURCE
+:fetchmigrator:compileDebugRenderscript
+:fetchmigrator:checkDebugManifest
+:fetchmigrator:generateDebugBuildConfig
+:fetchmigrator:generateDebugResValues
+:fetchmigrator:generateDebugResources
+:fetchmigrator:packageDebugResources
+:fetchmigrator:processDebugManifest
+:fetchmigrator:generateDebugRFile
+:fetchmigrator:compileDebugKotlin
+:fetchmigrator:prepareLintJar
+:fetchmigrator:generateDebugSources
+:fetchmigrator:javaPreCompileDebug
+:fetchmigrator:compileDebugJavaWithJavac
+:fetchmigrator:extractDebugAnnotations
+:fetchmigrator:mergeDebugConsumerProguardFiles
+:fetchmigrator:mergeDebugShaders
+:fetchmigrator:compileDebugShaders
+:fetchmigrator:generateDebugAssets
+:fetchmigrator:packageDebugAssets
+:fetchmigrator:packageDebugRenderscript NO-SOURCE
+:fetchmigrator:processDebugJavaRes NO-SOURCE
+:fetchmigrator:transformResourcesWithMergeJavaResForDebug
+:fetchmigrator:transformClassesAndResourcesWithSyncLibJarsForDebug
+:fetchmigrator:compileDebugNdk NO-SOURCE
+:fetchmigrator:mergeDebugJniLibFolders
+:fetchmigrator:transformNativeLibsWithMergeJniLibsForDebug
+:fetchmigrator:transformNativeLibsWithStripDebugSymbolForDebug
+:fetchmigrator:transformNativeLibsWithSyncJniLibsForDebug
+:fetchmigrator:bundleDebugAar
+:fetchmigrator:compileDebugSources
+:fetchmigrator:assembleDebug
+:fetch2:preReleaseBuild UP-TO-DATE
+:fetch2core:preReleaseBuild UP-TO-DATE
+:fetch2core:compileReleaseAidl NO-SOURCE
+:fetch2:compileReleaseAidl NO-SOURCE
+:fetchmigrator:preReleaseBuild UP-TO-DATE
+:fetchmigrator:compileReleaseAidl NO-SOURCE
+:fetch2core:packageReleaseRenderscript NO-SOURCE
+:fetch2:compileReleaseRenderscript UP-TO-DATE
+:fetch2:checkReleaseManifest UP-TO-DATE
+:fetch2:generateReleaseBuildConfig UP-TO-DATE
+:fetch2:generateReleaseResValues UP-TO-DATE
+:fetch2:generateReleaseResources UP-TO-DATE
+:fetch2:packageReleaseResources UP-TO-DATE
+:fetch2:processReleaseManifest UP-TO-DATE
+:fetch2core:compileReleaseRenderscript UP-TO-DATE
+:fetch2core:generateReleaseResValues UP-TO-DATE
+:fetch2core:generateReleaseResources UP-TO-DATE
+:fetch2core:packageReleaseResources UP-TO-DATE
+:fetch2core:checkReleaseManifest UP-TO-DATE
+:fetch2core:processReleaseManifest UP-TO-DATE
+:fetch2core:generateReleaseRFile UP-TO-DATE
+:fetch2:generateReleaseRFile UP-TO-DATE
+:fetch2core:generateReleaseBuildConfig UP-TO-DATE
+:fetch2core:kaptGenerateStubsReleaseKotlin UP-TO-DATE
+:fetch2core:kaptReleaseKotlin UP-TO-DATE
+:fetch2core:compileReleaseKotlin UP-TO-DATE
+:fetch2core:generateReleaseSources UP-TO-DATE
+:fetch2core:javaPreCompileRelease UP-TO-DATE
+:fetch2core:compileReleaseJavaWithJavac UP-TO-DATE
+:fetch2core:processReleaseJavaRes NO-SOURCE
+:fetch2core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:fetch2:kaptGenerateStubsReleaseKotlin UP-TO-DATE
+:fetch2:kaptReleaseKotlin UP-TO-DATE
+:fetch2:compileReleaseKotlin UP-TO-DATE
+:fetch2:generateReleaseSources UP-TO-DATE
+:fetch2:javaPreCompileRelease UP-TO-DATE
+:fetch2:compileReleaseJavaWithJavac UP-TO-DATE
+:fetch2:processReleaseJavaRes NO-SOURCE
+:fetch2:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:fetch2:packageReleaseRenderscript NO-SOURCE
+:fetchmigrator:compileReleaseRenderscript
+:fetchmigrator:checkReleaseManifest
+:fetchmigrator:generateReleaseBuildConfig
+:fetchmigrator:generateReleaseResValues
+:fetchmigrator:generateReleaseResources
+:fetchmigrator:packageReleaseResources
+:fetchmigrator:processReleaseManifest
+:fetchmigrator:generateReleaseRFile
+:fetchmigrator:compileReleaseKotlin
+:fetchmigrator:generateReleaseSources
+:fetchmigrator:javaPreCompileRelease
+:fetchmigrator:compileReleaseJavaWithJavac
+:fetchmigrator:extractReleaseAnnotations
+:fetchmigrator:mergeReleaseConsumerProguardFiles
+:fetchmigrator:mergeReleaseShaders
+:fetchmigrator:compileReleaseShaders
+:fetchmigrator:generateReleaseAssets
+:fetchmigrator:packageReleaseAssets
+:fetchmigrator:packageReleaseRenderscript NO-SOURCE
+:fetchmigrator:processReleaseJavaRes NO-SOURCE
+:fetchmigrator:transformResourcesWithMergeJavaResForRelease
+:fetchmigrator:transformClassesAndResourcesWithSyncLibJarsForRelease
+:fetchmigrator:compileReleaseNdk NO-SOURCE
+:fetchmigrator:mergeReleaseJniLibFolders
+:fetchmigrator:transformNativeLibsWithMergeJniLibsForRelease
+:fetchmigrator:transformNativeLibsWithStripDebugSymbolForRelease
+:fetchmigrator:transformNativeLibsWithSyncJniLibsForRelease
+:fetchmigrator:bundleReleaseAar
+:fetchmigrator:compileReleaseSources
+:fetchmigrator:mergeReleaseResources
+:fetchmigrator:verifyReleaseResources
+:fetchmigrator:assembleRelease
+:fetchmigrator:assemble
+:fetchmigrator:build
+
+BUILD SUCCESSFUL in 14s
+101 actionable tasks: 47 executed, 54 up-to-date
+
+2019-01-22 16:23:56,349 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-22 16:23:56,350 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/sampleApp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-22 16:24:02,127 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-01-22 16:24:02,127 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-22 16:24:02,127 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/sampleApp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-22 16:24:40,839 INFO  SysUtils - Configuration on demand is an incubating feature.
+:fetch2:preBuild UP-TO-DATE
+:fetch2:preDebugBuild UP-TO-DATE
+:fetch2core:preBuild UP-TO-DATE
+:fetch2core:preDebugBuild UP-TO-DATE
+:fetch2core:compileDebugAidl NO-SOURCE
+:fetch2:compileDebugAidl NO-SOURCE
+:fetch2core:packageDebugRenderscript NO-SOURCE
+:fetch2:compileDebugRenderscript UP-TO-DATE
+:fetch2:checkDebugManifest UP-TO-DATE
+:fetch2:generateDebugBuildConfig UP-TO-DATE
+:fetch2:generateDebugResValues UP-TO-DATE
+:fetch2:generateDebugResources UP-TO-DATE
+:fetch2:packageDebugResources UP-TO-DATE
+:fetch2:processDebugManifest UP-TO-DATE
+:fetch2core:compileDebugRenderscript UP-TO-DATE
+:fetch2core:generateDebugResValues UP-TO-DATE
+:fetch2core:generateDebugResources UP-TO-DATE
+:fetch2core:packageDebugResources UP-TO-DATE
+:fetch2core:checkDebugManifest UP-TO-DATE
+:fetch2core:processDebugManifest UP-TO-DATE
+:fetch2core:generateDebugRFile UP-TO-DATE
+:fetch2:generateDebugRFile UP-TO-DATE
+:fetch2core:generateDebugBuildConfig UP-TO-DATE
+:fetch2core:kaptGenerateStubsDebugKotlin UP-TO-DATE
+:fetch2core:kaptDebugKotlin UP-TO-DATE
+:fetch2core:compileDebugKotlin UP-TO-DATE
+:fetch2core:prepareLintJar UP-TO-DATE
+:fetch2core:generateDebugSources UP-TO-DATE
+:fetch2core:javaPreCompileDebug UP-TO-DATE
+:fetch2core:compileDebugJavaWithJavac UP-TO-DATE
+:fetch2core:processDebugJavaRes NO-SOURCE
+:fetch2core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:fetch2:kaptGenerateStubsDebugKotlin UP-TO-DATE
+:fetch2:kaptDebugKotlin UP-TO-DATE
+:fetch2:compileDebugKotlin UP-TO-DATE
+:fetch2:prepareLintJar UP-TO-DATE
+:fetch2:generateDebugSources UP-TO-DATE
+:fetch2:javaPreCompileDebug UP-TO-DATE
+:fetch2:compileDebugJavaWithJavac UP-TO-DATE
+:fetch2:processDebugJavaRes NO-SOURCE
+:fetch2:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:fetch2fileserver:preBuild UP-TO-DATE
+:fetch2fileserver:preDebugBuild UP-TO-DATE
+:fetch2fileserver:compileDebugAidl NO-SOURCE
+:fetch2fileserver:compileDebugRenderscript UP-TO-DATE
+:fetch2fileserver:checkDebugManifest UP-TO-DATE
+:fetch2fileserver:generateDebugBuildConfig UP-TO-DATE
+:fetch2fileserver:generateDebugResValues UP-TO-DATE
+:fetch2fileserver:generateDebugResources UP-TO-DATE
+:fetch2fileserver:packageDebugResources UP-TO-DATE
+:fetch2fileserver:processDebugManifest UP-TO-DATE
+:fetch2fileserver:generateDebugRFile UP-TO-DATE
+:fetch2fileserver:kaptGenerateStubsDebugKotlin UP-TO-DATE
+:fetch2fileserver:kaptDebugKotlin UP-TO-DATE
+:fetch2fileserver:compileDebugKotlin UP-TO-DATE
+:fetch2fileserver:prepareLintJar UP-TO-DATE
+:fetch2fileserver:generateDebugSources UP-TO-DATE
+:fetch2fileserver:javaPreCompileDebug UP-TO-DATE
+:fetch2fileserver:compileDebugJavaWithJavac UP-TO-DATE
+:fetch2fileserver:processDebugJavaRes NO-SOURCE
+:fetch2fileserver:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:fetch2okhttp:preBuild UP-TO-DATE
+:fetch2okhttp:preDebugBuild UP-TO-DATE
+:fetch2okhttp:compileDebugAidl NO-SOURCE
+:fetch2okhttp:compileDebugRenderscript UP-TO-DATE
+:fetch2okhttp:checkDebugManifest UP-TO-DATE
+:fetch2okhttp:generateDebugBuildConfig UP-TO-DATE
+:fetch2okhttp:generateDebugResValues UP-TO-DATE
+:fetch2okhttp:generateDebugResources UP-TO-DATE
+:fetch2okhttp:packageDebugResources UP-TO-DATE
+:fetch2okhttp:processDebugManifest UP-TO-DATE
+:fetch2okhttp:generateDebugRFile UP-TO-DATE
+:fetch2okhttp:compileDebugKotlin UP-TO-DATE
+:fetch2okhttp:prepareLintJar UP-TO-DATE
+:fetch2okhttp:generateDebugSources UP-TO-DATE
+:fetch2okhttp:javaPreCompileDebug UP-TO-DATE
+:fetch2okhttp:compileDebugJavaWithJavac UP-TO-DATE
+:fetch2okhttp:processDebugJavaRes NO-SOURCE
+:fetch2okhttp:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:fetch2rx:preBuild UP-TO-DATE
+:fetch2rx:preDebugBuild UP-TO-DATE
+:fetch2rx:compileDebugAidl NO-SOURCE
+:fetch2:packageDebugRenderscript NO-SOURCE
+:fetch2rx:compileDebugRenderscript UP-TO-DATE
+:fetch2rx:checkDebugManifest UP-TO-DATE
+:fetch2rx:generateDebugBuildConfig UP-TO-DATE
+:fetch2rx:generateDebugResValues UP-TO-DATE
+:fetch2rx:generateDebugResources UP-TO-DATE
+:fetch2rx:packageDebugResources UP-TO-DATE
+:fetch2rx:processDebugManifest UP-TO-DATE
+:fetch2rx:generateDebugRFile UP-TO-DATE
+:fetch2rx:compileDebugKotlin UP-TO-DATE
+:fetch2rx:prepareLintJar UP-TO-DATE
+:fetch2rx:generateDebugSources UP-TO-DATE
+:fetch2rx:javaPreCompileDebug UP-TO-DATE
+:fetch2rx:compileDebugJavaWithJavac UP-TO-DATE
+:fetch2rx:processDebugJavaRes NO-SOURCE
+:fetch2rx:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:fetchmigrator:preBuild UP-TO-DATE
+:fetchmigrator:preDebugBuild UP-TO-DATE
+:fetchmigrator:compileDebugAidl NO-SOURCE
+:fetchmigrator:compileDebugRenderscript UP-TO-DATE
+:fetchmigrator:checkDebugManifest UP-TO-DATE
+:fetchmigrator:generateDebugBuildConfig UP-TO-DATE
+:fetchmigrator:generateDebugResValues UP-TO-DATE
+:fetchmigrator:generateDebugResources UP-TO-DATE
+:fetchmigrator:packageDebugResources UP-TO-DATE
+:fetchmigrator:processDebugManifest UP-TO-DATE
+:fetchmigrator:generateDebugRFile UP-TO-DATE
+:fetchmigrator:compileDebugKotlin UP-TO-DATE
+:fetchmigrator:prepareLintJar UP-TO-DATE
+:fetchmigrator:generateDebugSources UP-TO-DATE
+:fetchmigrator:javaPreCompileDebug UP-TO-DATE
+:fetchmigrator:compileDebugJavaWithJavac UP-TO-DATE
+:fetchmigrator:processDebugJavaRes NO-SOURCE
+:fetchmigrator:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sampleApp:checkDebugClasspath
+:sampleApp:preBuild UP-TO-DATE
+:sampleApp:preDebugBuild
+:sampleApp:compileDebugAidl NO-SOURCE
+:fetch2fileserver:packageDebugRenderscript NO-SOURCE
+:fetch2okhttp:packageDebugRenderscript NO-SOURCE
+:fetch2rx:packageDebugRenderscript NO-SOURCE
+:fetchmigrator:packageDebugRenderscript NO-SOURCE
+:sampleApp:compileDebugRenderscript
+:sampleApp:checkDebugManifest
+:sampleApp:generateDebugBuildConfig
+:sampleApp:mainApkListPersistenceDebug
+:sampleApp:generateDebugResValues
+:sampleApp:generateDebugResources
+:sampleApp:mergeDebugResources
+:sampleApp:createDebugCompatibleScreenManifests
+:sampleApp:processDebugManifest
+:sampleApp:splitsDiscoveryTaskDebug
+:sampleApp:processDebugResources
+:sampleApp:compileDebugKotlin
+:sampleApp:prepareLintJar
+:sampleApp:generateDebugSources
+:sampleApp:javaPreCompileDebug
+:sampleApp:compileDebugJavaWithJavac
+:sampleApp:compileDebugNdk NO-SOURCE
+:sampleApp:compileDebugSources
+:fetch2:mergeDebugShaders UP-TO-DATE
+:fetch2:compileDebugShaders UP-TO-DATE
+:fetch2:generateDebugAssets UP-TO-DATE
+:fetch2:packageDebugAssets UP-TO-DATE
+:fetch2core:mergeDebugShaders UP-TO-DATE
+:fetch2core:compileDebugShaders UP-TO-DATE
+:fetch2core:generateDebugAssets UP-TO-DATE
+:fetch2core:packageDebugAssets UP-TO-DATE
+:fetch2fileserver:mergeDebugShaders UP-TO-DATE
+:fetch2fileserver:compileDebugShaders UP-TO-DATE
+:fetch2fileserver:generateDebugAssets UP-TO-DATE
+:fetch2fileserver:packageDebugAssets UP-TO-DATE
+:fetch2okhttp:mergeDebugShaders UP-TO-DATE
+:fetch2okhttp:compileDebugShaders UP-TO-DATE
+:fetch2okhttp:generateDebugAssets UP-TO-DATE
+:fetch2okhttp:packageDebugAssets UP-TO-DATE
+:fetch2rx:mergeDebugShaders UP-TO-DATE
+:fetch2rx:compileDebugShaders UP-TO-DATE
+:fetch2rx:generateDebugAssets UP-TO-DATE
+:fetch2rx:packageDebugAssets UP-TO-DATE
+:fetchmigrator:mergeDebugShaders UP-TO-DATE
+:fetchmigrator:compileDebugShaders UP-TO-DATE
+:fetchmigrator:generateDebugAssets UP-TO-DATE
+:fetchmigrator:packageDebugAssets UP-TO-DATE
+:sampleApp:mergeDebugShaders
+:sampleApp:compileDebugShaders
+:sampleApp:generateDebugAssets
+:sampleApp:mergeDebugAssets
+:sampleApp:transformClassesWithDexBuilderForDebug
+:sampleApp:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sampleApp:transformDexArchiveWithDexMergerForDebug
+:fetch2:compileDebugNdk NO-SOURCE
+:fetch2:mergeDebugJniLibFolders UP-TO-DATE
+:fetch2:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:fetch2:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:fetch2:transformNativeLibsWithIntermediateJniLibsForDebug
+:fetch2core:compileDebugNdk NO-SOURCE
+:fetch2core:mergeDebugJniLibFolders UP-TO-DATE
+:fetch2core:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:fetch2core:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:fetch2core:transformNativeLibsWithIntermediateJniLibsForDebug
+:fetch2fileserver:compileDebugNdk NO-SOURCE
+:fetch2fileserver:mergeDebugJniLibFolders UP-TO-DATE
+:fetch2fileserver:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:fetch2fileserver:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:fetch2fileserver:transformNativeLibsWithIntermediateJniLibsForDebug
+:fetch2okhttp:compileDebugNdk NO-SOURCE
+:fetch2okhttp:mergeDebugJniLibFolders UP-TO-DATE
+:fetch2okhttp:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:fetch2okhttp:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:fetch2okhttp:transformNativeLibsWithIntermediateJniLibsForDebug
+:fetch2rx:compileDebugNdk NO-SOURCE
+:fetch2rx:mergeDebugJniLibFolders UP-TO-DATE
+:fetch2rx:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:fetch2rx:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:fetch2rx:transformNativeLibsWithIntermediateJniLibsForDebug
+:fetchmigrator:compileDebugNdk NO-SOURCE
+:fetchmigrator:mergeDebugJniLibFolders UP-TO-DATE
+:fetchmigrator:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:fetchmigrator:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:fetchmigrator:transformNativeLibsWithIntermediateJniLibsForDebug
+:sampleApp:mergeDebugJniLibFolders
+:sampleApp:transformNativeLibsWithMergeJniLibsForDebug
+:sampleApp:transformNativeLibsWithStripDebugSymbolForDebug
+:sampleApp:checkDebugLibraries
+:sampleApp:processDebugJavaRes NO-SOURCE
+:sampleApp:transformResourcesWithMergeJavaResForDebug
+:sampleApp:validateSigningDebug
+:sampleApp:packageDebug
+:sampleApp:assembleDebug
+:fetch2:preReleaseBuild UP-TO-DATE
+:fetch2core:preReleaseBuild UP-TO-DATE
+:fetch2core:compileReleaseAidl NO-SOURCE
+:fetch2:compileReleaseAidl NO-SOURCE
+:fetch2core:packageReleaseRenderscript NO-SOURCE
+:fetch2:compileReleaseRenderscript UP-TO-DATE
+:fetch2:checkReleaseManifest UP-TO-DATE
+:fetch2:generateReleaseBuildConfig UP-TO-DATE
+:fetch2:generateReleaseResValues UP-TO-DATE
+:fetch2:generateReleaseResources UP-TO-DATE
+:fetch2:packageReleaseResources UP-TO-DATE
+:fetch2:processReleaseManifest UP-TO-DATE
+:fetch2core:compileReleaseRenderscript UP-TO-DATE
+:fetch2core:generateReleaseResValues UP-TO-DATE
+:fetch2core:generateReleaseResources UP-TO-DATE
+:fetch2core:packageReleaseResources UP-TO-DATE
+:fetch2core:checkReleaseManifest UP-TO-DATE
+:fetch2core:processReleaseManifest UP-TO-DATE
+:fetch2core:generateReleaseRFile UP-TO-DATE
+:fetch2:generateReleaseRFile UP-TO-DATE
+:fetch2core:generateReleaseBuildConfig UP-TO-DATE
+:fetch2core:kaptGenerateStubsReleaseKotlin UP-TO-DATE
+:fetch2core:kaptReleaseKotlin UP-TO-DATE
+:fetch2core:compileReleaseKotlin UP-TO-DATE
+:fetch2core:generateReleaseSources UP-TO-DATE
+:fetch2core:javaPreCompileRelease UP-TO-DATE
+:fetch2core:compileReleaseJavaWithJavac UP-TO-DATE
+:fetch2core:processReleaseJavaRes NO-SOURCE
+:fetch2core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:fetch2:kaptGenerateStubsReleaseKotlin UP-TO-DATE
+:fetch2:kaptReleaseKotlin UP-TO-DATE
+:fetch2:compileReleaseKotlin UP-TO-DATE
+:fetch2:generateReleaseSources UP-TO-DATE
+:fetch2:javaPreCompileRelease UP-TO-DATE
+:fetch2:compileReleaseJavaWithJavac UP-TO-DATE
+:fetch2:processReleaseJavaRes NO-SOURCE
+:fetch2:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:fetch2fileserver:preReleaseBuild UP-TO-DATE
+:fetch2fileserver:compileReleaseAidl NO-SOURCE
+:fetch2fileserver:compileReleaseRenderscript UP-TO-DATE
+:fetch2fileserver:checkReleaseManifest UP-TO-DATE
+:fetch2fileserver:generateReleaseBuildConfig UP-TO-DATE
+:fetch2fileserver:generateReleaseResValues UP-TO-DATE
+:fetch2fileserver:generateReleaseResources UP-TO-DATE
+:fetch2fileserver:packageReleaseResources UP-TO-DATE
+:fetch2fileserver:processReleaseManifest UP-TO-DATE
+:fetch2fileserver:generateReleaseRFile UP-TO-DATE
+:fetch2fileserver:kaptGenerateStubsReleaseKotlin UP-TO-DATE
+:fetch2fileserver:kaptReleaseKotlin UP-TO-DATE
+:fetch2fileserver:compileReleaseKotlin UP-TO-DATE
+:fetch2fileserver:generateReleaseSources UP-TO-DATE
+:fetch2fileserver:javaPreCompileRelease UP-TO-DATE
+:fetch2fileserver:compileReleaseJavaWithJavac UP-TO-DATE
+:fetch2fileserver:processReleaseJavaRes NO-SOURCE
+:fetch2fileserver:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:fetch2okhttp:preReleaseBuild UP-TO-DATE
+:fetch2okhttp:compileReleaseAidl NO-SOURCE
+:fetch2okhttp:compileReleaseRenderscript UP-TO-DATE
+:fetch2okhttp:checkReleaseManifest UP-TO-DATE
+:fetch2okhttp:generateReleaseBuildConfig UP-TO-DATE
+:fetch2okhttp:generateReleaseResValues UP-TO-DATE
+:fetch2okhttp:generateReleaseResources UP-TO-DATE
+:fetch2okhttp:packageReleaseResources UP-TO-DATE
+:fetch2okhttp:processReleaseManifest UP-TO-DATE
+:fetch2okhttp:generateReleaseRFile UP-TO-DATE
+:fetch2okhttp:compileReleaseKotlin UP-TO-DATE
+:fetch2okhttp:generateReleaseSources UP-TO-DATE
+:fetch2okhttp:javaPreCompileRelease UP-TO-DATE
+:fetch2okhttp:compileReleaseJavaWithJavac UP-TO-DATE
+:fetch2okhttp:processReleaseJavaRes NO-SOURCE
+:fetch2okhttp:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:fetch2rx:preReleaseBuild UP-TO-DATE
+:fetch2rx:compileReleaseAidl NO-SOURCE
+:fetch2:packageReleaseRenderscript NO-SOURCE
+:fetch2rx:compileReleaseRenderscript UP-TO-DATE
+:fetch2rx:checkReleaseManifest UP-TO-DATE
+:fetch2rx:generateReleaseBuildConfig UP-TO-DATE
+:fetch2rx:generateReleaseResValues UP-TO-DATE
+:fetch2rx:generateReleaseResources UP-TO-DATE
+:fetch2rx:packageReleaseResources UP-TO-DATE
+:fetch2rx:processReleaseManifest UP-TO-DATE
+:fetch2rx:generateReleaseRFile UP-TO-DATE
+:fetch2rx:compileReleaseKotlin UP-TO-DATE
+:fetch2rx:generateReleaseSources UP-TO-DATE
+:fetch2rx:javaPreCompileRelease UP-TO-DATE
+:fetch2rx:compileReleaseJavaWithJavac UP-TO-DATE
+:fetch2rx:processReleaseJavaRes NO-SOURCE
+:fetch2rx:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:fetchmigrator:preReleaseBuild UP-TO-DATE
+:fetchmigrator:compileReleaseAidl NO-SOURCE
+:fetchmigrator:compileReleaseRenderscript UP-TO-DATE
+:fetchmigrator:checkReleaseManifest UP-TO-DATE
+:fetchmigrator:generateReleaseBuildConfig UP-TO-DATE
+:fetchmigrator:generateReleaseResValues UP-TO-DATE
+:fetchmigrator:generateReleaseResources UP-TO-DATE
+:fetchmigrator:packageReleaseResources UP-TO-DATE
+:fetchmigrator:processReleaseManifest UP-TO-DATE
+:fetchmigrator:generateReleaseRFile UP-TO-DATE
+:fetchmigrator:compileReleaseKotlin UP-TO-DATE
+:fetchmigrator:generateReleaseSources UP-TO-DATE
+:fetchmigrator:javaPreCompileRelease UP-TO-DATE
+:fetchmigrator:compileReleaseJavaWithJavac UP-TO-DATE
+:fetchmigrator:processReleaseJavaRes NO-SOURCE
+:fetchmigrator:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sampleApp:checkReleaseClasspath
+:sampleApp:preReleaseBuild
+:sampleApp:compileReleaseAidl NO-SOURCE
+:fetch2fileserver:packageReleaseRenderscript NO-SOURCE
+:fetch2okhttp:packageReleaseRenderscript NO-SOURCE
+:fetch2rx:packageReleaseRenderscript NO-SOURCE
+:fetchmigrator:packageReleaseRenderscript NO-SOURCE
+:sampleApp:compileReleaseRenderscript
+:sampleApp:checkReleaseManifest
+:sampleApp:generateReleaseBuildConfig
+:sampleApp:mainApkListPersistenceRelease
+:sampleApp:generateReleaseResValues
+:sampleApp:generateReleaseResources
+:sampleApp:mergeReleaseResources
+:sampleApp:createReleaseCompatibleScreenManifests
+:sampleApp:processReleaseManifest
+:sampleApp:splitsDiscoveryTaskRelease
+:sampleApp:processReleaseResources
+:sampleApp:compileReleaseKotlin
+:sampleApp:generateReleaseSources
+:sampleApp:javaPreCompileRelease
+:sampleApp:compileReleaseJavaWithJavac
+:sampleApp:compileReleaseNdk NO-SOURCE
+:sampleApp:compileReleaseSources
+:sampleApp:lintVitalRelease
+:fetch2:mergeReleaseShaders UP-TO-DATE
+:fetch2:compileReleaseShaders UP-TO-DATE
+:fetch2:generateReleaseAssets UP-TO-DATE
+:fetch2:packageReleaseAssets UP-TO-DATE
+:fetch2core:mergeReleaseShaders UP-TO-DATE
+:fetch2core:compileReleaseShaders UP-TO-DATE
+:fetch2core:generateReleaseAssets UP-TO-DATE
+:fetch2core:packageReleaseAssets UP-TO-DATE
+:fetch2fileserver:mergeReleaseShaders UP-TO-DATE
+:fetch2fileserver:compileReleaseShaders UP-TO-DATE
+:fetch2fileserver:generateReleaseAssets UP-TO-DATE
+:fetch2fileserver:packageReleaseAssets UP-TO-DATE
+:fetch2okhttp:mergeReleaseShaders UP-TO-DATE
+:fetch2okhttp:compileReleaseShaders UP-TO-DATE
+:fetch2okhttp:generateReleaseAssets UP-TO-DATE
+:fetch2okhttp:packageReleaseAssets UP-TO-DATE
+:fetch2rx:mergeReleaseShaders UP-TO-DATE
+:fetch2rx:compileReleaseShaders UP-TO-DATE
+:fetch2rx:generateReleaseAssets UP-TO-DATE
+:fetch2rx:packageReleaseAssets UP-TO-DATE
+:fetchmigrator:mergeReleaseShaders UP-TO-DATE
+:fetchmigrator:compileReleaseShaders UP-TO-DATE
+:fetchmigrator:generateReleaseAssets UP-TO-DATE
+:fetchmigrator:packageReleaseAssets UP-TO-DATE
+:sampleApp:mergeReleaseShaders
+:sampleApp:compileReleaseShaders
+:sampleApp:generateReleaseAssets
+:sampleApp:mergeReleaseAssets
+:sampleApp:transformClassesWithDexBuilderForRelease
+:sampleApp:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sampleApp:transformDexArchiveWithDexMergerForRelease
+:fetch2:compileReleaseNdk NO-SOURCE
+:fetch2:mergeReleaseJniLibFolders UP-TO-DATE
+:fetch2:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:fetch2:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:fetch2:transformNativeLibsWithIntermediateJniLibsForRelease
+:fetch2core:compileReleaseNdk NO-SOURCE
+:fetch2core:mergeReleaseJniLibFolders UP-TO-DATE
+:fetch2core:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:fetch2core:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:fetch2core:transformNativeLibsWithIntermediateJniLibsForRelease
+:fetch2fileserver:compileReleaseNdk NO-SOURCE
+:fetch2fileserver:mergeReleaseJniLibFolders UP-TO-DATE
+:fetch2fileserver:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:fetch2fileserver:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:fetch2fileserver:transformNativeLibsWithIntermediateJniLibsForRelease
+:fetch2okhttp:compileReleaseNdk NO-SOURCE
+:fetch2okhttp:mergeReleaseJniLibFolders UP-TO-DATE
+:fetch2okhttp:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:fetch2okhttp:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:fetch2okhttp:transformNativeLibsWithIntermediateJniLibsForRelease
+:fetch2rx:compileReleaseNdk NO-SOURCE
+:fetch2rx:mergeReleaseJniLibFolders UP-TO-DATE
+:fetch2rx:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:fetch2rx:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:fetch2rx:transformNativeLibsWithIntermediateJniLibsForRelease
+:fetchmigrator:compileReleaseNdk NO-SOURCE
+:fetchmigrator:mergeReleaseJniLibFolders UP-TO-DATE
+:fetchmigrator:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:fetchmigrator:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:fetchmigrator:transformNativeLibsWithIntermediateJniLibsForRelease
+:sampleApp:mergeReleaseJniLibFolders
+:sampleApp:transformNativeLibsWithMergeJniLibsForRelease
+:sampleApp:transformNativeLibsWithStripDebugSymbolForRelease
+:sampleApp:checkReleaseLibraries
+:sampleApp:processReleaseJavaRes NO-SOURCE
+:sampleApp:transformResourcesWithMergeJavaResForRelease
+:sampleApp:packageRelease
+:sampleApp:assembleRelease
+:sampleApp:assemble
+:sampleApp:build
+
+BUILD SUCCESSFUL in 38s
+291 actionable tasks: 77 executed, 214 up-to-date
+
+2019-01-22 16:24:41,151 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148846355-0/src/Fetch-master/sampleApp/build/outputs/apk/release/sampleApp-release-unsigned.apk

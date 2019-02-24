@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "ru.adonixis.submitcreditcardflow",
+    "label" : "Submit Credit Card",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAACdlBMVEUAAAAAAFUWLCwbJC0YJDAAAAAbJysgLTMhLjQfKzEXJSkgKjMkMDccJS0gKjIfKjIhKjIhKzIhKzMgKjEdKS8hKzEkMDYcJiwaJS8eKzIfLDEeLDIaKysAAAAAVVUkMDcfKjEeKTAeKjElMTglMDcmMjgmMThGUVdETVNja3FfZ2xaYml1fIFETlVnb3QlMDgiLjVIUVc8RUtPWV5BSU5PWFxQWmBRWV4yPUNvdntJUlh4f4BFTlRWXmNRWmFASU9ASlEnMzozPkVJUlcyO0JcZGkrNDo5QUdJU1kdKTA/SU+BhopQWV12fIFSWmBfZmtbY2hRWl8jLzZlbXI+SE5ka3A2QEZxeH0yPENyeX0wO0I8Rk1wd3tbY2dtdHlsc3dgaGx3fYFYYGUtOT91e39ZYmd3foJSW2CHjI9QWV6Eio0uOUBCTFJPV11YYWVaY2hUXWJLVFpbZ2tTXGJKUllRWmBaYmdQWl8zPUQmMjlYYWdOWF1OV11TWmBRWV9JUVgxO0I+R05ZYWZCTFFBS1EiLjYiLTQjLzUhLTQjLjUfKzIvOkEsOD4sOD8nMzsqNj0qNT0xPUMkMDYrNjwpNDsxPUQ0P0cuOUEoNDsoMztOWF5XX2RjbHI0QEc5Q0pNVlw/SVAyPUQ2QUg7RU0oMzo9Rk0+SVA8Rk4wPEM0P0YyPERFT1ZAS1E4Qkhqcndudntze4BIUlgpNTwxPEMuOkAmMTksNz4rNz0pNDwtOD9LVVp2fYJ4f4MrNj0xPEI1QEczPkYqNTw9R05FTVJDTVMuOEA4Q0o+R003QUdCTFRBSlErNz4tOUAyPUIvOkAzP0UfKjIkLzbbicSNAAAAH3RSTlMAAxccFQNBzNrIN6f+17/AwMDAvvyZ/qwwh5B/HQEDzz8MmwAAAe5JREFUSMdjYBgFgwQwMjETCVhYwRrY2DmIBJxcYA3cPPLEAl6wBj6i1csrgDXwE69BkVQNSmANAkCWsryyijIQyENoVRV5eTVlEBMoA5YFQ6gNIA3qGppa2jq6evoGhkbGJqZm5hbKllbWNrZ29g6OTk7OLq5uWu4e8vKecCd5efv4+vkHBAYFBYeEhoVHREbJR8fExsUnJCYpJ6ekpqVnZGZlI9uQk5uXXxBaWCRvUJhTXFJaVl5RWVWdX1NbV2/j2NBY59XUXGbYguyHoCCDVgMDgzYgo93AIKgjKEjeIKgzyKAdyJCXNwDDTmQnkRSsAjTU4ElexAkSr6GLeCcpd/egOMmxt0/ZsbLf0RGhZMLESZOnBClPnTZ9RtRM5Vmz58yFeRrkpHnzF/QuXLBocSVc/ZKlTsuWr1DWXblq9Zq1M6asW79hI3LEbYrq37xl6tYlSG7Ytr13h6N8b2931M5tW5V37d6zEC2UlHG4PghCOu2Eh5IQTUKJzByHCKW9Tr379jvtld8748C2GSsXHnSqxFMIgJy0cu+hw0e6j8ofW378xN6GkxNOzSDgpNMLz5yNOrdNfsKM8wvPLeyuzK4k4CQiwQWwBmHiNYiANYiKEav+ojhYg4SkFJFAWgasQZZVjkjAOlo3DhoAAD77/Zds5DYnAAAAAElFTkSuQmCC"
+  },
+  "dexClasses" : 2348,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"ru.adonixis.submitcreditcardflow\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"25\" />\n\t<application android:theme=\"resourceId:0x7f0900a1\" android:label=\"Submit Credit Card\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f09003b\" android:name=\"ru.adonixis.submitcreditcardflow.SubmitCreditCardActivity\" android:screenOrientation=\"portrait\" android:configChanges=\"0x4b0\" android:windowSoftInputMode=\"0x14\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 2045887,
+  "crc32" : 2431219290,
+  "sha256" : "dbb27ec256960a034539df187911a91b258717c39cdb549f68b0f48ec515f5b5",
+  "buildTime" : 1496970750000
+}

@@ -1,0 +1,500 @@
+2018-09-21 11:27:35,489 INFO  DownloadService - Downloading "https://github.com/wajahatkarim3/EasyMoney-Widgets/archive/master.zip", attempt 3
+2018-09-21 11:27:37,635 INFO  DownloadService - Downloaded https://github.com/wajahatkarim3/EasyMoney-Widgets/archive/master.zip, attempt 3
+2018-09-21 11:27:37,635 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537504055487-0/master.zip": 1 MB
+2018-09-21 11:27:37,635 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-21 11:27:37,636 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537504055487-0/master.zip: true
+2018-09-21 11:27:37,636 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537504055487-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537504055487-0/src'.
+2018-09-21 11:27:37,670 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-09-21 11:27:37,670 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537504055487-0/src]
+2018-09-21 11:27:37,686 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537504055487-0/src/.git/
+
+2018-09-21 11:27:37,689 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537504055487-0/src/EasyMoney-Widgets-master/gradlew
+2018-09-21 11:27:37,692 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537504055487-0/src/EasyMoney-Widgets-master/EasyMoney-Widgets-Library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537504055487-0/src/EasyMoney-Widgets-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537504055487-0/src/EasyMoney-Widgets-master/build.gradle
+2018-09-21 11:27:37,695 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537504055487-0/src/EasyMoney-Widgets-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537504055487-0/src/EasyMoney-Widgets-master/EasyMoney-Widgets-Library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537504055487-0/src/EasyMoney-Widgets-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537504055487-0/src/EasyMoney-Widgets-master/settings.gradle
+2018-09-21 11:27:37,695 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
+2018-09-21 11:27:38,592 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
+2018-09-21 11:27:38,593 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
+2018-09-21 11:27:38,593 INFO  ProjectFixService - Fixing project...
+2018-09-21 11:27:38,603 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537504055487-0/src/EasyMoney-Widgets-master/EasyMoney-Widgets-Library/local.properties
+2018-09-21 11:27:38,603 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537504055487-0/src/EasyMoney-Widgets-master/EasyMoney-Widgets-Library/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2018-09-21 11:27:38,604 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537504055487-0/src/EasyMoney-Widgets-master/app/local.properties
+2018-09-21 11:27:38,605 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537504055487-0/src/EasyMoney-Widgets-master/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2018-09-21 11:27:38,606 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537504055487-0/src/EasyMoney-Widgets-master/local.properties
+2018-09-21 11:27:38,606 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2018-09-21 11:27:38,607 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2018-09-21 11:27:38,608 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537504055487-0/src/EasyMoney-Widgets-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2018-09-21 11:27:38,608 INFO  ProjectFixService - Project was maybe fixed
+2018-09-21 11:27:38,608 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-21 11:27:38,608 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537504055487-0/src/EasyMoney-Widgets-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537504055487-0/src/EasyMoney-Widgets-master/EasyMoney-Widgets-Library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-21 11:27:46,734 INFO  ProjectTaskService - Detected possible tasks: 76
+2018-09-21 11:27:46,734 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-21 11:27:46,734 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537504055487-0/src/EasyMoney-Widgets-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537504055487-0/src/EasyMoney-Widgets-master/EasyMoney-Widgets-Library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-21 11:27:59,053 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:EasyMoney-Widgets-Library:preBuild UP-TO-DATE
+:EasyMoney-Widgets-Library:preDebugBuild UP-TO-DATE
+:EasyMoney-Widgets-Library:checkDebugManifest
+:EasyMoney-Widgets-Library:preDebugAndroidTestBuild UP-TO-DATE
+:EasyMoney-Widgets-Library:preDebugUnitTestBuild UP-TO-DATE
+:EasyMoney-Widgets-Library:preReleaseBuild UP-TO-DATE
+:EasyMoney-Widgets-Library:preReleaseUnitTestBuild UP-TO-DATE
+:EasyMoney-Widgets-Library:prepareComAndroidSupportAnimatedVectorDrawable2500Library
+:EasyMoney-Widgets-Library:prepareComAndroidSupportAppcompatV72500Library
+:EasyMoney-Widgets-Library:prepareComAndroidSupportSupportCompat2500Library
+:EasyMoney-Widgets-Library:prepareComAndroidSupportSupportCoreUi2500Library
+:EasyMoney-Widgets-Library:prepareComAndroidSupportSupportCoreUtils2500Library
+:EasyMoney-Widgets-Library:prepareComAndroidSupportSupportFragment2500Library
+:EasyMoney-Widgets-Library:prepareComAndroidSupportSupportMediaCompat2500Library
+:EasyMoney-Widgets-Library:prepareComAndroidSupportSupportV42500Library
+:EasyMoney-Widgets-Library:prepareComAndroidSupportSupportVectorDrawable2500Library
+:EasyMoney-Widgets-Library:prepareDebugDependencies
+:EasyMoney-Widgets-Library:compileDebugAidl
+:EasyMoney-Widgets-Library:compileDebugNdk UP-TO-DATE
+:EasyMoney-Widgets-Library:compileLint
+:EasyMoney-Widgets-Library:copyDebugLint UP-TO-DATE
+:EasyMoney-Widgets-Library:compileDebugRenderscript
+:EasyMoney-Widgets-Library:generateDebugBuildConfig
+:EasyMoney-Widgets-Library:generateDebugResValues
+:EasyMoney-Widgets-Library:generateDebugResources
+:EasyMoney-Widgets-Library:mergeDebugResources
+:EasyMoney-Widgets-Library:processDebugManifest
+:EasyMoney-Widgets-Library:processDebugResources
+:EasyMoney-Widgets-Library:generateDebugSources
+:EasyMoney-Widgets-Library:incrementalDebugJavaCompilationSafeguard
+:EasyMoney-Widgets-Library:compileDebugJavaWithJavac
+:EasyMoney-Widgets-Library:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:EasyMoney-Widgets-Library:extractDebugAnnotations
+:EasyMoney-Widgets-Library:mergeDebugShaders
+:EasyMoney-Widgets-Library:compileDebugShaders
+:EasyMoney-Widgets-Library:generateDebugAssets
+:EasyMoney-Widgets-Library:mergeDebugAssets
+:EasyMoney-Widgets-Library:mergeDebugProguardFiles
+:EasyMoney-Widgets-Library:packageDebugRenderscript UP-TO-DATE
+:EasyMoney-Widgets-Library:packageDebugResources
+:EasyMoney-Widgets-Library:processDebugJavaRes UP-TO-DATE
+:EasyMoney-Widgets-Library:transformResourcesWithMergeJavaResForDebug
+:EasyMoney-Widgets-Library:transformClassesAndResourcesWithSyncLibJarsForDebug
+:EasyMoney-Widgets-Library:mergeDebugJniLibFolders
+:EasyMoney-Widgets-Library:transformNative_libsWithMergeJniLibsForDebug
+:EasyMoney-Widgets-Library:transformNative_libsWithSyncJniLibsForDebug
+:EasyMoney-Widgets-Library:bundleDebug
+:EasyMoney-Widgets-Library:compileDebugSources
+:EasyMoney-Widgets-Library:assembleDebug
+:EasyMoney-Widgets-Library:checkReleaseManifest
+:EasyMoney-Widgets-Library:prepareReleaseDependencies
+:EasyMoney-Widgets-Library:compileReleaseAidl
+:EasyMoney-Widgets-Library:compileReleaseNdk UP-TO-DATE
+:EasyMoney-Widgets-Library:copyReleaseLint UP-TO-DATE
+:EasyMoney-Widgets-Library:compileReleaseRenderscript
+:EasyMoney-Widgets-Library:generateReleaseBuildConfig
+:EasyMoney-Widgets-Library:generateReleaseResValues
+:EasyMoney-Widgets-Library:generateReleaseResources
+:EasyMoney-Widgets-Library:mergeReleaseResources
+:EasyMoney-Widgets-Library:processReleaseManifest
+:EasyMoney-Widgets-Library:processReleaseResources
+:EasyMoney-Widgets-Library:generateReleaseSources
+:EasyMoney-Widgets-Library:incrementalReleaseJavaCompilationSafeguard
+:EasyMoney-Widgets-Library:compileReleaseJavaWithJavac
+:EasyMoney-Widgets-Library:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:EasyMoney-Widgets-Library:extractReleaseAnnotations
+:EasyMoney-Widgets-Library:mergeReleaseShaders
+:EasyMoney-Widgets-Library:compileReleaseShaders
+:EasyMoney-Widgets-Library:generateReleaseAssets
+:EasyMoney-Widgets-Library:mergeReleaseAssets
+:EasyMoney-Widgets-Library:mergeReleaseProguardFiles
+:EasyMoney-Widgets-Library:packageReleaseRenderscript UP-TO-DATE
+:EasyMoney-Widgets-Library:packageReleaseResources
+:EasyMoney-Widgets-Library:processReleaseJavaRes UP-TO-DATE
+:EasyMoney-Widgets-Library:transformResourcesWithMergeJavaResForRelease
+:EasyMoney-Widgets-Library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:EasyMoney-Widgets-Library:mergeReleaseJniLibFolders
+:EasyMoney-Widgets-Library:transformNative_libsWithMergeJniLibsForRelease
+:EasyMoney-Widgets-Library:transformNative_libsWithSyncJniLibsForRelease
+:EasyMoney-Widgets-Library:bundleRelease
+:EasyMoney-Widgets-Library:compileReleaseSources
+:EasyMoney-Widgets-Library:assembleRelease
+:EasyMoney-Widgets-Library:assemble
+:EasyMoney-Widgets-Library:build
+
+BUILD SUCCESSFUL
+
+Total time: 11.71 secs
+
+2018-09-21 11:27:59,124 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-21 11:27:59,124 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537504055487-0/src/EasyMoney-Widgets-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537504055487-0/src/EasyMoney-Widgets-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-21 11:28:06,619 INFO  ProjectTaskService - Detected possible tasks: 74
+2018-09-21 11:28:06,619 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-21 11:28:06,619 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537504055487-0/src/EasyMoney-Widgets-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537504055487-0/src/EasyMoney-Widgets-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-21 11:28:14,134 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-09-21 11:28:14,135 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'androidJavadocs' not found in project ':app'.
+
+* Try:
+Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.execution.TaskSelectionException: Task 'androidJavadocs' not found in project ':app'.
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:63)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$3.run(DefaultGradleLauncher.java:142)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:139)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+
+BUILD FAILED
+
+Total time: 6.918 secs
+
+2018-09-21 11:28:14,135 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2018-09-21 11:28:14,135 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537504055487-0/src/EasyMoney-Widgets-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537504055487-0/src/EasyMoney-Widgets-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-09-21 11:28:42,258 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:EasyMoney-Widgets-Library:preBuild UP-TO-DATE
+:EasyMoney-Widgets-Library:preReleaseBuild UP-TO-DATE
+:EasyMoney-Widgets-Library:checkReleaseManifest
+:EasyMoney-Widgets-Library:preDebugAndroidTestBuild UP-TO-DATE
+:EasyMoney-Widgets-Library:preDebugBuild UP-TO-DATE
+:EasyMoney-Widgets-Library:preDebugUnitTestBuild UP-TO-DATE
+:EasyMoney-Widgets-Library:preReleaseUnitTestBuild UP-TO-DATE
+:EasyMoney-Widgets-Library:prepareComAndroidSupportAnimatedVectorDrawable2500Library UP-TO-DATE
+:EasyMoney-Widgets-Library:prepareComAndroidSupportAppcompatV72500Library UP-TO-DATE
+:EasyMoney-Widgets-Library:prepareComAndroidSupportSupportCompat2500Library UP-TO-DATE
+:EasyMoney-Widgets-Library:prepareComAndroidSupportSupportCoreUi2500Library UP-TO-DATE
+:EasyMoney-Widgets-Library:prepareComAndroidSupportSupportCoreUtils2500Library UP-TO-DATE
+:EasyMoney-Widgets-Library:prepareComAndroidSupportSupportFragment2500Library UP-TO-DATE
+:EasyMoney-Widgets-Library:prepareComAndroidSupportSupportMediaCompat2500Library UP-TO-DATE
+:EasyMoney-Widgets-Library:prepareComAndroidSupportSupportV42500Library UP-TO-DATE
+:EasyMoney-Widgets-Library:prepareComAndroidSupportSupportVectorDrawable2500Library UP-TO-DATE
+:EasyMoney-Widgets-Library:prepareReleaseDependencies
+:EasyMoney-Widgets-Library:compileReleaseAidl UP-TO-DATE
+:EasyMoney-Widgets-Library:compileReleaseNdk UP-TO-DATE
+:EasyMoney-Widgets-Library:compileLint UP-TO-DATE
+:EasyMoney-Widgets-Library:copyReleaseLint UP-TO-DATE
+:EasyMoney-Widgets-Library:compileReleaseRenderscript UP-TO-DATE
+:EasyMoney-Widgets-Library:generateReleaseBuildConfig UP-TO-DATE
+:EasyMoney-Widgets-Library:generateReleaseResValues UP-TO-DATE
+:EasyMoney-Widgets-Library:generateReleaseResources UP-TO-DATE
+:EasyMoney-Widgets-Library:mergeReleaseResources UP-TO-DATE
+:EasyMoney-Widgets-Library:processReleaseManifest UP-TO-DATE
+:EasyMoney-Widgets-Library:processReleaseResources UP-TO-DATE
+:EasyMoney-Widgets-Library:generateReleaseSources UP-TO-DATE
+:EasyMoney-Widgets-Library:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:EasyMoney-Widgets-Library:compileReleaseJavaWithJavac UP-TO-DATE
+:EasyMoney-Widgets-Library:extractReleaseAnnotations UP-TO-DATE
+:EasyMoney-Widgets-Library:mergeReleaseShaders UP-TO-DATE
+:EasyMoney-Widgets-Library:compileReleaseShaders UP-TO-DATE
+:EasyMoney-Widgets-Library:generateReleaseAssets UP-TO-DATE
+:EasyMoney-Widgets-Library:mergeReleaseAssets UP-TO-DATE
+:EasyMoney-Widgets-Library:mergeReleaseProguardFiles UP-TO-DATE
+:EasyMoney-Widgets-Library:packageReleaseRenderscript UP-TO-DATE
+:EasyMoney-Widgets-Library:packageReleaseResources UP-TO-DATE
+:EasyMoney-Widgets-Library:processReleaseJavaRes UP-TO-DATE
+:EasyMoney-Widgets-Library:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:EasyMoney-Widgets-Library:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:EasyMoney-Widgets-Library:mergeReleaseJniLibFolders UP-TO-DATE
+:EasyMoney-Widgets-Library:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:EasyMoney-Widgets-Library:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:EasyMoney-Widgets-Library:bundleRelease UP-TO-DATE
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2500Library
+:app:prepareComAndroidSupportAppcompatV72500Library
+:app:prepareComAndroidSupportSupportCompat2500Library
+:app:prepareComAndroidSupportSupportCoreUi2500Library
+:app:prepareComAndroidSupportSupportCoreUtils2500Library
+:app:prepareComAndroidSupportSupportFragment2500Library
+:app:prepareComAndroidSupportSupportMediaCompat2500Library
+:app:prepareComAndroidSupportSupportV42500Library
+:app:prepareComAndroidSupportSupportVectorDrawable2500Library
+:app:prepareEasyMoneyWidgetsMasterEasyMoneyWidgetsLibraryUnspecifiedLibrary
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForDebug
+:app:transformNative_libsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease[Fatal Error] :3:214: The value of attribute "name" associated with an element type "item" must not contain the '<' character.
+Could not read /Users/vbauer/Library/Android/sdk/platform-tools/api/annotations.zip
+java.io.IOException: Could not parse XML from android/accounts/annotations.xml
+	at com.android.tools.lint.ExternalAnnotationRepository$AnnotationsDatabase.initializePackage(ExternalAnnotationRepository.java:906)
+	at com.android.tools.lint.ExternalAnnotationRepository$AnnotationsDatabase.initializeFromJar(ExternalAnnotationRepository.java:849)
+	at com.android.tools.lint.ExternalAnnotationRepository$AnnotationsDatabase.<init>(ExternalAnnotationRepository.java:597)
+	at com.android.tools.lint.ExternalAnnotationRepository.getDatabase(ExternalAnnotationRepository.java:242)
+	at com.android.tools.lint.ExternalAnnotationRepository.create(ExternalAnnotationRepository.java:181)
+	at com.android.tools.lint.ExternalAnnotationRepository.get(ExternalAnnotationRepository.java:162)
+	at com.android.tools.lint.psi.EcjPsiManager.getAnnotationRepository(EcjPsiManager.java:883)
+	at com.android.tools.lint.psi.EcjPsiJavaEvaluator.getAllAnnotations(EcjPsiJavaEvaluator.java:263)
+	at com.android.tools.lint.checks.SupportAnnotationDetector$CallVisitor.checkCall(SupportAnnotationDetector.java:1981)
+	at com.android.tools.lint.checks.SupportAnnotationDetector$CallVisitor.visitCallExpression(SupportAnnotationDetector.java:1966)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitCallExpression(JavaPsiVisitor.java:1029)
+	at com.intellij.psi.JavaElementVisitor.visitMethodCallExpression(JavaElementVisitor.java:183)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitMethodCallExpression(JavaPsiVisitor.java:1021)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DelegatingPsiVisitor.visitMethodCallExpression(JavaPsiVisitor.java:1667)
+	at com.android.tools.lint.psi.EcjPsiMethodCallExpression.accept(EcjPsiMethodCallExpression.java:40)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:85)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.JavaElementVisitor.visitVariable(JavaElementVisitor.java:328)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitVariable(JavaPsiVisitor.java:1389)
+	at com.intellij.psi.JavaElementVisitor.visitField(JavaElementVisitor.java:119)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitField(JavaPsiVisitor.java:845)
+	at com.android.tools.lint.psi.EcjPsiField.accept(EcjPsiField.java:64)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:85)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.JavaElementVisitor.visitClass(JavaElementVisitor.java:55)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitClass(JavaPsiVisitor.java:667)
+	at com.android.tools.lint.psi.EcjPsiClass.accept(EcjPsiClass.java:642)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:85)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.PsiElementVisitor.visitFile(PsiElementVisitor.java:34)
+	at com.intellij.psi.JavaElementVisitor.visitJavaFile(JavaElementVisitor.java:336)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitJavaFile(JavaPsiVisitor.java:1411)
+	at com.android.tools.lint.psi.EcjPsiJavaFile.accept(EcjPsiJavaFile.java:111)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$4.run(JavaPsiVisitor.java:327)
+	at com.android.tools.lint.EcjParser.runReadAction(EcjParser.java:1115)
+	at com.android.tools.lint.client.api.JavaPsiVisitor.visitFile(JavaPsiVisitor.java:321)
+	at com.android.tools.lint.client.api.LintDriver.visitJavaFiles(LintDriver.java:1571)
+	at com.android.tools.lint.client.api.LintDriver.checkJava(LintDriver.java:1551)
+	at com.android.tools.lint.client.api.LintDriver.runFileDetectors(LintDriver.java:1090)
+	at com.android.tools.lint.client.api.LintDriver.checkProject(LintDriver.java:935)
+	at com.android.tools.lint.client.api.LintDriver.analyze(LintDriver.java:454)
+	at com.android.tools.lint.client.api.LintDriver.analyze(LintDriver.java:395)
+	at com.android.tools.lint.LintCliClient.run(LintCliClient.java:131)
+	at com.android.build.gradle.internal.LintGradleClient.run(LintGradleClient.java:146)
+	at com.android.build.gradle.tasks.Lint.runLint(Lint.java:255)
+	at com.android.build.gradle.tasks.Lint.lintSingleVariant(Lint.java:224)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:228)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:221)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:210)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:621)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:604)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:66)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:153)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:150)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForRelease
+:app:transformNative_libsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:lint
+Ran lint on variant release: 10 issues found
+Ran lint on variant debug: 10 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537504055487-0/src/EasyMoney-Widgets-master/app/build/outputs/lint-results-debug.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537504055487-0/src/EasyMoney-Widgets-master/app/build/outputs/lint-results-debug.xml
+:app:incrementalDebugUnitTestJavaCompilationSafeguard UP-TO-DATE
+:app:preDebugUnitTestBuild UP-TO-DATE
+:app:prepareDebugUnitTestDependencies
+:app:compileDebugUnitTestJavaWithJavac
+:app:processDebugUnitTestJavaRes UP-TO-DATE
+:app:compileDebugUnitTestSources
+:app:mockableAndroidJar
+:app:assembleDebugUnitTest
+:app:testDebugUnitTest
+:app:incrementalReleaseUnitTestJavaCompilationSafeguard UP-TO-DATE
+:app:preReleaseUnitTestBuild UP-TO-DATE
+:app:prepareReleaseUnitTestDependencies
+:app:compileReleaseUnitTestJavaWithJavac
+:app:processReleaseUnitTestJavaRes UP-TO-DATE
+:app:compileReleaseUnitTestSources
+:app:assembleReleaseUnitTest
+:app:testReleaseUnitTest
+:app:test
+:app:check
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 27.438 secs
+
+2018-09-21 11:28:42,393 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537504055487-0/src/EasyMoney-Widgets-master/app/build/outputs/apk/app-debug.apk

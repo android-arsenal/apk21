@@ -1,0 +1,10 @@
+2018-09-20 12:08:43,542 INFO  DownloadService - Downloading "https://github.com/applidium/Shutterbug/archive/master.zip", attempt 3
+2018-09-20 12:08:45,885 INFO  DownloadService - Downloaded https://github.com/applidium/Shutterbug/archive/master.zip, attempt 3
+2018-09-20 12:08:45,886 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537420123538-0/master.zip": 81 KB
+2018-09-20 12:08:45,886 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-20 12:08:45,886 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537420123538-0/master.zip: false
+2018-09-20 12:08:45,886 INFO  FullProcessService - Archive with sources does not contain any build script
+2018-09-20 12:08:45,886 ERROR FullProcessService - Could not find directory with sources
+2018-09-20 12:08:45,886 ERROR FullProcessService - Project will not be processed
+2018-09-20 12:08:45,886 ERROR FullProcessService - Project build has not produced APK file
+2018-09-20 12:08:45,887 ERROR FullProcessService - Could not find generated or existed APK file

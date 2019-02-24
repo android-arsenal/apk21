@@ -1,0 +1,29 @@
+{
+  "meta" : {
+    "packageName" : "com.github.kubode.rx.android.schedulers.test",
+    "label" : null,
+    "icon" : null,
+    "versionName" : null,
+    "versionCode" : null,
+    "installLocation" : null,
+    "minSdkVersion" : "9",
+    "targetSdkVersion" : "24",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : null,
+  "dexClasses" : 2059,
+  "locales" : [ ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" package=\"com.github.kubode.rx.android.schedulers.test\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"9\" android:targetSdkVersion=\"24\" />\n\t<instrumentation android:label=\"Tests for com.github.kubode.rx.android.schedulers.test\" android:name=\"android.support.test.runner.AndroidJUnitRunner\" android:targetPackage=\"com.github.kubode.rx.android.schedulers.test\" android:handleProfiling=\"false\" android:functionalTest=\"false\" />\n\t<application android:debuggable=\"true\">\n\t\t<uses-library android:name=\"android.test.runner\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 888205,
+  "crc32" : 2156786440,
+  "sha256" : "f34e75efd3d4f037bbdd864ec0f3e8c2994c4b89ed8426d5f0101d646ecd3d14",
+  "buildTime" : 1496784733000
+}

@@ -1,0 +1,431 @@
+2018-09-22 17:54:39,344 INFO  DownloadService - Downloading "https://github.com/Commit451/Reptar/archive/master.zip", attempt 3
+2018-09-22 17:54:42,065 INFO  DownloadService - Downloaded https://github.com/Commit451/Reptar/archive/master.zip, attempt 3
+2018-09-22 17:54:42,065 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/master.zip": 128 KB
+2018-09-22 17:54:42,065 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-22 17:54:42,071 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/master.zip: true
+2018-09-22 17:54:42,071 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src'.
+2018-09-22 17:54:42,101 INFO  FullProcessService - Size of directory with sources: 153 KB
+2018-09-22 17:54:42,101 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src]
+2018-09-22 17:54:42,119 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/.git/
+
+2018-09-22 17:54:42,123 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/gradlew
+2018-09-22 17:54:42,127 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/reptar-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/reptar-retrofit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/reptar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/build.gradle
+2018-09-22 17:54:42,130 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/reptar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/reptar-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/reptar-retrofit/build.gradle
+2018-09-22 17:54:42,131 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/Commit451/gradle-android-javadocs/1.0.0/gradle-android-javadocs.gradle", attempt 3
+2018-09-22 17:54:42,202 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/Commit451/gradle-android-javadocs/1.0.0/gradle-android-javadocs.gradle, attempt 3
+2018-09-22 17:54:42,202 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/Commit451/gradle-android-javadocs/1.0.0/gradle-android-javadocs.gradle
+2018-09-22 17:54:42,202 INFO  ProjectFixService - Fixing project...
+2018-09-22 17:54:42,215 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/app/local.properties
+2018-09-22 17:54:42,217 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
+2018-09-22 17:54:42,218 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=28]
+2018-09-22 17:54:42,219 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/reptar-kotlin/local.properties
+2018-09-22 17:54:42,221 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/reptar-kotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
+2018-09-22 17:54:42,222 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/reptar-kotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=28]
+2018-09-22 17:54:42,223 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/reptar-retrofit/local.properties
+2018-09-22 17:54:42,226 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/reptar-retrofit/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
+2018-09-22 17:54:42,226 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/reptar-retrofit/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=28]
+2018-09-22 17:54:42,227 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/reptar/local.properties
+2018-09-22 17:54:42,230 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/reptar/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
+2018-09-22 17:54:42,230 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/reptar/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=28]
+2018-09-22 17:54:42,231 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/local.properties
+2018-09-22 17:54:42,231 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-09-22 17:54:42,232 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-09-22 17:54:42,233 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
+2018-09-22 17:54:42,233 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=28]
+2018-09-22 17:54:42,234 INFO  ProjectFixService - Project was maybe fixed
+2018-09-22 17:54:42,234 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-22 17:54:42,234 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-22 17:54:51,278 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-09-22 17:54:51,279 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-22 17:54:51,279 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-22 17:54:57,397 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-09-22 17:54:57,397 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'javadocJar' not found in project ':app'.
+
+* Try:
+Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in project ':app'.
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:116)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:66)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:265)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:173)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:128)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:107)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:45)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:29)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:71)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:51)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:64)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:42)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:58)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:33)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:287)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:260)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:253)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:182)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5s
+
+2018-09-22 17:54:57,397 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2018-09-22 17:54:57,397 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-09-22 17:56:13,362 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:reptar:preBuild UP-TO-DATE
+:reptar:preDebugBuild UP-TO-DATE
+:reptar:checkDebugManifest
+:reptar:processDebugManifest
+:reptar-kotlin:preBuild UP-TO-DATE
+:reptar-kotlin:preDebugBuild UP-TO-DATE
+:reptar-kotlin:checkDebugManifest
+:reptar-kotlin:processDebugManifest
+:reptar-retrofit:preBuild UP-TO-DATE
+:reptar-retrofit:preDebugBuild UP-TO-DATE
+:reptar-retrofit:checkDebugManifest
+:reptar-retrofit:processDebugManifest
+:app:preDebugBuild
+Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-android-archcomponents-kotlin/0.5.1/autodispose-android-archcomponents-kotlin-0.5.1.pom
+Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-android-kotlin/0.5.1/autodispose-android-kotlin-0.5.1.pom
+Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-android-archcomponents-kotlin/0.5.1/autodispose-android-archcomponents-kotlin-0.5.1.aar
+Download https://jcenter.bintray.com/com/uber/autodispose/autodispose-android-kotlin/0.5.1/autodispose-android-kotlin-0.5.1.aar
+:reptar:compileDebugAidl
+:reptar-kotlin:compileDebugAidl
+:reptar-retrofit:compileDebugAidl
+:app:compileDebugAidl
+:reptar:packageDebugRenderscript NO-SOURCE
+:reptar-kotlin:packageDebugRenderscript NO-SOURCE
+:reptar-retrofit:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:reptar:compileDebugRenderscript
+:reptar:generateDebugResValues
+:reptar:generateDebugResources
+:reptar:packageDebugResources
+:reptar-kotlin:compileDebugRenderscript
+:reptar-kotlin:generateDebugResValues
+:reptar-kotlin:generateDebugResources
+:reptar-kotlin:packageDebugResources
+:reptar-retrofit:compileDebugRenderscript
+:reptar-retrofit:generateDebugResValues
+:reptar-retrofit:generateDebugResources
+:reptar-retrofit:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:reptar:platformAttrExtractor
+:reptar-kotlin:platformAttrExtractor
+:reptar-retrofit:platformAttrExtractor
+:reptar:generateDebugBuildConfig
+:reptar:prepareLintJar
+:reptar:javaPreCompileDebug
+:reptar:processDebugJavaRes NO-SOURCE
+:reptar-kotlin:generateDebugBuildConfig
+:reptar-kotlin:prepareLintJar
+:reptar-kotlin:processDebugJavaRes NO-SOURCE
+:reptar-retrofit:generateDebugBuildConfig
+:reptar-retrofit:prepareLintJar
+:reptar-retrofit:processDebugJavaRes NO-SOURCE
+:app:prepareLintJar
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:reptar:mergeDebugShaders
+:reptar:compileDebugShaders
+:reptar:generateDebugAssets
+:reptar:mergeDebugAssets
+:reptar-kotlin:mergeDebugShaders
+:reptar-kotlin:compileDebugShaders
+:reptar-kotlin:generateDebugAssets
+:reptar-kotlin:mergeDebugAssets
+:reptar-retrofit:mergeDebugShaders
+:reptar-retrofit:compileDebugShaders
+:reptar-retrofit:generateDebugAssets
+:reptar-retrofit:mergeDebugAssets
+:app:mergeDebugAssets
+:app:extractTryWithResourcesSupportJarDebug
+:app:mergeDebugJniLibFolders
+:reptar:compileDebugNdk NO-SOURCE
+:reptar:mergeDebugJniLibFolders
+:reptar:transformNativeLibsWithMergeJniLibsForDebug
+:reptar:transformNativeLibsWithStripDebugSymbolForDebug
+:reptar:transformNativeLibsWithIntermediateJniLibsForDebug
+:reptar-kotlin:compileDebugNdk NO-SOURCE
+:reptar-kotlin:mergeDebugJniLibFolders
+:reptar-kotlin:transformNativeLibsWithMergeJniLibsForDebug
+:reptar-kotlin:transformNativeLibsWithStripDebugSymbolForDebug
+:reptar-kotlin:transformNativeLibsWithIntermediateJniLibsForDebug
+:reptar-retrofit:compileDebugNdk NO-SOURCE
+:reptar-retrofit:mergeDebugJniLibFolders
+:reptar-retrofit:transformNativeLibsWithMergeJniLibsForDebug
+:reptar-retrofit:transformNativeLibsWithStripDebugSymbolForDebug
+:reptar-retrofit:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:reptar:preReleaseBuild UP-TO-DATE
+:reptar:checkReleaseManifest
+:reptar:processReleaseManifest
+:reptar-kotlin:preReleaseBuild UP-TO-DATE
+:reptar-kotlin:checkReleaseManifest
+:reptar-kotlin:processReleaseManifest
+:reptar-retrofit:preReleaseBuild UP-TO-DATE
+:reptar-retrofit:checkReleaseManifest
+:reptar-retrofit:processReleaseManifest
+:app:preReleaseBuild
+:reptar:compileReleaseAidl
+:reptar-kotlin:compileReleaseAidl
+:reptar-retrofit:compileReleaseAidl
+:app:compileReleaseAidl
+:reptar:packageReleaseRenderscript NO-SOURCE
+:reptar-kotlin:packageReleaseRenderscript NO-SOURCE
+:reptar-retrofit:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:reptar:compileReleaseRenderscript
+:reptar:generateReleaseResValues
+:reptar:generateReleaseResources
+:reptar:packageReleaseResources
+:reptar-kotlin:compileReleaseRenderscript
+:reptar-kotlin:generateReleaseResValues
+:reptar-kotlin:generateReleaseResources
+:reptar-kotlin:packageReleaseResources
+:reptar-retrofit:compileReleaseRenderscript
+:reptar-retrofit:generateReleaseResValues
+:reptar-retrofit:generateReleaseResources
+:reptar-retrofit:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:reptar:generateReleaseBuildConfig
+:reptar:javaPreCompileRelease
+:reptar:processReleaseJavaRes NO-SOURCE
+:reptar-kotlin:generateReleaseBuildConfig
+:reptar-kotlin:processReleaseJavaRes NO-SOURCE
+:reptar-retrofit:generateReleaseBuildConfig
+:reptar-retrofit:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:reptar:mergeReleaseShaders
+:reptar:compileReleaseShaders
+:reptar:generateReleaseAssets
+:reptar:mergeReleaseAssets
+:reptar-kotlin:mergeReleaseShaders
+:reptar-kotlin:compileReleaseShaders
+:reptar-kotlin:generateReleaseAssets
+:reptar-kotlin:mergeReleaseAssets
+:reptar-retrofit:mergeReleaseShaders
+:reptar-retrofit:compileReleaseShaders
+:reptar-retrofit:generateReleaseAssets
+:reptar-retrofit:mergeReleaseAssets
+:app:mergeReleaseAssets
+:app:extractTryWithResourcesSupportJarRelease
+:app:mergeReleaseJniLibFolders
+:reptar:compileReleaseNdk NO-SOURCE
+:reptar:mergeReleaseJniLibFolders
+:reptar:transformNativeLibsWithMergeJniLibsForRelease
+:reptar:transformNativeLibsWithStripDebugSymbolForRelease
+:reptar:transformNativeLibsWithIntermediateJniLibsForRelease
+:reptar-kotlin:compileReleaseNdk NO-SOURCE
+:reptar-kotlin:mergeReleaseJniLibFolders
+:reptar-kotlin:transformNativeLibsWithMergeJniLibsForRelease
+:reptar-kotlin:transformNativeLibsWithStripDebugSymbolForRelease
+:reptar-kotlin:transformNativeLibsWithIntermediateJniLibsForRelease
+:reptar-retrofit:compileReleaseNdk NO-SOURCE
+:reptar-retrofit:mergeReleaseJniLibFolders
+:reptar-retrofit:transformNativeLibsWithMergeJniLibsForRelease
+:reptar-retrofit:transformNativeLibsWithStripDebugSymbolForRelease
+:reptar-retrofit:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:preDebugUnitTestBuild UP-TO-DATE
+:app:mockableAndroidJar
+:app:processDebugUnitTestJavaRes NO-SOURCE
+:app:preReleaseUnitTestBuild UP-TO-DATE
+:app:processReleaseUnitTestJavaRes NO-SOURCE
+:reptar:processDebugResources
+:reptar-kotlin:processDebugResources
+:reptar-retrofit:processDebugResources
+:app:processDebugResources
+:reptar:generateDebugSources
+:reptar:compileDebugJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:reptar:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:reptar-kotlin:compileDebugKotlin
+:reptar-kotlin:generateDebugSources
+:reptar-kotlin:javaPreCompileDebug
+:reptar-kotlin:compileDebugJavaWithJavac
+:reptar-kotlin:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:reptar-retrofit:generateDebugSources
+:reptar-retrofit:javaPreCompileDebug
+:reptar-retrofit:compileDebugJavaWithJavac
+:reptar-retrofit:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithStackFramesFixerForDebug
+:app:transformClassesWithDesugarForDebug
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:reptar:processReleaseResources
+:reptar-kotlin:processReleaseResources
+:reptar-retrofit:processReleaseResources
+:app:processReleaseResources
+:reptar:generateReleaseSources
+:reptar:compileReleaseJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:reptar:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:reptar-kotlin:compileReleaseKotlin
+:reptar-kotlin:generateReleaseSources
+:reptar-kotlin:javaPreCompileRelease
+:reptar-kotlin:compileReleaseJavaWithJavac
+:reptar-kotlin:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:reptar-retrofit:generateReleaseSources
+:reptar-retrofit:javaPreCompileRelease
+:reptar-retrofit:compileReleaseJavaWithJavac
+:reptar-retrofit:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease SKIPPED
+:app:transformClassesWithStackFramesFixerForRelease
+:app:transformClassesWithDesugarForRelease
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:lint
+Ran lint on variant release: 20 issues found
+Ran lint on variant debug: 20 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/app/build/reports/lint-results.xml
+:app:compileDebugUnitTestKotlin NO-SOURCE
+:app:javaPreCompileDebugUnitTest
+:app:compileDebugUnitTestJavaWithJavac NO-SOURCE
+:app:testDebugUnitTest NO-SOURCE
+:app:compileReleaseUnitTestKotlin NO-SOURCE
+:app:javaPreCompileReleaseUnitTest
+:app:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+:app:testReleaseUnitTest NO-SOURCE
+:app:test UP-TO-DATE
+:app:check
+:app:build
+
+BUILD SUCCESSFUL in 1m 14s
+177 actionable tasks: 177 executed
+Exception in thread "Thread-28" java.lang.NoClassDefFoundError: com/android/utils/PathUtils$1
+	at com.android.utils.PathUtils.deleteIfExists(PathUtils.java:47)
+	at com.android.utils.PathUtils.lambda$addRemovePathHook$0(PathUtils.java:125)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: com.android.utils.PathUtils$1
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 3 more
+
+2018-09-22 17:56:13,467 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613679336-0/src/Reptar-master/app/build/outputs/apk/debug/app-debug.apk

@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "at.favre.app.dalitest",
+    "label" : "DaliTestApp",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "0.3.1",
+    "versionCode" : 6,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "24",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 2796,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"6\" android:versionName=\"0.3.1\" package=\"at.favre.app.dalitest\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"24\" />\n\t<application android:theme=\"resourceId:0x7f0a00a6\" android:label=\"DaliTestApp\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:name=\"at.favre.app.dalitest.DaliTestApplication\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:label=\"DaliTestApp\" android:name=\"at.favre.app.dalitest.activity.MainMenuActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"at.favre.app.dalitest.activity.GenericActivity\" android:windowSoftInputMode=\"0x2\" />\n\t\t<activity android:name=\"at.favre.app.dalitest.activity.NavigationDrawerActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0a00ec\" android:label=\"Debug View\" android:name=\"at.favre.app.dalitest.activity.DebugActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 9392487,
+  "crc32" : 3040632871,
+  "sha256" : "bc69596919185997788456ef2fad58f4b8f5659e09f24eb7f213881d58e7a24b",
+  "buildTime" : 1496784732000
+}

@@ -1,0 +1,34 @@
+{
+  "meta" : {
+    "packageName" : "com.skydoves.syncmarketdemo",
+    "label" : "SyncMarketDemo",
+    "icon" : "res/mipmap-ldpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-ldpi-v4/ic_launcher.png",
+    "density" : 120,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 3535,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.skydoves.syncmarketdemo\" platformBuildVersionCode=\"27\" platformBuildVersionName=\"8.1.0\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"27\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<application android:theme=\"resourceId:0x7f0800a3\" android:label=\"SyncMarketDemo\" android:icon=\"res/mipmap-ldpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-mdpi-v4/ic_launcher_round.png\">\n\t\t<activity android:name=\"com.skydoves.syncmarketdemo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<meta-data android:name=\"android.arch.lifecycle.VERSION\" android:value=\"27.0.0-SNAPSHOT\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2568376,
+  "crc32" : 4078560365,
+  "sha256" : "9883a6ec6cae3b096167549ab047be1759aa43908a4571053bfb4fd5b1dc68f6",
+  "buildTime" : 1537166800000
+}

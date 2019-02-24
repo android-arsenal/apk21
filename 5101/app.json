@@ -1,0 +1,34 @@
+{
+  "meta" : {
+    "packageName" : "com.lucasurbas.masterdetail",
+    "label" : "Master/Detail",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.1.1",
+    "versionCode" : null,
+    "installLocation" : null,
+    "minSdkVersion" : "21",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAABUdJREFUaAXtWU1sG1UQnrUd24ndNCqtEshP+StRSxASpFQBFUUFCxqFSIAiaC8c4BKBEKdeQCoHOMCRSw+0Bw79AYGQiuRWjSoiIcEBVKKSBjklNHEd1yFpGhIn3h/vLjMbv931erNN3bdJQDxp9P7mzTfzZua99TPA/2Vjd0DwC/7Y6W/vn1lYOgs6wI6tsb6BQy9P+IEV9ENof39/MNq48ydRkvcoxWLjsiQfbIyFj42OjqI5fEuAr7gVac2PPtEqK0o7k60U1XYaY32etRlCB5OfRX6fDZ0SNbVHAz3KE4SXrIAgFKJC8Nzu7cXD53relUhuqCRcuJSD89PiQnepv1mrWlTslUKx7jzWB5B0FkKhOVl8drNq7dSrpKux+cwDAUXTmDFO/ur7OoecFcwoN/Uo6WroywwwJ7k0SHGkh2L10BqLVSVS1wXILOdhfGkBgIxwMYQE+2OApsH7jz8FH+1/virl7Ys+GLoAH4/8AhB0P/H5hw2hqyoc2fuMXY+q20f27QdYKqy63h8DMHzqo3Rg3H2pr0U5BTwxJdlVmGcIXXzpdddFzsHnvjtTPsQhdysEymgA5UG4pmzKHw+UQXDosINIUQCUYplATw9U7GzZ0nXsMI+SIUU0IMAswuY6qsEHisJI1UxZnh6oOgdM8e6NfD4PQ0NDkMvloKmpCbq7uyEej7sz06i14SUe5pIN8gApn81mQcP7gmrqexamL6ttFnl6wK8coJ23F2ffPlfWJk8YnyemJRuTAxQ29uLs2+fK2qS38UlhxZSnB/zKAYp5Cht7DpQp6uwwfU0PWAyeBlhsfFuUsL29vVyEehrgRw7QrqfTaZifnwcZb9dwOAwNDQ3Q1tZmnEiuVrGQp9p2BxCvpwGuwqocVPAWHRwchEwm4ypheHgYWlpaIJFIQE1N+eeCuYCFkjlwGwN45kAqlVpVeaYPGUd8HR0dbGiltitunELW9LrdxKIoWqgeLVc+FkK0zjiFrAHPEOKZA52dnUBUVWEeIL0ND1j7brWqkrxOi9iGkyGGByxcTw/wzAELkm/r3+EBewg57Pf0AM8ccODeWdceQht1Ct2Zxh7cjhzwJ4QcIB7qrG2qQkvmEuunQiRx+K21HdRrg/Sda/DUcXqAlips8x2ZM8B/xwBVVxc5b45v4jRdM3U1PTCtyUnfEDkLzmmSqSt7MRX+XpwZCdzX3FinC22g6WEdf3BvNsIoyU9p4tnxH77/UM3nZ3FfNHbHUU1Z3Yx0DxJdcMZcKBQSBo5++rmmqiv/eeEROfjNyUNjl3/NIA+3sufJrnsP9L36FYYHAgsgFpavnvjk6JsIwM5MqulZ7ibSFBKdmjq7iWmSBiaQriOZJdH32o7Ylvp2FV/EZEnEp5DireyfVy8iA8UhE27yV9kQro+NxKOxN+YUSdym422LmLue7ulJ/5hMlj9h4LMWYhAZ2GYOlAbIQvrzjJH8SOfeF7APwVAIIvjiPJPNnsCHKVKeDGZ8d1uLi1hmMpPHo7V1BlYA/w/Y/di+FxGDnqXt8klHc+PsBuB4RQmEI7XvsVESOpG6chr7JIR3UVOXL30pBAL4OzkCoVANbN22/R0E8dTRcxIXBzVFMXkUqXBtbPjnP3CcXMi7qCSbMMgI8riuqoTNDhpXPM9JWjz3V+5KywMPdymieCt55ouBqclr4zjuhwFQKBT02dyN31of3NUlicuzF74++fbN6RtpLzx2Crlah4O0A3GknUjEO4lE8W89D2OHYyG8LUiER3FOeHmkVfFuZwCuNYxgpxXF/qrCiJlDISPWjPcPnchIZtHpaw8AAAAASUVORK5CYII=",
+    "file" : true
+  },
+  "dexClasses" : 2295,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionName=\"1.1.1\" package=\"com.lucasurbas.masterdetail\">\n\t<uses-sdk android:minSdkVersion=\"21\" android:targetSdkVersion=\"27\" />\n\t<application android:theme=\"resourceId:0x7f0e0006\" android:label=\"Master/Detail\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:name=\"com.lucasurbas.masterdetail.app.MasterDetailApplication\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:fullBackupContent=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f0e0008\" android:name=\"com.lucasurbas.masterdetail.ui.main.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 3197395,
+  "crc32" : 3978958626,
+  "sha256" : "ea8697c0901aa9d2801feb456986ebe6a7b7b5e82bdbc06a68afc5896c4d0d76",
+  "buildTime" : 1537639649000
+}

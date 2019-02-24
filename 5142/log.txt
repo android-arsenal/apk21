@@ -1,0 +1,257 @@
+2018-09-21 11:02:38,263 INFO  DownloadService - Downloading "https://github.com/VladimirWrites/Lemniscate/archive/master.zip", attempt 3
+2018-09-21 11:02:40,429 INFO  DownloadService - Downloaded https://github.com/VladimirWrites/Lemniscate/archive/master.zip, attempt 3
+2018-09-21 11:02:40,430 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502558259-0/master.zip": 212 KB
+2018-09-21 11:02:40,430 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-21 11:02:40,430 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502558259-0/master.zip: true
+2018-09-21 11:02:40,430 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502558259-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502558259-0/src'.
+2018-09-21 11:02:40,482 INFO  FullProcessService - Size of directory with sources: 311 KB
+2018-09-21 11:02:40,482 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502558259-0/src]
+2018-09-21 11:02:40,527 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502558259-0/src/.git/
+
+2018-09-21 11:02:40,540 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502558259-0/src/Lemniscate-master/gradlew
+2018-09-21 11:02:40,547 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502558259-0/src/Lemniscate-master/lemniscate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502558259-0/src/Lemniscate-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502558259-0/src/Lemniscate-master/build.gradle
+2018-09-21 11:02:40,553 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502558259-0/src/Lemniscate-master/lemniscate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502558259-0/src/Lemniscate-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502558259-0/src/Lemniscate-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502558259-0/src/Lemniscate-master/settings.gradle
+2018-09-21 11:02:40,553 INFO  ProjectBuildService - Remote scripts: none
+2018-09-21 11:02:40,553 INFO  ProjectFixService - Fixing project...
+2018-09-21 11:02:40,566 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502558259-0/src/Lemniscate-master/lemniscate/local.properties
+2018-09-21 11:02:40,566 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502558259-0/src/Lemniscate-master/lemniscate/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-09-21 11:02:40,567 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502558259-0/src/Lemniscate-master/sample/local.properties
+2018-09-21 11:02:40,567 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502558259-0/src/Lemniscate-master/sample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-09-21 11:02:40,568 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502558259-0/src/Lemniscate-master/local.properties
+2018-09-21 11:02:40,569 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-09-21 11:02:40,569 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-09-21 11:02:40,570 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502558259-0/src/Lemniscate-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-09-21 11:02:40,570 INFO  ProjectFixService - Project was maybe fixed
+2018-09-21 11:02:40,570 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-21 11:02:40,570 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502558259-0/src/Lemniscate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502558259-0/src/Lemniscate-master/lemniscate/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-21 11:02:50,948 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-21 11:02:50,948 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-21 11:02:50,948 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502558259-0/src/Lemniscate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502558259-0/src/Lemniscate-master/lemniscate/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-21 11:03:24,517 INFO  SysUtils - /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502558259-0/src/Lemniscate-master/gradlew: line 88: [: too many arguments
+Configuration on demand is an incubating feature.
+:lemniscate:preBuild UP-TO-DATE
+:lemniscate:preDebugBuild UP-TO-DATE
+:lemniscate:compileDebugAidl
+:lemniscate:compileDebugRenderscript
+:lemniscate:checkDebugManifest
+:lemniscate:generateDebugBuildConfig
+:lemniscate:generateDebugResValues
+:lemniscate:generateDebugResources
+:lemniscate:packageDebugResources
+:lemniscate:platformAttrExtractor
+:lemniscate:processDebugManifest
+:lemniscate:prepareLintJar
+:lemniscate:mergeDebugConsumerProguardFiles
+:lemniscate:mergeDebugShaders
+:lemniscate:compileDebugShaders
+:lemniscate:generateDebugAssets
+:lemniscate:packageDebugAssets
+:lemniscate:packageDebugRenderscript NO-SOURCE
+:lemniscate:processDebugJavaRes NO-SOURCE
+:lemniscate:compileDebugNdk NO-SOURCE
+:lemniscate:mergeDebugJniLibFolders
+:lemniscate:transformNativeLibsWithMergeJniLibsForDebug
+:lemniscate:transformNativeLibsWithStripDebugSymbolForDebug
+:lemniscate:transformNativeLibsWithSyncJniLibsForDebug
+:lemniscate:mergeDebugResources
+:lemniscate:preReleaseBuild UP-TO-DATE
+:lemniscate:compileReleaseAidl
+:lemniscate:compileReleaseRenderscript
+:lemniscate:checkReleaseManifest
+:lemniscate:generateReleaseBuildConfig
+:lemniscate:generateReleaseResValues
+:lemniscate:generateReleaseResources
+:lemniscate:packageReleaseResources
+:lemniscate:processReleaseManifest
+:lemniscate:mergeReleaseConsumerProguardFiles
+:lemniscate:mergeReleaseShaders
+:lemniscate:compileReleaseShaders
+:lemniscate:generateReleaseAssets
+:lemniscate:packageReleaseAssets
+:lemniscate:packageReleaseRenderscript NO-SOURCE
+:lemniscate:processReleaseJavaRes NO-SOURCE
+:lemniscate:compileReleaseNdk NO-SOURCE
+:lemniscate:mergeReleaseJniLibFolders
+:lemniscate:transformNativeLibsWithMergeJniLibsForRelease
+:lemniscate:transformNativeLibsWithStripDebugSymbolForRelease
+:lemniscate:transformNativeLibsWithSyncJniLibsForRelease
+:lemniscate:mergeReleaseResources
+:lemniscate:verifyReleaseResources
+:lemniscate:generateDebugRFile
+:lemniscate:compileDebugKotlin
+:lemniscate:generateDebugSources
+:lemniscate:javaPreCompileDebug
+:lemniscate:compileDebugJavaWithJavac
+:lemniscate:extractDebugAnnotations
+:lemniscate:transformClassesWithJacocoForDebug
+:lemniscate:transformResourcesWithMergeJavaResForDebug
+:lemniscate:transformClassesAndResourcesWithSyncLibJarsForDebug
+:lemniscate:bundleDebug
+:lemniscate:compileDebugSources
+:lemniscate:assembleDebug
+:lemniscate:generateReleaseRFile
+:lemniscate:compileReleaseKotlin
+:lemniscate:generateReleaseSources
+:lemniscate:javaPreCompileRelease
+:lemniscate:compileReleaseJavaWithJavac
+:lemniscate:extractReleaseAnnotations
+:lemniscate:transformResourcesWithMergeJavaResForRelease
+:lemniscate:transformClassesAndResourcesWithSyncLibJarsForRelease
+:lemniscate:bundleRelease
+:lemniscate:compileReleaseSources
+:lemniscate:assembleRelease
+:lemniscate:assemble
+:lemniscate:build
+
+BUILD SUCCESSFUL in 32s
+52 actionable tasks: 52 executed
+
+2018-09-21 11:03:24,621 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-21 11:03:24,621 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502558259-0/src/Lemniscate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502558259-0/src/Lemniscate-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-21 11:03:31,111 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-09-21 11:03:31,112 INFO  ProjectTaskService - Excluded tasks (20): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-21 11:03:31,112 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502558259-0/src/Lemniscate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502558259-0/src/Lemniscate-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-21 11:04:17,958 INFO  SysUtils - /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502558259-0/src/Lemniscate-master/gradlew: line 88: [: too many arguments
+Configuration on demand is an incubating feature.
+:lemniscate:preBuild UP-TO-DATE
+:lemniscate:preDebugBuild UP-TO-DATE
+:lemniscate:compileDebugAidl UP-TO-DATE
+:lemniscate:compileDebugRenderscript UP-TO-DATE
+:lemniscate:checkDebugManifest UP-TO-DATE
+:lemniscate:generateDebugBuildConfig UP-TO-DATE
+:lemniscate:generateDebugResValues UP-TO-DATE
+:lemniscate:generateDebugResources UP-TO-DATE
+:lemniscate:packageDebugResources UP-TO-DATE
+:lemniscate:platformAttrExtractor UP-TO-DATE
+:lemniscate:processDebugManifest UP-TO-DATE
+:lemniscate:generateDebugRFile UP-TO-DATE
+:lemniscate:compileDebugKotlin UP-TO-DATE
+:lemniscate:prepareLintJar UP-TO-DATE
+:lemniscate:generateDebugSources UP-TO-DATE
+:lemniscate:javaPreCompileDebug UP-TO-DATE
+:lemniscate:compileDebugJavaWithJavac UP-TO-DATE
+:lemniscate:processDebugJavaRes NO-SOURCE
+:lemniscate:transformClassesWithJacocoForDebug UP-TO-DATE
+:lemniscate:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild
+:sample:compileDebugAidl
+:lemniscate:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:mainApkListPersistenceDebug
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:sample:processDebugResources
+:sample:compileDebugKotlin
+:sample:prepareLintJar
+:sample:generateDebugSources
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:lemniscate:mergeDebugShaders UP-TO-DATE
+:lemniscate:compileDebugShaders UP-TO-DATE
+:lemniscate:generateDebugAssets UP-TO-DATE
+:lemniscate:packageDebugAssets UP-TO-DATE
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithJacocoForDebug
+:sample:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 2 methods.
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:lemniscate:compileDebugNdk NO-SOURCE
+:lemniscate:mergeDebugJniLibFolders UP-TO-DATE
+:lemniscate:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:lemniscate:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:lemniscate:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:lemniscate:preReleaseBuild UP-TO-DATE
+:lemniscate:compileReleaseAidl UP-TO-DATE
+:lemniscate:compileReleaseRenderscript UP-TO-DATE
+:lemniscate:checkReleaseManifest UP-TO-DATE
+:lemniscate:generateReleaseBuildConfig UP-TO-DATE
+:lemniscate:generateReleaseResValues UP-TO-DATE
+:lemniscate:generateReleaseResources UP-TO-DATE
+:lemniscate:packageReleaseResources UP-TO-DATE
+:lemniscate:processReleaseManifest UP-TO-DATE
+:lemniscate:generateReleaseRFile UP-TO-DATE
+:lemniscate:compileReleaseKotlin UP-TO-DATE
+:lemniscate:generateReleaseSources UP-TO-DATE
+:lemniscate:javaPreCompileRelease UP-TO-DATE
+:lemniscate:compileReleaseJavaWithJavac UP-TO-DATE
+:lemniscate:processReleaseJavaRes NO-SOURCE
+:lemniscate:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:preReleaseBuild
+:sample:compileReleaseAidl
+:lemniscate:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:mainApkListPersistenceRelease
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:sample:processReleaseResources
+:sample:compileReleaseKotlin
+:sample:generateReleaseSources
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+Download https://jcenter.bintray.com/org/mockito/mockito-core/2.17.0/mockito-core-2.17.0.pom
+Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-agent/1.8.0/byte-buddy-agent-1.8.0.pom
+Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy/1.8.0/byte-buddy-1.8.0.pom
+Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-parent/1.8.0/byte-buddy-parent-1.8.0.pom
+Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-agent/1.8.0/byte-buddy-agent-1.8.0.jar
+Download https://jcenter.bintray.com/org/mockito/mockito-core/2.17.0/mockito-core-2.17.0.jar
+Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy/1.8.0/byte-buddy-1.8.0.jar
+:lemniscate:mergeReleaseShaders UP-TO-DATE
+:lemniscate:compileReleaseShaders UP-TO-DATE
+:lemniscate:generateReleaseAssets UP-TO-DATE
+:lemniscate:packageReleaseAssets UP-TO-DATE
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexBuilderForRelease
+:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sample:transformDexArchiveWithDexMergerForRelease
+:lemniscate:compileReleaseNdk NO-SOURCE
+:lemniscate:mergeReleaseJniLibFolders UP-TO-DATE
+:lemniscate:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:lemniscate:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:lemniscate:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 46s
+97 actionable tasks: 60 executed, 37 up-to-date
+
+2018-09-21 11:04:18,129 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502558259-0/src/Lemniscate-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

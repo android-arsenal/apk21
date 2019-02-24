@@ -1,0 +1,21 @@
+2019-01-08 01:08:58,964 INFO  DownloadService - Downloading "https://github.com/jqno/equalsverifier/archive/master.zip", attempt 3
+2019-01-08 01:09:59,853 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-01-08 01:10:01,211 INFO  GithubDownloadService - Default branch of this repository: master
+2019-01-08 01:10:01,211 INFO  DownloadService - Downloading "https://github.com/jqno/equalsverifier/archive/master.zip", attempt 3
+2019-01-08 01:11:02,768 DEBUG FullProcessService - Repository https://github.com/jqno/equalsverifier available: true
+2019-01-08 01:11:02,768 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-01-08 01:11:02,768 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/jqno/equalsverifier, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546884538956-0/src]
+2019-01-08 01:11:05,877 INFO  SysUtils - 
+2019-01-08 01:11:05,887 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546884538956-0/src/.git": true
+2019-01-08 01:11:05,897 INFO  FullProcessService - Size of directory with sources: 968 KB
+2019-01-08 01:11:05,897 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546884538956-0/src]
+2019-01-08 01:11:05,915 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546884538956-0/src/.git/
+
+2019-01-08 01:11:05,922 INFO  ProjectBuildService - Gradle wrapper(s): none
+2019-01-08 01:11:05,922 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2019-01-08 01:11:05,929 INFO  ProjectBuildService - Build script(s): none
+2019-01-08 01:11:05,936 INFO  ProjectBuildService - All script(s): none
+2019-01-08 01:11:05,936 INFO  ProjectBuildService - Remote scripts: none
+2019-01-08 01:11:05,936 ERROR FullProcessService - Project is not correct Gradle project
+2019-01-08 01:11:05,936 ERROR FullProcessService - Project build has not produced APK file
+2019-01-08 01:11:05,942 ERROR FullProcessService - Could not find generated or existed APK file

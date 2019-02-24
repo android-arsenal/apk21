@@ -1,0 +1,12 @@
+2018-09-22 17:58:48,490 INFO  DownloadService - Downloading "https://github.com/pkarira/swipper/archive/master.zip", attempt 3
+2018-09-22 18:01:16,355 INFO  DownloadService - Downloaded https://github.com/pkarira/swipper/archive/master.zip, attempt 3
+2018-09-22 18:01:16,356 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613928482-0/master.zip": 66 MB
+2018-09-22 18:01:16,356 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-22 18:01:16,363 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613928482-0/master.zip: true
+2018-09-22 18:01:16,363 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613928482-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613928482-0/src'.
+2018-09-22 18:01:16,949 INFO  FullProcessService - Size of directory with sources: 68 MB
+2018-09-22 18:01:16,949 ERROR FullProcessService - Source directory should be less than 50 MB
+2018-09-22 18:01:16,949 ERROR FullProcessService - Project will not be processed
+2018-09-22 18:01:16,949 ERROR FullProcessService - Project build has not produced APK file
+2018-09-22 18:01:16,952 INFO  FullProcessService - Found existed APK file in the project: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613928482-0/src/Swipper-master/app/src/app-debug.apk_export_vuRNB/vendor/chromium/crx/app-debug.apk
+2018-09-22 18:01:16,952 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537613928482-0/src/Swipper-master/app/src/app-debug.apk_export_vuRNB/vendor/chromium/crx/app-debug.apk

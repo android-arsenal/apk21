@@ -1,0 +1,184 @@
+2018-09-17 13:46:59,955 INFO  DownloadService - Downloading "https://github.com/kevelbreh/androidunits/archive/master.zip", attempt 3
+2018-09-17 13:47:00,447 INFO  DownloadService - Downloaded https://github.com/kevelbreh/androidunits/archive/master.zip, attempt 3
+2018-09-17 13:47:00,447 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166819948-0/master.zip": 59 KB
+2018-09-17 13:47:00,447 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-17 13:47:00,453 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166819948-0/master.zip: true
+2018-09-17 13:47:00,453 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166819948-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166819948-0/src'.
+2018-09-17 13:47:00,461 INFO  FullProcessService - Size of directory with sources: 67 KB
+2018-09-17 13:47:00,461 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166819948-0/src]
+2018-09-17 13:47:00,479 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166819948-0/src/.git/
+
+2018-09-17 13:47:00,481 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166819948-0/src/androidunits-master/gradlew
+2018-09-17 13:47:00,483 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166819948-0/src/androidunits-master/androidunits/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166819948-0/src/androidunits-master/build.gradle
+2018-09-17 13:47:00,484 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166819948-0/src/androidunits-master/androidunits/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166819948-0/src/androidunits-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166819948-0/src/androidunits-master/settings.gradle
+2018-09-17 13:47:00,484 INFO  ProjectBuildService - Remote scripts: none
+2018-09-17 13:47:00,484 INFO  ProjectFixService - Fixing project...
+2018-09-17 13:47:00,489 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166819948-0/src/androidunits-master/androidunits/local.properties
+2018-09-17 13:47:00,489 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166819948-0/src/androidunits-master/androidunits/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=26,minSdkVersion=9,targetSdkVersion=<null>]
+2018-09-17 13:47:00,489 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166819948-0/src/androidunits-master/androidunits/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=26,minSdkVersion=9,targetSdkVersion=28]
+2018-09-17 13:47:00,490 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166819948-0/src/androidunits-master/local.properties
+2018-09-17 13:47:00,490 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2018-09-17 13:47:00,490 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2018-09-17 13:47:00,491 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166819948-0/src/androidunits-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=26,minSdkVersion=9,targetSdkVersion=<null>]
+2018-09-17 13:47:00,491 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166819948-0/src/androidunits-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=26,minSdkVersion=9,targetSdkVersion=28]
+2018-09-17 13:47:00,492 INFO  ProjectFixService - Project was maybe fixed
+2018-09-17 13:47:00,492 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-17 13:47:00,492 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166819948-0/src/androidunits-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166819948-0/src/androidunits-master/androidunits/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-17 13:47:06,689 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-09-17 13:47:06,689 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-17 13:47:06,690 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166819948-0/src/androidunits-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166819948-0/src/androidunits-master/androidunits/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-17 13:47:13,487 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:androidunits:preBuild UP-TO-DATE
+:androidunits:preDebugBuild UP-TO-DATE
+:androidunits:checkDebugManifest
+:androidunits:prepareDebugDependencies
+:androidunits:compileDebugAidl
+:androidunits:compileDebugNdk UP-TO-DATE
+:androidunits:compileLint
+:androidunits:copyDebugLint UP-TO-DATE
+:androidunits:mergeDebugShaders
+:androidunits:compileDebugShaders
+:androidunits:generateDebugAssets
+:androidunits:mergeDebugAssets
+:androidunits:mergeDebugProguardFiles
+:androidunits:packageDebugRenderscript UP-TO-DATE
+:androidunits:compileDebugRenderscript
+:androidunits:generateDebugResValues
+:androidunits:generateDebugResources
+:androidunits:packageDebugResources
+:androidunits:processDebugManifest
+:androidunits:generateDebugBuildConfig
+:androidunits:processDebugResources
+:androidunits:generateDebugSources
+:androidunits:incrementalDebugJavaCompilationSafeguard
+:androidunits:compileDebugJavaWithJavac
+:androidunits:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:androidunits:processDebugJavaRes UP-TO-DATE
+:androidunits:transformResourcesWithMergeJavaResForDebug
+:androidunits:transformClassesAndResourcesWithSyncLibJarsForDebug
+:androidunits:mergeDebugJniLibFolders
+:androidunits:transformNative_libsWithMergeJniLibsForDebug
+:androidunits:transformNative_libsWithSyncJniLibsForDebug
+:androidunits:bundleDebug
+:androidunits:compileDebugSources
+:androidunits:assembleDebug
+:androidunits:preReleaseBuild UP-TO-DATE
+:androidunits:checkReleaseManifest
+:androidunits:prepareReleaseDependencies
+:androidunits:compileReleaseAidl
+:androidunits:compileReleaseNdk UP-TO-DATE
+:androidunits:copyReleaseLint UP-TO-DATE
+:androidunits:mergeReleaseShaders
+:androidunits:compileReleaseShaders
+:androidunits:generateReleaseAssets
+:androidunits:mergeReleaseAssets
+:androidunits:mergeReleaseProguardFiles
+:androidunits:packageReleaseRenderscript UP-TO-DATE
+:androidunits:compileReleaseRenderscript
+:androidunits:generateReleaseResValues
+:androidunits:generateReleaseResources
+:androidunits:packageReleaseResources
+:androidunits:processReleaseManifest
+:androidunits:generateReleaseBuildConfig
+:androidunits:processReleaseResources
+:androidunits:generateReleaseSources
+:androidunits:incrementalReleaseJavaCompilationSafeguard
+:androidunits:compileReleaseJavaWithJavac
+:androidunits:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:androidunits:processReleaseJavaRes UP-TO-DATE
+:androidunits:transformResourcesWithMergeJavaResForRelease
+:androidunits:transformClassesAndResourcesWithSyncLibJarsForRelease
+:androidunits:mergeReleaseJniLibFolders
+:androidunits:transformNative_libsWithMergeJniLibsForRelease
+:androidunits:transformNative_libsWithSyncJniLibsForRelease
+:androidunits:bundleRelease
+:androidunits:compileReleaseSources
+:androidunits:assembleRelease
+:androidunits:assemble
+:androidunits:build
+
+BUILD SUCCESSFUL
+
+Total time: 6.213 secs
+
+2018-09-17 13:47:13,495 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-17 13:47:13,495 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166819948-0/src/androidunits-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166819948-0/src/androidunits-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-17 13:47:19,588 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-09-17 13:47:19,589 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-17 13:47:19,589 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166819948-0/src/androidunits-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166819948-0/src/androidunits-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-17 13:47:25,618 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:androidunits:preBuild UP-TO-DATE
+:androidunits:preDebugBuild UP-TO-DATE
+:androidunits:checkDebugManifest
+:androidunits:prepareDebugDependencies
+:androidunits:compileDebugAidl UP-TO-DATE
+:androidunits:compileDebugNdk UP-TO-DATE
+:androidunits:compileLint UP-TO-DATE
+:androidunits:copyDebugLint UP-TO-DATE
+:androidunits:mergeDebugShaders UP-TO-DATE
+:androidunits:compileDebugShaders UP-TO-DATE
+:androidunits:generateDebugAssets UP-TO-DATE
+:androidunits:mergeDebugAssets UP-TO-DATE
+:androidunits:mergeDebugProguardFiles UP-TO-DATE
+:androidunits:packageDebugRenderscript UP-TO-DATE
+:androidunits:compileDebugRenderscript UP-TO-DATE
+:androidunits:generateDebugResValues UP-TO-DATE
+:androidunits:generateDebugResources UP-TO-DATE
+:androidunits:packageDebugResources UP-TO-DATE
+:androidunits:processDebugManifest UP-TO-DATE
+:androidunits:generateDebugBuildConfig UP-TO-DATE
+:androidunits:processDebugResources UP-TO-DATE
+:androidunits:generateDebugSources UP-TO-DATE
+:androidunits:incrementalDebugJavaCompilationSafeguard UP-TO-DATE
+:androidunits:compileDebugJavaWithJavac UP-TO-DATE
+:androidunits:processDebugJavaRes UP-TO-DATE
+:androidunits:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:androidunits:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:androidunits:mergeDebugJniLibFolders UP-TO-DATE
+:androidunits:transformNative_libsWithMergeJniLibsForDebug UP-TO-DATE
+:androidunits:transformNative_libsWithSyncJniLibsForDebug UP-TO-DATE
+:androidunits:bundleDebug UP-TO-DATE
+:androidunits:compileDebugSources UP-TO-DATE
+:androidunits:assembleDebug UP-TO-DATE
+:androidunits:preReleaseBuild UP-TO-DATE
+:androidunits:checkReleaseManifest
+:androidunits:prepareReleaseDependencies
+:androidunits:compileReleaseAidl UP-TO-DATE
+:androidunits:compileReleaseNdk UP-TO-DATE
+:androidunits:copyReleaseLint UP-TO-DATE
+:androidunits:mergeReleaseShaders UP-TO-DATE
+:androidunits:compileReleaseShaders UP-TO-DATE
+:androidunits:generateReleaseAssets UP-TO-DATE
+:androidunits:mergeReleaseAssets UP-TO-DATE
+:androidunits:mergeReleaseProguardFiles UP-TO-DATE
+:androidunits:packageReleaseRenderscript UP-TO-DATE
+:androidunits:compileReleaseRenderscript UP-TO-DATE
+:androidunits:generateReleaseResValues UP-TO-DATE
+:androidunits:generateReleaseResources UP-TO-DATE
+:androidunits:packageReleaseResources UP-TO-DATE
+:androidunits:processReleaseManifest UP-TO-DATE
+:androidunits:generateReleaseBuildConfig UP-TO-DATE
+:androidunits:processReleaseResources UP-TO-DATE
+:androidunits:generateReleaseSources UP-TO-DATE
+:androidunits:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:androidunits:compileReleaseJavaWithJavac UP-TO-DATE
+:androidunits:processReleaseJavaRes UP-TO-DATE
+:androidunits:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:androidunits:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:androidunits:mergeReleaseJniLibFolders UP-TO-DATE
+:androidunits:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:androidunits:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:androidunits:bundleRelease UP-TO-DATE
+:androidunits:compileReleaseSources UP-TO-DATE
+:androidunits:assembleRelease UP-TO-DATE
+:androidunits:assemble UP-TO-DATE
+:androidunits:build
+
+BUILD SUCCESSFUL
+
+Total time: 5.445 secs
+
+2018-09-17 13:47:25,626 ERROR FullProcessService - Project build has not produced APK file
+2018-09-17 13:47:25,634 ERROR FullProcessService - Could not find generated or existed APK file

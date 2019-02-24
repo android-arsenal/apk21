@@ -1,0 +1,247 @@
+2018-12-12 20:03:37,183 INFO  DownloadService - Downloading "https://github.com/andremion/CounterFab/archive/master.zip", attempt 3
+2018-12-12 20:03:40,154 INFO  DownloadService - Downloaded https://github.com/andremion/CounterFab/archive/master.zip, attempt 3
+2018-12-12 20:03:40,155 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619817175-0/master.zip": 1 MB
+2018-12-12 20:03:40,155 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-12 20:03:40,161 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619817175-0/master.zip: true
+2018-12-12 20:03:40,161 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619817175-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619817175-0/src'.
+2018-12-12 20:03:40,193 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-12-12 20:03:40,193 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619817175-0/src]
+2018-12-12 20:03:40,216 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619817175-0/src/.git/
+
+2018-12-12 20:03:40,219 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619817175-0/src/CounterFab-master/gradlew
+2018-12-12 20:03:40,224 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619817175-0/src/CounterFab-master/counterfab/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619817175-0/src/CounterFab-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619817175-0/src/CounterFab-master/build.gradle
+2018-12-12 20:03:40,227 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619817175-0/src/CounterFab-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619817175-0/src/CounterFab-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619817175-0/src/CounterFab-master/counterfab/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619817175-0/src/CounterFab-master/settings.gradle
+2018-12-12 20:03:40,228 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/andremion/JCenter/master/deploy.gradle", attempt 3
+2018-12-12 20:03:40,496 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/andremion/JCenter/master/deploy.gradle, attempt 3
+2018-12-12 20:03:40,497 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/andremion/JCenter/master/deploy.gradle
+2018-12-12 20:03:40,497 INFO  ProjectFixService - Fixing project...
+2018-12-12 20:03:40,509 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619817175-0/src/CounterFab-master/counterfab/local.properties
+2018-12-12 20:03:40,510 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619817175-0/src/CounterFab-master/counterfab/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-12-12 20:03:40,510 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619817175-0/src/CounterFab-master/counterfab/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-12-12 20:03:40,511 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619817175-0/src/CounterFab-master/sample/local.properties
+2018-12-12 20:03:40,516 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619817175-0/src/CounterFab-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-12-12 20:03:40,516 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619817175-0/src/CounterFab-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-12-12 20:03:40,517 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619817175-0/src/CounterFab-master/local.properties
+2018-12-12 20:03:40,518 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-12-12 20:03:40,518 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-12-12 20:03:40,519 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619817175-0/src/CounterFab-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-12-12 20:03:40,519 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619817175-0/src/CounterFab-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-12-12 20:03:40,520 INFO  ProjectFixService - Project was maybe fixed
+2018-12-12 20:03:40,520 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-12 20:03:40,520 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619817175-0/src/CounterFab-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619817175-0/src/CounterFab-master/counterfab/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-12 20:03:52,743 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-12-12 20:03:52,743 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-12-12 20:03:52,744 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619817175-0/src/CounterFab-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619817175-0/src/CounterFab-master/counterfab/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-12-12 20:04:06,349 INFO  SysUtils - Configuration on demand is an incubating feature.
+:counterfab:preBuild UP-TO-DATE
+:counterfab:preDebugBuild UP-TO-DATE
+:counterfab:compileDebugAidl NO-SOURCE
+:counterfab:compileDebugRenderscript
+:counterfab:checkDebugManifest
+:counterfab:generateDebugBuildConfig
+:counterfab:generateDebugResValues
+:counterfab:generateDebugResources
+:counterfab:packageDebugResources
+:counterfab:processDebugManifest
+:counterfab:generateDebugRFile
+:counterfab:prepareLintJar
+:counterfab:generateDebugSources
+:counterfab:javaPreCompileDebug
+:counterfab:compileDebugJavaWithJavac
+:counterfab:extractDebugAnnotations
+:counterfab:mergeDebugConsumerProguardFiles
+:counterfab:mergeDebugShaders
+:counterfab:compileDebugShaders
+:counterfab:generateDebugAssets
+:counterfab:packageDebugAssets
+:counterfab:packageDebugRenderscript NO-SOURCE
+:counterfab:processDebugJavaRes NO-SOURCE
+:counterfab:transformResourcesWithMergeJavaResForDebug
+:counterfab:transformClassesAndResourcesWithSyncLibJarsForDebug
+:counterfab:compileDebugNdk NO-SOURCE
+:counterfab:mergeDebugJniLibFolders
+:counterfab:transformNativeLibsWithMergeJniLibsForDebug
+:counterfab:transformNativeLibsWithStripDebugSymbolForDebug
+:counterfab:transformNativeLibsWithSyncJniLibsForDebug
+:counterfab:bundleDebugAar
+:counterfab:compileDebugSources
+:counterfab:assembleDebug
+:counterfab:preReleaseBuild UP-TO-DATE
+:counterfab:compileReleaseAidl NO-SOURCE
+:counterfab:compileReleaseRenderscript
+:counterfab:checkReleaseManifest
+:counterfab:generateReleaseBuildConfig
+:counterfab:generateReleaseResValues
+:counterfab:generateReleaseResources
+:counterfab:packageReleaseResources
+:counterfab:processReleaseManifest
+:counterfab:generateReleaseRFile
+:counterfab:generateReleaseSources
+:counterfab:javaPreCompileRelease
+:counterfab:compileReleaseJavaWithJavac
+:counterfab:extractReleaseAnnotations
+:counterfab:mergeReleaseConsumerProguardFiles
+:counterfab:mergeReleaseShaders
+:counterfab:compileReleaseShaders
+:counterfab:generateReleaseAssets
+:counterfab:packageReleaseAssets
+:counterfab:packageReleaseRenderscript NO-SOURCE
+:counterfab:processReleaseJavaRes NO-SOURCE
+:counterfab:transformResourcesWithMergeJavaResForRelease
+:counterfab:transformClassesAndResourcesWithSyncLibJarsForRelease
+:counterfab:compileReleaseNdk NO-SOURCE
+:counterfab:mergeReleaseJniLibFolders
+:counterfab:transformNativeLibsWithMergeJniLibsForRelease
+:counterfab:transformNativeLibsWithStripDebugSymbolForRelease
+:counterfab:transformNativeLibsWithSyncJniLibsForRelease
+:counterfab:bundleReleaseAar
+:counterfab:compileReleaseSources
+:counterfab:mergeReleaseResources
+:counterfab:verifyReleaseResources
+:counterfab:assembleRelease
+:counterfab:assemble
+:counterfab:build
+
+BUILD SUCCESSFUL in 13s
+45 actionable tasks: 45 executed
+
+2018-12-12 20:04:06,402 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-12 20:04:06,402 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619817175-0/src/CounterFab-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619817175-0/src/CounterFab-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-12 20:04:13,638 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-12-12 20:04:13,638 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-12 20:04:13,639 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619817175-0/src/CounterFab-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619817175-0/src/CounterFab-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-12 20:04:41,931 INFO  SysUtils - Configuration on demand is an incubating feature.
+:counterfab:preBuild UP-TO-DATE
+:counterfab:preDebugBuild UP-TO-DATE
+:counterfab:compileDebugAidl NO-SOURCE
+:counterfab:compileDebugRenderscript UP-TO-DATE
+:counterfab:checkDebugManifest UP-TO-DATE
+:counterfab:generateDebugBuildConfig UP-TO-DATE
+:counterfab:generateDebugResValues UP-TO-DATE
+:counterfab:generateDebugResources UP-TO-DATE
+:counterfab:packageDebugResources UP-TO-DATE
+:counterfab:processDebugManifest UP-TO-DATE
+:counterfab:generateDebugRFile UP-TO-DATE
+:counterfab:prepareLintJar UP-TO-DATE
+:counterfab:generateDebugSources UP-TO-DATE
+:counterfab:javaPreCompileDebug UP-TO-DATE
+:counterfab:compileDebugJavaWithJavac UP-TO-DATE
+:counterfab:processDebugJavaRes NO-SOURCE
+:counterfab:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:checkDebugClasspath
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild
+:sample:compileDebugAidl NO-SOURCE
+:counterfab:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:prepareLintJar
+:sample:mainApkListPersistenceDebug
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:counterfab:mergeDebugShaders UP-TO-DATE
+:counterfab:compileDebugShaders UP-TO-DATE
+:counterfab:generateDebugAssets UP-TO-DATE
+:counterfab:packageDebugAssets UP-TO-DATE
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:counterfab:compileDebugNdk NO-SOURCE
+:counterfab:mergeDebugJniLibFolders UP-TO-DATE
+:counterfab:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:counterfab:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:counterfab:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:checkDebugLibraries
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:counterfab:preReleaseBuild UP-TO-DATE
+:counterfab:compileReleaseAidl NO-SOURCE
+:counterfab:compileReleaseRenderscript UP-TO-DATE
+:counterfab:checkReleaseManifest UP-TO-DATE
+:counterfab:generateReleaseBuildConfig UP-TO-DATE
+:counterfab:generateReleaseResValues UP-TO-DATE
+:counterfab:generateReleaseResources UP-TO-DATE
+:counterfab:packageReleaseResources UP-TO-DATE
+:counterfab:processReleaseManifest UP-TO-DATE
+:counterfab:generateReleaseRFile UP-TO-DATE
+:counterfab:generateReleaseSources UP-TO-DATE
+:counterfab:javaPreCompileRelease UP-TO-DATE
+:counterfab:compileReleaseJavaWithJavac UP-TO-DATE
+:counterfab:processReleaseJavaRes NO-SOURCE
+:counterfab:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:checkReleaseClasspath
+:sample:preReleaseBuild
+:sample:compileReleaseAidl NO-SOURCE
+:counterfab:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:mainApkListPersistenceRelease
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-core/maven-metadata.xml
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-core/2.2.2/espresso-core-2.2.2.pom
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/dcbfc18cf7bd319d2a2d0aaf4bb443aa/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
+:counterfab:mergeReleaseShaders UP-TO-DATE
+:counterfab:compileReleaseShaders UP-TO-DATE
+:counterfab:generateReleaseAssets UP-TO-DATE
+:counterfab:packageReleaseAssets UP-TO-DATE
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexBuilderForRelease
+:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sample:transformDexArchiveWithDexMergerForRelease
+:counterfab:compileReleaseNdk NO-SOURCE
+:counterfab:mergeReleaseJniLibFolders UP-TO-DATE
+:counterfab:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:counterfab:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:counterfab:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:checkReleaseLibraries
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 27s
+90 actionable tasks: 59 executed, 31 up-to-date
+
+2018-12-12 20:04:42,054 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619817175-0/src/CounterFab-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

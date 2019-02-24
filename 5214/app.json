@@ -1,0 +1,34 @@
+{
+  "meta" : {
+    "packageName" : "io.github.rakshakhegde.lastpageradaptersample",
+    "label" : "LastPagerAdapter",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "9",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAABuVBMVEUAAAAAAAAAAACfQEDeWFDgVEvdRz3cTELaUknYRDoAAADdTELbPzQAAAAAAAAAAADuRjnuQjUAAADNOi/NNywAAAAAAAAcBwe/NyzjQTTjPjG/NCkAAAAAAAAAAAAAAAAAAAAAAAAAAADgVErgVEngU0nfU0nfUkjfUUffUEffUEbfUEXfT0XfTkXfTkTfTUPeTUPeTELeS0HeSkHeSkDeST/eSD7dRz3fS0DeRz3eRzzeRjzeRTveRDrdRDndQzjdQjfdQTfdQTbdQDXdPzTcPjPcPTLcPDHeTkPeYFjfamLeW1LeVErlycbinpnkvbvn5+fjrKjkyMXn5ubkvbrm5ubgbWTm4eDin5rgcmvm4ODinZjirKjm4N/gcmriq6jjvLrfcWninJfjvLniq6ffcGjdQjjfcWj1TD/0Sz/0Sj70Sj30STz2dmz+9vX////6s670ST30Rzr0Rjn80M37vrn0RDj0RDf0Qzb2dWz6tK/+9fT0SDz0RTj2dmv//v72cWf7vbn0Rzv1Wk783936s631WU784d76sq30SDv0UUX2aF73dWv1Y1jnQjbnQTXnQDXnQDTnPzMZKm2XAAAAI3RSTlMAAQIIk+/vk5aVCfHwCA8R8vENoqIMBCSo8/OoHCswMQMHCgDbzA8AAAJfSURBVEjH7dVZV9NAGIdxWlyjgiu4AIIiIKAVaFObpC1rUdyCWBFRVNxqG42m2gYMorgrrp/Yd+adSYa01d54x/+S83uSSXIOralZ3/9aIBCsYoEA47UbNh5tbz/W0dHZ2dV1vLu7p6e398TJUCh0qq+vv39gIByORGQ5Go1u2lxLfHDLaVgY/yzHYoqiqpoWjycSyeTg4NDQ8PDIyOjoGCyV2hqEQNpGuef/EmzfAUFdGDl69wZlg/E6COqRC953Ax6kIKgnQSQi+DO+G5ydmDjn3cANZJn58xcurj3QJV2f9Acy5+Av61NQEM+CK3p6knsxoFxRrk7r+tQ18QnEYJwFsRjjcPyZ61DMMk+DdPpGuUBBr2ozN0kBnr0iGrgeA0XhHJ5Xm5vGgngMbo2VCVTG4f3M0VPxb3abBSkhUFXOiY8n7pBTzbNvdjedvufdwAs0l8Pz3od76LMP6DdmQUoMNM3l+P6TD+E59HniWcA9BplM5hEuC8vlcsbjJ6ZpPn1mWVb+uWm+KBSKRRtHA0FTbiwQv0g9BsXSIMs58S/d62PgeQyyngaO51l00C9hYJcEOc6NV+CX+fWXygY5TxsOOY/gCzSwSwID5zgL9PqO62lg+wJXO85r4sn5KQdPgjelgcO28vadufzeEHyxXMA12YePnz4Tzn2FYIXPsr44jKMvfl1d/eYPXGzhswpceD9rAosv/w+PwU4BU12R27tIsHtP3h3nFby9dx8EDY37D3yn+0H3E/YL9rtkBw81NpD/91JTc8vhKtbS3CThL0prm3Skikltres/1lXuD6eEAZbeqyoKAAAAAElFTkSuQmCC",
+    "file" : true
+  },
+  "dexClasses" : 2720,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"io.github.rakshakhegde.lastpageradaptersample\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"9\" android:targetSdkVersion=\"25\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.3.1\" />\n\t<application android:theme=\"resourceId:0x7f0800a3\" android:label=\"LastPagerAdapter\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"io.github.rakshakhegde.lastpageradaptersample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 2029758,
+  "crc32" : 166074772,
+  "sha256" : "56f6900dcba4d87e946f4ae872e594402b79b4d00b92dccf51d0e8463716b533",
+  "buildTime" : 1537166623000
+}

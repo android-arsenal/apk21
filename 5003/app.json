@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.example.blockcanary",
+    "label" : "BlockCanary",
+    "icon" : "res/mipmap-xxhdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "9",
+    "targetSdkVersion" : "22",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-xxhdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 2011,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "zh", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.example.blockcanary\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"9\" android:targetSdkVersion=\"22\" />\n\t<application android:theme=\"resourceId:0x7f0800c5\" android:label=\"BlockCanary\" android:icon=\"res/mipmap-xxhdpi-v4/ic_launcher.png\" android:name=\"com.example.blockcanary.DemoApplication\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"BlockCanary\" android:name=\"com.example.blockcanary.DemoActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1569632,
+  "crc32" : 769962044,
+  "sha256" : "6eb6670e962f6a12eb8b5dae8dafae3948562df9f48add98753b10e44bf571b9",
+  "buildTime" : 1521932898000
+}

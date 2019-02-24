@@ -1,0 +1,34 @@
+{
+  "meta" : {
+    "packageName" : "io.github.lamtran.moviebooking",
+    "label" : "Movie Booking",
+    "icon" : "res/mipmap-anydpi-v21/ic_launcher.xml",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAADwElEQVR42u2Za0iTURjHT85KK6yoL4UZSUW4ZlAQFQRdRAqKrgZRVEYXP0RhgnOauS52k0K6zuyqWGalaNCFyLlNy9J5Sy2LSktxupxzTd2m8vScMzUn01bY3gXvgT+v5z3ncP6/c57nvMNDCF9cuQSlCYhU7s6pqIc/LlJwY3KV8kd++naUvJ5AxLk+JEoxhRPRuakHe94GNS8tHEUkqssoDZEom7gV83CZefotRE+jWCHDQUAiFK6jg08T0dmwgQF6kiVMPpFE5DRaByrNqC6OZWaLGfZUS7YmTLLxarv6mPG07E2ZQcLlzd0AXdyvPnpgAM/0JOiEn41XuwDbLs7EHdC5JMCGaKFjAK66A+siZ/MAPAAPwAPwADzAkACsuFEG90oa4Hh2NXhGq2zaRh5SQeSzz6x9Y0oFezf/UhGkFGnYO6pUlCy/DjbfrYRR/cY7BWBf1kfo6OyC5jYLTI97Y9PmcyofvjW3Y3snxDz/wt6tTS4HPfZNQNOxCH1SXgPJag1oDCY4+qKaGwBdqwU+fW+FkIwPNm2b7lQyYzW6NhuABnznd66gt58AjcVm10BTqxkEkUrnA2iNZohXfYPMcm1vGA1HI3Rlk9T1UNlgHBTATaIA8ZNPUNdi4g5g5c0ytgvT4173hs/b+h8stvsD6HClD2N998Mq2JtRxVafjg2+/56bEKIAE4+9hAqNEXY+sJpYh0Y/aFthKoL0BzCaOqCo1gB51Xqm99hep2+HXQjEGcCYw7kQl/MVMjCMPPD0oaFzFRPVKybXbgiJ4gvAHcOFamSUCrakvgNzRyfMPa/mDiDgWilU4i4sw2dJnQHWJJUPCNA3B6jGSfPY6bQnvYo7gPFH8ljc07O9XPMDJp945RAATWL6PaHH8dLEUu4AaP1iXi2YLJ1wu7AehqExewCGdguGWiPcwj60X2aFln0v0kobYESUk0+hxbJiOIYfJPrVpfV5F9RwVvEVFl0pZnWaDxF4RAZeL2N1UXwhnMFcOavsFvalcDTcxmIY8b+FeAAegAfgAXiAoQP4r/+5uyNhlsvuwJpo0cAAPZcG6097E3H2d+sNjatccODPldDHTSQg1Jd5XCJ1H+yKyYOEpKYRsRzYQArCnlyoe+7wbCDB19PRm6cjd2QC4jNHSIKvZpL9WTokbyGhT/TWpzPVPeeBRzqyXZZFvEUi5s3Bm0pP1DTiu3A58V+1mvgH/pLwH6vvXHRu3wUBzMtvV78/hDBoBP41GuXFsUYzL3918U6TZU/CcE41YMLyxTXKT6O9YQAgdAL0AAAAAElFTkSuQmCC",
+    "file" : true
+  },
+  "dexClasses" : 2220,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"io.github.lamtran.moviebooking\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"26\" />\n\t<application android:theme=\"resourceId:0x7f0d0005\" android:label=\"Movie Booking\" android:icon=\"res/mipmap-anydpi-v21/ic_launcher.xml\" android:name=\"io.github.lamtran.moviebooking.presentation.App\" android:debuggable=\"true\" android:supportsRtl=\"true\" android:fullBackupContent=\"res/xml/backup_descriptor.xml\" android:roundIcon=\"res/mipmap-anydpi-v21/ic_launcher_round.xml\">\n\t\t<activity android:name=\"io.github.lamtran.moviebooking.presentation.view.theatre.TheatreActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.0.2\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1884403,
+  "crc32" : 202319756,
+  "sha256" : "0f192b32c95b571fedfabe3e18da54f313a868b60adb1ce7f7709d8800c01d0f",
+  "buildTime" : 1537165830000
+}

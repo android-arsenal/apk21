@@ -1,0 +1,257 @@
+2018-09-17 13:42:38,210 INFO  DownloadService - Downloading "https://github.com/rakshakhegde/LastPagerAdapter/archive/master.zip", attempt 3
+2018-09-17 13:42:41,235 INFO  DownloadService - Downloaded https://github.com/rakshakhegde/LastPagerAdapter/archive/master.zip, attempt 3
+2018-09-17 13:42:41,236 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/master.zip": 2 MB
+2018-09-17 13:42:41,236 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-17 13:42:41,242 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/master.zip: true
+2018-09-17 13:42:41,242 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src'.
+2018-09-17 13:42:41,289 INFO  FullProcessService - Size of directory with sources: 2 MB
+2018-09-17 13:42:41,289 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src]
+2018-09-17 13:42:41,305 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/.git/
+
+2018-09-17 13:42:41,308 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/gradlew
+2018-09-17 13:42:41,312 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/lastpageradapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/build.gradle
+2018-09-17 13:42:41,315 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/lastpageradapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/settings.gradle
+2018-09-17 13:42:41,315 INFO  ProjectBuildService - Remote scripts: none
+2018-09-17 13:42:41,315 INFO  ProjectFixService - Fixing project...
+2018-09-17 13:42:41,323 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/app/local.properties
+2018-09-17 13:42:41,323 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2018-09-17 13:42:41,323 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/lastpageradapter/local.properties
+2018-09-17 13:42:41,324 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/lastpageradapter/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2018-09-17 13:42:41,324 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/local.properties
+2018-09-17 13:42:41,325 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.5-all.zip
+2018-09-17 13:42:41,325 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.5-bin.zip)
+2018-09-17 13:42:41,326 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2018-09-17 13:42:41,326 INFO  ProjectFixService - Project was maybe fixed
+2018-09-17 13:42:41,326 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-17 13:42:41,326 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-17 13:43:15,029 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-17 13:43:15,029 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-17 13:43:15,029 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-17 13:43:56,402 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:lastpageradapter:preBuild UP-TO-DATE
+:lastpageradapter:resolveReleaseDependencies
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-sdk15/0.9/anko-sdk15-0.9.pom
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-sdk15/0.9/anko-sdk15-0.9.jar
+:lastpageradapter:preReleaseBuild
+:lastpageradapter:checkReleaseManifest
+:lastpageradapter:prepareReleaseDependencies
+:lastpageradapter:compileReleaseAidl
+:lastpageradapter:compileReleaseNdk NO-SOURCE
+:lastpageradapter:compileLint
+:lastpageradapter:copyReleaseLint NO-SOURCE
+:lastpageradapter:compileReleaseRenderscript
+:lastpageradapter:generateReleaseResValues
+:lastpageradapter:generateReleaseResources
+:lastpageradapter:mergeReleaseResources
+:lastpageradapter:dataBindingProcessLayoutsRelease
+:lastpageradapter:generateReleaseBuildConfig
+:lastpageradapter:processReleaseManifest
+:lastpageradapter:processReleaseResources
+:lastpageradapter:generateReleaseSources
+:lastpageradapter:dataBindingExportBuildInfoRelease
+:lastpageradapter:incrementalReleaseJavaCompilationSafeguard
+:lastpageradapter:javaPreCompileRelease
+:lastpageradapter:transformClassesAndDataBindingWithDataBindingMergeArtifactsForRelease
+:lastpageradapter:compileReleaseKotlin
+Using kotlin incremental compilation
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/lastpageradapter/src/main/java/io/github/rakshakhegde/lastpageradapter/LastPagerAdapterCallback.kt: (10, 19): Parameter 'pagerItem' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/lastpageradapter/src/main/java/io/github/rakshakhegde/lastpageradapter/LastPagerAdapterCallback.kt: (10, 41): Parameter 'position' is never used
+:lastpageradapter:compileReleaseJavaWithJavac
+:lastpageradapter:copyReleaseKotlinClasses
+:lastpageradapter:extractReleaseAnnotations
+:lastpageradapter:mergeReleaseShaders
+:lastpageradapter:compileReleaseShaders
+:lastpageradapter:generateReleaseAssets
+:lastpageradapter:mergeReleaseAssets
+:lastpageradapter:mergeReleaseProguardFiles
+:lastpageradapter:packageReleaseRenderscript NO-SOURCE
+:lastpageradapter:packageReleaseResources
+:lastpageradapter:processReleaseJavaRes NO-SOURCE
+:lastpageradapter:transformResourcesWithMergeJavaResForRelease
+:lastpageradapter:transformClassesAndResourcesWithSyncLibJarsForReleaseError: Could not read /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/lastpageradapter/build/intermediates/typedefs.txt: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/lastpageradapter/build/intermediates/typedefs.txt (No such file or directory)
+
+:lastpageradapter:mergeReleaseJniLibFolders
+:lastpageradapter:transformNativeLibsWithMergeJniLibsForRelease
+:lastpageradapter:transformNativeLibsWithStripDebugSymbolForRelease
+:lastpageradapter:transformNativeLibsWithSyncJniLibsForRelease
+:lastpageradapter:bundleRelease
+:app:resolveDebugDependencies
+:app:preDebugBuild
+:app:checkDebugManifest
+:app:prepareDebugDependencies
+:app:compileDebugRenderscript
+:app:generateDebugResValues
+:app:handleDebugMicroApk
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:dataBindingProcessLayoutsDebug
+:app:compileDebugAidl
+:app:generateDebugBuildConfig
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:dataBindingExportBuildInfoDebug
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:transformClassesAndDataBindingWithDataBindingMergeArtifactsForDebug
+:app:kaptDebugKotlin
+w: warning: The following options were not recognized by any processor: '[kapt.kotlin.generated]'
+w: 
+
+:app:compileDebugKotlin
+Using kotlin incremental compilation
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/app/src/main/java/io/github/rakshakhegde/lastpageradaptersample/Models.kt: (8, 14): Parameter 'i' is never used
+:app:compileDebugJavaWithJavac
+:app:copyDebugKotlinClasses
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:extractProguardFiles
+:app:resolveReleaseDependencies
+:app:preReleaseBuild
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseRenderscript
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:dataBindingProcessLayoutsRelease
+:app:compileReleaseAidl
+:app:generateReleaseBuildConfig
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:dataBindingExportBuildInfoRelease
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:transformClassesAndDataBindingWithDataBindingMergeArtifactsForRelease
+:app:kaptReleaseKotlin
+w: warning: The following options were not recognized by any processor: '[kapt.kotlin.generated]'
+w: 
+
+:app:compileReleaseKotlin
+Using kotlin incremental compilation
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/app/src/main/java/io/github/rakshakhegde/lastpageradaptersample/Models.kt: (8, 14): Parameter 'i' is never used
+:app:compileReleaseJavaWithJavac
+:app:copyReleaseKotlinClasses
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalReleaseCouldn't find or register Kotlin UAST plugin:org.jetbrains.uast.kotlin.KotlinUastLanguagePlugin
+
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:transformClassesAndResourcesWithProguardForRelease
+ProGuard, version 5.3.3
+Reading input...
+Reading program jar [/Users/vbauer/.android/build-cache/816ee08a1a644347a54e658250ce8d29132b1b2e/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/db8dbd4d81dbec01aefe9dde8025819601679542/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-common/0.9/26c6156bea5eb494474c90528240daadf4b067c8/anko-common-0.9.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/6373eee64094eea574cb9a8365b852be6d0ff87f/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/f1b7c30d1b75e950aeef05dcce293bce34da3df9/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/2.4.0-alpha7/35cd9f2478c3d3d97b01e5800fff72e407a0e0c7/baseLibrary-2.4.0-alpha7.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk15/0.9/e741cd0d94e63a27bc7b8cbd8d04571c058bab32/anko-sdk15-0.9.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/56ceb6646aa1a385a42b6fbfd3335191554d05d6/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/1a8b7c12ae1318f9e6b053f6166f3640ea665bbf/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/b77598d435a4682f1850323228217260721c6508/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.1.2-2/2b22828f027e103dcd45f3aa240338bfdb53d16b/kotlin-stdlib-1.1.2-2.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/fde86439115f1de0041f310c1ed65edeb2b79202/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/bf13038ee10645b2337ba20cc03f277cca0ae534/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/c399be11f9c9072b54c1f0ca4c75c27445fd21d6/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/9439914f7870e4346d5d90c1a1dffab0339d7c21/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/lastpageradapter/build/intermediates/bundles/default/data-binding] (filtered)
+Reading program directory [/Users/vbauer/.android/build-cache/56ceb6646aa1a385a42b6fbfd3335191554d05d6/output/data-binding] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/lastpageradapter/build/intermediates/bundles/default/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/app/build/intermediates/transforms/mergeJavaRes/release/folders/2/1f/main] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/app/build/intermediates/classes/release] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-25/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-25/optional/org.apache.http.legacy.jar]
+Note: duplicate definition of library class [android.net.http.HttpResponseCache]
+Note: duplicate definition of library class [android.net.http.SslCertificate$DName]
+Note: duplicate definition of library class [android.net.http.SslError]
+Note: duplicate definition of library class [android.net.http.SslCertificate]
+Note: duplicate definition of library class [org.apache.http.params.CoreConnectionPNames]
+Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
+Note: duplicate definition of library class [org.apache.http.params.HttpParams]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.SocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.LayeredSocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.HostNameResolver]
+Note: duplicate definition of library class [org.apache.http.conn.ConnectTimeoutException]
+Note: there were 11 duplicate class definitions.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#duplicateclass)
+Initializing...
+Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.JRE8PlatformImplementations
+Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.JRE7PlatformImplementations
+Note: kotlin.jvm.internal.Reflection: can't find dynamically referenced class kotlin.reflect.jvm.internal.ReflectionFactoryImpl
+Note: there were 3 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Ignoring unused library classes...
+  Original number of library classes: 4237
+  Final number of library classes:    1211
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/app/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 2720
+  Final number of program classes:    793
+Obfuscating...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/app/build/outputs/mapping/release/mapping.txt]...
+Writing output...
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/app/build/intermediates/transforms/proguard/release/jars/3/1f/main.jar]
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/816ee08a1a644347a54e658250ce8d29132b1b2e/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/db8dbd4d81dbec01aefe9dde8025819601679542/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-common/0.9/26c6156bea5eb494474c90528240daadf4b067c8/anko-common-0.9.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/6373eee64094eea574cb9a8365b852be6d0ff87f/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/f1b7c30d1b75e950aeef05dcce293bce34da3df9/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/2.4.0-alpha7/35cd9f2478c3d3d97b01e5800fff72e407a0e0c7/baseLibrary-2.4.0-alpha7.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk15/0.9/e741cd0d94e63a27bc7b8cbd8d04571c058bab32/anko-sdk15-0.9.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/56ceb6646aa1a385a42b6fbfd3335191554d05d6/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/1a8b7c12ae1318f9e6b053f6166f3640ea665bbf/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/b77598d435a4682f1850323228217260721c6508/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.1.2-2/2b22828f027e103dcd45f3aa240338bfdb53d16b/kotlin-stdlib-1.1.2-2.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/fde86439115f1de0041f310c1ed65edeb2b79202/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/bf13038ee10645b2337ba20cc03f277cca0ae534/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/c399be11f9c9072b54c1f0ca4c75c27445fd21d6/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/9439914f7870e4346d5d90c1a1dffab0339d7c21/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/lastpageradapter/build/intermediates/bundles/default/data-binding] (filtered)
+  Copying resources from program directory [/Users/vbauer/.android/build-cache/56ceb6646aa1a385a42b6fbfd3335191554d05d6/output/data-binding] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/lastpageradapter/build/intermediates/bundles/default/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/app/build/intermediates/transforms/mergeJavaRes/release/folders/2/1f/main] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/app/build/intermediates/classes/release] (filtered)
+Printing classes to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/app/build/outputs/mapping/release/dump.txt]...
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 40.595 secs
+
+2018-09-17 13:43:56,505 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537166558206-0/src/LastPagerAdapter-master/app/build/outputs/apk/app-debug.apk

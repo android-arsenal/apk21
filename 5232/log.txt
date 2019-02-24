@@ -1,0 +1,158 @@
+2018-09-17 04:05:00,319 INFO  DownloadService - Downloading "https://github.com/ravidsrk/android-mvp-starter/archive/master.zip", attempt 3
+2018-09-17 04:06:01,653 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-09-17 04:06:03,256 INFO  GithubDownloadService - Default branch of this repository: develop
+2018-09-17 04:06:03,257 INFO  DownloadService - Downloading "https://github.com/ravidsrk/android-mvp-starter/archive/develop.zip", attempt 3
+2018-09-17 04:07:05,922 DEBUG FullProcessService - Repository https://github.com/ravidsrk/android-mvp-starter available: true
+2018-09-17 04:07:05,922 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-09-17 04:07:05,922 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/ravidsrk/android-mvp-starter, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537131900311-0/src]
+2018-09-17 04:07:07,985 INFO  SysUtils - 
+2018-09-17 04:07:07,995 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537131900311-0/src/.git": true
+2018-09-17 04:07:08,001 INFO  FullProcessService - Size of directory with sources: 509 KB
+2018-09-17 04:07:08,002 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537131900311-0/src]
+2018-09-17 04:07:08,019 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537131900311-0/src/.git/
+
+2018-09-17 04:07:08,024 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537131900311-0/src/gradlew
+2018-09-17 04:07:08,029 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537131900311-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537131900311-0/src/build.gradle
+2018-09-17 04:07:08,033 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537131900311-0/src/app/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537131900311-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537131900311-0/src/config/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537131900311-0/src/config/quality/quality.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537131900311-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537131900311-0/src/settings.gradle
+2018-09-17 04:07:08,034 INFO  ProjectBuildService - Remote scripts: none
+2018-09-17 04:07:08,034 INFO  ProjectFixService - Fixing project...
+2018-09-17 04:07:08,047 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537131900311-0/src/app/local.properties
+2018-09-17 04:07:08,048 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537131900311-0/src/app/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-09-17 04:07:08,048 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537131900311-0/src/local.properties
+2018-09-17 04:07:08,049 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4.1-all.zip
+2018-09-17 04:07:08,049 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4.1-bin.zip)
+2018-09-17 04:07:08,051 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537131900311-0/src/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-09-17 04:07:08,051 INFO  ProjectFixService - Project was maybe fixed
+2018-09-17 04:07:08,051 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-17 04:07:08,051 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537131900311-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537131900311-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-17 04:07:20,501 INFO  ProjectTaskService - Detected possible tasks: 76
+2018-09-17 04:07:20,502 INFO  ProjectTaskService - Excluded tasks (22): pmd lintDebug mockableAndroidJar deviceCheck lint findbugs testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-17 04:07:20,502 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537131900311-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537131900311-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, pmd, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, findbugs, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-17 04:09:06,458 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild
+Download https://jcenter.bintray.com/com/readystatesoftware/chuck/library/1.1.0/library-1.1.0.pom
+Download https://jcenter.bintray.com/com/github/ajitsing/sherlock/1.0.4/sherlock-1.0.4.pom
+Download https://jcenter.bintray.com/com/squareup/sqlbrite/sqlbrite/1.1.2/sqlbrite-1.1.2.pom
+Download https://jcenter.bintray.com/com/github/bumptech/glide/okhttp3-integration/4.4.0/okhttp3-integration-4.4.0.pom
+Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-messaging/11.8.0/firebase-messaging-11.8.0.pom
+Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-crash/11.8.0/firebase-crash-11.8.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/gridlayout-v7/27.0.2/gridlayout-v7-27.0.2.pom
+Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-crash-license/11.8.0/firebase-crash-license-11.8.0.pom
+Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-messaging-license/11.8.0/firebase-messaging-license-11.8.0.pom
+Download https://jcenter.bintray.com/io/reactivex/rxjava/1.2.3/rxjava-1.2.3.pom
+Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-messaging/11.8.0/firebase-messaging-11.8.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/gridlayout-v7/27.0.2/gridlayout-v7-27.0.2.aar
+Download https://jcenter.bintray.com/com/readystatesoftware/chuck/library/1.1.0/library-1.1.0.aar
+Download https://jcenter.bintray.com/com/squareup/sqlbrite/sqlbrite/1.1.2/sqlbrite-1.1.2.aar
+Download https://jcenter.bintray.com/com/github/ajitsing/sherlock/1.0.4/sherlock-1.0.4.aar
+Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-crash/11.8.0/firebase-crash-11.8.0.aar
+Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-crash-license/11.8.0/firebase-crash-license-11.8.0.aar
+Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-messaging-license/11.8.0/firebase-messaging-license-11.8.0.aar
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537131900311-0/src/app/src/debug/AndroidManifest.xml:14:5-50:19 Warning:
+	application@android:label was tagged at AndroidManifest.xml:14 to replace other declarations but no other declaration present
+:app:splitsDiscoveryTaskDebug
+:app:processDebugResources
+:app:generateDebugSources
+:app:javaPreCompileDebug
+Download https://jcenter.bintray.com/com/github/bumptech/glide/okhttp3-integration/4.4.0/okhttp3-integration-4.4.0.jar
+Download https://jcenter.bintray.com/io/reactivex/rxjava/1.2.3/rxjava-1.2.3.jar
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithStackFramesFixerForDebug
+:app:transformClassesWithDesugarForDebug
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:preReleaseBuild
+Download https://jcenter.bintray.com/com/readystatesoftware/chuck/library-no-op/1.1.0/library-no-op-1.1.0.pom
+Download https://jcenter.bintray.com/com/github/ajitsing/sherlock-no-op/1.0.4/sherlock-no-op-1.0.4.pom
+Download https://jcenter.bintray.com/com/readystatesoftware/chuck/library-no-op/1.1.0/library-no-op-1.1.0.aar
+Download https://jcenter.bintray.com/com/github/ajitsing/sherlock-no-op/1.0.4/sherlock-no-op-1.0.4.aar
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/idling/idling-net/3.0.1/idling-net-3.0.1.pom
+Download https://jitpack.io/com/github/andrzejchm/RESTMock/android/0.2.2/android-0.2.2.pom
+Download https://jitpack.io/com/github/andrzejchm/RESTMock/core/0.2.2/core-0.2.2.pom
+Download https://jcenter.bintray.com/com/squareup/okhttp3/mockwebserver/3.8.0/mockwebserver-3.8.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/idling/idling-net/3.0.1/idling-net-3.0.1.aar
+Download https://jitpack.io/com/github/andrzejchm/RESTMock/android/0.2.2/android-0.2.2.aar
+Download https://jcenter.bintray.com/com/squareup/okhttp3/mockwebserver/3.8.0/mockwebserver-3.8.0.jar
+Download https://jitpack.io/com/github/andrzejchm/RESTMock/core/0.2.2/core-0.2.2.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithStackFramesFixerForRelease
+:app:transformClassesWithDesugarForRelease
+:app:transformClassesWithDexForRelease
+
+Running dex as a separate process.
+
+To run dex in process, the Gradle daemon needs a larger heap.
+It currently has 4003 MB.
+For faster builds, increase the maximum heap size for the Gradle daemon to at least 8704 MB (based on the dexOptions.javaMaxHeapSize = 8g).
+To do this set org.gradle.jvmargs=-Xmx8704M in the project gradle.properties.
+For more information see https://docs.gradle.org/current/userguide/build_environment.html
+
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 1m 45s
+53 actionable tasks: 53 executed
+Exception in thread "Thread-25" java.lang.NoClassDefFoundError: com/android/utils/PathUtils$1
+	at com.android.utils.PathUtils.deleteIfExists(PathUtils.java:47)
+	at com.android.utils.PathUtils.lambda$addRemovePathHook$0(PathUtils.java:125)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: com.android.utils.PathUtils$1
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 3 more
+
+2018-09-17 04:09:06,594 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537131900311-0/src/app/build/outputs/apk/debug/app-debug.apk

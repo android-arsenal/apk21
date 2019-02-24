@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.andremion.louvre.sample",
+    "label" : "Louvre",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.2.0",
+    "versionCode" : 7,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.READ_EXTERNAL_STORAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 2665,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"7\" android:versionName=\"1.2.0\" package=\"com.andremion.louvre.sample\" platformBuildVersionCode=\"26\" platformBuildVersionName=\"8.0.0\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"26\" />\n\t<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />\n\t<application android:theme=\"resourceId:0x7f0b00a7\" android:label=\"Louvre\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f0b00ad\" android:name=\"com.andremion.louvre.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0b00ab\" android:name=\"com.andremion.louvre.home.GalleryActivity\" android:parentActivityName=\"com.andremion.louvre.sample.MainActivity\">\n\t\t\t<meta-data android:name=\"parentActivityName\" android:value=\".MainActivity\" />\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0b00ac\" android:name=\"com.andremion.louvre.preview.PreviewActivity\" />\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.4.0\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2003696,
+  "crc32" : 4150096126,
+  "sha256" : "e144294bbae71a012ae531c44c9a625c7e87bb32bc8b4216fd359a2361d1279c",
+  "buildTime" : 1509384003000
+}

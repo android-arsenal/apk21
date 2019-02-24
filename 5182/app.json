@@ -1,0 +1,36 @@
+{
+  "meta" : {
+    "packageName" : "saschpe.poker",
+    "label" : "Planning Poker",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.2.6",
+    "versionCode" : 170126,
+    "installLocation" : null,
+    "minSdkVersion" : "17",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.WAKE_LOCK", "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY", "android.permission.INTERNET" ],
+    "usesFeatures" : [ {
+      "name" : "android.hardware.sensor.accelerometer",
+      "required" : true
+    } ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 2236,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"170126\" android:versionName=\"1.2.6\" package=\"saschpe.poker\">\n\t<uses-sdk android:minSdkVersion=\"17\" android:targetSdkVersion=\"26\" />\n\t<uses-permission android:name=\"android.permission.WAKE_LOCK\" />\n\t<uses-permission android:name=\"com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY\" />\n\t<uses-feature android:name=\"android.hardware.sensor.accelerometer\" android:required=\"true\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f0e0006\" android:label=\"Planning Poker\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:name=\"saschpe.poker.application.Application\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:fullBackupContent=\"true\">\n\t\t<activity android:name=\"saschpe.poker.activity.MainActivity\" android:screenOrientation=\"userPortrait\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0e0007\" android:label=\"Help &amp; feedback\" android:name=\"saschpe.poker.activity.HelpActivity\" />\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.1.0\" />\n\t\t<meta-data android:name=\"android.arch.lifecycle.VERSION\" android:value=\"27.0.0-SNAPSHOT\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1801989,
+  "crc32" : 3051990494,
+  "sha256" : "9e508c7ec5bd8c5263935ffc27231432b747fb9b53c6b26d4614cf7ee10fb741",
+  "buildTime" : 1507571712000
+}

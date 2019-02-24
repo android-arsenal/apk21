@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "in.myinnos.kotlinexample",
+    "label" : "Kotlin Example",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "0.1",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAB6VBMVEUAAAAAAAAAAAAAAAA9WIVIZpcAAABIZZcAAAAAAAAAAABIZJZAWYYrP15HYpJAWYUoO1oAAAAAAAAAAAAAAAAAAABKZ5pdaIOFb1qOcE5vaWxnaniadUmadEbzjwjEfyRSZYtdaYO6fS6jdj5JZZiPck9GYpNUZ46uejekdTzchxVnYFuZdEnmiw8+VoFTZ42Wbz45UHiFcFs7U3w+V4JwbG7nig5yYlI4TnU6UHh5bGDbhxY8U30/V4NEUm1nX1ujdDo8VH0/WINJZpitdjBQVme4eirRgx1IVnU8VH4/WITFfiOsdjHniw6BaVE9VX9AWYXEfiNnXlmVbj7miw6XcUI9VYA7Unt/ZkyueDNHVnQ9VoBAWoZ6bGKudzNSWWzFfyRpYV7QgxxSWm3chxaAaU+AaVBeXmaLbUc6Unp0ZVZqY1+XcEFGVXLEfyWBalGtdzJRWGuXcUO6eyo6UXpRWWtoYV2ueTVoYFxGVHKWcEGXcUGMbUi6fS1KWXg6UXnQhB5KWnmAaE+kdjxwbG1eX2dSZouYcUJUXHDRgx5LW3pAWYZqYl9JWHjRhB7niw9BWoeFb1nGfyVJWXiveTWZdEaadUdIV3Wkdj1XYHeMbUlWXnODbFSOcExWX3RBW4hBW4lCXIlCXIqn7APiAAAAFnRSTlMAAQIES+IO4xkhI/TqauvrbDhBQzcixqASFgAAAn5JREFUSMe9lvd70kAchwm0FHBXjaM1OFBcxCpYUwkoQbSNUnC0UYu1KFaxQ6uoVdxtXa2KewvhLzXJXdZx6ZPHH/r97e4+7xty34PD4ViIIginrSIIkHc1NZO2qrnJpfjdLaTNanHLzyA8pO3yyIDTax/wOmXAZx/wLTywZu269eZIW3t7mzWwgZLKv1EPbNosz2wJWABbKaX82+A4uB1MUDsCeGAnXN+lEMHdITimQnQAB+xR1zv2SsQ+LS5VOBLAAPvhaucBputglDIWy8YCVkBnR5w55DfFqcNsIsEl8cCRFJM6ao5Tx7oTiZ4ePokBjqeY+Akknu5l5Xwmk02iwMlTTPz0GSTe1w3z/f3ZJLJLAnMWiVPnzrNafoDOIX24EEXigxfDhvwATeO3Va2hfNiYp2k6Mh9wKS8Il83+yDxA4YogDEdDV03+SMwKSF8rCtflFwqNGP0xCyA9OlbMj8PBDYM/xmOBmxPFsXH9w93S/RyHAW5PlO7cFQYNr3NP8/ONTxiaLN1/ECoLwkMD8egx8DcChcknpVHpa1CW9r/XQDx9Bvx81gwEM13PlV6X5X6NpHViCvizCEBOw6PRp/RrxkBwij+LnKUX6vJL0N9XrzXgjZKfnUWeUIDLc7C/b9/BiffAn6sgwAew/FE7D58+g5kvwF9BAfKrkv8G89L201PyzHfobwTIH8M/58zn89fvP39VPwYgK6wU1/xSv9T9kf2VKubXu5own0+O1/1VHEDWrP01EXs/iJZ+EQ+QopVfrAPAuwgh6mZ/TvXXF4NL0bNkKUo0+Guyf9ly5dol3L4VrSttVOuq1crF7nC5PV6fjfJ63K7/+HPyDxJLUcUYGY3UAAAAAElFTkSuQmCC"
+  },
+  "dexClasses" : 2402,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"0.1\" package=\"in.myinnos.kotlinexample\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"25\" />\n\t<application android:theme=\"resourceId:0x7f0800a4\" android:label=\"Kotlin Example\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f0800d2\" android:name=\"in.myinnos.kotlinexample.SplashScreenActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"in.myinnos.kotlinexample.MainActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1893391,
+  "crc32" : 2692417361,
+  "sha256" : "fb8fde5127c91f806706bb01b9d662d982adee5c2cfe48a34c9b97a37a2fa621",
+  "buildTime" : 1521923239000
+}

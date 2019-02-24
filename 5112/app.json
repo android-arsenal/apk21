@@ -1,0 +1,34 @@
+{
+  "meta" : {
+    "packageName" : "com.tomerrosenfeld.fadingtextview",
+    "label" : "FadingTextView",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 2,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAADNUlEQVR42u2ZzUtiURjGc64zjlOJ0CAM6MCIM4zTzLIgoo0zbYqBNhEUiVAr/4Na6aZcRO1kcFyFuBAanKFol1BRC125kD5wUW3G8VsXYqXvvO9Bhyw1R27dK9wDD+d6Pnyf3z33nHv0dHVJScQJADiUXGBx7Rh/QhLRjWzdz82GeN2Heo3SCSSK3VfPW1PzmL9AOcvl8u9SqZQUUhUPTvJ0L0S18vr6+ht2BOwoGmUyme9oTdYQoDpZcrncSwT4Q50wL2JewlwQVWIX6Wair/ju7u6rm15vA8gpj0Qib6+urtIVgJLQd548VAAyfr//w02vdQH29vbeIUBKjABer7e/VQBRjsD6+vpHCUACkAAkgA4DGBgYAKpuJFybYW1trWmbqkwmEwQCAZDL5WCxWBqaRg+szfT0ND8ASqUSXC5XXZ2enkI4HK4pW1hYYIbHxsZqyjc3N+k7Qa/Xg1qthnw+XxfAarWy/tvb2/wAUDAK3OqwHxwcMAOLi4t16202G6v3+Xx36gqFAmg0GtDpdHB5eSlOgGg0ChzHwcTExJ26ra0t1pdGkbc5wDcAieYDPZqJRKKmfGZmBmQyGRwdHfEH0NPTAzs7O3d0dnbWNgCaYW3cbve/smw2CyqVCkZGRh5nFVpZWWkbAA2xkaWRqJbRinYbiheA3t5eNqTHx8c1SiaTbQOQ5ufn2Vy4uLhgn8fHx9lop9NpfgEeYg6Q9vf3WbvV1VWIxWKgUCjAbDbz/yJ7KACMA0ajEQYHB8HpdLI+NLc6BoC0tLTEVh2DwcBEa39HAZyfn7NtA7W32+3874WmpqZgaGjovwBCoRBotVpwOBwttacY9OalF5y0G5UAJAAJQAKQAPgA6Nw/d3Eb8F6sI+DxeD41A2CHBhsbG1rcUCWok1gOONAbpFKp5PLysp48BgIBebMjpucnJyc+2hVSIhChUjV2sVik/dUP9KZs5YyMGx4e7g8Ggz/j8XgKfx1lkT5D+WOqGhN/9KcODw9/4YaSHh+u1ZNKJerN6Ojo57m5ua+zs7OCiGJ/wURe7r37tyEmJyef4WU3SiWwuslLWwfvNFnw2XsqpBpOWCmJJP0FPJ7Pr8oQ6WwAAAAASUVORK5CYII=",
+    "file" : true
+  },
+  "dexClasses" : 2180,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"2\" android:versionName=\"1.0\" package=\"com.tomerrosenfeld.fadingtextview\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"26\" />\n\t<application android:theme=\"resourceId:0x7f0e0006\" android:label=\"FadingTextView\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:fullBackupContent=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f0e0008\" android:label=\"MainActivity\" android:name=\"com.tomerrosenfeld.fadingtextview.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<action android:name=\"android.intent.action.VIEW\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.1.0\" />\n\t\t<meta-data android:name=\"android.arch.lifecycle.VERSION\" android:value=\"27.0.0-SNAPSHOT\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1952111,
+  "crc32" : 642569701,
+  "sha256" : "4f3dbe73f31f86da7b3a9b996877d3c145d95b0a83ae1a7fd33922d2877a92bd",
+  "buildTime" : 1537614214000
+}

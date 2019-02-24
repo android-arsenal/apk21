@@ -1,0 +1,180 @@
+2019-01-13 00:06:18,096 INFO  DownloadService - Downloading "https://github.com/halilozercan/bettervideoplayer/archive/master.zip", attempt 3
+2019-01-13 00:06:37,304 INFO  DownloadService - Downloaded https://github.com/halilozercan/bettervideoplayer/archive/master.zip, attempt 3
+2019-01-13 00:06:37,305 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/master.zip": 20 MB
+2019-01-13 00:06:37,305 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-13 00:06:37,306 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/master.zip: true
+2019-01-13 00:06:37,306 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/src'.
+2019-01-13 00:06:37,435 INFO  FullProcessService - Size of directory with sources: 20 MB
+2019-01-13 00:06:37,436 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/src]
+2019-01-13 00:06:37,455 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/src/.git/
+
+2019-01-13 00:06:37,459 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/src/BetterVideoPlayer-master/gradlew
+2019-01-13 00:06:37,463 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/src/BetterVideoPlayer-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/src/BetterVideoPlayer-master/bvpkotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/src/BetterVideoPlayer-master/build.gradle
+2019-01-13 00:06:37,467 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/src/BetterVideoPlayer-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/src/BetterVideoPlayer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/src/BetterVideoPlayer-master/bvpkotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/src/BetterVideoPlayer-master/settings.gradle
+2019-01-13 00:06:37,467 INFO  ProjectBuildService - Remote scripts: none
+2019-01-13 00:06:37,467 INFO  ProjectFixService - Fixing project...
+2019-01-13 00:06:37,477 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/src/BetterVideoPlayer-master/app/local.properties
+2019-01-13 00:06:37,478 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/src/BetterVideoPlayer-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-13 00:06:37,478 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/src/BetterVideoPlayer-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-13 00:06:37,480 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/src/BetterVideoPlayer-master/bvpkotlin/local.properties
+2019-01-13 00:06:37,481 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/src/BetterVideoPlayer-master/bvpkotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-13 00:06:37,481 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/src/BetterVideoPlayer-master/bvpkotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-13 00:06:37,482 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/src/BetterVideoPlayer-master/local.properties
+2019-01-13 00:06:37,483 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-13 00:06:37,483 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-13 00:06:37,485 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/src/BetterVideoPlayer-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-13 00:06:37,485 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/src/BetterVideoPlayer-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-13 00:06:37,485 INFO  ProjectFixService - Project was maybe fixed
+2019-01-13 00:06:37,485 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-13 00:06:37,486 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/src/BetterVideoPlayer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/src/BetterVideoPlayer-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-13 00:06:43,391 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-01-13 00:06:43,391 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-13 00:06:43,391 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/src/BetterVideoPlayer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/src/BetterVideoPlayer-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-13 00:07:30,389 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:bvpkotlin:preBuild UP-TO-DATE
+:bvpkotlin:preDebugBuild UP-TO-DATE
+:bvpkotlin:checkDebugManifest
+:bvpkotlin:processDebugManifest
+:app:preDebugBuild
+:bvpkotlin:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:bvpkotlin:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:bvpkotlin:compileDebugRenderscript
+:bvpkotlin:generateDebugResValues
+:bvpkotlin:generateDebugResources
+:bvpkotlin:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:bvpkotlin:generateDebugRFile
+:app:processDebugResources
+:bvpkotlin:generateDebugBuildConfig
+:bvpkotlin:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/src/BetterVideoPlayer-master/bvpkotlin/src/main/java/com/halilibo/bvpkotlin/BetterVideoPlayer.kt: (884, 22): 'setAudioStreamType(Int): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/src/BetterVideoPlayer-master/bvpkotlin/src/main/java/com/halilibo/bvpkotlin/captions/CaptionsView.kt: (34, 25): 'fromHtml(String!): Spanned!' is deprecated. Deprecated in Java
+:bvpkotlin:prepareLintJar
+:bvpkotlin:generateDebugSources
+:bvpkotlin:javaPreCompileDebug
+:bvpkotlin:compileDebugJavaWithJavac
+:bvpkotlin:processDebugJavaRes NO-SOURCE
+:bvpkotlin:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:kaptGenerateStubsDebugKotlin
+:app:kaptDebugKotlin
+:app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/src/BetterVideoPlayer-master/app/src/main/java/com/halilibo/sample/FullscreenActivity.kt: (43, 66): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/src/BetterVideoPlayer-master/app/src/main/java/com/halilibo/sample/FullscreenActivity.kt: (43, 72): Parameter 'motionEvent' is never used, could be renamed to _
+:app:prepareLintJar
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:bvpkotlin:mergeDebugShaders
+:bvpkotlin:compileDebugShaders
+:bvpkotlin:generateDebugAssets
+:bvpkotlin:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:bvpkotlin:compileDebugNdk NO-SOURCE
+:bvpkotlin:mergeDebugJniLibFolders
+:bvpkotlin:transformNativeLibsWithMergeJniLibsForDebug
+:bvpkotlin:transformNativeLibsWithStripDebugSymbolForDebug
+:bvpkotlin:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:bvpkotlin:preReleaseBuild UP-TO-DATE
+:bvpkotlin:checkReleaseManifest
+:bvpkotlin:processReleaseManifest
+:app:preReleaseBuild
+:bvpkotlin:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:bvpkotlin:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:bvpkotlin:compileReleaseRenderscript
+:bvpkotlin:generateReleaseResValues
+:bvpkotlin:generateReleaseResources
+:bvpkotlin:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:bvpkotlin:generateReleaseRFile
+:app:processReleaseResources
+:bvpkotlin:generateReleaseBuildConfig
+:bvpkotlin:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/src/BetterVideoPlayer-master/bvpkotlin/src/main/java/com/halilibo/bvpkotlin/BetterVideoPlayer.kt: (884, 22): 'setAudioStreamType(Int): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/src/BetterVideoPlayer-master/bvpkotlin/src/main/java/com/halilibo/bvpkotlin/captions/CaptionsView.kt: (34, 25): 'fromHtml(String!): Spanned!' is deprecated. Deprecated in Java
+:bvpkotlin:generateReleaseSources
+:bvpkotlin:javaPreCompileRelease
+:bvpkotlin:compileReleaseJavaWithJavac
+:bvpkotlin:processReleaseJavaRes NO-SOURCE
+:bvpkotlin:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:kaptGenerateStubsReleaseKotlin
+:app:kaptReleaseKotlin
+:app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/src/BetterVideoPlayer-master/app/src/main/java/com/halilibo/sample/FullscreenActivity.kt: (43, 66): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/src/BetterVideoPlayer-master/app/src/main/java/com/halilibo/sample/FullscreenActivity.kt: (43, 72): Parameter 'motionEvent' is never used, could be renamed to _
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:bvpkotlin:mergeReleaseShaders
+:bvpkotlin:compileReleaseShaders
+:bvpkotlin:generateReleaseAssets
+:bvpkotlin:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:bvpkotlin:compileReleaseNdk NO-SOURCE
+:bvpkotlin:mergeReleaseJniLibFolders
+:bvpkotlin:transformNativeLibsWithMergeJniLibsForRelease
+:bvpkotlin:transformNativeLibsWithStripDebugSymbolForRelease
+:bvpkotlin:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 46s
+98 actionable tasks: 98 executed
+
+2019-01-13 00:07:30,507 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547312778088-0/src/BetterVideoPlayer-master/app/build/outputs/apk/debug/app-debug.apk

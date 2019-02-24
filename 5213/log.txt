@@ -1,0 +1,12 @@
+2018-12-16 19:40:04,429 INFO  DownloadService - Downloading "https://github.com/jaychang0917/SimpleRecyclerView/archive/master.zip", attempt 3
+2018-12-16 19:40:22,332 INFO  DownloadService - Downloaded https://github.com/jaychang0917/SimpleRecyclerView/archive/master.zip, attempt 3
+2018-12-16 19:40:22,333 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964004425-0/master.zip": 52 MB
+2018-12-16 19:40:22,333 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-16 19:40:22,339 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964004425-0/master.zip: true
+2018-12-16 19:40:22,340 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964004425-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964004425-0/src'.
+2018-12-16 19:40:22,758 INFO  FullProcessService - Size of directory with sources: 56 MB
+2018-12-16 19:40:22,758 ERROR FullProcessService - Source directory should be less than 50 MB
+2018-12-16 19:40:22,758 ERROR FullProcessService - Project will not be processed
+2018-12-16 19:40:22,758 ERROR FullProcessService - Project build has not produced APK file
+2018-12-16 19:40:22,762 INFO  FullProcessService - Found existed APK file in the project: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964004425-0/src/SimpleRecyclerView-master/art/SimpleRecyclerView_1_1_9.apk
+2018-12-16 19:40:22,762 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964004425-0/src/SimpleRecyclerView-master/art/SimpleRecyclerView_1_1_9.apk

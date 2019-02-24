@@ -1,0 +1,472 @@
+2018-09-17 03:31:20,640 INFO  DownloadService - Downloading "https://github.com/iamvaliyev/MultiTabMenu/archive/master.zip", attempt 3
+2018-09-17 03:32:21,319 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-09-17 03:32:22,429 INFO  GithubDownloadService - Default branch of this repository: main
+2018-09-17 03:32:22,430 INFO  DownloadService - Downloading "https://github.com/iamvaliyev/MultiTabMenu/archive/main.zip", attempt 3
+2018-09-17 03:33:24,258 DEBUG FullProcessService - Repository https://github.com/iamvaliyev/MultiTabMenu available: true
+2018-09-17 03:33:24,258 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-09-17 03:33:24,259 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/iamvaliyev/MultiTabMenu, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src]
+2018-09-17 03:33:44,046 INFO  SysUtils - 
+2018-09-17 03:33:44,058 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/.git": true
+2018-09-17 03:33:44,066 INFO  FullProcessService - Size of directory with sources: 38 MB
+2018-09-17 03:33:44,066 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src]
+2018-09-17 03:33:44,081 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/.git/
+
+2018-09-17 03:33:44,086 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/gradlew
+2018-09-17 03:33:44,091 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/multitabmenudemo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/build.gradle
+2018-09-17 03:33:44,095 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/multitabmenudemo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/settings.gradle
+2018-09-17 03:33:44,096 INFO  ProjectBuildService - Remote scripts: none
+2018-09-17 03:33:44,096 INFO  ProjectFixService - Fixing project...
+2018-09-17 03:33:44,108 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/library/local.properties
+2018-09-17 03:33:44,108 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/library/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=17,targetSdkVersion=25]
+2018-09-17 03:33:44,109 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/multitabmenudemo/local.properties
+2018-09-17 03:33:44,109 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/multitabmenudemo/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=17,targetSdkVersion=25]
+2018-09-17 03:33:44,109 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/local.properties
+2018-09-17 03:33:44,110 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2018-09-17 03:33:44,110 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2018-09-17 03:33:44,110 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=17,targetSdkVersion=25]
+2018-09-17 03:33:44,110 INFO  ProjectFixService - Project was maybe fixed
+2018-09-17 03:33:44,111 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-17 03:33:44,111 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-17 03:33:53,179 INFO  ProjectTaskService - Detected possible tasks: 75
+2018-09-17 03:33:53,179 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-17 03:33:53,180 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-17 03:34:07,208 INFO  SysUtils - Configuration on demand is an incubating feature.
+Could not find match for name 'group'
+Incremental java compilation is an incubating feature.
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:checkDebugManifest
+:library:preDebugAndroidTestBuild UP-TO-DATE
+:library:preDebugUnitTestBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:preReleaseUnitTestBuild UP-TO-DATE
+:library:prepareComAndroidSupportAnimatedVectorDrawable2501Library
+:library:prepareComAndroidSupportAppcompatV72501Library
+:library:prepareComAndroidSupportRecyclerviewV72501Library
+:library:prepareComAndroidSupportSupportCompat2501Library
+:library:prepareComAndroidSupportSupportCoreUi2501Library
+:library:prepareComAndroidSupportSupportCoreUtils2501Library
+:library:prepareComAndroidSupportSupportFragment2501Library
+:library:prepareComAndroidSupportSupportMediaCompat2501Library
+:library:prepareComAndroidSupportSupportV42501Library
+:library:prepareComAndroidSupportSupportVectorDrawable2501Library
+:library:prepareDebugDependencies
+:library:compileDebugAidl
+:library:compileDebugNdk UP-TO-DATE
+:library:compileLint
+:library:copyDebugLint UP-TO-DATE
+:library:compileDebugRenderscript
+:library:generateDebugBuildConfig
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:mergeDebugResources
+:library:processDebugManifest
+:library:processDebugResources
+:library:generateDebugSources
+:library:incrementalDebugJavaCompilationSafeguard
+:library:compileDebugJavaWithJavac
+:library:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/library/src/main/java/io/github/iamvaliyev/multitabmenu/coverflow/FancyCoverFlow.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/library/src/main/java/io/github/iamvaliyev/multitabmenu/MultiTabMenu.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:library:extractDebugAnnotations
+:library:mergeDebugShaders
+:library:compileDebugShaders
+:library:generateDebugAssets
+:library:mergeDebugAssets
+:library:mergeDebugProguardFiles
+:library:packageDebugRenderscript UP-TO-DATE
+:library:packageDebugResources
+:library:processDebugJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForDebug
+:library:transformClassesAndResourcesWithSyncLibJarsForDebug
+:library:mergeDebugJniLibFolders
+:library:transformNative_libsWithMergeJniLibsForDebug
+:library:transformNative_libsWithSyncJniLibsForDebug
+:library:bundleDebug
+:library:compileDebugSources
+:library:assembleDebug
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseNdk UP-TO-DATE
+:library:copyReleaseLint UP-TO-DATE
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:mergeReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:incrementalReleaseJavaCompilationSafeguard
+:library:compileReleaseJavaWithJavac
+:library:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/library/src/main/java/io/github/iamvaliyev/multitabmenu/coverflow/FancyCoverFlow.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/library/src/main/java/io/github/iamvaliyev/multitabmenu/MultiTabMenu.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:library:extractReleaseAnnotations
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:mergeReleaseAssets
+:library:mergeReleaseProguardFiles
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:packageReleaseResources
+:library:processReleaseJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForRelease
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library:mergeReleaseJniLibFolders
+:library:transformNative_libsWithMergeJniLibsForRelease
+:library:transformNative_libsWithSyncJniLibsForRelease
+:library:bundleRelease
+:library:compileReleaseSources
+:library:assembleRelease
+:library:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/library/src/main/java/io/github/iamvaliyev/multitabmenu/coverflow/FancyCoverFlow.java:31: error: cannot find symbol
+import io.github.iamvaliyev.multitabmenu.R;
+                                        ^
+  symbol:   class R
+  location: package io.github.iamvaliyev.multitabmenu
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/library/src/main/java/io/github/iamvaliyev/multitabmenu/MultiTabMenu.java:5: error: package android.support.v4.content does not exist
+import android.support.v4.content.ContextCompat;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/library/src/main/java/io/github/iamvaliyev/multitabmenu/coverflow/FancyCoverFlow.java:178: warning: no description for @param
+     * @param adapter
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/library/src/main/java/io/github/iamvaliyev/multitabmenu/coverflow/FancyCoverFlow.java:192: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/library/src/main/java/io/github/iamvaliyev/multitabmenu/coverflow/FancyCoverFlow.java:201: warning: no description for @param
+     * @param maxRotation
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/library/src/main/java/io/github/iamvaliyev/multitabmenu/coverflow/FancyCoverFlow.java:210: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/library/src/main/java/io/github/iamvaliyev/multitabmenu/coverflow/FancyCoverFlow.java:219: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/library/src/main/java/io/github/iamvaliyev/multitabmenu/coverflow/FancyCoverFlow.java:228: warning: no description for @param
+     * @param unselectedScale
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/library/src/main/java/io/github/iamvaliyev/multitabmenu/coverflow/FancyCoverFlow.java:237: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/library/src/main/java/io/github/iamvaliyev/multitabmenu/coverflow/FancyCoverFlow.java:246: warning: no description for @param
+     * @param scaleDownGravity
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/library/src/main/java/io/github/iamvaliyev/multitabmenu/coverflow/FancyCoverFlow.java:255: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/library/src/main/java/io/github/iamvaliyev/multitabmenu/coverflow/FancyCoverFlow.java:264: warning: no description for @param
+     * @param actionDistance
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/library/src/main/java/io/github/iamvaliyev/multitabmenu/coverflow/FancyCoverFlow.java:273: warning: no description for @param
+     * @param unselectedAlpha
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/library/src/main/java/io/github/iamvaliyev/multitabmenu/coverflow/FancyCoverFlow.java:284: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/library/src/main/java/io/github/iamvaliyev/multitabmenu/coverflow/FancyCoverFlow.java:293: warning: no description for @param
+     * @param unselectedSaturation
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/library/src/main/java/io/github/iamvaliyev/multitabmenu/CategoryWrapper.java:34: warning: no @param for sectionPosition
+    public CategoryWrapper(C child, int sectionPosition, int childPosition) {
+           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/library/src/main/java/io/github/iamvaliyev/multitabmenu/CategoryWrapper.java:34: warning: no @param for childPosition
+    public CategoryWrapper(C child, int sectionPosition, int childPosition) {
+           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/library/src/main/java/io/github/iamvaliyev/multitabmenu/CategoryWrapper.java:22: warning: no @param for sectionPosition
+    public CategoryWrapper(S section, int sectionPosition) {
+           ^
+
+18 warnings
+:library:javadocJar
+:library:sourcesJar
+:library:assemble
+:library:build
+
+BUILD SUCCESSFUL
+
+Total time: 13.445 secs
+
+2018-09-17 03:34:07,275 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-17 03:34:07,275 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/multitabmenudemo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-17 03:34:14,278 INFO  ProjectTaskService - Detected possible tasks: 71
+2018-09-17 03:34:14,278 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-17 03:34:14,278 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/multitabmenudemo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-17 03:34:33,037 INFO  SysUtils - Configuration on demand is an incubating feature.
+Could not find match for name 'group'
+Incremental java compilation is an incubating feature.
+:library:preBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:preDebugAndroidTestBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:preDebugUnitTestBuild UP-TO-DATE
+:library:preReleaseUnitTestBuild UP-TO-DATE
+:library:prepareComAndroidSupportAnimatedVectorDrawable2501Library UP-TO-DATE
+:library:prepareComAndroidSupportAppcompatV72501Library UP-TO-DATE
+:library:prepareComAndroidSupportRecyclerviewV72501Library UP-TO-DATE
+:library:prepareComAndroidSupportSupportCompat2501Library UP-TO-DATE
+:library:prepareComAndroidSupportSupportCoreUi2501Library UP-TO-DATE
+:library:prepareComAndroidSupportSupportCoreUtils2501Library UP-TO-DATE
+:library:prepareComAndroidSupportSupportFragment2501Library UP-TO-DATE
+:library:prepareComAndroidSupportSupportMediaCompat2501Library UP-TO-DATE
+:library:prepareComAndroidSupportSupportV42501Library UP-TO-DATE
+:library:prepareComAndroidSupportSupportVectorDrawable2501Library UP-TO-DATE
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl UP-TO-DATE
+:library:compileReleaseNdk UP-TO-DATE
+:library:compileLint UP-TO-DATE
+:library:copyReleaseLint UP-TO-DATE
+:library:compileReleaseRenderscript UP-TO-DATE
+:library:generateReleaseBuildConfig UP-TO-DATE
+:library:generateReleaseResValues UP-TO-DATE
+:library:generateReleaseResources UP-TO-DATE
+:library:mergeReleaseResources UP-TO-DATE
+:library:processReleaseManifest UP-TO-DATE
+:library:processReleaseResources UP-TO-DATE
+:library:generateReleaseSources UP-TO-DATE
+:library:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:library:compileReleaseJavaWithJavac UP-TO-DATE
+:library:extractReleaseAnnotations UP-TO-DATE
+:library:mergeReleaseShaders UP-TO-DATE
+:library:compileReleaseShaders UP-TO-DATE
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets UP-TO-DATE
+:library:mergeReleaseProguardFiles UP-TO-DATE
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:packageReleaseResources UP-TO-DATE
+:library:processReleaseJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:library:mergeReleaseJniLibFolders UP-TO-DATE
+:library:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:library:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:library:bundleRelease UP-TO-DATE
+:multitabmenudemo:preBuild UP-TO-DATE
+:multitabmenudemo:preDebugBuild UP-TO-DATE
+:multitabmenudemo:checkDebugManifest
+:multitabmenudemo:preReleaseBuild UP-TO-DATE
+:multitabmenudemo:prepareComAndroidSupportAnimatedVectorDrawable2501Library
+:multitabmenudemo:prepareComAndroidSupportAppcompatV72501Library
+:multitabmenudemo:prepareComAndroidSupportRecyclerviewV72501Library
+:multitabmenudemo:prepareComAndroidSupportSupportCompat2501Library
+:multitabmenudemo:prepareComAndroidSupportSupportCoreUi2501Library
+:multitabmenudemo:prepareComAndroidSupportSupportCoreUtils2501Library
+:multitabmenudemo:prepareComAndroidSupportSupportFragment2501Library
+:multitabmenudemo:prepareComAndroidSupportSupportMediaCompat2501Library
+:multitabmenudemo:prepareComAndroidSupportSupportV42501Library
+:multitabmenudemo:prepareComAndroidSupportSupportVectorDrawable2501Library
+:multitabmenudemo:prepareIoGithubIamvaliyevLibrary10Library
+:multitabmenudemo:prepareDebugDependencies
+:multitabmenudemo:compileDebugAidl
+:multitabmenudemo:compileDebugRenderscript
+:multitabmenudemo:generateDebugBuildConfig
+:multitabmenudemo:generateDebugResValues
+:multitabmenudemo:generateDebugResources
+:multitabmenudemo:mergeDebugResources
+:multitabmenudemo:processDebugManifest
+:multitabmenudemo:processDebugResources
+:multitabmenudemo:generateDebugSources
+:multitabmenudemo:incrementalDebugJavaCompilationSafeguard
+:multitabmenudemo:compileDebugJavaWithJavac
+:multitabmenudemo:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:multitabmenudemo:compileDebugNdk UP-TO-DATE
+:multitabmenudemo:compileDebugSources
+:multitabmenudemo:mergeDebugShaders
+:multitabmenudemo:compileDebugShaders
+:multitabmenudemo:generateDebugAssets
+:multitabmenudemo:mergeDebugAssets
+:multitabmenudemo:transformClassesWithDexForDebug
+:multitabmenudemo:mergeDebugJniLibFolders
+:multitabmenudemo:transformNative_libsWithMergeJniLibsForDebug
+:multitabmenudemo:transformNative_libsWithStripDebugSymbolForDebug
+:multitabmenudemo:processDebugJavaRes UP-TO-DATE
+:multitabmenudemo:transformResourcesWithMergeJavaResForDebug
+:multitabmenudemo:validateSigningDebug
+:multitabmenudemo:packageDebug
+:multitabmenudemo:assembleDebug
+:multitabmenudemo:checkReleaseManifest
+:multitabmenudemo:prepareReleaseDependencies
+:multitabmenudemo:compileReleaseAidl
+:multitabmenudemo:compileReleaseRenderscript
+:multitabmenudemo:generateReleaseBuildConfig
+:multitabmenudemo:generateReleaseResValues
+:multitabmenudemo:generateReleaseResources
+:multitabmenudemo:mergeReleaseResources
+:multitabmenudemo:processReleaseManifest
+:multitabmenudemo:processReleaseResources
+:multitabmenudemo:generateReleaseSources
+:multitabmenudemo:incrementalReleaseJavaCompilationSafeguard
+:multitabmenudemo:compileReleaseJavaWithJavac
+:multitabmenudemo:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:multitabmenudemo:compileReleaseNdk UP-TO-DATE
+:multitabmenudemo:compileReleaseSources
+:multitabmenudemo:lintVitalRelease[Fatal Error] :3:214: The value of attribute "name" associated with an element type "item" must not contain the '<' character.
+Could not read /Users/vbauer/Library/Android/sdk/platform-tools/api/annotations.zip
+java.io.IOException: Could not parse XML from android/accounts/annotations.xml
+	at com.android.tools.lint.ExternalAnnotationRepository$AnnotationsDatabase.initializePackage(ExternalAnnotationRepository.java:906)
+	at com.android.tools.lint.ExternalAnnotationRepository$AnnotationsDatabase.initializeFromJar(ExternalAnnotationRepository.java:849)
+	at com.android.tools.lint.ExternalAnnotationRepository$AnnotationsDatabase.<init>(ExternalAnnotationRepository.java:597)
+	at com.android.tools.lint.ExternalAnnotationRepository.getDatabase(ExternalAnnotationRepository.java:242)
+	at com.android.tools.lint.ExternalAnnotationRepository.create(ExternalAnnotationRepository.java:181)
+	at com.android.tools.lint.ExternalAnnotationRepository.get(ExternalAnnotationRepository.java:162)
+	at com.android.tools.lint.psi.EcjPsiManager.getAnnotationRepository(EcjPsiManager.java:883)
+	at com.android.tools.lint.psi.EcjPsiJavaEvaluator.getAllAnnotations(EcjPsiJavaEvaluator.java:263)
+	at com.android.tools.lint.checks.SupportAnnotationDetector$CallVisitor.checkCall(SupportAnnotationDetector.java:1981)
+	at com.android.tools.lint.checks.SupportAnnotationDetector$CallVisitor.visitCallExpression(SupportAnnotationDetector.java:1966)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitCallExpression(JavaPsiVisitor.java:1029)
+	at com.intellij.psi.JavaElementVisitor.visitMethodCallExpression(JavaElementVisitor.java:183)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitMethodCallExpression(JavaPsiVisitor.java:1021)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DelegatingPsiVisitor.visitMethodCallExpression(JavaPsiVisitor.java:1667)
+	at com.android.tools.lint.psi.EcjPsiMethodCallExpression.accept(EcjPsiMethodCallExpression.java:40)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:85)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.JavaElementVisitor.visitStatement(JavaElementVisitor.java:272)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitStatement(JavaPsiVisitor.java:1246)
+	at com.intellij.psi.JavaElementVisitor.visitExpressionStatement(JavaElementVisitor.java:115)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitExpressionStatement(JavaPsiVisitor.java:834)
+	at com.android.tools.lint.psi.EcjPsiExpressionStatement.accept(EcjPsiExpressionStatement.java:50)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:85)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.JavaElementVisitor.visitCodeBlock(JavaElementVisitor.java:67)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitCodeBlock(JavaPsiVisitor.java:701)
+	at com.android.tools.lint.psi.EcjPsiCodeBlock.accept(EcjPsiCodeBlock.java:39)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:85)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.JavaElementVisitor.visitMethod(JavaElementVisitor.java:179)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitMethod(JavaPsiVisitor.java:1010)
+	at com.android.tools.lint.psi.EcjPsiMethod.accept(EcjPsiMethod.java:105)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:85)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.JavaElementVisitor.visitClass(JavaElementVisitor.java:55)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitClass(JavaPsiVisitor.java:667)
+	at com.android.tools.lint.psi.EcjPsiClass.accept(EcjPsiClass.java:642)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:85)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.PsiElementVisitor.visitFile(PsiElementVisitor.java:34)
+	at com.intellij.psi.JavaElementVisitor.visitJavaFile(JavaElementVisitor.java:336)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitJavaFile(JavaPsiVisitor.java:1411)
+	at com.android.tools.lint.psi.EcjPsiJavaFile.accept(EcjPsiJavaFile.java:111)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$4.run(JavaPsiVisitor.java:327)
+	at com.android.tools.lint.EcjParser.runReadAction(EcjParser.java:1115)
+	at com.android.tools.lint.client.api.JavaPsiVisitor.visitFile(JavaPsiVisitor.java:321)
+	at com.android.tools.lint.client.api.LintDriver.visitJavaFiles(LintDriver.java:1571)
+	at com.android.tools.lint.client.api.LintDriver.checkJava(LintDriver.java:1551)
+	at com.android.tools.lint.client.api.LintDriver.runFileDetectors(LintDriver.java:1090)
+	at com.android.tools.lint.client.api.LintDriver.checkProject(LintDriver.java:935)
+	at com.android.tools.lint.client.api.LintDriver.analyze(LintDriver.java:454)
+	at com.android.tools.lint.client.api.LintDriver.analyze(LintDriver.java:395)
+	at com.android.tools.lint.LintCliClient.run(LintCliClient.java:131)
+	at com.android.build.gradle.internal.LintGradleClient.run(LintGradleClient.java:146)
+	at com.android.build.gradle.tasks.Lint.runLint(Lint.java:255)
+	at com.android.build.gradle.tasks.Lint.lintSingleVariant(Lint.java:224)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:228)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:221)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:210)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:621)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:604)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:66)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:153)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:150)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+:multitabmenudemo:mergeReleaseShaders
+:multitabmenudemo:compileReleaseShaders
+:multitabmenudemo:generateReleaseAssets
+:multitabmenudemo:mergeReleaseAssets
+:multitabmenudemo:transformClassesWithDexForRelease
+:multitabmenudemo:mergeReleaseJniLibFolders
+:multitabmenudemo:transformNative_libsWithMergeJniLibsForRelease
+:multitabmenudemo:transformNative_libsWithStripDebugSymbolForRelease
+:multitabmenudemo:processReleaseJavaRes UP-TO-DATE
+:multitabmenudemo:transformResourcesWithMergeJavaResForRelease
+:multitabmenudemo:packageRelease
+:multitabmenudemo:assembleRelease
+:multitabmenudemo:assemble
+:multitabmenudemo:build
+
+BUILD SUCCESSFUL
+
+Total time: 18.111 secs
+
+2018-09-17 03:34:33,166 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129880632-0/src/multitabmenudemo/build/outputs/apk/multitabmenudemo-release-unsigned.apk

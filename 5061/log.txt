@@ -1,0 +1,243 @@
+2019-01-05 20:27:40,559 INFO  DownloadService - Downloading "https://github.com/nex3z/FlowLayout/archive/master.zip", attempt 3
+2019-01-05 20:27:41,327 INFO  DownloadService - Downloaded https://github.com/nex3z/FlowLayout/archive/master.zip, attempt 3
+2019-01-05 20:27:41,327 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546694860555-0/master.zip": 197 KB
+2019-01-05 20:27:41,327 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-05 20:27:41,332 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546694860555-0/master.zip: true
+2019-01-05 20:27:41,333 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546694860555-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546694860555-0/src'.
+2019-01-05 20:27:41,353 INFO  FullProcessService - Size of directory with sources: 243 KB
+2019-01-05 20:27:41,353 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546694860555-0/src]
+2019-01-05 20:27:41,370 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546694860555-0/src/.git/
+
+2019-01-05 20:27:41,373 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546694860555-0/src/FlowLayout-master/gradlew
+2019-01-05 20:27:41,376 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546694860555-0/src/FlowLayout-master/flowlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546694860555-0/src/FlowLayout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546694860555-0/src/FlowLayout-master/build.gradle
+2019-01-05 20:27:41,379 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546694860555-0/src/FlowLayout-master/flowlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546694860555-0/src/FlowLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546694860555-0/src/FlowLayout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546694860555-0/src/FlowLayout-master/settings.gradle
+2019-01-05 20:27:41,379 INFO  ProjectBuildService - Remote scripts: none
+2019-01-05 20:27:41,379 INFO  ProjectFixService - Fixing project...
+2019-01-05 20:27:41,386 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546694860555-0/src/FlowLayout-master/flowlayout/local.properties
+2019-01-05 20:27:41,387 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546694860555-0/src/FlowLayout-master/flowlayout/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-05 20:27:41,387 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546694860555-0/src/FlowLayout-master/flowlayout/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-05 20:27:41,388 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546694860555-0/src/FlowLayout-master/sample/local.properties
+2019-01-05 20:27:41,389 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546694860555-0/src/FlowLayout-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-05 20:27:41,389 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546694860555-0/src/FlowLayout-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-05 20:27:41,390 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546694860555-0/src/FlowLayout-master/local.properties
+2019-01-05 20:27:41,390 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-05 20:27:41,391 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-05 20:27:41,396 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546694860555-0/src/FlowLayout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-05 20:27:41,396 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546694860555-0/src/FlowLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-05 20:27:41,397 INFO  ProjectFixService - Project was maybe fixed
+2019-01-05 20:27:41,397 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-05 20:27:41,397 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546694860555-0/src/FlowLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546694860555-0/src/FlowLayout-master/flowlayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-05 20:27:47,754 INFO  ProjectTaskService - Detected possible tasks: 77
+2019-01-05 20:27:47,754 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-05 20:27:47,754 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546694860555-0/src/FlowLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546694860555-0/src/FlowLayout-master/flowlayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-05 20:27:56,441 INFO  SysUtils - Configuration on demand is an incubating feature.
+:flowlayout:preBuild UP-TO-DATE
+:flowlayout:preDebugBuild UP-TO-DATE
+:flowlayout:compileDebugAidl NO-SOURCE
+:flowlayout:compileDebugRenderscript
+:flowlayout:checkDebugManifest
+:flowlayout:generateDebugBuildConfig
+:flowlayout:generateDebugResValues
+:flowlayout:generateDebugResources
+:flowlayout:packageDebugResources
+:flowlayout:processDebugManifest
+:flowlayout:generateDebugRFile
+:flowlayout:prepareLintJar
+:flowlayout:generateDebugSources
+:flowlayout:javaPreCompileDebug
+:flowlayout:compileDebugJavaWithJavac
+:flowlayout:extractDebugAnnotations
+:flowlayout:mergeDebugConsumerProguardFiles
+:flowlayout:mergeDebugShaders
+:flowlayout:compileDebugShaders
+:flowlayout:generateDebugAssets
+:flowlayout:packageDebugAssets
+:flowlayout:packageDebugRenderscript NO-SOURCE
+:flowlayout:processDebugJavaRes NO-SOURCE
+:flowlayout:transformResourcesWithMergeJavaResForDebug
+:flowlayout:transformClassesAndResourcesWithSyncLibJarsForDebug
+:flowlayout:compileDebugNdk NO-SOURCE
+:flowlayout:mergeDebugJniLibFolders
+:flowlayout:transformNativeLibsWithMergeJniLibsForDebug
+:flowlayout:transformNativeLibsWithStripDebugSymbolForDebug
+:flowlayout:transformNativeLibsWithSyncJniLibsForDebug
+:flowlayout:bundleDebugAar
+:flowlayout:compileDebugSources
+:flowlayout:assembleDebug
+:flowlayout:preReleaseBuild UP-TO-DATE
+:flowlayout:compileReleaseAidl NO-SOURCE
+:flowlayout:compileReleaseRenderscript
+:flowlayout:checkReleaseManifest
+:flowlayout:generateReleaseBuildConfig
+:flowlayout:generateReleaseResValues
+:flowlayout:generateReleaseResources
+:flowlayout:packageReleaseResources
+:flowlayout:processReleaseManifest
+:flowlayout:generateReleaseRFile
+:flowlayout:generateReleaseSources
+:flowlayout:javaPreCompileRelease
+:flowlayout:compileReleaseJavaWithJavac
+:flowlayout:extractReleaseAnnotations
+:flowlayout:mergeReleaseConsumerProguardFiles
+:flowlayout:mergeReleaseShaders
+:flowlayout:compileReleaseShaders
+:flowlayout:generateReleaseAssets
+:flowlayout:packageReleaseAssets
+:flowlayout:packageReleaseRenderscript NO-SOURCE
+:flowlayout:processReleaseJavaRes NO-SOURCE
+:flowlayout:transformResourcesWithMergeJavaResForRelease
+:flowlayout:transformClassesAndResourcesWithSyncLibJarsForRelease
+:flowlayout:compileReleaseNdk NO-SOURCE
+:flowlayout:mergeReleaseJniLibFolders
+:flowlayout:transformNativeLibsWithMergeJniLibsForRelease
+:flowlayout:transformNativeLibsWithStripDebugSymbolForRelease
+:flowlayout:transformNativeLibsWithSyncJniLibsForRelease
+:flowlayout:bundleReleaseAar
+:flowlayout:compileReleaseSources
+:flowlayout:mergeReleaseResources
+:flowlayout:verifyReleaseResources
+:flowlayout:assembleRelease
+:flowlayout:assemble
+:flowlayout:build
+
+BUILD SUCCESSFUL in 8s
+45 actionable tasks: 45 executed
+
+2019-01-05 20:27:56,455 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-05 20:27:56,456 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546694860555-0/src/FlowLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546694860555-0/src/FlowLayout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-05 20:28:02,088 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-01-05 20:28:02,089 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-05 20:28:02,089 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546694860555-0/src/FlowLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546694860555-0/src/FlowLayout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-05 20:28:28,913 INFO  SysUtils - Configuration on demand is an incubating feature.
+:flowlayout:preBuild UP-TO-DATE
+:flowlayout:preDebugBuild UP-TO-DATE
+:flowlayout:compileDebugAidl NO-SOURCE
+:flowlayout:compileDebugRenderscript UP-TO-DATE
+:flowlayout:checkDebugManifest UP-TO-DATE
+:flowlayout:generateDebugBuildConfig UP-TO-DATE
+:flowlayout:generateDebugResValues UP-TO-DATE
+:flowlayout:generateDebugResources UP-TO-DATE
+:flowlayout:packageDebugResources UP-TO-DATE
+:flowlayout:processDebugManifest UP-TO-DATE
+:flowlayout:generateDebugRFile UP-TO-DATE
+:flowlayout:prepareLintJar UP-TO-DATE
+:flowlayout:generateDebugSources UP-TO-DATE
+:flowlayout:javaPreCompileDebug UP-TO-DATE
+:flowlayout:compileDebugJavaWithJavac UP-TO-DATE
+:flowlayout:processDebugJavaRes NO-SOURCE
+:flowlayout:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:checkDebugClasspath
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild
+:sample:compileDebugAidl NO-SOURCE
+:flowlayout:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:prepareLintJar
+:sample:mainApkListPersistenceDebug
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:flowlayout:mergeDebugShaders UP-TO-DATE
+:flowlayout:compileDebugShaders UP-TO-DATE
+:flowlayout:generateDebugAssets UP-TO-DATE
+:flowlayout:packageDebugAssets UP-TO-DATE
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:flowlayout:compileDebugNdk NO-SOURCE
+:flowlayout:mergeDebugJniLibFolders UP-TO-DATE
+:flowlayout:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:flowlayout:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:flowlayout:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:checkDebugLibraries
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:flowlayout:preReleaseBuild UP-TO-DATE
+:flowlayout:compileReleaseAidl NO-SOURCE
+:flowlayout:compileReleaseRenderscript UP-TO-DATE
+:flowlayout:checkReleaseManifest UP-TO-DATE
+:flowlayout:generateReleaseBuildConfig UP-TO-DATE
+:flowlayout:generateReleaseResValues UP-TO-DATE
+:flowlayout:generateReleaseResources UP-TO-DATE
+:flowlayout:packageReleaseResources UP-TO-DATE
+:flowlayout:processReleaseManifest UP-TO-DATE
+:flowlayout:generateReleaseRFile UP-TO-DATE
+:flowlayout:generateReleaseSources UP-TO-DATE
+:flowlayout:javaPreCompileRelease UP-TO-DATE
+:flowlayout:compileReleaseJavaWithJavac UP-TO-DATE
+:flowlayout:processReleaseJavaRes NO-SOURCE
+:flowlayout:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:checkReleaseClasspath
+:sample:preReleaseBuild
+:sample:compileReleaseAidl NO-SOURCE
+:flowlayout:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:mainApkListPersistenceRelease
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/1988f8b2fb0d2a6043069b651665b7dd/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:flowlayout:mergeReleaseShaders UP-TO-DATE
+:flowlayout:compileReleaseShaders UP-TO-DATE
+:flowlayout:generateReleaseAssets UP-TO-DATE
+:flowlayout:packageReleaseAssets UP-TO-DATE
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexBuilderForRelease
+:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sample:transformDexArchiveWithDexMergerForRelease
+:flowlayout:compileReleaseNdk NO-SOURCE
+:flowlayout:mergeReleaseJniLibFolders UP-TO-DATE
+:flowlayout:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:flowlayout:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:flowlayout:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:checkReleaseLibraries
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 26s
+90 actionable tasks: 59 executed, 31 up-to-date
+
+2019-01-05 20:28:28,989 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546694860555-0/src/FlowLayout-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

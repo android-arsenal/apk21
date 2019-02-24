@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.danielstone.materialaboutlibrarydemo",
+    "label" : "Material About Library Demo",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "2.3",
+    "versionCode" : 23000,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "28",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "23000",
+    "platformBuildVersionName" : "{4:1075000115}",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.READ_EXTERNAL_STORAGE", "android.permission.WRITE_EXTERNAL_STORAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAADr0lEQVR42u1ZXUhTURy3tMiMoAykKMEgMZdGrhI/drcyI8jhrrgHFcIHHyopESIJSnyoB8OwIMxaoC+VkxK8flCgc28RKWQR5WNPfqUZaG7NcTq/Y4s1nLubu/dcwQN/zs7d/d/z+51z/h/nnJiYjaLhYrV2xppMQ3E8BRjCR97QsJmJVkpYePxeLBC7EvOtPclC8ZsDPAR9A8NK2FYFrzf3bDeW9LYYLb0TBrFvhqcAg7FEagGm0CT+/imIUqtR7CVUWTOSZ7bbKLRNQQn4jMVkfr5HEHumoGSwSG7622sQJS7C+qYYMJj55lfTesOdvf5Y/yuweNTZha2HBIv0gxGgH+E98gwDI/ByTme4ke6PdUUCR/PvpQrF0qwWCaSfqNPJI6DRGTh8/NoR5QnQzs6VvSalVQOk4rKDXLgyxGq08Txc56AagYLSflJZ4yRtHWNkZHSKjE8ukMVFD1la8rJ6fHKeDNPnbR1fSeVVJ3tfGwTox8suOkj/wDcyv+AmXq83pOC9Pvo+9ELNiOIEbjUOk+mZX7KABwr0bja+50fgge0Tcf/2RATeJ9BvfvJRZQLi8sivFbw/CTYTokoEyi85Il42qy0nZhNKE4D3gMGGAuRyeUjjww/MjaJGO5QODDvQO0WdAFylHG8D11lb/5bpoEZbjneCi1WOAP1QO/XzcpaEy+0htmdfSN3td6xGW44e4oS/LUSVACLpyOh0VNd+oCDYsYitBIHSqkEyMbUgGwxGHUtH7uhDELGRdihCoKLaQRZdHtngH7V/ZusftVwSIIzcSREC8ChLMkcyEiOGIHdCP9xnIFICis5AODYQKQFksYrZQDheKFICI0p6IRYH7GOKEsB+QrE4oEokrnEqnAtZaS40qEwu1K9GLrTus1GfLdTfje5+APsL1fYD/3ZkT6OzI8POjtueGDOxlj0xG3nepxKwCRh2OKcSMFjocT+V8PdOcIGIEwh2iNhIO5A7oUYbz7GfwHvaORcKejI3yHIndjJX7WBt9U7m1vPhrt7UlKbVw920nNqMoAR8lwaZ2df3C5bu71DSzgVHH8krss+kZpQfXCbQELfaFdO2k4W2TqG4m0CRrVlW85DlvoEly3S/i2KLl3NHFrtjd7ou61Rzd875F7N5RZ0/c832OdRqiq/PXIrhmKlJStiVhuUTK/emMp5KSmJSZsG+lLPmpOTTXAR9JyZlnAGW0KMfSEKn20p/JVDZyVkSGJZILt5hLHr94y08JbjBbhRtlD/onRt3D5Jd/gAAAABJRU5ErkJggg==",
+    "file" : true
+  },
+  "dexClasses" : 2606,
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"23000\" android:versionName=\"2.3\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.danielstone.materialaboutlibrarydemo\" platformBuildVersionCode=\"23000\" platformBuildVersionName=\"{4:1075000115}\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"28\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<application android:theme=\"resourceId:0x7f0f0006\" android:label=\"Material About Library Demo\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:name=\"com.danielstone.materialaboutlibrarydemo.Application\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:fullBackupContent=\"res/xml/backup_descriptor.xml\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:theme=\"resourceId:0x7f0f000e\" android:label=\"Material About Library Demo\" android:name=\"com.danielstone.materialaboutlibrarydemo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0f000c\" android:name=\"com.danielstone.materialaboutlibrarydemo.ExampleMaterialAboutActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0f000e\" android:name=\"com.danielstone.materialaboutlibrarydemo.ExampleMaterialAboutFragmentActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0f000c\" android:name=\"com.danielstone.materialaboutlibrarydemo.ExampleMaterialAboutLicenseActivity\" />\n\t\t<service android:name=\"com.squareup.leakcanary.internal.HeapAnalyzerService\" android:enabled=\"false\" android:process=\":leakcanary\" />\n\t\t<service android:name=\"com.squareup.leakcanary.DisplayLeakService\" android:enabled=\"false\" android:process=\":leakcanary\" />\n\t\t<activity android:theme=\"resourceId:0x7f0f01ff\" android:label=\"Leaks\" android:icon=\"res/drawable-xxxhdpi-v4/leak_canary_icon.png\" android:name=\"com.squareup.leakcanary.internal.DisplayLeakActivity\" android:enabled=\"false\" android:process=\":leakcanary\" android:taskAffinity=\"com.squareup.leakcanary.com.danielstone.materialaboutlibrarydemo\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0f0200\" android:label=\"Storage permission\" android:icon=\"res/drawable-xxxhdpi-v4/leak_canary_icon.png\" android:name=\"com.squareup.leakcanary.internal.RequestStoragePermissionActivity\" android:enabled=\"false\" android:process=\":leakcanary\" android:taskAffinity=\"com.squareup.leakcanary.com.danielstone.materialaboutlibrarydemo\" android:excludeFromRecents=\"true\" />\n\t\t<provider android:name=\"androidx.lifecycle.ProcessLifecycleOwnerInitializer\" android:exported=\"false\" android:multiprocess=\"true\" android:authorities=\"com.danielstone.materialaboutlibrarydemo.lifecycle-process\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2744563,
+  "crc32" : 4137122820,
+  "sha256" : "6f5195ac6fa9490f1d47e872ea0512f7a2116550e769a817b001a8f9183345ff",
+  "buildTime" : 1544640136000
+}

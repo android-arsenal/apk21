@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.skydoves.elasticviewsdemo",
+    "label" : "ElasticViews",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "17",
+    "targetSdkVersion" : "28",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "1",
+    "platformBuildVersionName" : "{4:1065353216}",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 2748,
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.skydoves.elasticviewsdemo\" platformBuildVersionCode=\"1\" platformBuildVersionName=\"{4:1065353216}\">\n\t<uses-sdk android:minSdkVersion=\"17\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0e000e\" android:label=\"ElasticViews\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.skydoves.elasticviewsdemo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.skydoves.elasticviewsdemo.ExampleActivity0\" />\n\t\t<activity android:name=\"com.skydoves.elasticviewsdemo.ExampleActivity1\" />\n\t\t<activity android:name=\"com.skydoves.elasticviewsdemo.ExampleActivity2\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2729935,
+  "crc32" : 3522009759,
+  "sha256" : "2530d1b34d9768911ecc549a0de60661edad152886906ec4774474804a0e19f5",
+  "buildTime" : 1548149166000
+}

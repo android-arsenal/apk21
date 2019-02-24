@@ -1,0 +1,169 @@
+2018-12-26 11:22:37,987 INFO  DownloadService - Downloading "https://github.com/sharish/ShimmerRecyclerView/archive/master.zip", attempt 3
+2018-12-26 11:23:38,522 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-12-26 11:23:39,912 INFO  GithubDownloadService - Default branch of this repository: master
+2018-12-26 11:23:39,912 INFO  DownloadService - Downloading "https://github.com/sharish/ShimmerRecyclerView/archive/master.zip", attempt 3
+2018-12-26 11:24:41,250 DEBUG FullProcessService - Repository https://github.com/sharish/ShimmerRecyclerView available: true
+2018-12-26 11:24:41,256 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-12-26 11:24:41,256 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/sharish/ShimmerRecyclerView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545798157979-0/src]
+2018-12-26 11:24:47,438 INFO  SysUtils - 
+2018-12-26 11:24:47,513 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545798157979-0/src/.git": true
+2018-12-26 11:24:47,519 INFO  FullProcessService - Size of directory with sources: 2 MB
+2018-12-26 11:24:47,519 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545798157979-0/src]
+2018-12-26 11:24:47,557 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545798157979-0/src/.git/
+
+2018-12-26 11:24:47,565 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545798157979-0/src/gradlew
+2018-12-26 11:24:47,573 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545798157979-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545798157979-0/src/shimmer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545798157979-0/src/build.gradle
+2018-12-26 11:24:47,581 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545798157979-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545798157979-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545798157979-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545798157979-0/src/shimmer/build.gradle
+2018-12-26 11:24:47,581 INFO  ProjectBuildService - Remote scripts: none
+2018-12-26 11:24:47,581 INFO  ProjectFixService - Fixing project...
+2018-12-26 11:24:47,595 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545798157979-0/src/app/local.properties
+2018-12-26 11:24:47,596 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545798157979-0/src/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-12-26 11:24:47,597 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545798157979-0/src/shimmer/local.properties
+2018-12-26 11:24:47,598 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545798157979-0/src/shimmer/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-12-26 11:24:47,599 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545798157979-0/src/local.properties
+2018-12-26 11:24:47,600 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-12-26 11:24:47,601 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-12-26 11:24:47,603 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545798157979-0/src/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-12-26 11:24:47,604 INFO  ProjectFixService - Project was maybe fixed
+2018-12-26 11:24:47,604 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-26 11:24:47,604 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545798157979-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545798157979-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-26 11:25:05,209 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-12-26 11:25:05,210 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-26 11:25:05,210 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545798157979-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545798157979-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-26 11:25:55,730 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:shimmer:preBuild UP-TO-DATE
+:shimmer:preDebugBuild UP-TO-DATE
+:shimmer:checkDebugManifest
+:shimmer:processDebugManifest
+:app:preDebugBuild
+Download https://jcenter.bintray.com/com/github/bumptech/glide/gifdecoder/4.5.0/gifdecoder-4.5.0.aar
+Download https://jcenter.bintray.com/com/github/bumptech/glide/glide/4.5.0/glide-4.5.0.aar
+:shimmer:compileDebugAidl
+:app:compileDebugAidl
+:shimmer:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:shimmer:compileDebugRenderscript
+:shimmer:generateDebugResValues
+:shimmer:generateDebugResources
+:shimmer:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:shimmer:platformAttrExtractor
+:shimmer:generateDebugBuildConfig
+:shimmer:prepareLintJar
+:shimmer:javaPreCompileDebug
+:shimmer:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:shimmer:mergeDebugShaders
+:shimmer:compileDebugShaders
+:shimmer:generateDebugAssets
+:shimmer:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:shimmer:compileDebugNdk NO-SOURCE
+:shimmer:mergeDebugJniLibFolders
+:shimmer:transformNativeLibsWithMergeJniLibsForDebug
+:shimmer:transformNativeLibsWithStripDebugSymbolForDebug
+:shimmer:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:shimmer:preReleaseBuild UP-TO-DATE
+:shimmer:checkReleaseManifest
+:shimmer:processReleaseManifest
+:app:preReleaseBuild
+:shimmer:compileReleaseAidl
+:app:compileReleaseAidl
+:shimmer:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:shimmer:compileReleaseRenderscript
+:shimmer:generateReleaseResValues
+:shimmer:generateReleaseResources
+:shimmer:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:shimmer:generateReleaseBuildConfig
+:shimmer:javaPreCompileRelease
+:shimmer:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:shimmer:mergeReleaseShaders
+:shimmer:compileReleaseShaders
+:shimmer:generateReleaseAssets
+:shimmer:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:shimmer:compileReleaseNdk NO-SOURCE
+:shimmer:mergeReleaseJniLibFolders
+:shimmer:transformNativeLibsWithMergeJniLibsForRelease
+:shimmer:transformNativeLibsWithStripDebugSymbolForRelease
+:shimmer:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:shimmer:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:shimmer:generateDebugSources
+:shimmer:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:shimmer:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+Download https://jcenter.bintray.com/com/github/bumptech/glide/disklrucache/4.5.0/disklrucache-4.5.0.jar
+Download https://jcenter.bintray.com/com/github/bumptech/glide/annotations/4.5.0/annotations-4.5.0.jar
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:shimmer:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:shimmer:generateReleaseSources
+:shimmer:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:shimmer:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 50s
+91 actionable tasks: 91 executed
+
+2018-12-26 11:25:55,808 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545798157979-0/src/app/build/outputs/apk/debug/app-debug.apk

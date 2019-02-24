@@ -1,0 +1,34 @@
+{
+  "meta" : {
+    "packageName" : "it.michelelacorte.exampleandroidshortcuts",
+    "label" : "App Shortcuts Library",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "2.0",
+    "versionCode" : 7,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.WRITE_EXTERNAL_STORAGE", "android.permission.READ_EXTERNAL_STORAGE", "com.android.launcher.permission.INSTALL_SHORTCUT" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 1907,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"7\" android:versionName=\"2.0\" package=\"it.michelelacorte.exampleandroidshortcuts\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"25\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"com.android.launcher.permission.INSTALL_SHORTCUT\" />\n\t<application android:theme=\"resourceId:0x7f0800a4\" android:label=\"App Shortcuts Library\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"it.michelelacorte.exampleandroidshortcuts.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1601055,
+  "crc32" : 1658953720,
+  "sha256" : "9f47504f77252cc9684b9d03a23f97aaa2b2a0fdd81986e8a9bafaf7d0d660d1",
+  "buildTime" : 1537640075000
+}

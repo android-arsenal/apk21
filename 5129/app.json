@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.imnjh.imagepickersample",
+    "label" : "SImagePicker",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "19",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.READ_EXTERNAL_STORAGE", "android.permission.WRITE_EXTERNAL_STORAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 3074,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.imnjh.imagepickersample\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"19\" />\n\t<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<application android:theme=\"resourceId:0x7f0a008d\" android:label=\"SImagePicker\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:name=\"com.imnjh.imagepickersample.app.PickerApplication\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.imnjh.imagepickersample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<provider android:name=\"android.support.v4.content.FileProvider\" android:exported=\"false\" android:authorities=\"com.imnjh.imagepickersample.provider\" android:grantUriPermissions=\"true\">\n\t\t\t<meta-data android:name=\"android.support.FILE_PROVIDER_PATHS\" android:resource=\"res/xml/provider_paths.xml\" />\n\t\t</provider>\n\t\t<activity android:theme=\"resourceId:0x7f0a008f\" android:name=\"com.imnjh.imagepicker.activity.PhotoPickerActivity\" android:screenOrientation=\"portrait\" />\n\t\t<activity android:theme=\"resourceId:0x7f0a0036\" android:name=\"com.imnjh.imagepicker.activity.PickerPreviewActivity\" android:screenOrientation=\"portrait\" />\n\t\t<activity android:theme=\"resourceId:0x7f0a0036\" android:name=\"com.imnjh.imagepicker.activity.CaptureConfirmActivity\" android:screenOrientation=\"portrait\" />\n\t\t<activity android:theme=\"resourceId:0x7f0a0036\" android:name=\"com.imnjh.imagepicker.activity.CropImageActivity\" android:screenOrientation=\"portrait\" />\n\t\t<activity android:theme=\"resourceId:0x7f0a0036\" android:name=\"com.imnjh.imagepicker.activity.CaptureTempActivity\" android:screenOrientation=\"portrait\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2321151,
+  "crc32" : 200136386,
+  "sha256" : "c373f6ddd10a1e18972fd1edd762f797811b2c033134bcb844f6fc93da3138a8",
+  "buildTime" : 1521915204000
+}

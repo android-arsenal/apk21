@@ -1,0 +1,42 @@
+{
+  "meta" : {
+    "packageName" : "io.reist.sandbox",
+    "label" : "Sandbox",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : null,
+    "platformBuildVersionName" : null,
+    "glEsVersion" : {
+      "major" : 2,
+      "minor" : 0,
+      "required" : true
+    },
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.ACCESS_FINE_LOCATION", "android.permission.ACCESS_COARSE_LOCATION", "android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE", "com.google.android.c2dm.permission.RECEIVE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAQAAAD9CzEMAAADV0lEQVRYw+2XTUgUYRjH/7tT62a5iaUidegL0YWgpCAoCAwi+iDabpJKZR3NIG9KhmSXMJSgQzeVtYjowyK6BFEEShBuRRqVByNLWBFL82v318F1ddfZdabcW8/cZobf75133ud53ldyP84fuxMaYIkjNDB253G+3GrzhoOkKMLBNq+G75HCGL7nmPqxLEcpi+lBByil4ZT+C5ZQEFC5yhWwZ7C64Lrx4UAIBz66LS9U2YGv4QpXWGNLIuvwy7Szl720c9mGRNbgDbSzA0WuHbTTYFEiO/BC/PgptCWRVXgBfkIzddKWRNbhYfp4wXM+E7IhkVV4I5ui/2Adl5i2KJG1aalmFfW8Y5Tf9HKVLMotTpfmw9eawgHWczVmXC24Cc/2LvwUzJOsjZHo/aJwgDKyaKafMDDATfI4ENsgE0jeoxyEKEkCB7iNyEIsx4XwsIxTC7twjKQEIXJQI57ozzOHAzxHvKaDhzygi0lWIq6btfqoRAgP1xBURW+U0JsgXXoQ+9nOFAC/EPvYbPpmb2TsQlQBkXLdrBp55JdXZfpoUnNzJZ3RZ/k0IOm7pJ/KWvDWR5XJK788qlHzXLmuQrQCQ9TgQRiUmnxJGvfpJh8nO9mFyORV3MhLMRAeahgCWiNfME9AUslGGoEQT6hjN6v4kQROYkFiST0uSrlGExWkU5kUHic4jzhEX8x4h6hdILnLUbwUcJCWSJL1ciICr42BQx+HEOdnBM9YjXBRyeCiErNpiYcPcg4XYjXPZktFkAu4ERnUMWJBkhg+Qh0ZCDcXCMYWu35OYyCyaWIiiSQxfIImshEGp+k3L9cf8CHEBlriMnpOYg4P0cIGhPDRk7zhdFKMEFvpiHsyRC1OnAvg0MFWhCim01rLfEoRQuzmRdyTdFbE3XnJHoQo4qmdph/mFlsQ4jCBhIK3HEGILdyKdgcb25YpbpCHcFIazZI5QR9lOBF53IiUwL/aeI3SQOa8LJkRzK70TBoY/fetY5DqSJZcJI206EqvxsrhzuLm9ysVGNE6b1DB16Xc/M42neMIcTxupScPm2e0N3Jom63jwf9D4OKC8WAq8eNB57dAKgXfAkb/2LEDRlpq8JM/z9YaPZ7XXUW56Rku99LCR4c/vTlZ/+jLHxYtu5sJsf3SAAAAAElFTkSuQmCC",
+    "file" : true
+  },
+  "dexClasses" : 6224,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"io.reist.sandbox\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"27\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<uses-feature android:glEsVersion=\"0x20000\" android:required=\"true\" />\n\t<uses-permission android:name=\"com.google.android.c2dm.permission.RECEIVE\" />\n\t<application android:theme=\"resourceId:0x7f0e0006\" android:label=\"Sandbox\" android:icon=\"res/mipmap-xxhdpi-v4/ic_launcher.png\" android:name=\"io.reist.sandbox.app.SandboxApplication\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f0e0008\" android:label=\"Sandbox\" android:name=\"io.reist.sandbox.app.view.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"io.reist.sandbox.result.view.ResultActivity\" />\n\t\t<activity android:name=\"io.reist.sandbox.result.view.SubActivity\" />\n\t\t<meta-data android:name=\"com.google.android.gms.version\" android:value=\"12211000\" />\n\t\t<meta-data android:name=\"com.google.android.geo.API_KEY\" android:value=\"AIzaSyDO8ouJon5tENu5sGE5OwhSTUQXllnifmo\" />\n\t\t<meta-data android:name=\"io.reist.dali.glide.GlideImageLoaderModule\" android:value=\"GlideModule\" />\n\t\t<activity android:theme=\"@android:style/Theme.Translucent.NoTitleBar\" android:name=\"com.google.android.gms.common.api.GoogleApiActivity\" android:exported=\"false\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 3168490,
+  "crc32" : 4181840179,
+  "sha256" : "1d3ad236ec1db5257fbf1743610db5fb22aea2a19c6c15a2562fa9021f4d115c",
+  "buildTime" : 1540741149000
+}

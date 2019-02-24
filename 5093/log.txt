@@ -1,0 +1,112 @@
+2017-01-18 00:54:38,236 INFO  DownloadService - Downloading "https://github.com/anirudhramanan/flatbuffers-android-demo/archive/master.zip", attempt 3
+2017-01-18 00:54:40,976 INFO  DownloadService - Downloaded https://github.com/anirudhramanan/flatbuffers-android-demo/archive/master.zip, attempt 3
+2017-01-18 00:54:40,976 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2017-01-18 00:54:40,977 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1484679278230-0/master.zip: true
+2017-01-18 00:54:40,977 DEBUG ZipUtil - Extracting '/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1484679278230-0/master.zip' into '/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1484679278230-0/src'.
+2017-01-18 00:54:40,999 INFO  FullProcessService - Size of directory with sources: 197 KB
+2017-01-18 00:54:40,999 INFO  SysUtils - Execute command: [git, init, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1484679278230-0/src]
+2017-01-18 00:54:41,044 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1484679278230-0/src/.git/
+
+2017-01-18 00:54:41,049 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1484679278230-0/src/flatbuffers-android-demo-master/gradlew
+2017-01-18 00:54:41,056 INFO  ProjectBuildService - Build script(s): /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1484679278230-0/src/flatbuffers-android-demo-master/app/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1484679278230-0/src/flatbuffers-android-demo-master/build.gradle
+2017-01-18 00:54:41,061 INFO  ProjectBuildService - All script(s): /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1484679278230-0/src/flatbuffers-android-demo-master/app/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1484679278230-0/src/flatbuffers-android-demo-master/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1484679278230-0/src/flatbuffers-android-demo-master/settings.gradle
+2017-01-18 00:54:41,062 INFO  ProjectBuildService - Remote scripts: none
+2017-01-18 00:54:41,062 INFO  ProjectFixService - Fixing project...
+2017-01-18 00:54:41,081 INFO  LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1484679278230-0/src/flatbuffers-android-demo-master/app/local.properties
+2017-01-18 00:54:41,083 INFO  ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1484679278230-0/src/flatbuffers-android-demo-master/app/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2017-01-18 00:54:41,085 INFO  LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1484679278230-0/src/flatbuffers-android-demo-master/local.properties
+2017-01-18 00:54:41,086 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2017-01-18 00:54:41,087 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2017-01-18 00:54:41,089 INFO  ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1484679278230-0/src/flatbuffers-android-demo-master/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2017-01-18 00:54:41,090 INFO  ProjectFixService - Project was maybe fixed
+2017-01-18 00:54:41,090 INFO  ProjectTaskService - Detecting possible tasks...
+2017-01-18 00:54:41,090 INFO  SysUtils - Execute command: [/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1484679278230-0/src/flatbuffers-android-demo-master/gradlew, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1484679278230-0/src/flatbuffers-android-demo-master/app/build.gradle, tasks]
+2017-01-18 00:54:54,633 INFO  ProjectTaskService - Detected possible tasks: 70
+2017-01-18 00:54:54,634 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2017-01-18 00:54:54,634 INFO  SysUtils - Execute command: [/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1484679278230-0/src/flatbuffers-android-demo-master/gradlew, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1484679278230-0/src/flatbuffers-android-demo-master/app/build.gradle, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2017-01-18 00:56:12,473 INFO  SysUtils - Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2410Library
+:app:prepareComAndroidSupportAppcompatV72410Library
+:app:prepareComAndroidSupportConstraintConstraintLayout100Alpha4Library
+:app:prepareComAndroidSupportDesign2410Library
+:app:prepareComAndroidSupportRecyclerviewV72410Library
+:app:prepareComAndroidSupportSupportV42410Library
+:app:prepareComAndroidSupportSupportVectorDrawable2410Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+
+Running dex as a separate process.
+
+To run dex in process, the Gradle daemon needs a larger heap.
+It currently has 1008 MB.
+For faster builds, increase the maximum heap size for the Gradle daemon to at least 1536 MB.
+To do this set org.gradle.jvmargs=-Xmx1536M in the project gradle.properties.
+For more information see https://docs.gradle.org/current/userguide/build_environment.html
+
+:app:mergeDebugJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 1 mins 16.928 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.10/userguide/gradle_daemon.html
+
+2017-01-18 00:56:12,553 INFO  FullProcessService - Found APK file: /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1484679278230-0/src/flatbuffers-android-demo-master/app/build/outputs/apk/app-debug.apk

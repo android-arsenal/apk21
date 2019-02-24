@@ -1,0 +1,1180 @@
+2018-09-17 03:18:03,832 INFO  DownloadService - Downloading "https://github.com/drilonreqica/Android-Permission-Check-Library/archive/master.zip", attempt 3
+2018-09-17 03:19:04,669 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-09-17 03:19:05,689 INFO  GithubDownloadService - Default branch of this repository: master
+2018-09-17 03:19:05,689 INFO  DownloadService - Downloading "https://github.com/drilonreqica/Android-Permission-Check-Library/archive/master.zip", attempt 3
+2018-09-17 03:20:07,310 DEBUG FullProcessService - Repository https://github.com/drilonreqica/Android-Permission-Check-Library available: true
+2018-09-17 03:20:07,310 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-09-17 03:20:07,310 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/drilonreqica/Android-Permission-Check-Library, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src]
+2018-09-17 03:20:09,488 INFO  SysUtils - 
+2018-09-17 03:20:09,523 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/.git": true
+2018-09-17 03:20:09,525 INFO  FullProcessService - Size of directory with sources: 127 KB
+2018-09-17 03:20:09,526 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src]
+2018-09-17 03:20:09,542 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/.git/
+
+2018-09-17 03:20:09,545 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/gradlew
+2018-09-17 03:20:09,548 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/android-permission-check-library-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/android-permission-check-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/android-permission-check-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/build.gradle
+2018-09-17 03:20:09,550 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/android-permission-check-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/android-permission-check-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/android-permission-check-library-kotlin/build.gradle
+2018-09-17 03:20:09,551 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/drilonreqica/jcenter/master/installv.gradle", attempt 3
+2018-09-17 03:20:10,317 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/drilonreqica/jcenter/master/installv.gradle, attempt 3
+2018-09-17 03:20:10,318 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/drilonreqica/jcenter/master/bintrayv.gradle", attempt 3
+2018-09-17 03:20:10,537 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/drilonreqica/jcenter/master/bintrayv.gradle, attempt 3
+2018-09-17 03:20:10,537 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/drilonreqica/jcenter/master/installv.gradle https://raw.githubusercontent.com/drilonreqica/jcenter/master/bintrayv.gradle
+2018-09-17 03:20:10,537 INFO  ProjectFixService - Fixing project...
+2018-09-17 03:20:10,546 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/android-permission-check-library-kotlin/local.properties
+2018-09-17 03:20:10,547 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/android-permission-check-library-kotlin/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2018-09-17 03:20:10,548 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/android-permission-check-library/local.properties
+2018-09-17 03:20:10,548 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/android-permission-check-library/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2018-09-17 03:20:10,549 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/android-permission-check-sample/local.properties
+2018-09-17 03:20:10,549 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/android-permission-check-sample/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2018-09-17 03:20:10,549 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/local.properties
+2018-09-17 03:20:10,550 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2018-09-17 03:20:10,550 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2018-09-17 03:20:10,551 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2018-09-17 03:20:10,551 INFO  ProjectFixService - Project was maybe fixed
+2018-09-17 03:20:10,551 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-17 03:20:10,551 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/android-permission-check-library-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-17 03:20:27,219 INFO  ProjectTaskService - Detected possible tasks: 76
+2018-09-17 03:20:27,219 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-17 03:20:27,219 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/android-permission-check-library-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-17 03:20:33,897 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-09-17 03:20:33,897 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'javadocJar' not found in project ':android-permission-check-library-kotlin'.
+
+* Try:
+Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in project ':android-permission-check-library-kotlin'.
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:63)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$3.run(DefaultGradleLauncher.java:142)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:139)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+
+BUILD FAILED
+
+Total time: 6.073 secs
+
+2018-09-17 03:20:33,897 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2018-09-17 03:20:33,897 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/android-permission-check-library-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-09-17 03:20:54,911 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:android-permission-check-library-kotlin:preBuild UP-TO-DATE
+:android-permission-check-library-kotlin:preDebugBuild UP-TO-DATE
+:android-permission-check-library-kotlin:checkDebugManifest
+:android-permission-check-library-kotlin:preDebugAndroidTestBuild UP-TO-DATE
+:android-permission-check-library-kotlin:preDebugUnitTestBuild UP-TO-DATE
+:android-permission-check-library-kotlin:preReleaseBuild UP-TO-DATE
+:android-permission-check-library-kotlin:preReleaseUnitTestBuild UP-TO-DATE
+:android-permission-check-library-kotlin:prepareComAndroidSupportAnimatedVectorDrawable2511Library
+:android-permission-check-library-kotlin:prepareComAndroidSupportAppcompatV72511Library
+:android-permission-check-library-kotlin:prepareComAndroidSupportSupportCompat2511Library
+:android-permission-check-library-kotlin:prepareComAndroidSupportSupportCoreUi2511Library
+:android-permission-check-library-kotlin:prepareComAndroidSupportSupportCoreUtils2511Library
+:android-permission-check-library-kotlin:prepareComAndroidSupportSupportFragment2511Library
+:android-permission-check-library-kotlin:prepareComAndroidSupportSupportMediaCompat2511Library
+:android-permission-check-library-kotlin:prepareComAndroidSupportSupportV42511Library
+:android-permission-check-library-kotlin:prepareComAndroidSupportSupportVectorDrawable2511Library
+:android-permission-check-library-kotlin:prepareDebugDependencies
+:android-permission-check-library-kotlin:compileDebugAidl
+:android-permission-check-library-kotlin:compileDebugNdk UP-TO-DATE
+:android-permission-check-library-kotlin:compileLint
+:android-permission-check-library-kotlin:copyDebugLint UP-TO-DATE
+:android-permission-check-library-kotlin:compileDebugRenderscript
+:android-permission-check-library-kotlin:generateDebugBuildConfig
+:android-permission-check-library-kotlin:generateDebugResValues
+:android-permission-check-library-kotlin:generateDebugResources
+:android-permission-check-library-kotlin:mergeDebugResources
+:android-permission-check-library-kotlin:processDebugManifest
+:android-permission-check-library-kotlin:processDebugResources
+:android-permission-check-library-kotlin:generateDebugSources
+:android-permission-check-library-kotlin:incrementalDebugJavaCompilationSafeguard
+:android-permission-check-library-kotlin:compileDebugKotlin
+:android-permission-check-library-kotlin:compileDebugJavaWithJavac
+:android-permission-check-library-kotlin:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:android-permission-check-library-kotlin:copyDebugKotlinClasses
+:android-permission-check-library-kotlin:extractDebugAnnotations
+:android-permission-check-library-kotlin:mergeDebugShaders
+:android-permission-check-library-kotlin:compileDebugShaders
+:android-permission-check-library-kotlin:generateDebugAssets
+:android-permission-check-library-kotlin:mergeDebugAssets
+:android-permission-check-library-kotlin:mergeDebugProguardFiles
+:android-permission-check-library-kotlin:packageDebugRenderscript UP-TO-DATE
+:android-permission-check-library-kotlin:packageDebugResources
+:android-permission-check-library-kotlin:processDebugJavaRes UP-TO-DATE
+:android-permission-check-library-kotlin:transformResourcesWithMergeJavaResForDebug
+:android-permission-check-library-kotlin:transformClassesAndResourcesWithSyncLibJarsForDebug
+:android-permission-check-library-kotlin:mergeDebugJniLibFolders
+:android-permission-check-library-kotlin:transformNative_libsWithMergeJniLibsForDebug
+:android-permission-check-library-kotlin:transformNative_libsWithSyncJniLibsForDebug
+:android-permission-check-library-kotlin:bundleDebug
+:android-permission-check-library-kotlin:compileDebugSources
+:android-permission-check-library-kotlin:assembleDebug
+:android-permission-check-library-kotlin:checkReleaseManifest
+:android-permission-check-library-kotlin:prepareReleaseDependencies
+:android-permission-check-library-kotlin:compileReleaseAidl
+:android-permission-check-library-kotlin:compileReleaseNdk UP-TO-DATE
+:android-permission-check-library-kotlin:copyReleaseLint UP-TO-DATE
+:android-permission-check-library-kotlin:compileReleaseRenderscript
+:android-permission-check-library-kotlin:generateReleaseBuildConfig
+:android-permission-check-library-kotlin:generateReleaseResValues
+:android-permission-check-library-kotlin:generateReleaseResources
+:android-permission-check-library-kotlin:mergeReleaseResources
+:android-permission-check-library-kotlin:processReleaseManifest
+:android-permission-check-library-kotlin:processReleaseResources
+:android-permission-check-library-kotlin:generateReleaseSources
+:android-permission-check-library-kotlin:incrementalReleaseJavaCompilationSafeguard
+:android-permission-check-library-kotlin:compileReleaseKotlin
+:android-permission-check-library-kotlin:compileReleaseJavaWithJavac
+:android-permission-check-library-kotlin:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:android-permission-check-library-kotlin:copyReleaseKotlinClasses
+:android-permission-check-library-kotlin:extractReleaseAnnotations
+:android-permission-check-library-kotlin:mergeReleaseShaders
+:android-permission-check-library-kotlin:compileReleaseShaders
+:android-permission-check-library-kotlin:generateReleaseAssets
+:android-permission-check-library-kotlin:mergeReleaseAssets
+:android-permission-check-library-kotlin:mergeReleaseProguardFiles
+:android-permission-check-library-kotlin:packageReleaseRenderscript UP-TO-DATE
+:android-permission-check-library-kotlin:packageReleaseResources
+:android-permission-check-library-kotlin:processReleaseJavaRes UP-TO-DATE
+:android-permission-check-library-kotlin:transformResourcesWithMergeJavaResForRelease
+:android-permission-check-library-kotlin:transformClassesAndResourcesWithSyncLibJarsForRelease
+:android-permission-check-library-kotlin:mergeReleaseJniLibFolders
+:android-permission-check-library-kotlin:transformNative_libsWithMergeJniLibsForRelease
+:android-permission-check-library-kotlin:transformNative_libsWithSyncJniLibsForRelease
+:android-permission-check-library-kotlin:bundleRelease
+:android-permission-check-library-kotlin:compileReleaseSources
+:android-permission-check-library-kotlin:assembleRelease
+:android-permission-check-library-kotlin:assemble
+:android-permission-check-library-kotlin:lint[Fatal Error] :3:214: The value of attribute "name" associated with an element type "item" must not contain the '<' character.
+Could not read /Users/vbauer/Library/Android/sdk/platform-tools/api/annotations.zip
+java.io.IOException: Could not parse XML from android/accounts/annotations.xml
+	at com.android.tools.lint.ExternalAnnotationRepository$AnnotationsDatabase.initializePackage(ExternalAnnotationRepository.java:906)
+	at com.android.tools.lint.ExternalAnnotationRepository$AnnotationsDatabase.initializeFromJar(ExternalAnnotationRepository.java:849)
+	at com.android.tools.lint.ExternalAnnotationRepository$AnnotationsDatabase.<init>(ExternalAnnotationRepository.java:597)
+	at com.android.tools.lint.ExternalAnnotationRepository.getDatabase(ExternalAnnotationRepository.java:242)
+	at com.android.tools.lint.ExternalAnnotationRepository.create(ExternalAnnotationRepository.java:181)
+	at com.android.tools.lint.ExternalAnnotationRepository.get(ExternalAnnotationRepository.java:162)
+	at com.android.tools.lint.psi.EcjPsiManager.getAnnotationRepository(EcjPsiManager.java:883)
+	at com.android.tools.lint.psi.EcjPsiBinaryMethod.findAnnotations(EcjPsiBinaryMethod.java:311)
+	at com.android.tools.lint.psi.EcjPsiBinaryMethod.getApplicableAnnotations(EcjPsiBinaryMethod.java:305)
+	at com.android.tools.lint.psi.EcjPsiBinaryMethod.getAnnotations(EcjPsiBinaryMethod.java:299)
+	at com.android.tools.lint.checks.ApiDetector$ApiVisitor.checkRequiresApi(ApiDetector.java:1957)
+	at com.android.tools.lint.checks.ApiDetector$ApiVisitor.visitCallExpression(ApiDetector.java:1942)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitCallExpression(JavaPsiVisitor.java:1029)
+	at com.intellij.psi.JavaElementVisitor.visitMethodCallExpression(JavaElementVisitor.java:183)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitMethodCallExpression(JavaPsiVisitor.java:1021)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DelegatingPsiVisitor.visitMethodCallExpression(JavaPsiVisitor.java:1667)
+	at com.android.tools.lint.psi.EcjPsiMethodCallExpression.accept(EcjPsiMethodCallExpression.java:40)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:85)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.JavaElementVisitor.visitVariable(JavaElementVisitor.java:328)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitVariable(JavaPsiVisitor.java:1389)
+	at com.intellij.psi.JavaElementVisitor.visitField(JavaElementVisitor.java:119)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitField(JavaPsiVisitor.java:845)
+	at com.android.tools.lint.psi.EcjPsiField.accept(EcjPsiField.java:64)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:85)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.JavaElementVisitor.visitClass(JavaElementVisitor.java:55)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitClass(JavaPsiVisitor.java:667)
+	at com.android.tools.lint.psi.EcjPsiClass.accept(EcjPsiClass.java:642)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:85)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.PsiElementVisitor.visitFile(PsiElementVisitor.java:34)
+	at com.intellij.psi.JavaElementVisitor.visitJavaFile(JavaElementVisitor.java:336)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitJavaFile(JavaPsiVisitor.java:1411)
+	at com.android.tools.lint.psi.EcjPsiJavaFile.accept(EcjPsiJavaFile.java:111)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$4.run(JavaPsiVisitor.java:327)
+	at com.android.tools.lint.EcjParser.runReadAction(EcjParser.java:1115)
+	at com.android.tools.lint.client.api.JavaPsiVisitor.visitFile(JavaPsiVisitor.java:321)
+	at com.android.tools.lint.client.api.LintDriver.visitJavaFiles(LintDriver.java:1571)
+	at com.android.tools.lint.client.api.LintDriver.checkJava(LintDriver.java:1551)
+	at com.android.tools.lint.client.api.LintDriver.runFileDetectors(LintDriver.java:1090)
+	at com.android.tools.lint.client.api.LintDriver.checkProject(LintDriver.java:935)
+	at com.android.tools.lint.client.api.LintDriver.analyze(LintDriver.java:454)
+	at com.android.tools.lint.client.api.LintDriver.analyze(LintDriver.java:395)
+	at com.android.tools.lint.LintCliClient.run(LintCliClient.java:131)
+	at com.android.build.gradle.internal.LintGradleClient.run(LintGradleClient.java:146)
+	at com.android.build.gradle.tasks.Lint.runLint(Lint.java:255)
+	at com.android.build.gradle.tasks.Lint.lintAllVariants(Lint.java:129)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.java:113)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:228)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:221)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:210)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:621)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:604)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:66)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:153)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:150)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+Ran lint on variant release: 3 issues found
+Ran lint on variant debug: 3 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/android-permission-check-library-kotlin/build/outputs/lint-results-debug.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/android-permission-check-library-kotlin/build/outputs/lint-results-debug.xml
+:android-permission-check-library-kotlin:incrementalDebugUnitTestJavaCompilationSafeguard UP-TO-DATE
+:android-permission-check-library-kotlin:prepareDebugUnitTestDependencies
+:android-permission-check-library-kotlin:compileDebugUnitTestKotlin UP-TO-DATE
+:android-permission-check-library-kotlin:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:android-permission-check-library-kotlin:processDebugUnitTestJavaRes UP-TO-DATE
+:android-permission-check-library-kotlin:compileDebugUnitTestSources UP-TO-DATE
+:android-permission-check-library-kotlin:mockableAndroidJar
+:android-permission-check-library-kotlin:assembleDebugUnitTest
+:android-permission-check-library-kotlin:copyDebugUnitTestKotlinClasses
+:android-permission-check-library-kotlin:testDebugUnitTest UP-TO-DATE
+:android-permission-check-library-kotlin:incrementalReleaseUnitTestJavaCompilationSafeguard UP-TO-DATE
+:android-permission-check-library-kotlin:prepareReleaseUnitTestDependencies
+:android-permission-check-library-kotlin:compileReleaseUnitTestKotlin UP-TO-DATE
+:android-permission-check-library-kotlin:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:android-permission-check-library-kotlin:processReleaseUnitTestJavaRes UP-TO-DATE
+:android-permission-check-library-kotlin:compileReleaseUnitTestSources UP-TO-DATE
+:android-permission-check-library-kotlin:assembleReleaseUnitTest
+:android-permission-check-library-kotlin:copyReleaseUnitTestKotlinClasses
+:android-permission-check-library-kotlin:testReleaseUnitTest UP-TO-DATE
+:android-permission-check-library-kotlin:test UP-TO-DATE
+:android-permission-check-library-kotlin:check
+:android-permission-check-library-kotlin:build
+
+BUILD SUCCESSFUL
+
+Total time: 20.393 secs
+
+2018-09-17 03:20:54,989 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-17 03:20:54,989 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/android-permission-check-library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-17 03:21:02,085 INFO  ProjectTaskService - Detected possible tasks: 71
+2018-09-17 03:21:02,085 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-17 03:21:02,085 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/android-permission-check-library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-17 03:21:08,693 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-09-17 03:21:08,693 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'javadocJar' not found in project ':android-permission-check-library'.
+
+* Try:
+Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in project ':android-permission-check-library'.
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:63)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$3.run(DefaultGradleLauncher.java:142)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:139)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+
+BUILD FAILED
+
+Total time: 5.985 secs
+
+2018-09-17 03:21:08,693 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2018-09-17 03:21:08,693 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/android-permission-check-library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-09-17 03:21:22,696 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:android-permission-check-library:preBuild UP-TO-DATE
+:android-permission-check-library:preDebugBuild UP-TO-DATE
+:android-permission-check-library:checkDebugManifest
+:android-permission-check-library:preDebugAndroidTestBuild UP-TO-DATE
+:android-permission-check-library:preDebugUnitTestBuild UP-TO-DATE
+:android-permission-check-library:preReleaseBuild UP-TO-DATE
+:android-permission-check-library:preReleaseUnitTestBuild UP-TO-DATE
+:android-permission-check-library:prepareComAndroidSupportAnimatedVectorDrawable2511Library
+:android-permission-check-library:prepareComAndroidSupportAppcompatV72511Library
+:android-permission-check-library:prepareComAndroidSupportSupportCompat2511Library
+:android-permission-check-library:prepareComAndroidSupportSupportCoreUi2511Library
+:android-permission-check-library:prepareComAndroidSupportSupportCoreUtils2511Library
+:android-permission-check-library:prepareComAndroidSupportSupportFragment2511Library
+:android-permission-check-library:prepareComAndroidSupportSupportMediaCompat2511Library
+:android-permission-check-library:prepareComAndroidSupportSupportV42511Library
+:android-permission-check-library:prepareComAndroidSupportSupportVectorDrawable2511Library
+:android-permission-check-library:prepareDebugDependencies
+:android-permission-check-library:compileDebugAidl
+:android-permission-check-library:compileDebugNdk UP-TO-DATE
+:android-permission-check-library:compileLint
+:android-permission-check-library:copyDebugLint UP-TO-DATE
+:android-permission-check-library:compileDebugRenderscript
+:android-permission-check-library:generateDebugBuildConfig
+:android-permission-check-library:generateDebugResValues
+:android-permission-check-library:generateDebugResources
+:android-permission-check-library:mergeDebugResources
+:android-permission-check-library:processDebugManifest
+:android-permission-check-library:processDebugResources
+:android-permission-check-library:generateDebugSources
+:android-permission-check-library:incrementalDebugJavaCompilationSafeguard
+:android-permission-check-library:compileDebugJavaWithJavac
+:android-permission-check-library:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:android-permission-check-library:extractDebugAnnotations
+:android-permission-check-library:mergeDebugShaders
+:android-permission-check-library:compileDebugShaders
+:android-permission-check-library:generateDebugAssets
+:android-permission-check-library:mergeDebugAssets
+:android-permission-check-library:mergeDebugProguardFiles
+:android-permission-check-library:packageDebugRenderscript UP-TO-DATE
+:android-permission-check-library:packageDebugResources
+:android-permission-check-library:processDebugJavaRes UP-TO-DATE
+:android-permission-check-library:transformResourcesWithMergeJavaResForDebug
+:android-permission-check-library:transformClassesAndResourcesWithSyncLibJarsForDebug
+:android-permission-check-library:mergeDebugJniLibFolders
+:android-permission-check-library:transformNative_libsWithMergeJniLibsForDebug
+:android-permission-check-library:transformNative_libsWithSyncJniLibsForDebug
+:android-permission-check-library:bundleDebug
+:android-permission-check-library:compileDebugSources
+:android-permission-check-library:assembleDebug
+:android-permission-check-library:checkReleaseManifest
+:android-permission-check-library:prepareReleaseDependencies
+:android-permission-check-library:compileReleaseAidl
+:android-permission-check-library:compileReleaseNdk UP-TO-DATE
+:android-permission-check-library:copyReleaseLint UP-TO-DATE
+:android-permission-check-library:compileReleaseRenderscript
+:android-permission-check-library:generateReleaseBuildConfig
+:android-permission-check-library:generateReleaseResValues
+:android-permission-check-library:generateReleaseResources
+:android-permission-check-library:mergeReleaseResources
+:android-permission-check-library:processReleaseManifest
+:android-permission-check-library:processReleaseResources
+:android-permission-check-library:generateReleaseSources
+:android-permission-check-library:incrementalReleaseJavaCompilationSafeguard
+:android-permission-check-library:compileReleaseJavaWithJavac
+:android-permission-check-library:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:android-permission-check-library:extractReleaseAnnotations
+:android-permission-check-library:mergeReleaseShaders
+:android-permission-check-library:compileReleaseShaders
+:android-permission-check-library:generateReleaseAssets
+:android-permission-check-library:mergeReleaseAssets
+:android-permission-check-library:mergeReleaseProguardFiles
+:android-permission-check-library:packageReleaseRenderscript UP-TO-DATE
+:android-permission-check-library:packageReleaseResources
+:android-permission-check-library:processReleaseJavaRes UP-TO-DATE
+:android-permission-check-library:transformResourcesWithMergeJavaResForRelease
+:android-permission-check-library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:android-permission-check-library:mergeReleaseJniLibFolders
+:android-permission-check-library:transformNative_libsWithMergeJniLibsForRelease
+:android-permission-check-library:transformNative_libsWithSyncJniLibsForRelease
+:android-permission-check-library:bundleRelease
+:android-permission-check-library:compileReleaseSources
+:android-permission-check-library:assembleRelease
+:android-permission-check-library:assemble
+:android-permission-check-library:lint[Fatal Error] :3:214: The value of attribute "name" associated with an element type "item" must not contain the '<' character.
+Could not read /Users/vbauer/Library/Android/sdk/platform-tools/api/annotations.zip
+java.io.IOException: Could not parse XML from android/accounts/annotations.xml
+	at com.android.tools.lint.ExternalAnnotationRepository$AnnotationsDatabase.initializePackage(ExternalAnnotationRepository.java:906)
+	at com.android.tools.lint.ExternalAnnotationRepository$AnnotationsDatabase.initializeFromJar(ExternalAnnotationRepository.java:849)
+	at com.android.tools.lint.ExternalAnnotationRepository$AnnotationsDatabase.<init>(ExternalAnnotationRepository.java:597)
+	at com.android.tools.lint.ExternalAnnotationRepository.getDatabase(ExternalAnnotationRepository.java:242)
+	at com.android.tools.lint.ExternalAnnotationRepository.create(ExternalAnnotationRepository.java:181)
+	at com.android.tools.lint.ExternalAnnotationRepository.get(ExternalAnnotationRepository.java:162)
+	at com.android.tools.lint.psi.EcjPsiManager.getAnnotationRepository(EcjPsiManager.java:883)
+	at com.android.tools.lint.psi.EcjPsiJavaEvaluator.getAllAnnotations(EcjPsiJavaEvaluator.java:263)
+	at com.android.tools.lint.checks.SupportAnnotationDetector$CallVisitor.checkCall(SupportAnnotationDetector.java:1981)
+	at com.android.tools.lint.checks.SupportAnnotationDetector$CallVisitor.visitCallExpression(SupportAnnotationDetector.java:1966)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitCallExpression(JavaPsiVisitor.java:1029)
+	at com.intellij.psi.JavaElementVisitor.visitMethodCallExpression(JavaElementVisitor.java:183)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitMethodCallExpression(JavaPsiVisitor.java:1021)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DelegatingPsiVisitor.visitMethodCallExpression(JavaPsiVisitor.java:1667)
+	at com.android.tools.lint.psi.EcjPsiMethodCallExpression.accept(EcjPsiMethodCallExpression.java:40)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:85)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.JavaElementVisitor.visitExpression(JavaElementVisitor.java:103)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitExpression(JavaPsiVisitor.java:800)
+	at com.intellij.psi.JavaElementVisitor.visitPrefixExpression(JavaElementVisitor.java:227)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitPrefixExpression(JavaPsiVisitor.java:1143)
+	at com.android.tools.lint.psi.EcjPsiPrefixExpression.accept(EcjPsiPrefixExpression.java:52)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:85)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.JavaElementVisitor.visitStatement(JavaElementVisitor.java:272)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitStatement(JavaPsiVisitor.java:1246)
+	at com.intellij.psi.JavaElementVisitor.visitIfStatement(JavaElementVisitor.java:135)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitIfStatement(JavaPsiVisitor.java:889)
+	at com.android.tools.lint.psi.EcjPsiIfStatement.accept(EcjPsiIfStatement.java:52)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:85)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.JavaElementVisitor.visitCodeBlock(JavaElementVisitor.java:67)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitCodeBlock(JavaPsiVisitor.java:701)
+	at com.android.tools.lint.psi.EcjPsiCodeBlock.accept(EcjPsiCodeBlock.java:39)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:85)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.JavaElementVisitor.visitMethod(JavaElementVisitor.java:179)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitMethod(JavaPsiVisitor.java:1010)
+	at com.android.tools.lint.psi.EcjPsiMethod.accept(EcjPsiMethod.java:105)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:85)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.JavaElementVisitor.visitClass(JavaElementVisitor.java:55)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitClass(JavaPsiVisitor.java:667)
+	at com.android.tools.lint.psi.EcjPsiClass.accept(EcjPsiClass.java:642)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:85)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.PsiElementVisitor.visitFile(PsiElementVisitor.java:34)
+	at com.intellij.psi.JavaElementVisitor.visitJavaFile(JavaElementVisitor.java:336)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitJavaFile(JavaPsiVisitor.java:1411)
+	at com.android.tools.lint.psi.EcjPsiJavaFile.accept(EcjPsiJavaFile.java:111)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$4.run(JavaPsiVisitor.java:327)
+	at com.android.tools.lint.EcjParser.runReadAction(EcjParser.java:1115)
+	at com.android.tools.lint.client.api.JavaPsiVisitor.visitFile(JavaPsiVisitor.java:321)
+	at com.android.tools.lint.client.api.LintDriver.visitJavaFiles(LintDriver.java:1571)
+	at com.android.tools.lint.client.api.LintDriver.checkJava(LintDriver.java:1551)
+	at com.android.tools.lint.client.api.LintDriver.runFileDetectors(LintDriver.java:1090)
+	at com.android.tools.lint.client.api.LintDriver.checkProject(LintDriver.java:935)
+	at com.android.tools.lint.client.api.LintDriver.analyze(LintDriver.java:454)
+	at com.android.tools.lint.client.api.LintDriver.analyze(LintDriver.java:395)
+	at com.android.tools.lint.LintCliClient.run(LintCliClient.java:131)
+	at com.android.build.gradle.internal.LintGradleClient.run(LintGradleClient.java:146)
+	at com.android.build.gradle.tasks.Lint.runLint(Lint.java:255)
+	at com.android.build.gradle.tasks.Lint.lintAllVariants(Lint.java:129)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.java:113)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:228)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:221)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:210)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:621)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:604)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:66)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:153)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:150)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+Ran lint on variant debug: 3 issues found
+Ran lint on variant release: 3 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/android-permission-check-library/build/outputs/lint-results-debug.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/android-permission-check-library/build/outputs/lint-results-debug.xml
+:android-permission-check-library:incrementalDebugUnitTestJavaCompilationSafeguard UP-TO-DATE
+:android-permission-check-library:prepareDebugUnitTestDependencies
+:android-permission-check-library:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:android-permission-check-library:processDebugUnitTestJavaRes UP-TO-DATE
+:android-permission-check-library:compileDebugUnitTestSources UP-TO-DATE
+:android-permission-check-library:mockableAndroidJar
+:android-permission-check-library:assembleDebugUnitTest
+:android-permission-check-library:testDebugUnitTest UP-TO-DATE
+:android-permission-check-library:incrementalReleaseUnitTestJavaCompilationSafeguard UP-TO-DATE
+:android-permission-check-library:prepareReleaseUnitTestDependencies
+:android-permission-check-library:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:android-permission-check-library:processReleaseUnitTestJavaRes UP-TO-DATE
+:android-permission-check-library:compileReleaseUnitTestSources UP-TO-DATE
+:android-permission-check-library:assembleReleaseUnitTest
+:android-permission-check-library:testReleaseUnitTest UP-TO-DATE
+:android-permission-check-library:test UP-TO-DATE
+:android-permission-check-library:check
+:android-permission-check-library:build
+
+BUILD SUCCESSFUL
+
+Total time: 13.379 secs
+
+2018-09-17 03:21:22,832 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-17 03:21:22,832 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/android-permission-check-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-17 03:21:30,043 INFO  ProjectTaskService - Detected possible tasks: 73
+2018-09-17 03:21:30,043 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-17 03:21:30,043 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/android-permission-check-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-17 03:21:36,943 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-09-17 03:21:36,944 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'javadocJar' not found in project ':android-permission-check-sample'.
+
+* Try:
+Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in project ':android-permission-check-sample'.
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:63)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$3.run(DefaultGradleLauncher.java:142)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:139)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+
+BUILD FAILED
+
+Total time: 6.267 secs
+
+2018-09-17 03:21:36,944 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2018-09-17 03:21:36,944 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/android-permission-check-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-09-17 03:21:58,344 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:android-permission-check-library:preBuild UP-TO-DATE
+:android-permission-check-library:preReleaseBuild UP-TO-DATE
+:android-permission-check-library:checkReleaseManifest
+:android-permission-check-library:preDebugAndroidTestBuild UP-TO-DATE
+:android-permission-check-library:preDebugBuild UP-TO-DATE
+:android-permission-check-library:preDebugUnitTestBuild UP-TO-DATE
+:android-permission-check-library:preReleaseUnitTestBuild UP-TO-DATE
+:android-permission-check-library:prepareComAndroidSupportAnimatedVectorDrawable2511Library UP-TO-DATE
+:android-permission-check-library:prepareComAndroidSupportAppcompatV72511Library UP-TO-DATE
+:android-permission-check-library:prepareComAndroidSupportSupportCompat2511Library UP-TO-DATE
+:android-permission-check-library:prepareComAndroidSupportSupportCoreUi2511Library UP-TO-DATE
+:android-permission-check-library:prepareComAndroidSupportSupportCoreUtils2511Library UP-TO-DATE
+:android-permission-check-library:prepareComAndroidSupportSupportFragment2511Library UP-TO-DATE
+:android-permission-check-library:prepareComAndroidSupportSupportMediaCompat2511Library UP-TO-DATE
+:android-permission-check-library:prepareComAndroidSupportSupportV42511Library UP-TO-DATE
+:android-permission-check-library:prepareComAndroidSupportSupportVectorDrawable2511Library UP-TO-DATE
+:android-permission-check-library:prepareReleaseDependencies
+:android-permission-check-library:compileReleaseAidl UP-TO-DATE
+:android-permission-check-library:compileReleaseNdk UP-TO-DATE
+:android-permission-check-library:compileLint UP-TO-DATE
+:android-permission-check-library:copyReleaseLint UP-TO-DATE
+:android-permission-check-library:compileReleaseRenderscript UP-TO-DATE
+:android-permission-check-library:generateReleaseBuildConfig UP-TO-DATE
+:android-permission-check-library:generateReleaseResValues UP-TO-DATE
+:android-permission-check-library:generateReleaseResources UP-TO-DATE
+:android-permission-check-library:mergeReleaseResources UP-TO-DATE
+:android-permission-check-library:processReleaseManifest UP-TO-DATE
+:android-permission-check-library:processReleaseResources UP-TO-DATE
+:android-permission-check-library:generateReleaseSources UP-TO-DATE
+:android-permission-check-library:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:android-permission-check-library:compileReleaseJavaWithJavac UP-TO-DATE
+:android-permission-check-library:extractReleaseAnnotations UP-TO-DATE
+:android-permission-check-library:mergeReleaseShaders UP-TO-DATE
+:android-permission-check-library:compileReleaseShaders UP-TO-DATE
+:android-permission-check-library:generateReleaseAssets UP-TO-DATE
+:android-permission-check-library:mergeReleaseAssets UP-TO-DATE
+:android-permission-check-library:mergeReleaseProguardFiles UP-TO-DATE
+:android-permission-check-library:packageReleaseRenderscript UP-TO-DATE
+:android-permission-check-library:packageReleaseResources UP-TO-DATE
+:android-permission-check-library:processReleaseJavaRes UP-TO-DATE
+:android-permission-check-library:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:android-permission-check-library:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:android-permission-check-library:mergeReleaseJniLibFolders UP-TO-DATE
+:android-permission-check-library:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:android-permission-check-library:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:android-permission-check-library:bundleRelease UP-TO-DATE
+:android-permission-check-library-kotlin:preBuild UP-TO-DATE
+:android-permission-check-library-kotlin:preReleaseBuild UP-TO-DATE
+:android-permission-check-library-kotlin:checkReleaseManifest
+:android-permission-check-library-kotlin:preDebugAndroidTestBuild UP-TO-DATE
+:android-permission-check-library-kotlin:preDebugBuild UP-TO-DATE
+:android-permission-check-library-kotlin:preDebugUnitTestBuild UP-TO-DATE
+:android-permission-check-library-kotlin:preReleaseUnitTestBuild UP-TO-DATE
+:android-permission-check-library-kotlin:prepareComAndroidSupportAnimatedVectorDrawable2511Library UP-TO-DATE
+:android-permission-check-library-kotlin:prepareComAndroidSupportAppcompatV72511Library UP-TO-DATE
+:android-permission-check-library-kotlin:prepareComAndroidSupportSupportCompat2511Library UP-TO-DATE
+:android-permission-check-library-kotlin:prepareComAndroidSupportSupportCoreUi2511Library UP-TO-DATE
+:android-permission-check-library-kotlin:prepareComAndroidSupportSupportCoreUtils2511Library UP-TO-DATE
+:android-permission-check-library-kotlin:prepareComAndroidSupportSupportFragment2511Library UP-TO-DATE
+:android-permission-check-library-kotlin:prepareComAndroidSupportSupportMediaCompat2511Library UP-TO-DATE
+:android-permission-check-library-kotlin:prepareComAndroidSupportSupportV42511Library UP-TO-DATE
+:android-permission-check-library-kotlin:prepareComAndroidSupportSupportVectorDrawable2511Library UP-TO-DATE
+:android-permission-check-library-kotlin:prepareReleaseDependencies
+:android-permission-check-library-kotlin:compileReleaseAidl UP-TO-DATE
+:android-permission-check-library-kotlin:compileReleaseNdk UP-TO-DATE
+:android-permission-check-library-kotlin:compileLint UP-TO-DATE
+:android-permission-check-library-kotlin:copyReleaseLint UP-TO-DATE
+:android-permission-check-library-kotlin:compileReleaseRenderscript UP-TO-DATE
+:android-permission-check-library-kotlin:generateReleaseBuildConfig UP-TO-DATE
+:android-permission-check-library-kotlin:generateReleaseResValues UP-TO-DATE
+:android-permission-check-library-kotlin:generateReleaseResources UP-TO-DATE
+:android-permission-check-library-kotlin:mergeReleaseResources UP-TO-DATE
+:android-permission-check-library-kotlin:processReleaseManifest UP-TO-DATE
+:android-permission-check-library-kotlin:processReleaseResources UP-TO-DATE
+:android-permission-check-library-kotlin:generateReleaseSources UP-TO-DATE
+:android-permission-check-library-kotlin:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:android-permission-check-library-kotlin:compileReleaseKotlin UP-TO-DATE
+:android-permission-check-library-kotlin:compileReleaseJavaWithJavac UP-TO-DATE
+:android-permission-check-library-kotlin:copyReleaseKotlinClasses UP-TO-DATE
+:android-permission-check-library-kotlin:extractReleaseAnnotations UP-TO-DATE
+:android-permission-check-library-kotlin:mergeReleaseShaders UP-TO-DATE
+:android-permission-check-library-kotlin:compileReleaseShaders UP-TO-DATE
+:android-permission-check-library-kotlin:generateReleaseAssets UP-TO-DATE
+:android-permission-check-library-kotlin:mergeReleaseAssets UP-TO-DATE
+:android-permission-check-library-kotlin:mergeReleaseProguardFiles UP-TO-DATE
+:android-permission-check-library-kotlin:packageReleaseRenderscript UP-TO-DATE
+:android-permission-check-library-kotlin:packageReleaseResources UP-TO-DATE
+:android-permission-check-library-kotlin:processReleaseJavaRes UP-TO-DATE
+:android-permission-check-library-kotlin:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:android-permission-check-library-kotlin:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:android-permission-check-library-kotlin:mergeReleaseJniLibFolders UP-TO-DATE
+:android-permission-check-library-kotlin:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:android-permission-check-library-kotlin:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:android-permission-check-library-kotlin:bundleRelease UP-TO-DATE
+:android-permission-check-sample:preBuild UP-TO-DATE
+:android-permission-check-sample:preDebugBuild UP-TO-DATE
+:android-permission-check-sample:checkDebugManifest
+:android-permission-check-sample:preReleaseBuild UP-TO-DATE
+:android-permission-check-sample:prepareComAndroidSupportAnimatedVectorDrawable2511Library
+:android-permission-check-sample:prepareComAndroidSupportAppcompatV72511Library
+:android-permission-check-sample:prepareComAndroidSupportSupportCompat2511Library
+:android-permission-check-sample:prepareComAndroidSupportSupportCoreUi2511Library
+:android-permission-check-sample:prepareComAndroidSupportSupportCoreUtils2511Library
+:android-permission-check-sample:prepareComAndroidSupportSupportFragment2511Library
+:android-permission-check-sample:prepareComAndroidSupportSupportMediaCompat2511Library
+:android-permission-check-sample:prepareComAndroidSupportSupportV42511Library
+:android-permission-check-sample:prepareComAndroidSupportSupportVectorDrawable2511Library
+:android-permission-check-sample:prepareSrcAndroidPermissionCheckLibraryKotlinUnspecifiedLibrary
+:android-permission-check-sample:prepareSrcAndroidPermissionCheckLibraryUnspecifiedLibrary
+:android-permission-check-sample:prepareDebugDependencies
+:android-permission-check-sample:compileDebugAidl
+:android-permission-check-sample:compileDebugRenderscript
+:android-permission-check-sample:generateDebugBuildConfig
+:android-permission-check-sample:generateDebugResValues
+:android-permission-check-sample:generateDebugResources
+:android-permission-check-sample:mergeDebugResources
+:android-permission-check-sample:processDebugManifest
+:android-permission-check-sample:processDebugResources
+:android-permission-check-sample:generateDebugSources
+:android-permission-check-sample:incrementalDebugJavaCompilationSafeguard
+:android-permission-check-sample:compileDebugJavaWithJavac
+:android-permission-check-sample:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:android-permission-check-sample:compileDebugNdk UP-TO-DATE
+:android-permission-check-sample:compileDebugSources
+:android-permission-check-sample:mergeDebugShaders
+:android-permission-check-sample:compileDebugShaders
+:android-permission-check-sample:generateDebugAssets
+:android-permission-check-sample:mergeDebugAssets
+:android-permission-check-sample:transformClassesWithDexForDebug
+:android-permission-check-sample:mergeDebugJniLibFolders
+:android-permission-check-sample:transformNative_libsWithMergeJniLibsForDebug
+:android-permission-check-sample:transformNative_libsWithStripDebugSymbolForDebug
+:android-permission-check-sample:processDebugJavaRes UP-TO-DATE
+:android-permission-check-sample:transformResourcesWithMergeJavaResForDebug
+:android-permission-check-sample:validateSigningDebug
+:android-permission-check-sample:packageDebug
+:android-permission-check-sample:assembleDebug
+:android-permission-check-sample:checkReleaseManifest
+:android-permission-check-sample:prepareReleaseDependencies
+:android-permission-check-sample:compileReleaseAidl
+:android-permission-check-sample:compileReleaseRenderscript
+:android-permission-check-sample:generateReleaseBuildConfig
+:android-permission-check-sample:generateReleaseResValues
+:android-permission-check-sample:generateReleaseResources
+:android-permission-check-sample:mergeReleaseResources
+:android-permission-check-sample:processReleaseManifest
+:android-permission-check-sample:processReleaseResources
+:android-permission-check-sample:generateReleaseSources
+:android-permission-check-sample:incrementalReleaseJavaCompilationSafeguard
+:android-permission-check-sample:compileReleaseJavaWithJavac
+:android-permission-check-sample:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:android-permission-check-sample:compileReleaseNdk UP-TO-DATE
+:android-permission-check-sample:compileReleaseSources
+:android-permission-check-sample:lintVitalRelease[Fatal Error] :3:214: The value of attribute "name" associated with an element type "item" must not contain the '<' character.
+Could not read /Users/vbauer/Library/Android/sdk/platform-tools/api/annotations.zip
+java.io.IOException: Could not parse XML from android/accounts/annotations.xml
+	at com.android.tools.lint.ExternalAnnotationRepository$AnnotationsDatabase.initializePackage(ExternalAnnotationRepository.java:906)
+	at com.android.tools.lint.ExternalAnnotationRepository$AnnotationsDatabase.initializeFromJar(ExternalAnnotationRepository.java:849)
+	at com.android.tools.lint.ExternalAnnotationRepository$AnnotationsDatabase.<init>(ExternalAnnotationRepository.java:597)
+	at com.android.tools.lint.ExternalAnnotationRepository.getDatabase(ExternalAnnotationRepository.java:242)
+	at com.android.tools.lint.ExternalAnnotationRepository.create(ExternalAnnotationRepository.java:181)
+	at com.android.tools.lint.ExternalAnnotationRepository.get(ExternalAnnotationRepository.java:162)
+	at com.android.tools.lint.psi.EcjPsiManager.getAnnotationRepository(EcjPsiManager.java:883)
+	at com.android.tools.lint.psi.EcjPsiJavaEvaluator.getAllAnnotations(EcjPsiJavaEvaluator.java:263)
+	at com.android.tools.lint.checks.SupportAnnotationDetector$CallVisitor.checkCall(SupportAnnotationDetector.java:1981)
+	at com.android.tools.lint.checks.SupportAnnotationDetector$CallVisitor.visitCallExpression(SupportAnnotationDetector.java:1966)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitCallExpression(JavaPsiVisitor.java:1029)
+	at com.intellij.psi.JavaElementVisitor.visitMethodCallExpression(JavaElementVisitor.java:183)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitMethodCallExpression(JavaPsiVisitor.java:1021)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DelegatingPsiVisitor.visitMethodCallExpression(JavaPsiVisitor.java:1667)
+	at com.android.tools.lint.psi.EcjPsiMethodCallExpression.accept(EcjPsiMethodCallExpression.java:40)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:85)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.JavaElementVisitor.visitStatement(JavaElementVisitor.java:272)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitStatement(JavaPsiVisitor.java:1246)
+	at com.intellij.psi.JavaElementVisitor.visitExpressionStatement(JavaElementVisitor.java:115)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitExpressionStatement(JavaPsiVisitor.java:834)
+	at com.android.tools.lint.psi.EcjPsiExpressionStatement.accept(EcjPsiExpressionStatement.java:50)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:85)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.JavaElementVisitor.visitCodeBlock(JavaElementVisitor.java:67)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitCodeBlock(JavaPsiVisitor.java:701)
+	at com.android.tools.lint.psi.EcjPsiCodeBlock.accept(EcjPsiCodeBlock.java:39)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:85)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.JavaElementVisitor.visitMethod(JavaElementVisitor.java:179)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitMethod(JavaPsiVisitor.java:1010)
+	at com.android.tools.lint.psi.EcjPsiMethod.accept(EcjPsiMethod.java:105)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:85)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.JavaElementVisitor.visitClass(JavaElementVisitor.java:55)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitClass(JavaPsiVisitor.java:667)
+	at com.android.tools.lint.psi.EcjPsiClass.accept(EcjPsiClass.java:642)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:85)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.PsiElementVisitor.visitFile(PsiElementVisitor.java:34)
+	at com.intellij.psi.JavaElementVisitor.visitJavaFile(JavaElementVisitor.java:336)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitJavaFile(JavaPsiVisitor.java:1411)
+	at com.android.tools.lint.psi.EcjPsiJavaFile.accept(EcjPsiJavaFile.java:111)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$4.run(JavaPsiVisitor.java:327)
+	at com.android.tools.lint.EcjParser.runReadAction(EcjParser.java:1115)
+	at com.android.tools.lint.client.api.JavaPsiVisitor.visitFile(JavaPsiVisitor.java:321)
+	at com.android.tools.lint.client.api.LintDriver.visitJavaFiles(LintDriver.java:1571)
+	at com.android.tools.lint.client.api.LintDriver.checkJava(LintDriver.java:1551)
+	at com.android.tools.lint.client.api.LintDriver.runFileDetectors(LintDriver.java:1090)
+	at com.android.tools.lint.client.api.LintDriver.checkProject(LintDriver.java:935)
+	at com.android.tools.lint.client.api.LintDriver.analyze(LintDriver.java:454)
+	at com.android.tools.lint.client.api.LintDriver.analyze(LintDriver.java:395)
+	at com.android.tools.lint.LintCliClient.run(LintCliClient.java:131)
+	at com.android.build.gradle.internal.LintGradleClient.run(LintGradleClient.java:146)
+	at com.android.build.gradle.tasks.Lint.runLint(Lint.java:255)
+	at com.android.build.gradle.tasks.Lint.lintSingleVariant(Lint.java:224)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:228)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:221)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:210)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:621)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:604)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:66)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:153)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:150)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+:android-permission-check-sample:mergeReleaseShaders
+:android-permission-check-sample:compileReleaseShaders
+:android-permission-check-sample:generateReleaseAssets
+:android-permission-check-sample:mergeReleaseAssets
+:android-permission-check-sample:transformClassesWithDexForRelease
+:android-permission-check-sample:mergeReleaseJniLibFolders
+:android-permission-check-sample:transformNative_libsWithMergeJniLibsForRelease
+:android-permission-check-sample:transformNative_libsWithStripDebugSymbolForRelease
+:android-permission-check-sample:processReleaseJavaRes UP-TO-DATE
+:android-permission-check-sample:transformResourcesWithMergeJavaResForRelease
+:android-permission-check-sample:packageRelease
+:android-permission-check-sample:assembleRelease
+:android-permission-check-sample:assemble
+:android-permission-check-sample:lint
+Ran lint on variant debug: 3 issues found
+Ran lint on variant release: 3 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/android-permission-check-sample/build/outputs/lint-results-debug.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/android-permission-check-sample/build/outputs/lint-results-debug.xml
+:android-permission-check-sample:incrementalDebugUnitTestJavaCompilationSafeguard UP-TO-DATE
+:android-permission-check-sample:preDebugUnitTestBuild UP-TO-DATE
+:android-permission-check-sample:prepareDebugUnitTestDependencies
+:android-permission-check-sample:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:android-permission-check-sample:processDebugUnitTestJavaRes UP-TO-DATE
+:android-permission-check-sample:compileDebugUnitTestSources UP-TO-DATE
+:android-permission-check-sample:mockableAndroidJar
+:android-permission-check-sample:assembleDebugUnitTest
+:android-permission-check-sample:testDebugUnitTest UP-TO-DATE
+:android-permission-check-sample:incrementalReleaseUnitTestJavaCompilationSafeguard UP-TO-DATE
+:android-permission-check-sample:preReleaseUnitTestBuild UP-TO-DATE
+:android-permission-check-sample:prepareReleaseUnitTestDependencies
+:android-permission-check-sample:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:android-permission-check-sample:processReleaseUnitTestJavaRes UP-TO-DATE
+:android-permission-check-sample:compileReleaseUnitTestSources UP-TO-DATE
+:android-permission-check-sample:assembleReleaseUnitTest
+:android-permission-check-sample:testReleaseUnitTest UP-TO-DATE
+:android-permission-check-sample:test UP-TO-DATE
+:android-permission-check-sample:check
+:android-permission-check-sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 20.697 secs
+
+2018-09-17 03:21:58,537 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537129083824-0/src/android-permission-check-sample/build/outputs/apk/android-permission-check-sample-release-unsigned.apk

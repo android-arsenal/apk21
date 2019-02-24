@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.ajts.androidmads.sqlite2xlDemo",
+    "label" : "SQLite2XL2SQLite",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : null,
+    "platformBuildVersionName" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.WRITE_EXTERNAL_STORAGE", "android.permission.READ_EXTERNAL_STORAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAHTUlEQVRo3u2Zy2sc2RXGf/fWq1/qkTSyLSRL8tjYSmYYE2zIwgabLIP/AMOAvRwCIfvZZZbZZOtFdoZAwAQSyANjsovBOyd2sCDGThz5MZJRS2qp1V3qqntPFtVd3dUPqWXJ8SI+6NLcqlu3vnPud14l+Cgf5f9b1Ij31QfCJz2/oynw9dffFia+P/OL2MoNYBxARPq2lta+6R3Jznuf6Uyl/deaSQaidN1XSm1o+PV/XlS++cOvvq33YnUH4Nf5M8d+uRM2f5J9eS+YQ4DvmreNQM+8a/0E8LOZmbIH/BSwGbADFAisla/2Av8hJBL5Cgj6rD1grS9Q3gv8MOu/V2cQKQP+KAroUcDv6XFHR59e++hRfGAoyO7r/0vr7yX6AEfYD34E679vcQ8FXiQ9eOmJ2DJETcmwRvaI8MNMdEAF9gIvIgSey8yn40gLnLSu2+7n2jlDOsqKSOYZK0KlWiO2tpWeZCSGjuwDfeBJgP7we5/xg7OnDkzDQfL3p//mLw+X0I5zdBSSfhTpDWstiLC7u4uIoJRCa43WGqWSJN/7u5d4jiKs18kXiyit+6LRgRQYCrx1LzkBizGGx48fo7XGWkutViOfz6dU2t7eplQqpUporWk0GhSLxYxS09PTKMDGMc0wxM/nRyrB3H3B98b0nrWxsRRyOVy3s1UbcJs2k5OTmbmIZNZAcpqqBdhaSzNs4AX5fU/O3YOwI5wKWBHiOCYMQ5RSjI2Ncfr06YRegOd5HD9+PAUeRRHGGMrlcgK02SSO4+SEtE6Nbq3QDBv4uRxKqaHO7I4CXgY4o3RFQN/38X0/Bba0tMTly5eZnp7G933OnTuXef7FixecOpV1/Pv377O7G7dK0M57mmGIn8sNpZN7kKibRhERsBYnrPH0H3/DhHWiKErvW2t58OABc3NzTE9PZ+illGJlZSVDDRHBGINWqhNBu5SIdkNcP/eOPtAb/kSwxuBVv8MxTRqNruIuE/uF5eVllpeXqVQq3Lhxg3I5rRFZWFjIvOP169dg4v6GRSV0ipvhAU9gr3qosY1jmn2A+zZ3XRYWFrh06RJbW1tUq1WUUqyuruI4TuK4SqGUwhgDSmWM1z4kpTiYDwxPOIIVi7Ums2ZsbIypqSk8z2NiYoInT55w8eJFrly5wurqKouLi5ldGo0G8/PzmWsvX75EGZP2idngow5XC/VKrH1iK7g6sd7MzAylUglrLaVSievXrxMEAWtra6yurhIEAU5Xdm1fa+cFx3EwxgwxnDpcJu4LSqLQrsu2zlOKd3AdzdOnTzlx4gSTk5N4nsfi4mIKWGvdF3Hq9Tpzc3Opw4sIz549A0wP4HdMZIPTQBLHVdRg1ou59OMfpZb3fZ8oiqjX66ysrHDr1i3m5+e5cOEC6+vrBEGQlhoiwqtXr7DWks/nKZfLFIvFAeWG6vfm0X1gcBlsrUWHNfwgT6lUYnx8nHK5nCrg+z47OztYa6lUKpw8eRKlFLOzs5ndnj9/zpkzZ4iiiGq1yr179zh27BjK8Vs4RwO/D4VkgBKWsfInrK+vcOfOnaEOr5Ti6tWrvHnzhrdv32KtzQzHcYiiiNu3b3Pt2jVu3rzJ3bt3BxOmXQweTIEhPa0k6f3Lzz9Ha00YhimH2+Gw7Zy1Wg2lFL7vMzU1RS6XQ+ukAdzY2GBzc5N8Pk+lUuHs2bMpa0RGB38ACnXKByPCo0eP9q35z58/z9bWFgBLS0s0Gg0cx8F1XdbX14mimC+/+AIXePTwIWItOGo4eKUOEYW6TmSsWOT0Z7MYY3BdlyiKiKII13XxfT8tzKo7Ibd//2dKhQKlfI5SIU+pWGCsWGBiYpLxchnH6bTkc/PzLH/3NmNu9a4+MKifldZYq1SorSx3mhDPw/M8oiii2Wymp1A3im1dSBqTrkAgtpUIraGQaylWyFEqFKhs7aRUHAX86IlMOnvtekV26nV8G+FpaMYG1QgRwFghspYmDpGbxw0CtHbSAq3dB7d7YytCNYzZDLdR69tox8Vx3WwN8U55QAbnQ6UcXD+A8RPUd7aTCtSYjoJaoz0Xx3XwHC8Bo1WPG0qPr6VfcbPW7wGvjsIHlALHdVFa47guu40GtruCVAqlNEqrVl/cblBUF3CdFmfZvDWcNuoofKADELRyUFpTcF2ajUbSfaksEEENAK/6K8t9ok0H/GFOQPqLK6UUKMEvFGiGYRIGu5x935xyBOCHflpMPjZ1BkNjUvISP5frijbD/E/tnWH3AT+MRXrUMiI7soqCwgsSJd4X+GEtykAFjLFbgwD3A89i8oMgLReO2vJizeaoCsS1zcofR6OU9NHJC4Ik+hwpbRTbGxt/AqJesIM+Qsqrf/3z0fHZ+ROO5y1YY31rDJ0Rdw3TN0xsECCOmpjuNdZijUF65u0h6by1zibX42ZU21xb+d1ff/ubn+/u1td6/0c2zL3zwKfAJ4DHh/03awRUgQrQOEjD6bTCrP7AClggbvWbH+WjHLX8F4I/TH5AY4S7AAAAAElFTkSuQmCC",
+    "file" : true
+  },
+  "dexClasses" : 4503,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.ajts.androidmads.sqlite2xlDemo\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"26\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />\n\t<application android:theme=\"resourceId:0x7f0e0008\" android:label=\"SQLite2XL2SQLite\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.ajts.androidmads.sqlite2xlDemo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0e0006\" android:label=\"SQLite2XL2SQLite\" android:name=\"com.ajts.androidmads.sqlite2xlDemo.SQLite2ExcelActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0e0006\" android:label=\"SQLite2XL2SQLite\" android:name=\"com.ajts.androidmads.sqlite2xlDemo.Excel2SQLiteActivity\" />\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.1.0\" />\n\t\t<meta-data android:name=\"android.arch.lifecycle.VERSION\" android:value=\"27.0.0-SNAPSHOT\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 3332667,
+  "crc32" : 2032455529,
+  "sha256" : "ef8e09815814fc2aa37521eb98978e19bc4199ff20f3cff888b6ab0844b47aa3",
+  "buildTime" : 1546883684000
+}

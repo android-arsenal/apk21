@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.uber.sdk.android.rides.samples",
+    "label" : "Login Sample",
+    "icon" : "res/drawable-mdpi-v4/uber_sample_ic_launcher.png",
+    "versionName" : null,
+    "versionCode" : null,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : null,
+    "platformBuildVersionName" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.ACCESS_FINE_LOCATION", "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/uber_sample_ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 1937,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "hi_IN", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" package=\"com.uber.sdk.android.rides.samples\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"27\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f0c00ee\" android:label=\"Login Sample\" android:icon=\"res/drawable-xxxhdpi-v4/uber_sample_ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"Login Sample\" android:name=\"com.uber.sdk.android.samples.LoginSampleActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.uber.sdk.android.rides.RideRequestActivity\" android:exported=\"false\" android:screenOrientation=\"portrait\" />\n\t\t<activity android:name=\"com.uber.sdk.android.core.auth.LoginActivity\" android:exported=\"false\" android:launchMode=\"singleTask\" android:screenOrientation=\"portrait\" />\n\t\t<activity android:name=\"com.uber.sdk.android.core.auth.LoginRedirectReceiverActivity\" android:exported=\"true\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.VIEW\" />\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t\t<category android:name=\"android.intent.category.BROWSABLE\" />\n\t\t\t\t<data android:scheme=\"com.uber.sdk.android.rides.samples.uberauth\" android:host=\"redirect\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1801879,
+  "crc32" : 2354359554,
+  "sha256" : "d5e74e91f0edbb065a231be13436c8849eee9203f3d7c7a4de4973f709ebe26c",
+  "buildTime" : 1545633565000
+}

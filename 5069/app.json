@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "in.mamga.carousalnotificationmaster",
+    "label" : "Carousal Notification Master",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 1942,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"in.mamga.carousalnotificationmaster\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"25\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f0800a3\" android:label=\"Carousal Notification Master\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"in.mamga.carousalnotificationmaster.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<receiver android:name=\"in.mamga.carousalnotificationmaster.CarousalItemClickReceiver\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"in.mamga.CAROUSALNOTIFICATIONITEMCLICKED\" />\n\t\t\t</intent-filter>\n\t\t</receiver>\n\t\t<activity android:name=\"in.mamga.carousalnotificationmaster.QuoteDetailActivity\" />\n\t\t<activity android:name=\"in.mamga.carousalnotificationmaster.MarsImageActivity\" />\n\t\t<receiver android:name=\"in.mamga.carousalnotification.CarousalEventReceiver\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"in.mamga.CAROUSALNOTIFICATIONFIRED\" />\n\t\t\t</intent-filter>\n\t\t</receiver>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1616110,
+  "crc32" : 1098474429,
+  "sha256" : "0da89c5f7b22e4ef7f1257a30727de6c474c9ca52ecdaf2dd2a6d6584f348575",
+  "buildTime" : 1521923968000
+}

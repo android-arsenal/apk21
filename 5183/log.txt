@@ -1,0 +1,155 @@
+2018-09-19 11:06:45,562 INFO  DownloadService - Downloading "https://github.com/dimorinny/floating-text-button/archive/master.zip", attempt 3
+2018-09-19 11:06:55,266 INFO  DownloadService - Downloaded https://github.com/dimorinny/floating-text-button/archive/master.zip, attempt 3
+2018-09-19 11:06:55,267 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537330005559-0/master.zip": 781 KB
+2018-09-19 11:06:55,267 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-19 11:06:55,272 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537330005559-0/master.zip: true
+2018-09-19 11:06:55,272 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537330005559-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537330005559-0/src'.
+2018-09-19 11:06:55,305 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-09-19 11:06:55,306 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537330005559-0/src]
+2018-09-19 11:06:55,326 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537330005559-0/src/.git/
+
+2018-09-19 11:06:55,329 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537330005559-0/src/floating-text-button-master/gradlew
+2018-09-19 11:06:55,332 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537330005559-0/src/floating-text-button-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537330005559-0/src/floating-text-button-master/floatingtextbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537330005559-0/src/floating-text-button-master/build.gradle
+2018-09-19 11:06:55,335 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537330005559-0/src/floating-text-button-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537330005559-0/src/floating-text-button-master/floatingtextbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537330005559-0/src/floating-text-button-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537330005559-0/src/floating-text-button-master/settings.gradle
+2018-09-19 11:06:55,335 INFO  ProjectBuildService - Remote scripts: none
+2018-09-19 11:06:55,335 INFO  ProjectFixService - Fixing project...
+2018-09-19 11:06:55,342 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537330005559-0/src/floating-text-button-master/app/local.properties
+2018-09-19 11:06:55,342 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537330005559-0/src/floating-text-button-master/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-09-19 11:06:55,343 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537330005559-0/src/floating-text-button-master/floatingtextbutton/local.properties
+2018-09-19 11:06:55,343 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537330005559-0/src/floating-text-button-master/floatingtextbutton/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-09-19 11:06:55,343 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537330005559-0/src/floating-text-button-master/local.properties
+2018-09-19 11:06:55,344 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-09-19 11:06:55,344 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-09-19 11:06:55,345 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537330005559-0/src/floating-text-button-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-09-19 11:06:55,345 INFO  ProjectFixService - Project was maybe fixed
+2018-09-19 11:06:55,345 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-19 11:06:55,345 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537330005559-0/src/floating-text-button-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537330005559-0/src/floating-text-button-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-19 11:07:02,833 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-19 11:07:02,833 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-19 11:07:02,833 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537330005559-0/src/floating-text-button-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537330005559-0/src/floating-text-button-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-19 11:07:24,771 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:floatingtextbutton:preBuild UP-TO-DATE
+:floatingtextbutton:preDebugBuild UP-TO-DATE
+:floatingtextbutton:checkDebugManifest
+:floatingtextbutton:processDebugManifest
+:app:preDebugBuild
+:floatingtextbutton:compileDebugAidl
+:app:compileDebugAidl
+:floatingtextbutton:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:generateDebugResValues
+:app:generateDebugResources
+:floatingtextbutton:compileDebugRenderscript
+:floatingtextbutton:generateDebugResValues
+:floatingtextbutton:generateDebugResources
+:floatingtextbutton:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:floatingtextbutton:platformAttrExtractor
+:floatingtextbutton:generateDebugBuildConfig
+:floatingtextbutton:prepareLintJar
+:floatingtextbutton:javaPreCompileDebug
+:floatingtextbutton:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:floatingtextbutton:mergeDebugShaders
+:floatingtextbutton:compileDebugShaders
+:floatingtextbutton:generateDebugAssets
+:floatingtextbutton:mergeDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:floatingtextbutton:compileDebugNdk NO-SOURCE
+:floatingtextbutton:mergeDebugJniLibFolders
+:floatingtextbutton:transformNativeLibsWithMergeJniLibsForDebug
+:floatingtextbutton:transformNativeLibsWithStripDebugSymbolForDebug
+:floatingtextbutton:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:floatingtextbutton:preReleaseBuild UP-TO-DATE
+:floatingtextbutton:checkReleaseManifest
+:floatingtextbutton:processReleaseManifest
+:app:preReleaseBuild
+:floatingtextbutton:compileReleaseAidl
+:app:compileReleaseAidl
+:floatingtextbutton:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:floatingtextbutton:compileReleaseRenderscript
+:floatingtextbutton:generateReleaseResValues
+:floatingtextbutton:generateReleaseResources
+:floatingtextbutton:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:floatingtextbutton:generateReleaseBuildConfig
+:floatingtextbutton:javaPreCompileRelease
+:floatingtextbutton:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:floatingtextbutton:mergeReleaseShaders
+:floatingtextbutton:compileReleaseShaders
+:floatingtextbutton:generateReleaseAssets
+:floatingtextbutton:mergeReleaseAssets
+:app:mergeReleaseAssets
+:floatingtextbutton:processDebugResources
+:app:processDebugResources
+:app:generateDebugSources
+:floatingtextbutton:generateDebugSources
+:floatingtextbutton:compileDebugJavaWithJavac
+:floatingtextbutton:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:floatingtextbutton:processReleaseResources
+:app:processReleaseResources
+:app:generateReleaseSources
+:floatingtextbutton:generateReleaseSources
+:floatingtextbutton:compileReleaseJavaWithJavac
+:floatingtextbutton:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:floatingtextbutton:compileReleaseNdk NO-SOURCE
+:floatingtextbutton:mergeReleaseJniLibFolders
+:floatingtextbutton:transformNativeLibsWithMergeJniLibsForRelease
+:floatingtextbutton:transformNativeLibsWithStripDebugSymbolForRelease
+:floatingtextbutton:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 21s
+88 actionable tasks: 88 executed
+
+2018-09-19 11:07:24,843 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537330005559-0/src/floating-text-button-master/app/build/outputs/apk/debug/app-debug.apk

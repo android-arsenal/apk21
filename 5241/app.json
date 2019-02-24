@@ -1,0 +1,43 @@
+{
+  "meta" : {
+    "packageName" : "com.vlk.multimager.example",
+    "label" : "Multimager",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0.4",
+    "versionCode" : 5,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.READ_EXTERNAL_STORAGE", "android.permission.WRITE_EXTERNAL_STORAGE", "android.permission.CAMERA" ],
+    "usesFeatures" : [ {
+      "name" : "android.hardware.camera",
+      "required" : false
+    }, {
+      "name" : "android.hardware.camera.autofocus",
+      "required" : false
+    }, {
+      "name" : "android.hardware.camera.flash",
+      "required" : false
+    } ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAABa1BMVEUAAAAeaQ8abxYZbhUZbRUZbhUccQ4ZbhUabxUabhYZbhUbbxdPkEynx6Xi7eH7/fv3+vfW5dWTu5E6gzcoeCWuzK3////0+PSHs4UdcBnO4M2ixKD8/fzc6dz+//53qXT6/Pp1qHIreSfd6t3o8egpeCV0p3IabhZ2qXRsomrv9e/7/Pt0qHIabxalxqO+1r0ueyq/177B2MA3gTQmdiJ0p3F1qHP7/Pq91bze6t04gTQldiFcmFmZv5jd6dxZllc7gzfd6tyKtYjV5NQgchyHtIX5+/lTklAccBlxpW5Tk1AzfzCsyqodcRlal1fH3Mb///6LtokteyogcxybwJn6/PlXlVQfchzM38pqoWf+/v3o8ecvfCyewpz+//19rXpCiD7y9/HA2L8dcRpuo2v9/vzb6NqMt4pDiED0+PPv9e0/hjyxzq9WlFLd6dve6tyQuY7o8OcxfS0ccBi10bSGs4OMtoojdB+ItIVSsfcKAAAACnRSTlMAEYG6v7kS09KADq0g9QAAAYpJREFUSMftlVdTwjAAgClQhRQooAQVGSpTBBUQUMEFbtG498KBeyv8fNNW8LQj+sYD30tzue9L08tdqlI1qC8otUYrA62mxH5TM1BAJy7U3DxjMJpYs8XaIir0okCDZ1ttLOSxt7X/CmhRoMV+B6zhYH4GWomAsdX0TqfLTQ4MbNX3dHX3eH3EwFj1WX8g6IEhYmCCsJfzw30RfxjCKDFgYf/AIPbx+tiHMWJghs54IhYeiiRT3IvSxMAC4fDIaCaQDPNfkiUGVmyNxUGQXx+6xonBhB17k1PC+jCXJwZg+vug4cws+eDAnMNV8+fBHwLAuL3C/nMLnLS4VCAEAPhC0Vg6u8zvP7+CVokBZm1deAY2ENrcIgfbO44IP9jdQwjtH5CCwCE6OuYGJ6eIo3hGCM4v8EYyACQukUBJObi65qSbW+buy0epe6XA9yBYj0+oxvOLfPD6hiQoFmSDdyTJh1xQrpQkqZQVD04acUArB7T0VSmP+KqkdP+8jFWUnpa97vVU43dYZ3wCmq1qYfGM0SgAAAAASUVORK5CYII=",
+    "file" : true
+  },
+  "dexClasses" : 2241,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"5\" android:versionName=\"1.0.4\" package=\"com.vlk.multimager.example\" platformBuildVersionCode=\"26\" platformBuildVersionName=\"8.0.0\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"26\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.0.0-alpha1\" />\n\t<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.CAMERA\" />\n\t<uses-feature android:name=\"android.hardware.camera\" />\n\t<uses-feature android:name=\"android.hardware.camera.autofocus\" />\n\t<uses-feature android:name=\"android.hardware.camera.flash\" android:required=\"false\" />\n\t<application android:label=\"Multimager\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f0900d8\" android:name=\"com.vlk.multimager.example.SampleActivity\" android:configChanges=\"0x7b0\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0900d8\" android:name=\"com.vlk.multimager.activities.GalleryActivity\" android:configChanges=\"0x7b0\" />\n\t\t<activity android:theme=\"resourceId:0x7f0900d8\" android:name=\"com.vlk.multimager.activities.MultiCameraActivity\" android:screenOrientation=\"portrait\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2132931,
+  "crc32" : 4024264550,
+  "sha256" : "0dccf25b81f955745dc48840678bf5b301c265c80ca9b70ea3f36d3b3a0285e1",
+  "buildTime" : 1537129496000
+}

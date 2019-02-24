@@ -1,0 +1,635 @@
+2019-01-22 16:29:49,314 INFO  DownloadService - Downloading "https://github.com/flipkart-incubator/proteus/archive/master.zip", attempt 3
+2019-01-22 16:29:55,569 INFO  DownloadService - Downloaded https://github.com/flipkart-incubator/proteus/archive/master.zip, attempt 3
+2019-01-22 16:29:55,569 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/master.zip": 895 KB
+2019-01-22 16:29:55,569 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-22 16:29:55,575 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/master.zip: true
+2019-01-22 16:29:55,575 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src'.
+2019-01-22 16:29:55,666 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-01-22 16:29:55,666 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src]
+2019-01-22 16:29:55,692 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/.git/
+
+2019-01-22 16:29:55,703 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/gradlew
+2019-01-22 16:29:55,714 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/cardview-v7/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/design/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/gson-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/proteus-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/recyclerview-v7/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/support-v4/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/build.gradle
+2019-01-22 16:29:55,723 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/design/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/proteus-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/cardview-v7/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/gson-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/recyclerview-v7/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/support-v4/build.gradle
+2019-01-22 16:29:55,724 INFO  ProjectBuildService - Remote scripts: none
+2019-01-22 16:29:55,724 INFO  ProjectFixService - Fixing project...
+2019-01-22 16:29:55,748 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/cardview-v7/local.properties
+2019-01-22 16:29:55,752 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/cardview-v7/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-22 16:29:55,752 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/demo/local.properties
+2019-01-22 16:29:55,755 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/demo/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-22 16:29:55,756 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/design/local.properties
+2019-01-22 16:29:55,759 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/design/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-22 16:29:55,760 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/gson-adapter/local.properties
+2019-01-22 16:29:55,763 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/gson-adapter/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-22 16:29:55,763 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/proteus-core/local.properties
+2019-01-22 16:29:55,766 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/proteus-core/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-22 16:29:55,766 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/recyclerview-v7/local.properties
+2019-01-22 16:29:55,770 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/recyclerview-v7/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-22 16:29:55,771 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/support-v4/local.properties
+2019-01-22 16:29:55,774 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/support-v4/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-22 16:29:55,775 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/local.properties
+2019-01-22 16:29:55,775 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-22 16:29:55,775 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-22 16:29:55,776 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-22 16:29:55,776 INFO  ProjectFixService - Project was maybe fixed
+2019-01-22 16:29:55,776 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-22 16:29:55,776 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/cardview-v7/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-22 16:30:04,607 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-01-22 16:30:04,608 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-22 16:30:04,608 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/cardview-v7/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-22 16:30:21,159 INFO  SysUtils - Configuration on demand is an incubating feature.
+:cardview-v7:preBuild UP-TO-DATE
+:cardview-v7:preDebugBuild UP-TO-DATE
+:proteus-core:preBuild UP-TO-DATE
+:proteus-core:preDebugBuild UP-TO-DATE
+:proteus-core:compileDebugAidl NO-SOURCE
+:cardview-v7:compileDebugAidl NO-SOURCE
+:proteus-core:packageDebugRenderscript NO-SOURCE
+:cardview-v7:compileDebugRenderscript
+:cardview-v7:checkDebugManifest
+:cardview-v7:generateDebugBuildConfig
+:cardview-v7:generateDebugResValues
+:cardview-v7:generateDebugResources
+:cardview-v7:packageDebugResources
+:cardview-v7:processDebugManifest
+:proteus-core:compileDebugRenderscript
+:proteus-core:generateDebugResValues
+:proteus-core:generateDebugResources
+:proteus-core:packageDebugResources
+:proteus-core:checkDebugManifest
+:proteus-core:processDebugManifest
+:proteus-core:generateDebugRFile
+:cardview-v7:generateDebugRFile
+:cardview-v7:prepareLintJar
+:cardview-v7:generateDebugSources
+:proteus-core:generateDebugBuildConfig
+:proteus-core:prepareLintJar
+:proteus-core:generateDebugSources
+:proteus-core:javaPreCompileDebug
+:proteus-core:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:proteus-core:processDebugJavaRes NO-SOURCE
+:proteus-core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:cardview-v7:javaPreCompileDebug
+:cardview-v7:compileDebugJavaWithJavac
+:cardview-v7:extractDebugAnnotations
+:cardview-v7:mergeDebugConsumerProguardFiles
+:cardview-v7:mergeDebugShaders
+:cardview-v7:compileDebugShaders
+:cardview-v7:generateDebugAssets
+:cardview-v7:packageDebugAssets
+:cardview-v7:packageDebugRenderscript NO-SOURCE
+:cardview-v7:processDebugJavaRes NO-SOURCE
+:cardview-v7:transformResourcesWithMergeJavaResForDebug
+:cardview-v7:transformClassesAndResourcesWithSyncLibJarsForDebug
+:cardview-v7:compileDebugNdk NO-SOURCE
+:cardview-v7:mergeDebugJniLibFolders
+:cardview-v7:transformNativeLibsWithMergeJniLibsForDebug
+:cardview-v7:transformNativeLibsWithStripDebugSymbolForDebug
+:cardview-v7:transformNativeLibsWithSyncJniLibsForDebug
+:cardview-v7:bundleDebugAar
+:cardview-v7:compileDebugSources
+:cardview-v7:assembleDebug
+:cardview-v7:preReleaseBuild UP-TO-DATE
+:proteus-core:preReleaseBuild UP-TO-DATE
+:proteus-core:compileReleaseAidl NO-SOURCE
+:cardview-v7:compileReleaseAidl NO-SOURCE
+:proteus-core:packageReleaseRenderscript NO-SOURCE
+:cardview-v7:compileReleaseRenderscript
+:cardview-v7:checkReleaseManifest
+:cardview-v7:generateReleaseBuildConfig
+:cardview-v7:generateReleaseResValues
+:cardview-v7:generateReleaseResources
+:cardview-v7:packageReleaseResources
+:cardview-v7:processReleaseManifest
+:proteus-core:compileReleaseRenderscript
+:proteus-core:generateReleaseResValues
+:proteus-core:generateReleaseResources
+:proteus-core:packageReleaseResources
+:proteus-core:checkReleaseManifest
+:proteus-core:processReleaseManifest
+:proteus-core:generateReleaseRFile
+:cardview-v7:generateReleaseRFile
+:cardview-v7:generateReleaseSources
+:proteus-core:generateReleaseBuildConfig
+:proteus-core:generateReleaseSources
+:proteus-core:javaPreCompileRelease
+:proteus-core:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:proteus-core:processReleaseJavaRes NO-SOURCE
+:proteus-core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:cardview-v7:javaPreCompileRelease
+:cardview-v7:compileReleaseJavaWithJavac
+:cardview-v7:extractReleaseAnnotations
+:cardview-v7:mergeReleaseConsumerProguardFiles
+:cardview-v7:mergeReleaseShaders
+:cardview-v7:compileReleaseShaders
+:cardview-v7:generateReleaseAssets
+:cardview-v7:packageReleaseAssets
+:cardview-v7:packageReleaseRenderscript NO-SOURCE
+:cardview-v7:processReleaseJavaRes NO-SOURCE
+:cardview-v7:transformResourcesWithMergeJavaResForRelease
+:cardview-v7:transformClassesAndResourcesWithSyncLibJarsForRelease
+:cardview-v7:compileReleaseNdk NO-SOURCE
+:cardview-v7:mergeReleaseJniLibFolders
+:cardview-v7:transformNativeLibsWithMergeJniLibsForRelease
+:cardview-v7:transformNativeLibsWithStripDebugSymbolForRelease
+:cardview-v7:transformNativeLibsWithSyncJniLibsForRelease
+:cardview-v7:bundleReleaseAar
+:cardview-v7:compileReleaseSources
+:cardview-v7:mergeReleaseResources
+:cardview-v7:verifyReleaseResources
+:cardview-v7:assembleRelease
+:cardview-v7:assemble
+:cardview-v7:build
+
+BUILD SUCCESSFUL in 16s
+66 actionable tasks: 66 executed
+
+2019-01-22 16:30:21,238 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-22 16:30:21,238 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-22 16:30:27,875 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-01-22 16:30:27,876 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-22 16:30:27,876 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-22 16:31:18,703 INFO  SysUtils - Configuration on demand is an incubating feature.
+:cardview-v7:preBuild UP-TO-DATE
+:cardview-v7:preDebugBuild UP-TO-DATE
+:proteus-core:preBuild UP-TO-DATE
+:proteus-core:preDebugBuild UP-TO-DATE
+:proteus-core:compileDebugAidl NO-SOURCE
+:cardview-v7:compileDebugAidl NO-SOURCE
+:proteus-core:packageDebugRenderscript NO-SOURCE
+:cardview-v7:compileDebugRenderscript UP-TO-DATE
+:cardview-v7:checkDebugManifest UP-TO-DATE
+:cardview-v7:generateDebugBuildConfig UP-TO-DATE
+:cardview-v7:generateDebugResValues UP-TO-DATE
+:cardview-v7:generateDebugResources UP-TO-DATE
+:cardview-v7:packageDebugResources UP-TO-DATE
+:cardview-v7:processDebugManifest UP-TO-DATE
+:proteus-core:compileDebugRenderscript UP-TO-DATE
+:proteus-core:generateDebugResValues UP-TO-DATE
+:proteus-core:generateDebugResources UP-TO-DATE
+:proteus-core:packageDebugResources UP-TO-DATE
+:proteus-core:checkDebugManifest UP-TO-DATE
+:proteus-core:processDebugManifest UP-TO-DATE
+:proteus-core:generateDebugRFile UP-TO-DATE
+:cardview-v7:generateDebugRFile UP-TO-DATE
+:cardview-v7:prepareLintJar UP-TO-DATE
+:cardview-v7:generateDebugSources UP-TO-DATE
+:proteus-core:generateDebugBuildConfig UP-TO-DATE
+:proteus-core:prepareLintJar UP-TO-DATE
+:proteus-core:generateDebugSources UP-TO-DATE
+:proteus-core:javaPreCompileDebug UP-TO-DATE
+:proteus-core:compileDebugJavaWithJavac UP-TO-DATE
+:proteus-core:processDebugJavaRes NO-SOURCE
+:proteus-core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:cardview-v7:javaPreCompileDebug UP-TO-DATE
+:cardview-v7:compileDebugJavaWithJavac UP-TO-DATE
+:cardview-v7:processDebugJavaRes NO-SOURCE
+:cardview-v7:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:demo:checkDebugClasspath
+Download https://repo.maven.apache.org/maven2/com/squareup/okio/okio/1.8.0/okio-1.8.0.jar
+WARNING: Conflict with dependency 'com.google.code.gson:gson' in project ':demo'. Resolved versions for runtime classpath (2.8.2) and compile classpath (2.7) differ. This can lead to runtime crashes. To resolve this issue follow advice at https://developer.android.com/studio/build/gradle-tips#configure-project-wide-properties. Alternatively, you can try to fix the problem by adding this snippet to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/demo/build.gradle:
+dependencies {
+    implementation("com.google.code.gson:gson:2.8.2")
+}
+
+:demo:preBuild UP-TO-DATE
+:design:preBuild UP-TO-DATE
+:design:preDebugBuild UP-TO-DATE
+:design:checkDebugManifest
+:design:processDebugManifest
+:gson-adapter:preBuild UP-TO-DATE
+:gson-adapter:preDebugBuild UP-TO-DATE
+:gson-adapter:checkDebugManifest
+:gson-adapter:processDebugManifest
+:recyclerview-v7:preBuild UP-TO-DATE
+:recyclerview-v7:preDebugBuild UP-TO-DATE
+:recyclerview-v7:checkDebugManifest
+:recyclerview-v7:processDebugManifest
+:support-v4:preBuild UP-TO-DATE
+:support-v4:preDebugBuild UP-TO-DATE
+:support-v4:checkDebugManifest
+:support-v4:processDebugManifest
+:demo:preDebugBuild
+:design:compileDebugAidl NO-SOURCE
+:gson-adapter:compileDebugAidl NO-SOURCE
+:recyclerview-v7:compileDebugAidl NO-SOURCE
+:support-v4:compileDebugAidl NO-SOURCE
+:demo:compileDebugAidl NO-SOURCE
+:cardview-v7:packageDebugRenderscript NO-SOURCE
+:design:packageDebugRenderscript NO-SOURCE
+:gson-adapter:packageDebugRenderscript NO-SOURCE
+:recyclerview-v7:packageDebugRenderscript NO-SOURCE
+:support-v4:packageDebugRenderscript NO-SOURCE
+:demo:compileDebugRenderscript
+:demo:checkDebugManifest
+:demo:generateDebugBuildConfig
+:demo:prepareLintJar
+:demo:mainApkListPersistenceDebug
+:demo:generateDebugResValues
+:demo:generateDebugResources
+:design:compileDebugRenderscript
+:design:generateDebugResValues
+:design:generateDebugResources
+:design:packageDebugResources
+:gson-adapter:compileDebugRenderscript
+:gson-adapter:generateDebugResValues
+:gson-adapter:generateDebugResources
+:gson-adapter:packageDebugResources
+:recyclerview-v7:compileDebugRenderscript
+:recyclerview-v7:generateDebugResValues
+:recyclerview-v7:generateDebugResources
+:recyclerview-v7:packageDebugResources
+:support-v4:compileDebugRenderscript
+:support-v4:generateDebugResValues
+:support-v4:generateDebugResources
+:support-v4:packageDebugResources
+:demo:mergeDebugResources
+:demo:createDebugCompatibleScreenManifests
+:demo:processDebugManifest
+:demo:splitsDiscoveryTaskDebug
+:design:generateDebugRFile
+:gson-adapter:generateDebugRFile
+:recyclerview-v7:generateDebugRFile
+:support-v4:generateDebugRFile
+:demo:processDebugResources
+:demo:generateDebugSources
+:design:generateDebugBuildConfig
+:design:prepareLintJar
+:design:generateDebugSources
+:design:javaPreCompileDebug
+:design:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/design/src/main/java/com/flipkart/android/proteus/support/design/widget/AppBarLayoutParser.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:design:processDebugJavaRes NO-SOURCE
+:design:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:gson-adapter:generateDebugBuildConfig
+:gson-adapter:prepareLintJar
+:gson-adapter:generateDebugSources
+:gson-adapter:javaPreCompileDebug
+:gson-adapter:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/gson-adapter/src/main/java/com/flipkart/android/proteus/gson/ProteusTypeAdapterFactory.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:gson-adapter:processDebugJavaRes NO-SOURCE
+:gson-adapter:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:recyclerview-v7:generateDebugBuildConfig
+:recyclerview-v7:prepareLintJar
+:recyclerview-v7:generateDebugSources
+:recyclerview-v7:javaPreCompileDebug
+:recyclerview-v7:compileDebugJavaWithJavac
+:recyclerview-v7:processDebugJavaRes NO-SOURCE
+:recyclerview-v7:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:support-v4:generateDebugBuildConfig
+:support-v4:prepareLintJar
+:support-v4:generateDebugSources
+:support-v4:javaPreCompileDebug
+:support-v4:compileDebugJavaWithJavac
+:support-v4:processDebugJavaRes NO-SOURCE
+:support-v4:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:demo:javaPreCompileDebug
+:demo:compileDebugJavaWithJavacNote: [1] Wrote GeneratedAppGlideModule with: []
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/demo/src/main/java/com/flipkart/android/proteus/demo/customviews/CircleView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:demo:compileDebugNdk NO-SOURCE
+:demo:compileDebugSources
+:cardview-v7:mergeDebugShaders UP-TO-DATE
+:cardview-v7:compileDebugShaders UP-TO-DATE
+:cardview-v7:generateDebugAssets UP-TO-DATE
+:cardview-v7:packageDebugAssets UP-TO-DATE
+:demo:mergeDebugShaders
+:demo:compileDebugShaders
+:demo:generateDebugAssets
+:design:mergeDebugShaders
+:design:compileDebugShaders
+:design:generateDebugAssets
+:design:packageDebugAssets
+:gson-adapter:mergeDebugShaders
+:gson-adapter:compileDebugShaders
+:gson-adapter:generateDebugAssets
+:gson-adapter:packageDebugAssets
+:proteus-core:mergeDebugShaders
+:proteus-core:compileDebugShaders
+:proteus-core:generateDebugAssets
+:proteus-core:packageDebugAssets
+:recyclerview-v7:mergeDebugShaders
+:recyclerview-v7:compileDebugShaders
+:recyclerview-v7:generateDebugAssets
+:recyclerview-v7:packageDebugAssets
+:support-v4:mergeDebugShaders
+:support-v4:compileDebugShaders
+:support-v4:generateDebugAssets
+:support-v4:packageDebugAssets
+:demo:mergeDebugAssets
+:demo:transformClassesWithDexBuilderForDebug
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+:demo:transformDexArchiveWithExternalLibsDexMergerForDebug
+:demo:transformDexArchiveWithDexMergerForDebug
+:cardview-v7:compileDebugNdk NO-SOURCE
+:cardview-v7:mergeDebugJniLibFolders UP-TO-DATE
+:cardview-v7:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:cardview-v7:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:cardview-v7:transformNativeLibsWithIntermediateJniLibsForDebug
+:demo:mergeDebugJniLibFolders
+:design:compileDebugNdk NO-SOURCE
+:design:mergeDebugJniLibFolders
+:design:transformNativeLibsWithMergeJniLibsForDebug
+:design:transformNativeLibsWithStripDebugSymbolForDebug
+:design:transformNativeLibsWithIntermediateJniLibsForDebug
+:gson-adapter:compileDebugNdk NO-SOURCE
+:gson-adapter:mergeDebugJniLibFolders
+:gson-adapter:transformNativeLibsWithMergeJniLibsForDebug
+:gson-adapter:transformNativeLibsWithStripDebugSymbolForDebug
+:gson-adapter:transformNativeLibsWithIntermediateJniLibsForDebug
+:proteus-core:compileDebugNdk NO-SOURCE
+:proteus-core:mergeDebugJniLibFolders
+:proteus-core:transformNativeLibsWithMergeJniLibsForDebug
+:proteus-core:transformNativeLibsWithStripDebugSymbolForDebug
+:proteus-core:transformNativeLibsWithIntermediateJniLibsForDebug
+:recyclerview-v7:compileDebugNdk NO-SOURCE
+:recyclerview-v7:mergeDebugJniLibFolders
+:recyclerview-v7:transformNativeLibsWithMergeJniLibsForDebug
+:recyclerview-v7:transformNativeLibsWithStripDebugSymbolForDebug
+:recyclerview-v7:transformNativeLibsWithIntermediateJniLibsForDebug
+:support-v4:compileDebugNdk NO-SOURCE
+:support-v4:mergeDebugJniLibFolders
+:support-v4:transformNativeLibsWithMergeJniLibsForDebug
+:support-v4:transformNativeLibsWithStripDebugSymbolForDebug
+:support-v4:transformNativeLibsWithIntermediateJniLibsForDebug
+:demo:transformNativeLibsWithMergeJniLibsForDebug
+:demo:transformNativeLibsWithStripDebugSymbolForDebug
+:demo:checkDebugLibraries
+:demo:processDebugJavaRes NO-SOURCE
+:demo:transformResourcesWithMergeJavaResForDebug
+:demo:validateSigningDebug
+:demo:packageDebug
+:demo:assembleDebug
+:cardview-v7:preReleaseBuild UP-TO-DATE
+:proteus-core:preReleaseBuild UP-TO-DATE
+:proteus-core:compileReleaseAidl NO-SOURCE
+:cardview-v7:compileReleaseAidl NO-SOURCE
+:proteus-core:packageReleaseRenderscript NO-SOURCE
+:cardview-v7:compileReleaseRenderscript UP-TO-DATE
+:cardview-v7:checkReleaseManifest UP-TO-DATE
+:cardview-v7:generateReleaseBuildConfig UP-TO-DATE
+:cardview-v7:generateReleaseResValues UP-TO-DATE
+:cardview-v7:generateReleaseResources UP-TO-DATE
+:cardview-v7:packageReleaseResources UP-TO-DATE
+:cardview-v7:processReleaseManifest UP-TO-DATE
+:proteus-core:compileReleaseRenderscript UP-TO-DATE
+:proteus-core:generateReleaseResValues UP-TO-DATE
+:proteus-core:generateReleaseResources UP-TO-DATE
+:proteus-core:packageReleaseResources UP-TO-DATE
+:proteus-core:checkReleaseManifest UP-TO-DATE
+:proteus-core:processReleaseManifest UP-TO-DATE
+:proteus-core:generateReleaseRFile UP-TO-DATE
+:cardview-v7:generateReleaseRFile UP-TO-DATE
+:cardview-v7:generateReleaseSources UP-TO-DATE
+:proteus-core:generateReleaseBuildConfig UP-TO-DATE
+:proteus-core:generateReleaseSources UP-TO-DATE
+:proteus-core:javaPreCompileRelease UP-TO-DATE
+:proteus-core:compileReleaseJavaWithJavac UP-TO-DATE
+:proteus-core:processReleaseJavaRes NO-SOURCE
+:proteus-core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:cardview-v7:javaPreCompileRelease UP-TO-DATE
+:cardview-v7:compileReleaseJavaWithJavac UP-TO-DATE
+:cardview-v7:processReleaseJavaRes NO-SOURCE
+:cardview-v7:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:demo:checkReleaseClasspath
+WARNING: Conflict with dependency 'com.google.code.gson:gson' in project ':demo'. Resolved versions for runtime classpath (2.8.2) and compile classpath (2.7) differ. This can lead to runtime crashes. To resolve this issue follow advice at https://developer.android.com/studio/build/gradle-tips#configure-project-wide-properties. Alternatively, you can try to fix the problem by adding this snippet to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/demo/build.gradle:
+dependencies {
+    implementation("com.google.code.gson:gson:2.8.2")
+}
+
+:design:preReleaseBuild UP-TO-DATE
+:design:checkReleaseManifest
+:design:processReleaseManifest
+:gson-adapter:preReleaseBuild UP-TO-DATE
+:gson-adapter:checkReleaseManifest
+:gson-adapter:processReleaseManifest
+:recyclerview-v7:preReleaseBuild UP-TO-DATE
+:recyclerview-v7:checkReleaseManifest
+:recyclerview-v7:processReleaseManifest
+:support-v4:preReleaseBuild UP-TO-DATE
+:support-v4:checkReleaseManifest
+:support-v4:processReleaseManifest
+:demo:preReleaseBuild
+:design:compileReleaseAidl NO-SOURCE
+:gson-adapter:compileReleaseAidl NO-SOURCE
+:recyclerview-v7:compileReleaseAidl NO-SOURCE
+:support-v4:compileReleaseAidl NO-SOURCE
+:demo:compileReleaseAidl NO-SOURCE
+:cardview-v7:packageReleaseRenderscript NO-SOURCE
+:design:packageReleaseRenderscript NO-SOURCE
+:gson-adapter:packageReleaseRenderscript NO-SOURCE
+:recyclerview-v7:packageReleaseRenderscript NO-SOURCE
+:support-v4:packageReleaseRenderscript NO-SOURCE
+:demo:compileReleaseRenderscript
+:demo:checkReleaseManifest
+:demo:generateReleaseBuildConfig
+:demo:mainApkListPersistenceRelease
+:demo:generateReleaseResValues
+:demo:generateReleaseResources
+:design:compileReleaseRenderscript
+:design:generateReleaseResValues
+:design:generateReleaseResources
+:design:packageReleaseResources
+:gson-adapter:compileReleaseRenderscript
+:gson-adapter:generateReleaseResValues
+:gson-adapter:generateReleaseResources
+:gson-adapter:packageReleaseResources
+:recyclerview-v7:compileReleaseRenderscript
+:recyclerview-v7:generateReleaseResValues
+:recyclerview-v7:generateReleaseResources
+:recyclerview-v7:packageReleaseResources
+:support-v4:compileReleaseRenderscript
+:support-v4:generateReleaseResValues
+:support-v4:generateReleaseResources
+:support-v4:packageReleaseResources
+:demo:mergeReleaseResources
+:demo:createReleaseCompatibleScreenManifests
+:demo:processReleaseManifest
+:demo:splitsDiscoveryTaskRelease
+:design:generateReleaseRFile
+:gson-adapter:generateReleaseRFile
+:recyclerview-v7:generateReleaseRFile
+:support-v4:generateReleaseRFile
+:demo:processReleaseResources
+:demo:generateReleaseSources
+:design:generateReleaseBuildConfig
+:design:generateReleaseSources
+:design:javaPreCompileRelease
+:design:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/design/src/main/java/com/flipkart/android/proteus/support/design/widget/AppBarLayoutParser.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:design:processReleaseJavaRes NO-SOURCE
+:design:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:gson-adapter:generateReleaseBuildConfig
+:gson-adapter:generateReleaseSources
+:gson-adapter:javaPreCompileRelease
+:gson-adapter:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/gson-adapter/src/main/java/com/flipkart/android/proteus/gson/ProteusTypeAdapterFactory.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:gson-adapter:processReleaseJavaRes NO-SOURCE
+:gson-adapter:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:recyclerview-v7:generateReleaseBuildConfig
+:recyclerview-v7:generateReleaseSources
+:recyclerview-v7:javaPreCompileRelease
+:recyclerview-v7:compileReleaseJavaWithJavac
+:recyclerview-v7:processReleaseJavaRes NO-SOURCE
+:recyclerview-v7:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:support-v4:generateReleaseBuildConfig
+:support-v4:generateReleaseSources
+:support-v4:javaPreCompileRelease
+:support-v4:compileReleaseJavaWithJavac
+:support-v4:processReleaseJavaRes NO-SOURCE
+:support-v4:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:demo:javaPreCompileRelease
+:demo:compileReleaseJavaWithJavacNote: [1] Wrote GeneratedAppGlideModule with: []
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/demo/src/main/java/com/flipkart/android/proteus/demo/customviews/CircleView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:demo:compileReleaseNdk NO-SOURCE
+:demo:compileReleaseSources
+:demo:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/1ffc82ae0ee857e3ecaeb1359293ab76/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/demo/build.gradle: Error: commons-logging defines classes that conflict with classes now provided by Android. Solutions include finding newer versions or alternative libraries that don't have the same problem (for example, for httpclient use HttpUrlConnection or okhttp instead), or repackaging the library using something like jarjar. [DuplicatePlatformClasses]
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/demo/build.gradle: Error: httpclient defines classes that conflict with classes now provided by Android. Solutions include finding newer versions or alternative libraries that don't have the same problem (for example, for httpclient use HttpUrlConnection or okhttp instead), or repackaging the library using something like jarjar. [DuplicatePlatformClasses]
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/demo/build.gradle: Error: opengl-api defines classes that conflict with classes now provided by Android. Solutions include finding newer versions or alternative libraries that don't have the same problem (for example, for httpclient use HttpUrlConnection or okhttp instead), or repackaging the library using something like jarjar. [DuplicatePlatformClasses]
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/demo/build.gradle: Error: xmlParserAPIs defines classes that conflict with classes now provided by Android. Solutions include finding newer versions or alternative libraries that don't have the same problem (for example, for httpclient use HttpUrlConnection or okhttp instead), or repackaging the library using something like jarjar. [DuplicatePlatformClasses]
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/demo/build.gradle: Error: xpp3 defines classes that conflict with classes now provided by Android. Solutions include finding newer versions or alternative libraries that don't have the same problem (for example, for httpclient use HttpUrlConnection or okhttp instead), or repackaging the library using something like jarjar. [DuplicatePlatformClasses]
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/demo/build.gradle:17: Error: android defines classes that conflict with classes now provided by Android. Solutions include finding newer versions or alternative libraries that don't have the same problem (for example, for httpclient use HttpUrlConnection or okhttp instead), or repackaging the library using something like jarjar. [DuplicatePlatformClasses]
+apply plugin: 'com.android.application'
+                   ~~~~~~~
+
+   Explanation for issues of type "DuplicatePlatformClasses":
+   There are a number of libraries that duplicate not just functionality of
+   the Android platform but using the exact same class names as the ones
+   provided in Android -- for example the apache http classes. This can lead
+   to unexpected crashes.
+
+   To solve this, you need to either find a newer version of the library which
+   no longer has this problem, or to repackage the library (and all of its
+   dependencies) using something like the jarjar tool, or finally, rewriting
+   the code to use different APIs (for example, for http code, consider using
+   HttpUrlConnection or a library like okhttp).
+
+6 errors, 0 warnings
+:cardview-v7:mergeReleaseShaders UP-TO-DATE
+:cardview-v7:compileReleaseShaders UP-TO-DATE
+:cardview-v7:generateReleaseAssets UP-TO-DATE
+:cardview-v7:packageReleaseAssets UP-TO-DATE
+:demo:mergeReleaseShaders
+:demo:compileReleaseShaders
+:demo:generateReleaseAssets
+:design:mergeReleaseShaders
+:design:compileReleaseShaders
+:design:generateReleaseAssets
+:design:packageReleaseAssets
+:gson-adapter:mergeReleaseShaders
+:gson-adapter:compileReleaseShaders
+:gson-adapter:generateReleaseAssets
+:gson-adapter:packageReleaseAssets
+:proteus-core:mergeReleaseShaders
+:proteus-core:compileReleaseShaders
+:proteus-core:generateReleaseAssets
+:proteus-core:packageReleaseAssets
+:recyclerview-v7:mergeReleaseShaders
+:recyclerview-v7:compileReleaseShaders
+:recyclerview-v7:generateReleaseAssets
+:recyclerview-v7:packageReleaseAssets
+:support-v4:mergeReleaseShaders
+:support-v4:compileReleaseShaders
+:support-v4:generateReleaseAssets
+:support-v4:packageReleaseAssets
+:demo:mergeReleaseAssets
+:demo:transformClassesWithDexBuilderForRelease
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+:demo:transformDexArchiveWithExternalLibsDexMergerForRelease
+:demo:transformDexArchiveWithDexMergerForRelease
+:cardview-v7:compileReleaseNdk NO-SOURCE
+:cardview-v7:mergeReleaseJniLibFolders UP-TO-DATE
+:cardview-v7:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:cardview-v7:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:cardview-v7:transformNativeLibsWithIntermediateJniLibsForRelease
+:demo:mergeReleaseJniLibFolders
+:design:compileReleaseNdk NO-SOURCE
+:design:mergeReleaseJniLibFolders
+:design:transformNativeLibsWithMergeJniLibsForRelease
+:design:transformNativeLibsWithStripDebugSymbolForRelease
+:design:transformNativeLibsWithIntermediateJniLibsForRelease
+:gson-adapter:compileReleaseNdk NO-SOURCE
+:gson-adapter:mergeReleaseJniLibFolders
+:gson-adapter:transformNativeLibsWithMergeJniLibsForRelease
+:gson-adapter:transformNativeLibsWithStripDebugSymbolForRelease
+:gson-adapter:transformNativeLibsWithIntermediateJniLibsForRelease
+:proteus-core:compileReleaseNdk NO-SOURCE
+:proteus-core:mergeReleaseJniLibFolders
+:proteus-core:transformNativeLibsWithMergeJniLibsForRelease
+:proteus-core:transformNativeLibsWithStripDebugSymbolForRelease
+:proteus-core:transformNativeLibsWithIntermediateJniLibsForRelease
+:recyclerview-v7:compileReleaseNdk NO-SOURCE
+:recyclerview-v7:mergeReleaseJniLibFolders
+:recyclerview-v7:transformNativeLibsWithMergeJniLibsForRelease
+:recyclerview-v7:transformNativeLibsWithStripDebugSymbolForRelease
+:recyclerview-v7:transformNativeLibsWithIntermediateJniLibsForRelease
+:support-v4:compileReleaseNdk NO-SOURCE
+:support-v4:mergeReleaseJniLibFolders
+:support-v4:transformNativeLibsWithMergeJniLibsForRelease
+:support-v4:transformNativeLibsWithStripDebugSymbolForRelease
+:support-v4:transformNativeLibsWithIntermediateJniLibsForRelease
+:demo:transformNativeLibsWithMergeJniLibsForRelease
+:demo:transformNativeLibsWithStripDebugSymbolForRelease
+:demo:checkReleaseLibraries
+:demo:processReleaseJavaRes NO-SOURCE
+:demo:transformResourcesWithMergeJavaResForRelease
+:demo:packageRelease
+:demo:assembleRelease
+:demo:assemble
+:demo:build
+
+BUILD SUCCESSFUL in 50s
+265 actionable tasks: 213 executed, 52 up-to-date
+
+2019-01-22 16:31:18,915 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/demo/build/outputs/apk/release/demo-release-unsigned.apk

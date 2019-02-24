@@ -1,0 +1,48 @@
+2018-10-14 01:14:11,313 INFO  DownloadService - Downloading "https://github.com/layerlre/StepIndicator/archive/master.zip", attempt 3
+2018-10-14 01:14:13,592 INFO  DownloadService - Downloaded https://github.com/layerlre/StepIndicator/archive/master.zip, attempt 3
+2018-10-14 01:14:13,592 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454451305-0/master.zip": 502 KB
+2018-10-14 01:14:13,592 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-14 01:14:13,594 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454451305-0/master.zip: true
+2018-10-14 01:14:13,594 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454451305-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454451305-0/src'.
+2018-10-14 01:14:13,618 INFO  FullProcessService - Size of directory with sources: 541 KB
+2018-10-14 01:14:13,618 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454451305-0/src]
+2018-10-14 01:14:13,639 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454451305-0/src/.git/
+
+2018-10-14 01:14:13,642 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454451305-0/src/StepIndicator-master/gradlew
+2018-10-14 01:14:13,645 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454451305-0/src/StepIndicator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454451305-0/src/StepIndicator-master/step-indicator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454451305-0/src/StepIndicator-master/build.gradle
+2018-10-14 01:14:13,648 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454451305-0/src/StepIndicator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454451305-0/src/StepIndicator-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454451305-0/src/StepIndicator-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454451305-0/src/StepIndicator-master/step-indicator/build.gradle
+2018-10-14 01:14:13,649 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2018-10-14 01:14:13,749 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2018-10-14 01:14:13,749 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2018-10-14 01:14:13,849 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2018-10-14 01:14:13,849 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2018-10-14 01:14:13,849 INFO  ProjectFixService - Fixing project...
+2018-10-14 01:14:13,860 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454451305-0/src/StepIndicator-master/app/local.properties
+2018-10-14 01:14:13,861 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454451305-0/src/StepIndicator-master/app/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2018-10-14 01:14:13,862 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454451305-0/src/StepIndicator-master/step-indicator/local.properties
+2018-10-14 01:14:13,862 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454451305-0/src/StepIndicator-master/step-indicator/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2018-10-14 01:14:13,863 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454451305-0/src/StepIndicator-master/local.properties
+2018-10-14 01:14:13,864 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2018-10-14 01:14:13,865 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2018-10-14 01:14:13,866 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454451305-0/src/StepIndicator-master/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2018-10-14 01:14:13,866 INFO  ProjectFixService - Project was maybe fixed
+2018-10-14 01:14:13,866 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-14 01:14:13,867 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454451305-0/src/StepIndicator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454451305-0/src/StepIndicator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-14 01:14:13,877 INFO  ProjectTaskService - Detected possible tasks: 3
+2018-10-14 01:14:13,878 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2018-10-14 01:14:13,878 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454451305-0/src/StepIndicator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454451305-0/src/StepIndicator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2018-10-14 01:14:13,890 INFO  SysUtils - 
+2018-10-14 01:14:13,895 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-14 01:14:13,895 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454451305-0/src/StepIndicator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454451305-0/src/StepIndicator-master/step-indicator/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-14 01:14:13,907 INFO  ProjectTaskService - Detected possible tasks: 3
+2018-10-14 01:14:13,907 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2018-10-14 01:14:13,907 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454451305-0/src/StepIndicator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454451305-0/src/StepIndicator-master/step-indicator/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2018-10-14 01:14:13,916 INFO  SysUtils - 
+2018-10-14 01:14:13,921 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-14 01:14:13,921 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454451305-0/src/StepIndicator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454451305-0/src/StepIndicator-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-14 01:14:13,931 INFO  ProjectTaskService - Detected possible tasks: 3
+2018-10-14 01:14:13,931 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2018-10-14 01:14:13,932 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454451305-0/src/StepIndicator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454451305-0/src/StepIndicator-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2018-10-14 01:14:13,940 INFO  SysUtils - 
+2018-10-14 01:14:13,943 ERROR FullProcessService - Project build has not produced APK file
+2018-10-14 01:14:13,946 ERROR FullProcessService - Could not find generated or existed APK file

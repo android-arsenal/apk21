@@ -1,0 +1,294 @@
+2018-09-17 03:14:59,255 INFO  DownloadService - Downloading "https://github.com/kubode/ImmediateLooperScheduler/archive/master.zip", attempt 3
+2018-09-17 03:15:05,799 INFO  DownloadService - Downloading "https://github.com/kubode/ImmediateLooperScheduler/archive/master.zip", attempt 2
+2018-09-17 03:15:11,693 INFO  DownloadService - Downloading "https://github.com/kubode/ImmediateLooperScheduler/archive/master.zip", attempt 1
+2018-09-17 03:16:11,987 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-09-17 03:16:13,159 INFO  GithubDownloadService - Default branch of this repository: 2.x
+2018-09-17 03:16:13,159 INFO  DownloadService - Downloading "https://github.com/kubode/ImmediateLooperScheduler/archive/2.x.zip", attempt 3
+2018-09-17 03:17:14,795 DEBUG FullProcessService - Repository https://github.com/kubode/ImmediateLooperScheduler available: true
+2018-09-17 03:17:14,795 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-09-17 03:17:14,795 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/kubode/ImmediateLooperScheduler, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src]
+2018-09-17 03:17:16,556 INFO  SysUtils - 
+2018-09-17 03:17:16,583 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/.git": true
+2018-09-17 03:17:16,585 INFO  FullProcessService - Size of directory with sources: 93 KB
+2018-09-17 03:17:16,585 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src]
+2018-09-17 03:17:16,601 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/.git/
+
+2018-09-17 03:17:16,603 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/gradlew
+2018-09-17 03:17:16,605 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/immediate-looper-scheduler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/build.gradle
+2018-09-17 03:17:16,606 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/immediate-looper-scheduler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/gradle/bintray-upload-android.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/settings.gradle
+2018-09-17 03:17:16,607 INFO  ProjectBuildService - Remote scripts: none
+2018-09-17 03:17:16,607 INFO  ProjectFixService - Fixing project...
+2018-09-17 03:17:16,613 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/immediate-looper-scheduler/local.properties
+2018-09-17 03:17:16,614 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/immediate-looper-scheduler/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-09-17 03:17:16,614 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/immediate-looper-scheduler/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-09-17 03:17:16,615 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/local.properties
+2018-09-17 03:17:16,616 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.1-all.zip
+2018-09-17 03:17:16,616 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.1-bin.zip)
+2018-09-17 03:17:16,618 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-09-17 03:17:16,618 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-09-17 03:17:16,619 INFO  ProjectFixService - Project was maybe fixed
+2018-09-17 03:17:16,619 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-17 03:17:16,619 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/immediate-looper-scheduler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-17 03:17:41,007 INFO  ProjectTaskService - Detected possible tasks: 73
+2018-09-17 03:17:41,007 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-17 03:17:41,008 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/immediate-looper-scheduler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-17 03:17:50,801 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+The TaskInputs.source(Object) method has been deprecated and is scheduled to be removed in Gradle 4.0. Please use TaskInputs.file(Object).skipWhenEmpty() instead.
+:immediate-looper-scheduler:preBuild UP-TO-DATE
+:immediate-looper-scheduler:preDebugBuild UP-TO-DATE
+:immediate-looper-scheduler:checkDebugManifest
+:immediate-looper-scheduler:preDebugAndroidTestBuild UP-TO-DATE
+:immediate-looper-scheduler:preDebugUnitTestBuild UP-TO-DATE
+:immediate-looper-scheduler:preReleaseBuild UP-TO-DATE
+:immediate-looper-scheduler:preReleaseUnitTestBuild UP-TO-DATE
+:immediate-looper-scheduler:prepareIoReactivexRxjava2Rxandroid201Library
+:immediate-looper-scheduler:prepareDebugDependencies
+:immediate-looper-scheduler:compileDebugAidl
+:immediate-looper-scheduler:compileDebugNdk UP-TO-DATE
+:immediate-looper-scheduler:compileLint
+:immediate-looper-scheduler:copyDebugLint UP-TO-DATE
+:immediate-looper-scheduler:mergeDebugShaders
+:immediate-looper-scheduler:compileDebugShaders
+:immediate-looper-scheduler:generateDebugAssets
+:immediate-looper-scheduler:mergeDebugAssets
+:immediate-looper-scheduler:mergeDebugProguardFiles
+:immediate-looper-scheduler:packageDebugRenderscript UP-TO-DATE
+:immediate-looper-scheduler:compileDebugRenderscript
+:immediate-looper-scheduler:generateDebugResValues
+:immediate-looper-scheduler:generateDebugResources
+:immediate-looper-scheduler:packageDebugResources
+:immediate-looper-scheduler:processDebugManifest
+:immediate-looper-scheduler:generateDebugBuildConfig
+:immediate-looper-scheduler:mergeDebugResources
+:immediate-looper-scheduler:processDebugResources
+:immediate-looper-scheduler:generateDebugSources
+:immediate-looper-scheduler:incrementalDebugJavaCompilationSafeguard
+:immediate-looper-scheduler:compileDebugJavaWithJavac
+:immediate-looper-scheduler:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:immediate-looper-scheduler:unzipJacocoAgent
+:immediate-looper-scheduler:transformClassesWithJacocoForDebug
+:immediate-looper-scheduler:processDebugJavaRes UP-TO-DATE
+:immediate-looper-scheduler:transformResourcesWithMergeJavaResForDebug
+:immediate-looper-scheduler:transformClassesAndResourcesWithSyncLibJarsForDebug
+:immediate-looper-scheduler:mergeDebugJniLibFolders
+:immediate-looper-scheduler:transformNative_libsWithMergeJniLibsForDebug
+:immediate-looper-scheduler:transformNative_libsWithSyncJniLibsForDebug
+:immediate-looper-scheduler:bundleDebug
+:immediate-looper-scheduler:compileDebugSources
+:immediate-looper-scheduler:assembleDebug
+:immediate-looper-scheduler:checkReleaseManifest
+:immediate-looper-scheduler:prepareReleaseDependencies
+:immediate-looper-scheduler:compileReleaseAidl
+:immediate-looper-scheduler:compileReleaseNdk UP-TO-DATE
+:immediate-looper-scheduler:copyReleaseLint UP-TO-DATE
+:immediate-looper-scheduler:mergeReleaseShaders
+:immediate-looper-scheduler:compileReleaseShaders
+:immediate-looper-scheduler:generateReleaseAssets
+:immediate-looper-scheduler:mergeReleaseAssets
+:immediate-looper-scheduler:mergeReleaseProguardFiles
+:immediate-looper-scheduler:packageReleaseRenderscript UP-TO-DATE
+:immediate-looper-scheduler:compileReleaseRenderscript
+:immediate-looper-scheduler:generateReleaseResValues
+:immediate-looper-scheduler:generateReleaseResources
+:immediate-looper-scheduler:packageReleaseResources
+:immediate-looper-scheduler:processReleaseManifest
+:immediate-looper-scheduler:generateReleaseBuildConfig
+:immediate-looper-scheduler:mergeReleaseResources
+:immediate-looper-scheduler:processReleaseResources
+:immediate-looper-scheduler:generateReleaseSources
+:immediate-looper-scheduler:incrementalReleaseJavaCompilationSafeguard
+:immediate-looper-scheduler:compileReleaseJavaWithJavac
+:immediate-looper-scheduler:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:immediate-looper-scheduler:processReleaseJavaRes UP-TO-DATE
+:immediate-looper-scheduler:transformResourcesWithMergeJavaResForRelease
+:immediate-looper-scheduler:transformClassesAndResourcesWithSyncLibJarsForRelease
+:immediate-looper-scheduler:mergeReleaseJniLibFolders
+:immediate-looper-scheduler:transformNative_libsWithMergeJniLibsForRelease
+:immediate-looper-scheduler:transformNative_libsWithSyncJniLibsForRelease
+:immediate-looper-scheduler:bundleRelease
+:immediate-looper-scheduler:compileReleaseSources
+:immediate-looper-scheduler:assembleRelease
+:immediate-looper-scheduler:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/immediate-looper-scheduler/src/main/java/com/github/kubode/rx/android/schedulers/ImmediateLooperScheduler.java:7: error: package io.reactivex does not exist
+import io.reactivex.Scheduler;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/immediate-looper-scheduler/src/main/java/com/github/kubode/rx/android/schedulers/ImmediateLooperScheduler.java:8: error: package io.reactivex.android.schedulers does not exist
+import io.reactivex.android.schedulers.AndroidSchedulers;
+                                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/immediate-looper-scheduler/src/main/java/com/github/kubode/rx/android/schedulers/ImmediateLooperScheduler.java:9: error: package io.reactivex.disposables does not exist
+import io.reactivex.disposables.CompositeDisposable;
+                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/immediate-looper-scheduler/src/main/java/com/github/kubode/rx/android/schedulers/ImmediateLooperScheduler.java:10: error: package io.reactivex.disposables does not exist
+import io.reactivex.disposables.Disposable;
+                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/immediate-looper-scheduler/src/main/java/com/github/kubode/rx/android/schedulers/ImmediateLooperScheduler.java:11: error: package io.reactivex.schedulers does not exist
+import io.reactivex.schedulers.Schedulers;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/immediate-looper-scheduler/src/main/java/com/github/kubode/rx/android/schedulers/ImmediateLooperScheduler.java:17: error: cannot find symbol
+public class ImmediateLooperScheduler extends Scheduler {
+                                              ^
+  symbol: class Scheduler
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/immediate-looper-scheduler/src/main/java/com/github/kubode/rx/android/schedulers/ImmediateLooperScheduler.java:25: error: cannot find symbol
+    private final Scheduler looperScheduler;
+                  ^
+  symbol:   class Scheduler
+  location: class ImmediateLooperScheduler
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/immediate-looper-scheduler/src/main/java/com/github/kubode/rx/android/schedulers/ImmediateLooperScheduler.java:26: error: cannot find symbol
+    private final Scheduler immediateScheduler;
+                  ^
+  symbol:   class Scheduler
+  location: class ImmediateLooperScheduler
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/immediate-looper-scheduler/src/main/java/com/github/kubode/rx/android/schedulers/ImmediateLooperScheduler.java:40: error: cannot find symbol
+    public Worker createWorker() {
+           ^
+  symbol:   class Worker
+  location: class ImmediateLooperScheduler
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/immediate-looper-scheduler/src/main/java/com/github/kubode/rx/android/schedulers/ImmediateLooperScheduler.java:44: error: cannot find symbol
+    private static class ImmediatelyWorker extends Worker {
+                                                   ^
+  symbol:   class Worker
+  location: class ImmediateLooperScheduler
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/immediate-looper-scheduler/src/main/java/com/github/kubode/rx/android/schedulers/ImmediateLooperScheduler.java:47: error: cannot find symbol
+        private final Worker looperWorker;
+                      ^
+  symbol:   class Worker
+  location: class ImmediatelyWorker
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/immediate-looper-scheduler/src/main/java/com/github/kubode/rx/android/schedulers/ImmediateLooperScheduler.java:48: error: cannot find symbol
+        private final Worker immediateWorker;
+                      ^
+  symbol:   class Worker
+  location: class ImmediatelyWorker
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/immediate-looper-scheduler/src/main/java/com/github/kubode/rx/android/schedulers/ImmediateLooperScheduler.java:49: error: cannot find symbol
+        private final Disposable disposable;
+                      ^
+  symbol:   class Disposable
+  location: class ImmediatelyWorker
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/immediate-looper-scheduler/src/main/java/com/github/kubode/rx/android/schedulers/ImmediateLooperScheduler.java:51: error: cannot find symbol
+        private ImmediatelyWorker(Looper looper, Worker looperWorker, Worker immediateWorker) {
+                                                 ^
+  symbol:   class Worker
+  location: class ImmediatelyWorker
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/immediate-looper-scheduler/src/main/java/com/github/kubode/rx/android/schedulers/ImmediateLooperScheduler.java:51: error: cannot find symbol
+        private ImmediatelyWorker(Looper looper, Worker looperWorker, Worker immediateWorker) {
+                                                                      ^
+  symbol:   class Worker
+  location: class ImmediatelyWorker
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/immediate-looper-scheduler/src/main/java/com/github/kubode/rx/android/schedulers/ImmediateLooperScheduler.java:58: error: cannot find symbol
+        private Worker getWorker() {
+                ^
+  symbol:   class Worker
+  location: class ImmediatelyWorker
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/immediate-looper-scheduler/src/main/java/com/github/kubode/rx/android/schedulers/ImmediateLooperScheduler.java:67: error: cannot find symbol
+        public Disposable schedule(Runnable run, long delay, TimeUnit unit) {
+               ^
+  symbol:   class Disposable
+  location: class ImmediatelyWorker
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/immediate-looper-scheduler/src/main/java/com/github/kubode/rx/android/schedulers/ImmediateLooperScheduler.java:17: warning - Tag @link: reference not found: Scheduler
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/immediate-looper-scheduler/src/main/java/com/github/kubode/rx/android/schedulers/ImmediateLooperScheduler.java:22: warning - Tag @link: reference not found: Scheduler
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/immediate-looper-scheduler/src/main/java/com/github/kubode/rx/android/schedulers/ImmediateLooperScheduler.java:22: warning - Tag @link: reference not found: Scheduler
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/immediate-looper-scheduler/src/main/java/com/github/kubode/rx/android/schedulers/ImmediateLooperScheduler.java:17: warning - Tag @link: reference not found: Scheduler
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/immediate-looper-scheduler/src/main/java/com/github/kubode/rx/android/schedulers/ImmediateLooperScheduler.java:17: warning - Tag @link: reference not found: Scheduler
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/immediate-looper-scheduler/src/main/java/com/github/kubode/rx/android/schedulers/ImmediateLooperScheduler.java:22: warning - Tag @link: reference not found: Scheduler
+
+23 warnings
+:immediate-looper-scheduler:javadocJar
+:immediate-looper-scheduler:sourcesJar
+:immediate-looper-scheduler:assemble
+:immediate-looper-scheduler:build
+
+BUILD SUCCESSFUL
+
+Total time: 9.59 secs
+
+2018-09-17 03:17:50,837 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-17 03:17:50,837 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-17 03:17:56,990 INFO  ProjectTaskService - Detected possible tasks: 73
+2018-09-17 03:17:56,991 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-17 03:17:56,991 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537128899252-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-17 03:18:03,476 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+The TaskInputs.source(Object) method has been deprecated and is scheduled to be removed in Gradle 4.0. Please use TaskInputs.file(Object).skipWhenEmpty() instead.
+:immediate-looper-scheduler:preBuild UP-TO-DATE
+:immediate-looper-scheduler:preDebugBuild UP-TO-DATE
+:immediate-looper-scheduler:checkDebugManifest
+:immediate-looper-scheduler:preDebugAndroidTestBuild UP-TO-DATE
+:immediate-looper-scheduler:preDebugUnitTestBuild UP-TO-DATE
+:immediate-looper-scheduler:preReleaseBuild UP-TO-DATE
+:immediate-looper-scheduler:preReleaseUnitTestBuild UP-TO-DATE
+:immediate-looper-scheduler:prepareIoReactivexRxjava2Rxandroid201Library UP-TO-DATE
+:immediate-looper-scheduler:prepareDebugDependencies
+:immediate-looper-scheduler:compileDebugAidl UP-TO-DATE
+:immediate-looper-scheduler:compileDebugNdk UP-TO-DATE
+:immediate-looper-scheduler:compileLint UP-TO-DATE
+:immediate-looper-scheduler:copyDebugLint UP-TO-DATE
+:immediate-looper-scheduler:mergeDebugShaders UP-TO-DATE
+:immediate-looper-scheduler:compileDebugShaders UP-TO-DATE
+:immediate-looper-scheduler:generateDebugAssets UP-TO-DATE
+:immediate-looper-scheduler:mergeDebugAssets UP-TO-DATE
+:immediate-looper-scheduler:mergeDebugProguardFiles UP-TO-DATE
+:immediate-looper-scheduler:packageDebugRenderscript UP-TO-DATE
+:immediate-looper-scheduler:compileDebugRenderscript UP-TO-DATE
+:immediate-looper-scheduler:generateDebugResValues UP-TO-DATE
+:immediate-looper-scheduler:generateDebugResources UP-TO-DATE
+:immediate-looper-scheduler:packageDebugResources UP-TO-DATE
+:immediate-looper-scheduler:processDebugManifest UP-TO-DATE
+:immediate-looper-scheduler:generateDebugBuildConfig UP-TO-DATE
+:immediate-looper-scheduler:mergeDebugResources UP-TO-DATE
+:immediate-looper-scheduler:processDebugResources UP-TO-DATE
+:immediate-looper-scheduler:generateDebugSources UP-TO-DATE
+:immediate-looper-scheduler:incrementalDebugJavaCompilationSafeguard UP-TO-DATE
+:immediate-looper-scheduler:compileDebugJavaWithJavac UP-TO-DATE
+:immediate-looper-scheduler:unzipJacocoAgent UP-TO-DATE
+:immediate-looper-scheduler:transformClassesWithJacocoForDebug UP-TO-DATE
+:immediate-looper-scheduler:processDebugJavaRes UP-TO-DATE
+:immediate-looper-scheduler:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:immediate-looper-scheduler:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:immediate-looper-scheduler:mergeDebugJniLibFolders UP-TO-DATE
+:immediate-looper-scheduler:transformNative_libsWithMergeJniLibsForDebug UP-TO-DATE
+:immediate-looper-scheduler:transformNative_libsWithSyncJniLibsForDebug UP-TO-DATE
+:immediate-looper-scheduler:bundleDebug UP-TO-DATE
+:immediate-looper-scheduler:compileDebugSources UP-TO-DATE
+:immediate-looper-scheduler:assembleDebug UP-TO-DATE
+:immediate-looper-scheduler:checkReleaseManifest
+:immediate-looper-scheduler:prepareReleaseDependencies
+:immediate-looper-scheduler:compileReleaseAidl UP-TO-DATE
+:immediate-looper-scheduler:compileReleaseNdk UP-TO-DATE
+:immediate-looper-scheduler:copyReleaseLint UP-TO-DATE
+:immediate-looper-scheduler:mergeReleaseShaders UP-TO-DATE
+:immediate-looper-scheduler:compileReleaseShaders UP-TO-DATE
+:immediate-looper-scheduler:generateReleaseAssets UP-TO-DATE
+:immediate-looper-scheduler:mergeReleaseAssets UP-TO-DATE
+:immediate-looper-scheduler:mergeReleaseProguardFiles UP-TO-DATE
+:immediate-looper-scheduler:packageReleaseRenderscript UP-TO-DATE
+:immediate-looper-scheduler:compileReleaseRenderscript UP-TO-DATE
+:immediate-looper-scheduler:generateReleaseResValues UP-TO-DATE
+:immediate-looper-scheduler:generateReleaseResources UP-TO-DATE
+:immediate-looper-scheduler:packageReleaseResources UP-TO-DATE
+:immediate-looper-scheduler:processReleaseManifest UP-TO-DATE
+:immediate-looper-scheduler:generateReleaseBuildConfig UP-TO-DATE
+:immediate-looper-scheduler:mergeReleaseResources UP-TO-DATE
+:immediate-looper-scheduler:processReleaseResources UP-TO-DATE
+:immediate-looper-scheduler:generateReleaseSources UP-TO-DATE
+:immediate-looper-scheduler:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:immediate-looper-scheduler:compileReleaseJavaWithJavac UP-TO-DATE
+:immediate-looper-scheduler:processReleaseJavaRes UP-TO-DATE
+:immediate-looper-scheduler:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:immediate-looper-scheduler:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:immediate-looper-scheduler:mergeReleaseJniLibFolders UP-TO-DATE
+:immediate-looper-scheduler:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:immediate-looper-scheduler:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:immediate-looper-scheduler:bundleRelease UP-TO-DATE
+:immediate-looper-scheduler:compileReleaseSources UP-TO-DATE
+:immediate-looper-scheduler:assembleRelease UP-TO-DATE
+:immediate-looper-scheduler:javadoc UP-TO-DATE
+:immediate-looper-scheduler:javadocJar UP-TO-DATE
+:immediate-looper-scheduler:sourcesJar UP-TO-DATE
+:immediate-looper-scheduler:assemble UP-TO-DATE
+:immediate-looper-scheduler:build
+
+BUILD SUCCESSFUL
+
+Total time: 6.246 secs
+
+2018-09-17 03:18:03,512 ERROR FullProcessService - Project build has not produced APK file
+2018-09-17 03:18:03,545 ERROR FullProcessService - Could not find generated or existed APK file

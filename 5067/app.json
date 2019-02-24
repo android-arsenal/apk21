@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.jaredrummler.android.colorpicker.demo",
+    "label" : "Color Picker",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "28",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "1",
+    "platformBuildVersionName" : "{4:1065353216}",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 1676,
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "fr_FR", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "nl_NL", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "it_IT", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "zh", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.jaredrummler.android.colorpicker.demo\" platformBuildVersionCode=\"1\" platformBuildVersionName=\"{4:1065353216}\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0e0005\" android:label=\"Color Picker\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.jaredrummler.android.colorpicker.demo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"Color Picker\" android:name=\"com.jaredrummler.android.colorpicker.demo.ColorPickerActivity\" android:screenOrientation=\"portrait\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1606290,
+  "crc32" : 1716909836,
+  "sha256" : "d2458138f32cd4998467a945b3418dabe58cbf62fd2513906d662a9e432ac461",
+  "buildTime" : 1548149611000
+}
