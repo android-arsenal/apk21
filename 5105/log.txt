@@ -1,635 +1,1460 @@
-2019-01-22 16:29:49,314 INFO  DownloadService - Downloading "https://github.com/flipkart-incubator/proteus/archive/master.zip", attempt 3
-2019-01-22 16:29:55,569 INFO  DownloadService - Downloaded https://github.com/flipkart-incubator/proteus/archive/master.zip, attempt 3
-2019-01-22 16:29:55,569 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/master.zip": 895 KB
-2019-01-22 16:29:55,569 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-22 16:29:55,575 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/master.zip: true
-2019-01-22 16:29:55,575 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src'.
-2019-01-22 16:29:55,666 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-01-22 16:29:55,666 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src]
-2019-01-22 16:29:55,692 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/.git/
+2019-03-25 12:39:21,529 INFO  DownloadService - Downloading "https://github.com/flipkart-incubator/proteus/archive/master.zip", attempt 3
+2019-03-25 12:39:24,217 INFO  DownloadService - Downloaded https://github.com/flipkart-incubator/proteus/archive/master.zip, attempt 3
+2019-03-25 12:39:24,218 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/master.zip": 894 KB
+2019-03-25 12:39:24,218 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-25 12:39:24,224 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/master.zip: true
+2019-03-25 12:39:24,224 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src'.
+2019-03-25 12:39:24,306 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-03-25 12:39:24,306 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src]
+2019-03-25 12:39:24,327 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/.git/
 
-2019-01-22 16:29:55,703 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/gradlew
-2019-01-22 16:29:55,714 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/cardview-v7/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/design/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/gson-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/proteus-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/recyclerview-v7/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/support-v4/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/build.gradle
-2019-01-22 16:29:55,723 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/design/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/proteus-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/cardview-v7/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/gson-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/recyclerview-v7/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/support-v4/build.gradle
-2019-01-22 16:29:55,724 INFO  ProjectBuildService - Remote scripts: none
-2019-01-22 16:29:55,724 INFO  ProjectFixService - Fixing project...
-2019-01-22 16:29:55,748 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/cardview-v7/local.properties
-2019-01-22 16:29:55,752 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/cardview-v7/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-01-22 16:29:55,752 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/demo/local.properties
-2019-01-22 16:29:55,755 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/demo/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-01-22 16:29:55,756 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/design/local.properties
-2019-01-22 16:29:55,759 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/design/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-01-22 16:29:55,760 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/gson-adapter/local.properties
-2019-01-22 16:29:55,763 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/gson-adapter/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-01-22 16:29:55,763 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/proteus-core/local.properties
-2019-01-22 16:29:55,766 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/proteus-core/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-01-22 16:29:55,766 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/recyclerview-v7/local.properties
-2019-01-22 16:29:55,770 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/recyclerview-v7/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-01-22 16:29:55,771 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/support-v4/local.properties
-2019-01-22 16:29:55,774 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/support-v4/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-01-22 16:29:55,775 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/local.properties
-2019-01-22 16:29:55,775 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-01-22 16:29:55,775 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-01-22 16:29:55,776 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-01-22 16:29:55,776 INFO  ProjectFixService - Project was maybe fixed
-2019-01-22 16:29:55,776 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-22 16:29:55,776 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/cardview-v7/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-22 16:30:04,607 INFO  ProjectTaskService - Detected possible tasks: 65
-2019-01-22 16:30:04,608 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-01-22 16:30:04,608 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/cardview-v7/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-01-22 16:30:21,159 INFO  SysUtils - Configuration on demand is an incubating feature.
-:cardview-v7:preBuild UP-TO-DATE
-:cardview-v7:preDebugBuild UP-TO-DATE
-:proteus-core:preBuild UP-TO-DATE
-:proteus-core:preDebugBuild UP-TO-DATE
-:proteus-core:compileDebugAidl NO-SOURCE
-:cardview-v7:compileDebugAidl NO-SOURCE
-:proteus-core:packageDebugRenderscript NO-SOURCE
-:cardview-v7:compileDebugRenderscript
-:cardview-v7:checkDebugManifest
-:cardview-v7:generateDebugBuildConfig
-:cardview-v7:generateDebugResValues
-:cardview-v7:generateDebugResources
-:cardview-v7:packageDebugResources
-:cardview-v7:processDebugManifest
-:proteus-core:compileDebugRenderscript
-:proteus-core:generateDebugResValues
-:proteus-core:generateDebugResources
-:proteus-core:packageDebugResources
-:proteus-core:checkDebugManifest
-:proteus-core:processDebugManifest
-:proteus-core:generateDebugRFile
-:cardview-v7:generateDebugRFile
-:cardview-v7:prepareLintJar
-:cardview-v7:generateDebugSources
-:proteus-core:generateDebugBuildConfig
-:proteus-core:prepareLintJar
-:proteus-core:generateDebugSources
-:proteus-core:javaPreCompileDebug
-:proteus-core:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+2019-03-25 12:39:24,336 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/gradlew
+2019-03-25 12:39:24,347 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/cardview-v7/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/design/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/gson-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/proteus-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/recyclerview-v7/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/support-v4/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/build.gradle
+2019-03-25 12:39:24,357 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/design/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/proteus-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/cardview-v7/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/gson-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/recyclerview-v7/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/support-v4/build.gradle
+2019-03-25 12:39:24,358 INFO  ProjectBuildService - Remote scripts: none
+2019-03-25 12:39:24,358 INFO  ProjectFixService - Fixing project...
+2019-03-25 12:39:24,379 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/cardview-v7/local.properties
+2019-03-25 12:39:24,382 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/cardview-v7/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-03-25 12:39:24,383 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/demo/local.properties
+2019-03-25 12:39:24,385 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/demo/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-03-25 12:39:24,386 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/design/local.properties
+2019-03-25 12:39:24,389 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/design/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-03-25 12:39:24,391 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/gson-adapter/local.properties
+2019-03-25 12:39:24,394 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/gson-adapter/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-03-25 12:39:24,395 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/proteus-core/local.properties
+2019-03-25 12:39:24,397 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/proteus-core/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-03-25 12:39:24,398 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/recyclerview-v7/local.properties
+2019-03-25 12:39:24,401 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/recyclerview-v7/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-03-25 12:39:24,401 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/support-v4/local.properties
+2019-03-25 12:39:24,404 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/support-v4/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-03-25 12:39:24,405 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/local.properties
+2019-03-25 12:39:24,405 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-03-25 12:39:24,406 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-03-25 12:39:24,406 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-03-25 12:39:24,407 INFO  ProjectFixService - Project was maybe fixed
+2019-03-25 12:39:24,407 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-25 12:39:24,407 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/cardview-v7/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-25 12:39:33,238 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-03-25 12:39:33,238 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-25 12:39:33,238 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/cardview-v7/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-25 12:39:46,948 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with ExtractAarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with ExtractAarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with ExtractAarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with ExtractAarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with ExtractAarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with ExtractAarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with ExtractAarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with JetifyTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with JetifyTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with ExtractAarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with ExtractAarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with ExtractAarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with ExtractAarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with ExtractAarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with ExtractAarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with ExtractAarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with ExtractAarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with ExtractAarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with ExtractAarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with ExtractAarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with ExtractAarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with ExtractAarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with ExtractAarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with JetifyTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with ExtractAarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with JetifyTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with JetifyTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with ExtractAarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with ExtractAarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with ExtractAarTransform
+> Task :cardview-v7:preBuild UP-TO-DATE
+> Task :cardview-v7:preDebugBuild UP-TO-DATE
+> Task :proteus-core:preBuild UP-TO-DATE
+> Task :proteus-core:preDebugBuild UP-TO-DATE
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Task :proteus-core:compileDebugAidl NO-SOURCE
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarCompileClassesTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarCompileClassesTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarCompileClassesTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarCompileClassesTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.0.2) with JetifyTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarCompileClassesTransform
+> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with JetifyTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with JetifyTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarCompileClassesTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarCompileClassesTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.0.2) with IdentityTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarCompileClassesTransform
+> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with IdentityTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with IdentityTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarCompileClassesTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarCompileClassesTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarCompileClassesTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarCompileClassesTransform
+> Transform collection.jar (androidx.collection:collection:1.0.0) with JetifyTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarCompileClassesTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarCompileClassesTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarCompileClassesTransform
+> Transform collection.jar (androidx.collection:collection:1.0.0) with IdentityTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarCompileClassesTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarCompileClassesTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarCompileClassesTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarCompileClassesTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarCompileClassesTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarCompileClassesTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarCompileClassesTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarCompileClassesTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarCompileClassesTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarCompileClassesTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Task :proteus-core:packageDebugRenderscript NO-SOURCE
+> Task :cardview-v7:checkDebugManifest
+> Task :cardview-v7:generateDebugBuildConfig
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with LibrarySymbolTableTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with LibrarySymbolTableTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with LibrarySymbolTableTransform
+> Transform print.aar (androidx.print:print:1.0.0) with LibrarySymbolTableTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with LibrarySymbolTableTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with LibrarySymbolTableTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with LibrarySymbolTableTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with LibrarySymbolTableTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with LibrarySymbolTableTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with LibrarySymbolTableTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with LibrarySymbolTableTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with LibrarySymbolTableTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with LibrarySymbolTableTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with LibrarySymbolTableTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with LibrarySymbolTableTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with LibrarySymbolTableTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with LibrarySymbolTableTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with LibrarySymbolTableTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with LibrarySymbolTableTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with LibrarySymbolTableTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with LibrarySymbolTableTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with LibrarySymbolTableTransform
+> Transform aapt2-osx.jar (com.android.tools.build:aapt2:3.3.2-5309881) with Aapt2Extractor
+> Task :cardview-v7:generateDebugResValues
+> Transform core.aar (androidx.core:core:1.0.1) with AarCompileClassesTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with LibrarySymbolTableTransform
+> Task :cardview-v7:processDebugManifest
+> Task :proteus-core:compileDebugRenderscript
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with ExtractAarTransform
+> Task :proteus-core:generateDebugResValues
+> Task :proteus-core:generateDebugResources
+> Task :proteus-core:packageDebugResources
+> Task :proteus-core:checkDebugManifest
+> Task :proteus-core:processDebugManifest
+> Task :proteus-core:generateDebugRFile
+> Task :cardview-v7:prepareLintJar
+> Task :proteus-core:generateDebugBuildConfig
+> Task :proteus-core:prepareLintJar
+> Task :proteus-core:generateDebugSources
+> Task :proteus-core:javaPreCompileDebug
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarCompileClassesTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with LibrarySymbolTableTransform
+
+> Task :proteus-core:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-:proteus-core:processDebugJavaRes NO-SOURCE
-:proteus-core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:cardview-v7:javaPreCompileDebug
-:cardview-v7:compileDebugJavaWithJavac
-:cardview-v7:extractDebugAnnotations
-:cardview-v7:mergeDebugConsumerProguardFiles
-:cardview-v7:mergeDebugShaders
-:cardview-v7:compileDebugShaders
-:cardview-v7:generateDebugAssets
-:cardview-v7:packageDebugAssets
-:cardview-v7:packageDebugRenderscript NO-SOURCE
-:cardview-v7:processDebugJavaRes NO-SOURCE
-:cardview-v7:transformResourcesWithMergeJavaResForDebug
-:cardview-v7:transformClassesAndResourcesWithSyncLibJarsForDebug
-:cardview-v7:compileDebugNdk NO-SOURCE
-:cardview-v7:mergeDebugJniLibFolders
-:cardview-v7:transformNativeLibsWithMergeJniLibsForDebug
-:cardview-v7:transformNativeLibsWithStripDebugSymbolForDebug
-:cardview-v7:transformNativeLibsWithSyncJniLibsForDebug
-:cardview-v7:bundleDebugAar
-:cardview-v7:compileDebugSources
-:cardview-v7:assembleDebug
-:cardview-v7:preReleaseBuild UP-TO-DATE
-:proteus-core:preReleaseBuild UP-TO-DATE
-:proteus-core:compileReleaseAidl NO-SOURCE
-:cardview-v7:compileReleaseAidl NO-SOURCE
-:proteus-core:packageReleaseRenderscript NO-SOURCE
-:cardview-v7:compileReleaseRenderscript
-:cardview-v7:checkReleaseManifest
-:cardview-v7:generateReleaseBuildConfig
-:cardview-v7:generateReleaseResValues
-:cardview-v7:generateReleaseResources
-:cardview-v7:packageReleaseResources
-:cardview-v7:processReleaseManifest
-:proteus-core:compileReleaseRenderscript
-:proteus-core:generateReleaseResValues
-:proteus-core:generateReleaseResources
-:proteus-core:packageReleaseResources
-:proteus-core:checkReleaseManifest
-:proteus-core:processReleaseManifest
-:proteus-core:generateReleaseRFile
-:cardview-v7:generateReleaseRFile
-:cardview-v7:generateReleaseSources
-:proteus-core:generateReleaseBuildConfig
-:proteus-core:generateReleaseSources
-:proteus-core:javaPreCompileRelease
-:proteus-core:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+> Task :cardview-v7:compileDebugAidl NO-SOURCE
+> Task :cardview-v7:compileDebugRenderscript
+> Task :cardview-v7:generateDebugResources
+> Task :cardview-v7:packageDebugResources
+> Task :cardview-v7:generateDebugRFile
+> Task :cardview-v7:generateDebugSources
+> Task :proteus-core:processDebugJavaRes NO-SOURCE
+> Task :proteus-core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :cardview-v7:javaPreCompileDebug
+> Task :cardview-v7:compileDebugJavaWithJavac
+> Task :cardview-v7:extractDebugAnnotations
+> Task :cardview-v7:mergeDebugConsumerProguardFiles
+> Task :cardview-v7:mergeDebugShaders
+> Task :cardview-v7:compileDebugShaders
+> Task :cardview-v7:generateDebugAssets
+> Task :cardview-v7:packageDebugAssets
+> Task :cardview-v7:packageDebugRenderscript NO-SOURCE
+> Task :cardview-v7:processDebugJavaRes NO-SOURCE
+> Task :cardview-v7:transformResourcesWithMergeJavaResForDebug
+> Task :cardview-v7:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :cardview-v7:compileDebugNdk NO-SOURCE
+> Task :cardview-v7:mergeDebugJniLibFolders
+> Task :cardview-v7:transformNativeLibsWithMergeJniLibsForDebug
+> Task :cardview-v7:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :cardview-v7:transformNativeLibsWithSyncJniLibsForDebug
+> Task :cardview-v7:bundleDebugAar
+> Task :cardview-v7:compileDebugSources
+> Task :cardview-v7:assembleDebug
+> Task :cardview-v7:preReleaseBuild UP-TO-DATE
+> Task :proteus-core:preReleaseBuild UP-TO-DATE
+> Task :proteus-core:compileReleaseAidl NO-SOURCE
+> Task :cardview-v7:compileReleaseAidl NO-SOURCE
+> Task :proteus-core:packageReleaseRenderscript NO-SOURCE
+> Task :cardview-v7:compileReleaseRenderscript
+> Task :cardview-v7:checkReleaseManifest
+> Task :cardview-v7:generateReleaseBuildConfig
+> Task :cardview-v7:generateReleaseResValues
+> Task :cardview-v7:generateReleaseResources
+> Task :cardview-v7:packageReleaseResources
+> Task :cardview-v7:processReleaseManifest
+> Task :proteus-core:compileReleaseRenderscript
+> Task :proteus-core:generateReleaseResValues
+> Task :proteus-core:generateReleaseResources
+> Task :proteus-core:packageReleaseResources
+> Task :proteus-core:checkReleaseManifest
+> Task :proteus-core:processReleaseManifest
+> Task :proteus-core:generateReleaseRFile
+> Task :cardview-v7:generateReleaseRFile
+> Task :cardview-v7:generateReleaseSources
+> Task :proteus-core:generateReleaseBuildConfig
+> Task :proteus-core:generateReleaseSources
+> Task :proteus-core:javaPreCompileRelease
+
+> Task :proteus-core:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-:proteus-core:processReleaseJavaRes NO-SOURCE
-:proteus-core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:cardview-v7:javaPreCompileRelease
-:cardview-v7:compileReleaseJavaWithJavac
-:cardview-v7:extractReleaseAnnotations
-:cardview-v7:mergeReleaseConsumerProguardFiles
-:cardview-v7:mergeReleaseShaders
-:cardview-v7:compileReleaseShaders
-:cardview-v7:generateReleaseAssets
-:cardview-v7:packageReleaseAssets
-:cardview-v7:packageReleaseRenderscript NO-SOURCE
-:cardview-v7:processReleaseJavaRes NO-SOURCE
-:cardview-v7:transformResourcesWithMergeJavaResForRelease
-:cardview-v7:transformClassesAndResourcesWithSyncLibJarsForRelease
-:cardview-v7:compileReleaseNdk NO-SOURCE
-:cardview-v7:mergeReleaseJniLibFolders
-:cardview-v7:transformNativeLibsWithMergeJniLibsForRelease
-:cardview-v7:transformNativeLibsWithStripDebugSymbolForRelease
-:cardview-v7:transformNativeLibsWithSyncJniLibsForRelease
-:cardview-v7:bundleReleaseAar
-:cardview-v7:compileReleaseSources
-:cardview-v7:mergeReleaseResources
-:cardview-v7:verifyReleaseResources
-:cardview-v7:assembleRelease
-:cardview-v7:assemble
-:cardview-v7:build
+> Task :proteus-core:processReleaseJavaRes NO-SOURCE
+> Task :proteus-core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :cardview-v7:javaPreCompileRelease
+> Task :cardview-v7:compileReleaseJavaWithJavac
+> Task :cardview-v7:extractReleaseAnnotations
+> Task :cardview-v7:mergeReleaseConsumerProguardFiles
+> Task :cardview-v7:mergeReleaseShaders
+> Task :cardview-v7:compileReleaseShaders
+> Task :cardview-v7:generateReleaseAssets
+> Task :cardview-v7:packageReleaseAssets
+> Task :cardview-v7:packageReleaseRenderscript NO-SOURCE
+> Task :cardview-v7:processReleaseJavaRes NO-SOURCE
+> Task :cardview-v7:transformResourcesWithMergeJavaResForRelease
+> Task :cardview-v7:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :cardview-v7:compileReleaseNdk NO-SOURCE
+> Task :cardview-v7:mergeReleaseJniLibFolders
+> Task :cardview-v7:transformNativeLibsWithMergeJniLibsForRelease
+> Task :cardview-v7:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :cardview-v7:transformNativeLibsWithSyncJniLibsForRelease
+> Task :cardview-v7:bundleReleaseAar
+> Task :cardview-v7:compileReleaseSources
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Task :cardview-v7:mergeReleaseResources
+> Task :cardview-v7:verifyReleaseResources
+> Task :cardview-v7:assembleRelease
+> Task :cardview-v7:assemble
+> Task :cardview-v7:build
 
-BUILD SUCCESSFUL in 16s
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 13s
 66 actionable tasks: 66 executed
 
-2019-01-22 16:30:21,238 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-22 16:30:21,238 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-22 16:30:27,875 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-01-22 16:30:27,876 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-01-22 16:30:27,876 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-01-22 16:31:18,703 INFO  SysUtils - Configuration on demand is an incubating feature.
-:cardview-v7:preBuild UP-TO-DATE
-:cardview-v7:preDebugBuild UP-TO-DATE
-:proteus-core:preBuild UP-TO-DATE
-:proteus-core:preDebugBuild UP-TO-DATE
-:proteus-core:compileDebugAidl NO-SOURCE
-:cardview-v7:compileDebugAidl NO-SOURCE
-:proteus-core:packageDebugRenderscript NO-SOURCE
-:cardview-v7:compileDebugRenderscript UP-TO-DATE
-:cardview-v7:checkDebugManifest UP-TO-DATE
-:cardview-v7:generateDebugBuildConfig UP-TO-DATE
-:cardview-v7:generateDebugResValues UP-TO-DATE
-:cardview-v7:generateDebugResources UP-TO-DATE
-:cardview-v7:packageDebugResources UP-TO-DATE
-:cardview-v7:processDebugManifest UP-TO-DATE
-:proteus-core:compileDebugRenderscript UP-TO-DATE
-:proteus-core:generateDebugResValues UP-TO-DATE
-:proteus-core:generateDebugResources UP-TO-DATE
-:proteus-core:packageDebugResources UP-TO-DATE
-:proteus-core:checkDebugManifest UP-TO-DATE
-:proteus-core:processDebugManifest UP-TO-DATE
-:proteus-core:generateDebugRFile UP-TO-DATE
-:cardview-v7:generateDebugRFile UP-TO-DATE
-:cardview-v7:prepareLintJar UP-TO-DATE
-:cardview-v7:generateDebugSources UP-TO-DATE
-:proteus-core:generateDebugBuildConfig UP-TO-DATE
-:proteus-core:prepareLintJar UP-TO-DATE
-:proteus-core:generateDebugSources UP-TO-DATE
-:proteus-core:javaPreCompileDebug UP-TO-DATE
-:proteus-core:compileDebugJavaWithJavac UP-TO-DATE
-:proteus-core:processDebugJavaRes NO-SOURCE
-:proteus-core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
-:cardview-v7:javaPreCompileDebug UP-TO-DATE
-:cardview-v7:compileDebugJavaWithJavac UP-TO-DATE
-:cardview-v7:processDebugJavaRes NO-SOURCE
-:cardview-v7:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:demo:checkDebugClasspath
-Download https://repo.maven.apache.org/maven2/com/squareup/okio/okio/1.8.0/okio-1.8.0.jar
-WARNING: Conflict with dependency 'com.google.code.gson:gson' in project ':demo'. Resolved versions for runtime classpath (2.8.2) and compile classpath (2.7) differ. This can lead to runtime crashes. To resolve this issue follow advice at https://developer.android.com/studio/build/gradle-tips#configure-project-wide-properties. Alternatively, you can try to fix the problem by adding this snippet to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/demo/build.gradle:
-dependencies {
-    implementation("com.google.code.gson:gson:2.8.2")
-}
+2019-03-25 12:39:47,008 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-25 12:39:47,008 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-25 12:39:54,002 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-03-25 12:39:54,002 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-25 12:39:54,002 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-25 12:40:35,780 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Transform annotation.jar (androidx.annotation:annotation:1.0.2) with JetifyTransform
+> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with JetifyTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.0.2) with IdentityTransform
+> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with IdentityTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with JetifyTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with IdentityTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with ExtractAarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with ExtractAarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarCompileClassesTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarCompileClassesTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with ExtractAarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarCompileClassesTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarCompileClassesTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with ExtractAarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with ExtractAarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarCompileClassesTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarCompileClassesTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with ExtractAarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with ExtractAarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarCompileClassesTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarCompileClassesTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with JetifyTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with ExtractAarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with ExtractAarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarCompileClassesTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarCompileClassesTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with ExtractAarTransform
+> Transform collection.jar (androidx.collection:collection:1.0.0) with JetifyTransform
+> Transform collection.jar (androidx.collection:collection:1.0.0) with IdentityTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarCompileClassesTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with JetifyTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with ExtractAarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with JetifyTransform
+> Transform core.aar (androidx.core:core:1.0.1) with ExtractAarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarCompileClassesTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with ExtractAarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarCompileClassesTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with ExtractAarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarCompileClassesTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with ExtractAarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarCompileClassesTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with ExtractAarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarCompileClassesTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarCompileClassesTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with ExtractAarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with ExtractAarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarCompileClassesTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with ExtractAarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarCompileClassesTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarCompileClassesTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with ExtractAarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with JetifyTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarCompileClassesTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with ExtractAarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarCompileClassesTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with ExtractAarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarCompileClassesTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with ExtractAarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarCompileClassesTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with ExtractAarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with JetifyTransform
+> Transform annotations.jar (com.github.bumptech.glide:annotations:4.9.0) with JetifyTransform
+> Transform annotations.jar (com.github.bumptech.glide:annotations:4.9.0) with IdentityTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with ExtractAarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarCompileClassesTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with JetifyTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with ExtractAarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarCompileClassesTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarCompileClassesTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with ExtractAarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarCompileClassesTransform
+> Transform disklrucache.jar (com.github.bumptech.glide:disklrucache:4.9.0) with JetifyTransform
+> Transform disklrucache.jar (com.github.bumptech.glide:disklrucache:4.9.0) with IdentityTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with JetifyTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with ExtractAarTransform
+> Transform gifdecoder.aar (com.github.bumptech.glide:gifdecoder:4.9.0) with JetifyTransform
+> Transform gifdecoder.aar (com.github.bumptech.glide:gifdecoder:4.9.0) with ExtractAarTransform
+> Transform gifdecoder.aar (com.github.bumptech.glide:gifdecoder:4.9.0) with AarCompileClassesTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with JetifyTransform
 
-:demo:preBuild UP-TO-DATE
-:design:preBuild UP-TO-DATE
-:design:preDebugBuild UP-TO-DATE
-:design:checkDebugManifest
-:design:processDebugManifest
-:gson-adapter:preBuild UP-TO-DATE
-:gson-adapter:preDebugBuild UP-TO-DATE
-:gson-adapter:checkDebugManifest
-:gson-adapter:processDebugManifest
-:recyclerview-v7:preBuild UP-TO-DATE
-:recyclerview-v7:preDebugBuild UP-TO-DATE
-:recyclerview-v7:checkDebugManifest
-:recyclerview-v7:processDebugManifest
-:support-v4:preBuild UP-TO-DATE
-:support-v4:preDebugBuild UP-TO-DATE
-:support-v4:checkDebugManifest
-:support-v4:processDebugManifest
-:demo:preDebugBuild
-:design:compileDebugAidl NO-SOURCE
-:gson-adapter:compileDebugAidl NO-SOURCE
-:recyclerview-v7:compileDebugAidl NO-SOURCE
-:support-v4:compileDebugAidl NO-SOURCE
-:demo:compileDebugAidl NO-SOURCE
-:cardview-v7:packageDebugRenderscript NO-SOURCE
-:design:packageDebugRenderscript NO-SOURCE
-:gson-adapter:packageDebugRenderscript NO-SOURCE
-:recyclerview-v7:packageDebugRenderscript NO-SOURCE
-:support-v4:packageDebugRenderscript NO-SOURCE
-:demo:compileDebugRenderscript
-:demo:checkDebugManifest
-:demo:generateDebugBuildConfig
-:demo:prepareLintJar
-:demo:mainApkListPersistenceDebug
-:demo:generateDebugResValues
-:demo:generateDebugResources
-:design:compileDebugRenderscript
-:design:generateDebugResValues
-:design:generateDebugResources
-:design:packageDebugResources
-:gson-adapter:compileDebugRenderscript
-:gson-adapter:generateDebugResValues
-:gson-adapter:generateDebugResources
-:gson-adapter:packageDebugResources
-:recyclerview-v7:compileDebugRenderscript
-:recyclerview-v7:generateDebugResValues
-:recyclerview-v7:generateDebugResources
-:recyclerview-v7:packageDebugResources
-:support-v4:compileDebugRenderscript
-:support-v4:generateDebugResValues
-:support-v4:generateDebugResources
-:support-v4:packageDebugResources
-:demo:mergeDebugResources
-:demo:createDebugCompatibleScreenManifests
-:demo:processDebugManifest
-:demo:splitsDiscoveryTaskDebug
-:design:generateDebugRFile
-:gson-adapter:generateDebugRFile
-:recyclerview-v7:generateDebugRFile
-:support-v4:generateDebugRFile
-:demo:processDebugResources
-:demo:generateDebugSources
-:design:generateDebugBuildConfig
-:design:prepareLintJar
-:design:generateDebugSources
-:design:javaPreCompileDebug
-:design:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/design/src/main/java/com/flipkart/android/proteus/support/design/widget/AppBarLayoutParser.java uses or overrides a deprecated API.
+> Transform converter-gson.jar (com.squareup.retrofit2:converter-gson:2.5.0) with JetifyTransform
+ERROR: [TAG] Failed to resolve variable '${project.groupId}'
+ERROR: [TAG] Failed to resolve variable '${project.version}'
+
+> Transform converter-gson.jar (com.squareup.retrofit2:converter-gson:2.5.0) with IdentityTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with ExtractAarTransform
+> Transform okio.jar (com.squareup.okio:okio:1.15.0) with JetifyTransform
+> Transform okio.jar (com.squareup.okio:okio:1.15.0) with IdentityTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform retrofit.jar (com.squareup.retrofit2:retrofit:2.5.0) with JetifyTransform
+> Transform retrofit.jar (com.squareup.retrofit2:retrofit:2.5.0) with IdentityTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarCompileClassesTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Transform gson.jar (com.google.code.gson:gson:2.8.2) with JetifyTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarCompileClassesTransform
+> Task :cardview-v7:preBuild UP-TO-DATE
+> Task :cardview-v7:preDebugBuild UP-TO-DATE
+> Task :proteus-core:preBuild UP-TO-DATE
+> Task :proteus-core:preDebugBuild UP-TO-DATE
+> Transform gson.jar (com.google.code.gson:gson:2.8.2) with IdentityTransform
+> Transform okhttp.jar (com.squareup.okhttp3:okhttp:3.12.0) with JetifyTransform
+> Task :proteus-core:compileDebugAidl NO-SOURCE
+> Transform okhttp.jar (com.squareup.okhttp3:okhttp:3.12.0) with IdentityTransform
+> Task :cardview-v7:compileDebugAidl NO-SOURCE
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Task :proteus-core:packageDebugRenderscript NO-SOURCE
+> Transform compiler.jar (com.github.bumptech.glide:compiler:4.9.0) with JetifyTransform
+> Task :cardview-v7:compileDebugRenderscript UP-TO-DATE
+> Task :cardview-v7:checkDebugManifest UP-TO-DATE
+> Task :cardview-v7:generateDebugBuildConfig UP-TO-DATE
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with LibrarySymbolTableTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with LibrarySymbolTableTransform
+> Transform print.aar (androidx.print:print:1.0.0) with LibrarySymbolTableTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with LibrarySymbolTableTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with LibrarySymbolTableTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with LibrarySymbolTableTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with LibrarySymbolTableTransform
+> Transform core.aar (androidx.core:core:1.0.1) with LibrarySymbolTableTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with LibrarySymbolTableTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with LibrarySymbolTableTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with LibrarySymbolTableTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with LibrarySymbolTableTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with LibrarySymbolTableTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with LibrarySymbolTableTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with LibrarySymbolTableTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with LibrarySymbolTableTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with LibrarySymbolTableTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with LibrarySymbolTableTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with LibrarySymbolTableTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with LibrarySymbolTableTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with LibrarySymbolTableTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with LibrarySymbolTableTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with LibrarySymbolTableTransform
+> Transform aapt2-osx.jar (com.android.tools.build:aapt2:3.3.2-5309881) with Aapt2Extractor
+> Task :cardview-v7:generateDebugResValues UP-TO-DATE
+> Task :cardview-v7:generateDebugResources UP-TO-DATE
+> Task :cardview-v7:packageDebugResources UP-TO-DATE
+> Task :cardview-v7:processDebugManifest UP-TO-DATE
+> Task :proteus-core:compileDebugRenderscript UP-TO-DATE
+> Task :proteus-core:generateDebugResValues UP-TO-DATE
+> Task :proteus-core:generateDebugResources UP-TO-DATE
+> Task :proteus-core:packageDebugResources UP-TO-DATE
+> Task :proteus-core:checkDebugManifest UP-TO-DATE
+> Task :proteus-core:processDebugManifest UP-TO-DATE
+> Task :proteus-core:generateDebugRFile UP-TO-DATE
+> Task :cardview-v7:generateDebugRFile UP-TO-DATE
+> Task :cardview-v7:prepareLintJar UP-TO-DATE
+> Task :cardview-v7:generateDebugSources UP-TO-DATE
+> Task :proteus-core:generateDebugBuildConfig UP-TO-DATE
+> Task :proteus-core:prepareLintJar UP-TO-DATE
+> Task :proteus-core:generateDebugSources UP-TO-DATE
+> Task :proteus-core:javaPreCompileDebug UP-TO-DATE
+> Transform glide.aar (com.github.bumptech.glide:glide:4.9.0) with JetifyTransform
+> Task :proteus-core:compileDebugJavaWithJavac UP-TO-DATE
+> Task :proteus-core:processDebugJavaRes NO-SOURCE
+> Task :proteus-core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Transform glide.aar (com.github.bumptech.glide:glide:4.9.0) with ExtractAarTransform
+> Task :cardview-v7:javaPreCompileDebug UP-TO-DATE
+> Transform glide.aar (com.github.bumptech.glide:glide:4.9.0) with AarCompileClassesTransform
+> Task :cardview-v7:compileDebugJavaWithJavac UP-TO-DATE
+> Task :cardview-v7:processDebugJavaRes NO-SOURCE
+> Task :cardview-v7:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform gifdecoder.aar (com.github.bumptech.glide:gifdecoder:4.9.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform glide.aar (com.github.bumptech.glide:glide:4.9.0) with AarTransform
+> Transform gifdecoder.aar (com.github.bumptech.glide:gifdecoder:4.9.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform glide.aar (com.github.bumptech.glide:glide:4.9.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform gifdecoder.aar (com.github.bumptech.glide:gifdecoder:4.9.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Task :demo:preBuild UP-TO-DATE
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Task :design:preBuild UP-TO-DATE
+> Transform glide.aar (com.github.bumptech.glide:glide:4.9.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Task :design:preDebugBuild UP-TO-DATE
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Task :design:checkDebugManifest
+> Task :design:processDebugManifest
+> Task :gson-adapter:preBuild UP-TO-DATE
+> Task :gson-adapter:preDebugBuild UP-TO-DATE
+> Task :gson-adapter:checkDebugManifest
+> Task :gson-adapter:processDebugManifest
+> Task :recyclerview-v7:preBuild UP-TO-DATE
+> Task :recyclerview-v7:preDebugBuild UP-TO-DATE
+> Task :recyclerview-v7:checkDebugManifest
+> Task :recyclerview-v7:processDebugManifest
+> Task :support-v4:preBuild UP-TO-DATE
+> Task :support-v4:preDebugBuild UP-TO-DATE
+> Task :support-v4:checkDebugManifest
+> Task :support-v4:processDebugManifest
+> Task :demo:preDebugBuild
+> Task :design:compileDebugAidl NO-SOURCE
+> Task :gson-adapter:compileDebugAidl NO-SOURCE
+> Task :recyclerview-v7:compileDebugAidl NO-SOURCE
+> Task :support-v4:compileDebugAidl NO-SOURCE
+> Task :demo:compileDebugAidl NO-SOURCE
+> Transform glide.aar (com.github.bumptech.glide:glide:4.9.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform gifdecoder.aar (com.github.bumptech.glide:gifdecoder:4.9.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Task :cardview-v7:packageDebugRenderscript NO-SOURCE
+> Task :design:packageDebugRenderscript NO-SOURCE
+> Task :gson-adapter:packageDebugRenderscript NO-SOURCE
+> Task :recyclerview-v7:packageDebugRenderscript NO-SOURCE
+> Task :support-v4:packageDebugRenderscript NO-SOURCE
+> Task :demo:compileDebugRenderscript
+> Task :demo:checkDebugManifest
+> Task :demo:generateDebugBuildConfig
+> Task :demo:prepareLintJar
+> Task :demo:generateDebugSources
+> Task :design:compileDebugRenderscript
+> Task :design:generateDebugBuildConfig
+> Task :design:generateDebugResValues
+> Task :design:generateDebugResources
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with LibrarySymbolTableTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with LibrarySymbolTableTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with LibrarySymbolTableTransform
+> Task :design:packageDebugResources
+> Task :design:generateDebugRFile
+> Task :design:prepareLintJar
+> Task :design:generateDebugSources
+> Task :design:javaPreCompileDebug
+
+> Task :design:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/design/src/main/java/com/flipkart/android/proteus/support/design/widget/AppBarLayoutParser.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-:design:processDebugJavaRes NO-SOURCE
-:design:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:gson-adapter:generateDebugBuildConfig
-:gson-adapter:prepareLintJar
-:gson-adapter:generateDebugSources
-:gson-adapter:javaPreCompileDebug
-:gson-adapter:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/gson-adapter/src/main/java/com/flipkart/android/proteus/gson/ProteusTypeAdapterFactory.java uses unchecked or unsafe operations.
+> Task :design:processDebugJavaRes NO-SOURCE
+> Task :design:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :gson-adapter:compileDebugRenderscript
+> Task :gson-adapter:generateDebugBuildConfig
+> Task :gson-adapter:generateDebugResValues
+> Task :gson-adapter:generateDebugResources
+> Task :gson-adapter:packageDebugResources
+> Task :gson-adapter:generateDebugRFile
+> Task :gson-adapter:prepareLintJar
+> Task :gson-adapter:generateDebugSources
+> Task :gson-adapter:javaPreCompileDebug
+
+> Task :gson-adapter:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/gson-adapter/src/main/java/com/flipkart/android/proteus/gson/ProteusTypeAdapterFactory.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-:gson-adapter:processDebugJavaRes NO-SOURCE
-:gson-adapter:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:recyclerview-v7:generateDebugBuildConfig
-:recyclerview-v7:prepareLintJar
-:recyclerview-v7:generateDebugSources
-:recyclerview-v7:javaPreCompileDebug
-:recyclerview-v7:compileDebugJavaWithJavac
-:recyclerview-v7:processDebugJavaRes NO-SOURCE
-:recyclerview-v7:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:support-v4:generateDebugBuildConfig
-:support-v4:prepareLintJar
-:support-v4:generateDebugSources
-:support-v4:javaPreCompileDebug
-:support-v4:compileDebugJavaWithJavac
-:support-v4:processDebugJavaRes NO-SOURCE
-:support-v4:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:demo:javaPreCompileDebug
-:demo:compileDebugJavaWithJavacNote: [1] Wrote GeneratedAppGlideModule with: []
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/demo/src/main/java/com/flipkart/android/proteus/demo/customviews/CircleView.java uses or overrides a deprecated API.
+> Task :gson-adapter:processDebugJavaRes NO-SOURCE
+> Task :gson-adapter:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :recyclerview-v7:compileDebugRenderscript
+> Task :recyclerview-v7:generateDebugBuildConfig
+> Task :recyclerview-v7:generateDebugResValues
+> Task :recyclerview-v7:generateDebugResources
+> Task :recyclerview-v7:packageDebugResources
+> Task :recyclerview-v7:generateDebugRFile
+> Task :recyclerview-v7:prepareLintJar
+> Task :recyclerview-v7:generateDebugSources
+> Task :recyclerview-v7:javaPreCompileDebug
+> Task :recyclerview-v7:compileDebugJavaWithJavac
+> Task :recyclerview-v7:processDebugJavaRes NO-SOURCE
+> Task :recyclerview-v7:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :support-v4:compileDebugRenderscript
+> Task :support-v4:generateDebugBuildConfig
+> Task :support-v4:generateDebugResValues
+> Task :support-v4:generateDebugResources
+> Task :support-v4:packageDebugResources
+> Task :support-v4:generateDebugRFile
+> Task :support-v4:prepareLintJar
+> Task :support-v4:generateDebugSources
+> Task :support-v4:javaPreCompileDebug
+> Task :support-v4:compileDebugJavaWithJavac
+> Task :support-v4:processDebugJavaRes NO-SOURCE
+> Task :support-v4:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :demo:javaPreCompileDebug
+> Transform gifdecoder.aar (com.github.bumptech.glide:gifdecoder:4.9.0) with LibrarySymbolTableTransform
+> Transform glide.aar (com.github.bumptech.glide:glide:4.9.0) with LibrarySymbolTableTransform
+> Task :demo:mainApkListPersistenceDebug
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform gifdecoder.aar (com.github.bumptech.glide:gifdecoder:4.9.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform glide.aar (com.github.bumptech.glide:glide:4.9.0) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Task :demo:generateDebugResValues
+> Task :demo:generateDebugResources
+> Task :demo:mergeDebugResources
+> Task :demo:createDebugCompatibleScreenManifests
+> Task :demo:processDebugManifest
+> Task :demo:processDebugResources
+
+> Task :demo:compileDebugJavaWithJavac
+Note: [1] Wrote GeneratedAppGlideModule with: []
+Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-:demo:compileDebugNdk NO-SOURCE
-:demo:compileDebugSources
-:cardview-v7:mergeDebugShaders UP-TO-DATE
-:cardview-v7:compileDebugShaders UP-TO-DATE
-:cardview-v7:generateDebugAssets UP-TO-DATE
-:cardview-v7:packageDebugAssets UP-TO-DATE
-:demo:mergeDebugShaders
-:demo:compileDebugShaders
-:demo:generateDebugAssets
-:design:mergeDebugShaders
-:design:compileDebugShaders
-:design:generateDebugAssets
-:design:packageDebugAssets
-:gson-adapter:mergeDebugShaders
-:gson-adapter:compileDebugShaders
-:gson-adapter:generateDebugAssets
-:gson-adapter:packageDebugAssets
-:proteus-core:mergeDebugShaders
-:proteus-core:compileDebugShaders
-:proteus-core:generateDebugAssets
-:proteus-core:packageDebugAssets
-:recyclerview-v7:mergeDebugShaders
-:recyclerview-v7:compileDebugShaders
-:recyclerview-v7:generateDebugAssets
-:recyclerview-v7:packageDebugAssets
-:support-v4:mergeDebugShaders
-:support-v4:compileDebugShaders
-:support-v4:generateDebugAssets
-:support-v4:packageDebugAssets
-:demo:mergeDebugAssets
-:demo:transformClassesWithDexBuilderForDebug
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-:demo:transformDexArchiveWithExternalLibsDexMergerForDebug
-:demo:transformDexArchiveWithDexMergerForDebug
-:cardview-v7:compileDebugNdk NO-SOURCE
-:cardview-v7:mergeDebugJniLibFolders UP-TO-DATE
-:cardview-v7:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-:cardview-v7:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
-:cardview-v7:transformNativeLibsWithIntermediateJniLibsForDebug
-:demo:mergeDebugJniLibFolders
-:design:compileDebugNdk NO-SOURCE
-:design:mergeDebugJniLibFolders
-:design:transformNativeLibsWithMergeJniLibsForDebug
-:design:transformNativeLibsWithStripDebugSymbolForDebug
-:design:transformNativeLibsWithIntermediateJniLibsForDebug
-:gson-adapter:compileDebugNdk NO-SOURCE
-:gson-adapter:mergeDebugJniLibFolders
-:gson-adapter:transformNativeLibsWithMergeJniLibsForDebug
-:gson-adapter:transformNativeLibsWithStripDebugSymbolForDebug
-:gson-adapter:transformNativeLibsWithIntermediateJniLibsForDebug
-:proteus-core:compileDebugNdk NO-SOURCE
-:proteus-core:mergeDebugJniLibFolders
-:proteus-core:transformNativeLibsWithMergeJniLibsForDebug
-:proteus-core:transformNativeLibsWithStripDebugSymbolForDebug
-:proteus-core:transformNativeLibsWithIntermediateJniLibsForDebug
-:recyclerview-v7:compileDebugNdk NO-SOURCE
-:recyclerview-v7:mergeDebugJniLibFolders
-:recyclerview-v7:transformNativeLibsWithMergeJniLibsForDebug
-:recyclerview-v7:transformNativeLibsWithStripDebugSymbolForDebug
-:recyclerview-v7:transformNativeLibsWithIntermediateJniLibsForDebug
-:support-v4:compileDebugNdk NO-SOURCE
-:support-v4:mergeDebugJniLibFolders
-:support-v4:transformNativeLibsWithMergeJniLibsForDebug
-:support-v4:transformNativeLibsWithStripDebugSymbolForDebug
-:support-v4:transformNativeLibsWithIntermediateJniLibsForDebug
-:demo:transformNativeLibsWithMergeJniLibsForDebug
-:demo:transformNativeLibsWithStripDebugSymbolForDebug
-:demo:checkDebugLibraries
-:demo:processDebugJavaRes NO-SOURCE
-:demo:transformResourcesWithMergeJavaResForDebug
-:demo:validateSigningDebug
-:demo:packageDebug
-:demo:assembleDebug
-:cardview-v7:preReleaseBuild UP-TO-DATE
-:proteus-core:preReleaseBuild UP-TO-DATE
-:proteus-core:compileReleaseAidl NO-SOURCE
-:cardview-v7:compileReleaseAidl NO-SOURCE
-:proteus-core:packageReleaseRenderscript NO-SOURCE
-:cardview-v7:compileReleaseRenderscript UP-TO-DATE
-:cardview-v7:checkReleaseManifest UP-TO-DATE
-:cardview-v7:generateReleaseBuildConfig UP-TO-DATE
-:cardview-v7:generateReleaseResValues UP-TO-DATE
-:cardview-v7:generateReleaseResources UP-TO-DATE
-:cardview-v7:packageReleaseResources UP-TO-DATE
-:cardview-v7:processReleaseManifest UP-TO-DATE
-:proteus-core:compileReleaseRenderscript UP-TO-DATE
-:proteus-core:generateReleaseResValues UP-TO-DATE
-:proteus-core:generateReleaseResources UP-TO-DATE
-:proteus-core:packageReleaseResources UP-TO-DATE
-:proteus-core:checkReleaseManifest UP-TO-DATE
-:proteus-core:processReleaseManifest UP-TO-DATE
-:proteus-core:generateReleaseRFile UP-TO-DATE
-:cardview-v7:generateReleaseRFile UP-TO-DATE
-:cardview-v7:generateReleaseSources UP-TO-DATE
-:proteus-core:generateReleaseBuildConfig UP-TO-DATE
-:proteus-core:generateReleaseSources UP-TO-DATE
-:proteus-core:javaPreCompileRelease UP-TO-DATE
-:proteus-core:compileReleaseJavaWithJavac UP-TO-DATE
-:proteus-core:processReleaseJavaRes NO-SOURCE
-:proteus-core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
-:cardview-v7:javaPreCompileRelease UP-TO-DATE
-:cardview-v7:compileReleaseJavaWithJavac UP-TO-DATE
-:cardview-v7:processReleaseJavaRes NO-SOURCE
-:cardview-v7:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:demo:checkReleaseClasspath
-WARNING: Conflict with dependency 'com.google.code.gson:gson' in project ':demo'. Resolved versions for runtime classpath (2.8.2) and compile classpath (2.7) differ. This can lead to runtime crashes. To resolve this issue follow advice at https://developer.android.com/studio/build/gradle-tips#configure-project-wide-properties. Alternatively, you can try to fix the problem by adding this snippet to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/demo/build.gradle:
-dependencies {
-    implementation("com.google.code.gson:gson:2.8.2")
-}
+> Task :demo:compileDebugNdk NO-SOURCE
+> Task :demo:compileDebugSources
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform gifdecoder.aar (com.github.bumptech.glide:gifdecoder:4.9.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform glide.aar (com.github.bumptech.glide:glide:4.9.0) with AarTransform
+> Task :cardview-v7:mergeDebugShaders UP-TO-DATE
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Task :cardview-v7:compileDebugShaders UP-TO-DATE
+> Task :cardview-v7:generateDebugAssets UP-TO-DATE
+> Task :cardview-v7:packageDebugAssets UP-TO-DATE
+> Task :demo:mergeDebugShaders
+> Task :demo:compileDebugShaders
+> Task :demo:generateDebugAssets
+> Task :design:mergeDebugShaders
+> Task :design:compileDebugShaders
+> Task :design:generateDebugAssets
+> Task :design:packageDebugAssets
+> Task :gson-adapter:mergeDebugShaders
+> Task :gson-adapter:compileDebugShaders
+> Task :gson-adapter:generateDebugAssets
+> Task :gson-adapter:packageDebugAssets
+> Task :proteus-core:mergeDebugShaders
+> Task :proteus-core:compileDebugShaders
+> Task :proteus-core:generateDebugAssets
+> Task :proteus-core:packageDebugAssets
+> Task :recyclerview-v7:mergeDebugShaders
+> Task :recyclerview-v7:compileDebugShaders
+> Task :recyclerview-v7:generateDebugAssets
+> Task :recyclerview-v7:packageDebugAssets
+> Task :support-v4:mergeDebugShaders
+> Task :support-v4:compileDebugShaders
+> Task :support-v4:generateDebugAssets
+> Task :support-v4:packageDebugAssets
+> Task :demo:mergeDebugAssets
+> Task :proteus-core:createFullJarDebug
+> Task :gson-adapter:createFullJarDebug
+> Task :design:createFullJarDebug
+> Transform full.jar (project :gson-adapter) with JetifyTransform
+> Task :cardview-v7:createFullJarDebug
+> Transform full.jar (project :design) with JetifyTransform
+> Transform full.jar (project :cardview-v7) with JetifyTransform
+> Task :recyclerview-v7:createFullJarDebug
+> Task :support-v4:createFullJarDebug
+> Transform full.jar (project :recyclerview-v7) with JetifyTransform
+> Transform full.jar (project :support-v4) with JetifyTransform
+> Transform full.jar (project :proteus-core) with JetifyTransform
+> Transform annotations.jar (com.github.bumptech.glide:annotations:4.9.0) with DexingTransform
+> Transform full.jar (project :support-v4) with DexingTransform
+> Transform full.jar (project :cardview-v7) with DexingTransform
+> Transform full.jar (project :recyclerview-v7) with DexingTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.0.2) with DexingTransform
+> Transform gifdecoder.aar (com.github.bumptech.glide:gifdecoder:4.9.0) with AarTransform
+> Transform gifdecoder.aar (com.github.bumptech.glide:gifdecoder:4.9.0) with JetifyTransform
+> Transform full.jar (project :design) with DexingTransform
+> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with DexingTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform full.jar (project :gson-adapter) with DexingTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with DexingTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform disklrucache.jar (com.github.bumptech.glide:disklrucache:4.9.0) with DexingTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with DexingTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform gifdecoder.aar (com.github.bumptech.glide:gifdecoder:4.9.0) with DexingTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with DexingTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with DexingTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with DexingTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with DexingTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with DexingTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with DexingTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with JetifyTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform print.aar (androidx.print:print:1.0.0) with DexingTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with DexingTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with JetifyTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with DexingTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with DexingTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with DexingTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform core.aar (androidx.core:core:1.0.1) with JetifyTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with DexingTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with DexingTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform collection.jar (androidx.collection:collection:1.0.0) with DexingTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform okio.jar (com.squareup.okio:okio:1.15.0) with DexingTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with DexingTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with DexingTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with DexingTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with JetifyTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with DexingTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with DexingTransform
+> Transform full.jar (project :proteus-core) with DexingTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with DexingTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with DexingTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform gson.jar (com.google.code.gson:gson:2.8.2) with DexingTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with JetifyTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with JetifyTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with DexingTransform
+> Transform glide.aar (com.github.bumptech.glide:glide:4.9.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with DexingTransform
+> Transform glide.aar (com.github.bumptech.glide:glide:4.9.0) with JetifyTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with DexingTransform
+> Transform converter-gson.jar (com.squareup.retrofit2:converter-gson:2.5.0) with DexingTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with JetifyTransform
+> Transform retrofit.jar (com.squareup.retrofit2:retrofit:2.5.0) with DexingTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with JetifyTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with DexingTransform
+> Transform gifdecoder.aar (com.github.bumptech.glide:gifdecoder:4.9.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform glide.aar (com.github.bumptech.glide:glide:4.9.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with DexingTransform
+> Task :demo:transformClassesWithDexBuilderForDebug
+> Task :demo:validateSigningDebug
+> Transform okhttp.jar (com.squareup.okhttp3:okhttp:3.12.0) with DexingTransform
+> Task :demo:signingConfigWriterDebug
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform gifdecoder.aar (com.github.bumptech.glide:gifdecoder:4.9.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform glide.aar (com.github.bumptech.glide:glide:4.9.0) with AarTransform
+> Transform okio.jar (com.squareup.okio:okio:1.15.0) with IdentityTransform
+> Transform annotations.jar (com.github.bumptech.glide:annotations:4.9.0) with IdentityTransform
+> Transform disklrucache.jar (com.github.bumptech.glide:disklrucache:4.9.0) with IdentityTransform
+> Transform gson.jar (com.google.code.gson:gson:2.8.2) with IdentityTransform
+> Transform okhttp.jar (com.squareup.okhttp3:okhttp:3.12.0) with IdentityTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.0.2) with IdentityTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Transform gifdecoder.aar (com.github.bumptech.glide:gifdecoder:4.9.0) with AarTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with IdentityTransform
+> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with IdentityTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform collection.jar (androidx.collection:collection:1.0.0) with IdentityTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform retrofit.jar (com.squareup.retrofit2:retrofit:2.5.0) with IdentityTransform
+> Transform converter-gson.jar (com.squareup.retrofit2:converter-gson:2.5.0) with IdentityTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform glide.aar (com.github.bumptech.glide:glide:4.9.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Task :cardview-v7:compileDebugNdk NO-SOURCE
+> Task :cardview-v7:mergeDebugJniLibFolders UP-TO-DATE
+> Task :cardview-v7:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :cardview-v7:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :cardview-v7:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :demo:mergeDebugJniLibFolders
+> Task :design:compileDebugNdk NO-SOURCE
+> Task :design:mergeDebugJniLibFolders
+> Task :design:transformNativeLibsWithMergeJniLibsForDebug
+> Task :design:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :design:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :gson-adapter:compileDebugNdk NO-SOURCE
+> Task :gson-adapter:mergeDebugJniLibFolders
+> Task :gson-adapter:transformNativeLibsWithMergeJniLibsForDebug
+> Task :gson-adapter:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :gson-adapter:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :proteus-core:compileDebugNdk NO-SOURCE
+> Task :proteus-core:mergeDebugJniLibFolders
+> Task :proteus-core:transformNativeLibsWithMergeJniLibsForDebug
+> Task :proteus-core:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :proteus-core:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :recyclerview-v7:compileDebugNdk NO-SOURCE
+> Task :recyclerview-v7:mergeDebugJniLibFolders
+> Task :recyclerview-v7:transformNativeLibsWithMergeJniLibsForDebug
+> Task :recyclerview-v7:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :recyclerview-v7:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :support-v4:compileDebugNdk NO-SOURCE
+> Task :support-v4:mergeDebugJniLibFolders
+> Task :support-v4:transformNativeLibsWithMergeJniLibsForDebug
+> Task :support-v4:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :support-v4:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :demo:transformNativeLibsWithMergeJniLibsForDebug
+> Task :demo:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :demo:processDebugJavaRes NO-SOURCE
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with DexingTransform
+> Transform core.aar (androidx.core:core:1.0.1) with DexingTransform
+> Transform glide.aar (com.github.bumptech.glide:glide:4.9.0) with DexingTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with DexingTransform
+> Task :demo:transformResourcesWithMergeJavaResForDebug
+> Task :cardview-v7:preReleaseBuild UP-TO-DATE
+> Task :proteus-core:preReleaseBuild UP-TO-DATE
+> Task :proteus-core:compileReleaseAidl NO-SOURCE
+> Task :cardview-v7:compileReleaseAidl NO-SOURCE
+> Task :proteus-core:packageReleaseRenderscript NO-SOURCE
+> Task :cardview-v7:compileReleaseRenderscript UP-TO-DATE
+> Task :cardview-v7:checkReleaseManifest UP-TO-DATE
+> Task :cardview-v7:generateReleaseBuildConfig UP-TO-DATE
+> Task :cardview-v7:generateReleaseResValues UP-TO-DATE
+> Task :cardview-v7:generateReleaseResources UP-TO-DATE
+> Task :cardview-v7:packageReleaseResources UP-TO-DATE
+> Task :cardview-v7:processReleaseManifest UP-TO-DATE
+> Task :proteus-core:compileReleaseRenderscript UP-TO-DATE
+> Task :proteus-core:generateReleaseResValues UP-TO-DATE
+> Task :proteus-core:generateReleaseResources UP-TO-DATE
+> Task :proteus-core:packageReleaseResources UP-TO-DATE
+> Task :proteus-core:checkReleaseManifest UP-TO-DATE
+> Task :proteus-core:processReleaseManifest UP-TO-DATE
+> Task :proteus-core:generateReleaseRFile UP-TO-DATE
+> Task :cardview-v7:generateReleaseRFile UP-TO-DATE
+> Task :cardview-v7:generateReleaseSources UP-TO-DATE
+> Task :proteus-core:generateReleaseBuildConfig UP-TO-DATE
+> Task :proteus-core:generateReleaseSources UP-TO-DATE
+> Task :proteus-core:javaPreCompileRelease UP-TO-DATE
+> Task :proteus-core:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :proteus-core:processReleaseJavaRes NO-SOURCE
+> Task :proteus-core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+> Task :cardview-v7:javaPreCompileRelease UP-TO-DATE
+> Task :cardview-v7:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :cardview-v7:processReleaseJavaRes NO-SOURCE
+> Task :cardview-v7:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :design:preReleaseBuild UP-TO-DATE
+> Task :design:checkReleaseManifest
+> Task :design:processReleaseManifest
+> Task :gson-adapter:preReleaseBuild UP-TO-DATE
+> Task :gson-adapter:checkReleaseManifest
+> Task :gson-adapter:processReleaseManifest
+> Task :recyclerview-v7:preReleaseBuild UP-TO-DATE
+> Task :recyclerview-v7:checkReleaseManifest
+> Task :recyclerview-v7:processReleaseManifest
+> Task :support-v4:preReleaseBuild UP-TO-DATE
+> Task :support-v4:checkReleaseManifest
+> Task :support-v4:processReleaseManifest
+> Task :demo:preReleaseBuild
+> Task :design:compileReleaseAidl NO-SOURCE
+> Task :gson-adapter:compileReleaseAidl NO-SOURCE
+> Task :recyclerview-v7:compileReleaseAidl NO-SOURCE
+> Task :support-v4:compileReleaseAidl NO-SOURCE
+> Task :demo:compileReleaseAidl NO-SOURCE
+> Task :cardview-v7:packageReleaseRenderscript NO-SOURCE
+> Task :design:packageReleaseRenderscript NO-SOURCE
+> Task :gson-adapter:packageReleaseRenderscript NO-SOURCE
+> Task :recyclerview-v7:packageReleaseRenderscript NO-SOURCE
+> Task :support-v4:packageReleaseRenderscript NO-SOURCE
+> Task :demo:compileReleaseRenderscript
+> Task :demo:checkReleaseManifest
+> Task :demo:generateReleaseBuildConfig
+> Task :demo:generateReleaseSources
+> Task :design:compileReleaseRenderscript
+> Task :design:generateReleaseBuildConfig
+> Task :design:generateReleaseResValues
+> Task :design:generateReleaseResources
+> Task :design:packageReleaseResources
+> Task :design:generateReleaseRFile
+> Task :design:generateReleaseSources
+> Task :design:javaPreCompileRelease
 
-:design:preReleaseBuild UP-TO-DATE
-:design:checkReleaseManifest
-:design:processReleaseManifest
-:gson-adapter:preReleaseBuild UP-TO-DATE
-:gson-adapter:checkReleaseManifest
-:gson-adapter:processReleaseManifest
-:recyclerview-v7:preReleaseBuild UP-TO-DATE
-:recyclerview-v7:checkReleaseManifest
-:recyclerview-v7:processReleaseManifest
-:support-v4:preReleaseBuild UP-TO-DATE
-:support-v4:checkReleaseManifest
-:support-v4:processReleaseManifest
-:demo:preReleaseBuild
-:design:compileReleaseAidl NO-SOURCE
-:gson-adapter:compileReleaseAidl NO-SOURCE
-:recyclerview-v7:compileReleaseAidl NO-SOURCE
-:support-v4:compileReleaseAidl NO-SOURCE
-:demo:compileReleaseAidl NO-SOURCE
-:cardview-v7:packageReleaseRenderscript NO-SOURCE
-:design:packageReleaseRenderscript NO-SOURCE
-:gson-adapter:packageReleaseRenderscript NO-SOURCE
-:recyclerview-v7:packageReleaseRenderscript NO-SOURCE
-:support-v4:packageReleaseRenderscript NO-SOURCE
-:demo:compileReleaseRenderscript
-:demo:checkReleaseManifest
-:demo:generateReleaseBuildConfig
-:demo:mainApkListPersistenceRelease
-:demo:generateReleaseResValues
-:demo:generateReleaseResources
-:design:compileReleaseRenderscript
-:design:generateReleaseResValues
-:design:generateReleaseResources
-:design:packageReleaseResources
-:gson-adapter:compileReleaseRenderscript
-:gson-adapter:generateReleaseResValues
-:gson-adapter:generateReleaseResources
-:gson-adapter:packageReleaseResources
-:recyclerview-v7:compileReleaseRenderscript
-:recyclerview-v7:generateReleaseResValues
-:recyclerview-v7:generateReleaseResources
-:recyclerview-v7:packageReleaseResources
-:support-v4:compileReleaseRenderscript
-:support-v4:generateReleaseResValues
-:support-v4:generateReleaseResources
-:support-v4:packageReleaseResources
-:demo:mergeReleaseResources
-:demo:createReleaseCompatibleScreenManifests
-:demo:processReleaseManifest
-:demo:splitsDiscoveryTaskRelease
-:design:generateReleaseRFile
-:gson-adapter:generateReleaseRFile
-:recyclerview-v7:generateReleaseRFile
-:support-v4:generateReleaseRFile
-:demo:processReleaseResources
-:demo:generateReleaseSources
-:design:generateReleaseBuildConfig
-:design:generateReleaseSources
-:design:javaPreCompileRelease
-:design:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/design/src/main/java/com/flipkart/android/proteus/support/design/widget/AppBarLayoutParser.java uses or overrides a deprecated API.
+> Task :design:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/design/src/main/java/com/flipkart/android/proteus/support/design/widget/AppBarLayoutParser.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-:design:processReleaseJavaRes NO-SOURCE
-:design:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:gson-adapter:generateReleaseBuildConfig
-:gson-adapter:generateReleaseSources
-:gson-adapter:javaPreCompileRelease
-:gson-adapter:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/gson-adapter/src/main/java/com/flipkart/android/proteus/gson/ProteusTypeAdapterFactory.java uses unchecked or unsafe operations.
+> Task :design:processReleaseJavaRes NO-SOURCE
+> Task :design:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :gson-adapter:compileReleaseRenderscript
+> Task :gson-adapter:generateReleaseBuildConfig
+> Task :gson-adapter:generateReleaseResValues
+> Task :gson-adapter:generateReleaseResources
+> Task :gson-adapter:packageReleaseResources
+> Task :gson-adapter:generateReleaseRFile
+> Task :gson-adapter:generateReleaseSources
+> Task :gson-adapter:javaPreCompileRelease
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with DexingTransform
+
+> Task :gson-adapter:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/gson-adapter/src/main/java/com/flipkart/android/proteus/gson/ProteusTypeAdapterFactory.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-:gson-adapter:processReleaseJavaRes NO-SOURCE
-:gson-adapter:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:recyclerview-v7:generateReleaseBuildConfig
-:recyclerview-v7:generateReleaseSources
-:recyclerview-v7:javaPreCompileRelease
-:recyclerview-v7:compileReleaseJavaWithJavac
-:recyclerview-v7:processReleaseJavaRes NO-SOURCE
-:recyclerview-v7:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:support-v4:generateReleaseBuildConfig
-:support-v4:generateReleaseSources
-:support-v4:javaPreCompileRelease
-:support-v4:compileReleaseJavaWithJavac
-:support-v4:processReleaseJavaRes NO-SOURCE
-:support-v4:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:demo:javaPreCompileRelease
-:demo:compileReleaseJavaWithJavacNote: [1] Wrote GeneratedAppGlideModule with: []
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/demo/src/main/java/com/flipkart/android/proteus/demo/customviews/CircleView.java uses or overrides a deprecated API.
+> Task :demo:mergeExtDexDebug
+> Task :demo:mergeDexDebug
+> Task :demo:packageDebug
+> Task :demo:assembleDebug
+> Task :gson-adapter:processReleaseJavaRes NO-SOURCE
+> Task :gson-adapter:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :recyclerview-v7:compileReleaseRenderscript
+> Task :recyclerview-v7:generateReleaseBuildConfig
+> Task :recyclerview-v7:generateReleaseResValues
+> Task :recyclerview-v7:generateReleaseResources
+> Task :recyclerview-v7:packageReleaseResources
+> Task :recyclerview-v7:generateReleaseRFile
+> Task :recyclerview-v7:generateReleaseSources
+> Task :recyclerview-v7:javaPreCompileRelease
+> Task :recyclerview-v7:compileReleaseJavaWithJavac
+> Task :recyclerview-v7:processReleaseJavaRes NO-SOURCE
+> Task :recyclerview-v7:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :support-v4:compileReleaseRenderscript
+> Task :support-v4:generateReleaseBuildConfig
+> Task :support-v4:generateReleaseResValues
+> Task :support-v4:generateReleaseResources
+> Task :support-v4:packageReleaseResources
+> Task :support-v4:generateReleaseRFile
+> Task :support-v4:generateReleaseSources
+> Task :support-v4:javaPreCompileRelease
+> Task :support-v4:compileReleaseJavaWithJavac
+> Task :support-v4:processReleaseJavaRes NO-SOURCE
+> Task :support-v4:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :demo:javaPreCompileRelease
+> Task :demo:mainApkListPersistenceRelease
+> Task :demo:generateReleaseResValues
+> Task :demo:generateReleaseResources
+> Task :demo:mergeReleaseResources
+> Task :demo:createReleaseCompatibleScreenManifests
+> Task :demo:processReleaseManifest
+> Task :demo:processReleaseResources
+
+> Task :demo:compileReleaseJavaWithJavac
+Note: [1] Wrote GeneratedAppGlideModule with: []
+Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-:demo:compileReleaseNdk NO-SOURCE
-:demo:compileReleaseSources
-:demo:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/1ffc82ae0ee857e3ecaeb1359293ab76/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/demo/build.gradle: Error: commons-logging defines classes that conflict with classes now provided by Android. Solutions include finding newer versions or alternative libraries that don't have the same problem (for example, for httpclient use HttpUrlConnection or okhttp instead), or repackaging the library using something like jarjar. [DuplicatePlatformClasses]
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/demo/build.gradle: Error: httpclient defines classes that conflict with classes now provided by Android. Solutions include finding newer versions or alternative libraries that don't have the same problem (for example, for httpclient use HttpUrlConnection or okhttp instead), or repackaging the library using something like jarjar. [DuplicatePlatformClasses]
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/demo/build.gradle: Error: opengl-api defines classes that conflict with classes now provided by Android. Solutions include finding newer versions or alternative libraries that don't have the same problem (for example, for httpclient use HttpUrlConnection or okhttp instead), or repackaging the library using something like jarjar. [DuplicatePlatformClasses]
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/demo/build.gradle: Error: xmlParserAPIs defines classes that conflict with classes now provided by Android. Solutions include finding newer versions or alternative libraries that don't have the same problem (for example, for httpclient use HttpUrlConnection or okhttp instead), or repackaging the library using something like jarjar. [DuplicatePlatformClasses]
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/demo/build.gradle: Error: xpp3 defines classes that conflict with classes now provided by Android. Solutions include finding newer versions or alternative libraries that don't have the same problem (for example, for httpclient use HttpUrlConnection or okhttp instead), or repackaging the library using something like jarjar. [DuplicatePlatformClasses]
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/demo/build.gradle:17: Error: android defines classes that conflict with classes now provided by Android. Solutions include finding newer versions or alternative libraries that don't have the same problem (for example, for httpclient use HttpUrlConnection or okhttp instead), or repackaging the library using something like jarjar. [DuplicatePlatformClasses]
-apply plugin: 'com.android.application'
-                   ~~~~~~~
+> Task :demo:compileReleaseNdk NO-SOURCE
+> Task :demo:compileReleaseSources
+> Transform gifdecoder.aar (com.github.bumptech.glide:gifdecoder:4.9.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform glide.aar (com.github.bumptech.glide:glide:4.9.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Task :proteus-core:createFullJarRelease
+> Task :demo:lintVitalRelease
+> Task :gson-adapter:createFullJarRelease
+> Task :design:createFullJarRelease
+> Transform full.jar (project :gson-adapter) with JetifyTransform
+> Task :cardview-v7:createFullJarRelease
+> Transform full.jar (project :design) with JetifyTransform
+> Transform full.jar (project :cardview-v7) with JetifyTransform
+> Task :recyclerview-v7:createFullJarRelease
+> Transform full.jar (project :recyclerview-v7) with JetifyTransform
+> Task :support-v4:createFullJarRelease
+> Transform full.jar (project :support-v4) with JetifyTransform
+> Transform annotations.jar (com.github.bumptech.glide:annotations:4.9.0) with DexingTransform
+> Transform full.jar (project :proteus-core) with JetifyTransform
+> Transform full.jar (project :support-v4) with DexingTransform
+> Transform full.jar (project :recyclerview-v7) with DexingTransform
+> Transform full.jar (project :cardview-v7) with DexingTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.0.2) with DexingTransform
+> Transform full.jar (project :design) with DexingTransform
+> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with DexingTransform
+> Transform full.jar (project :gson-adapter) with DexingTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with DexingTransform
+> Transform disklrucache.jar (com.github.bumptech.glide:disklrucache:4.9.0) with DexingTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with DexingTransform
+> Transform gifdecoder.aar (com.github.bumptech.glide:gifdecoder:4.9.0) with DexingTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with DexingTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with DexingTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with DexingTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with DexingTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with DexingTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with DexingTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with DexingTransform
+> Transform print.aar (androidx.print:print:1.0.0) with DexingTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with DexingTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with DexingTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with DexingTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with DexingTransform
+> Transform collection.jar (androidx.collection:collection:1.0.0) with DexingTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with DexingTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with DexingTransform
+> Transform okio.jar (com.squareup.okio:okio:1.15.0) with DexingTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with DexingTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with DexingTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with DexingTransform
+> Transform full.jar (project :proteus-core) with DexingTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with DexingTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with DexingTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with DexingTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with DexingTransform
+> Transform gson.jar (com.google.code.gson:gson:2.8.2) with DexingTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with DexingTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with DexingTransform
+> Transform converter-gson.jar (com.squareup.retrofit2:converter-gson:2.5.0) with DexingTransform
+> Transform retrofit.jar (com.squareup.retrofit2:retrofit:2.5.0) with DexingTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with DexingTransform
+> Task :demo:transformClassesWithDexBuilderForRelease
+> Task :cardview-v7:mergeReleaseShaders UP-TO-DATE
+> Task :cardview-v7:compileReleaseShaders UP-TO-DATE
+> Task :cardview-v7:generateReleaseAssets UP-TO-DATE
+> Task :cardview-v7:packageReleaseAssets UP-TO-DATE
+> Task :demo:mergeReleaseShaders
+> Task :demo:compileReleaseShaders
+> Task :demo:generateReleaseAssets
+> Task :design:mergeReleaseShaders
+> Task :design:compileReleaseShaders
+> Task :design:generateReleaseAssets
+> Task :design:packageReleaseAssets
+> Task :gson-adapter:mergeReleaseShaders
+> Task :gson-adapter:compileReleaseShaders
+> Task :gson-adapter:generateReleaseAssets
+> Task :gson-adapter:packageReleaseAssets
+> Task :proteus-core:mergeReleaseShaders
+> Task :proteus-core:compileReleaseShaders
+> Task :proteus-core:generateReleaseAssets
+> Task :proteus-core:packageReleaseAssets
+> Task :recyclerview-v7:mergeReleaseShaders
+> Task :recyclerview-v7:compileReleaseShaders
+> Task :recyclerview-v7:generateReleaseAssets
+> Task :recyclerview-v7:packageReleaseAssets
+> Task :support-v4:mergeReleaseShaders
+> Task :support-v4:compileReleaseShaders
+> Task :support-v4:generateReleaseAssets
+> Task :support-v4:packageReleaseAssets
+> Task :demo:mergeReleaseAssets
+> Task :demo:signingConfigWriterRelease
+> Task :cardview-v7:compileReleaseNdk NO-SOURCE
+> Task :cardview-v7:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :cardview-v7:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :cardview-v7:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :cardview-v7:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :demo:mergeReleaseJniLibFolders
+> Task :design:compileReleaseNdk NO-SOURCE
+> Task :design:mergeReleaseJniLibFolders
+> Task :design:transformNativeLibsWithMergeJniLibsForRelease
+> Task :design:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :design:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :gson-adapter:compileReleaseNdk NO-SOURCE
+> Task :gson-adapter:mergeReleaseJniLibFolders
+> Task :gson-adapter:transformNativeLibsWithMergeJniLibsForRelease
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with DexingTransform
+> Task :gson-adapter:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :gson-adapter:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :proteus-core:compileReleaseNdk NO-SOURCE
+> Task :proteus-core:mergeReleaseJniLibFolders
+> Task :proteus-core:transformNativeLibsWithMergeJniLibsForRelease
+> Task :proteus-core:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :proteus-core:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :recyclerview-v7:compileReleaseNdk NO-SOURCE
+> Task :recyclerview-v7:mergeReleaseJniLibFolders
+> Task :recyclerview-v7:transformNativeLibsWithMergeJniLibsForRelease
+> Task :recyclerview-v7:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :recyclerview-v7:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :support-v4:compileReleaseNdk NO-SOURCE
+> Task :support-v4:mergeReleaseJniLibFolders
+> Task :support-v4:transformNativeLibsWithMergeJniLibsForRelease
+> Task :support-v4:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :support-v4:transformNativeLibsWithIntermediateJniLibsForRelease
+> Transform okhttp.jar (com.squareup.okhttp3:okhttp:3.12.0) with DexingTransform
+> Task :demo:transformNativeLibsWithMergeJniLibsForRelease
+> Task :demo:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :demo:processReleaseJavaRes NO-SOURCE
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with DexingTransform
+> Transform core.aar (androidx.core:core:1.0.1) with DexingTransform
+> Task :demo:transformResourcesWithMergeJavaResForRelease
+> Transform glide.aar (com.github.bumptech.glide:glide:4.9.0) with DexingTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with DexingTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with DexingTransform
+> Task :demo:mergeExtDexRelease
+> Task :demo:mergeDexRelease
+> Task :demo:packageRelease
+> Task :demo:assembleRelease
+> Task :demo:assemble
+> Task :demo:build
 
-   Explanation for issues of type "DuplicatePlatformClasses":
-   There are a number of libraries that duplicate not just functionality of
-   the Android platform but using the exact same class names as the ones
-   provided in Android -- for example the apache http classes. This can lead
-   to unexpected crashes.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-   To solve this, you need to either find a newer version of the library which
-   no longer has this problem, or to repackage the library (and all of its
-   dependencies) using something like the jarjar tool, or finally, rewriting
-   the code to use different APIs (for example, for http code, consider using
-   HttpUrlConnection or a library like okhttp).
+BUILD SUCCESSFUL in 41s
+273 actionable tasks: 221 executed, 52 up-to-date
 
-6 errors, 0 warnings
-:cardview-v7:mergeReleaseShaders UP-TO-DATE
-:cardview-v7:compileReleaseShaders UP-TO-DATE
-:cardview-v7:generateReleaseAssets UP-TO-DATE
-:cardview-v7:packageReleaseAssets UP-TO-DATE
-:demo:mergeReleaseShaders
-:demo:compileReleaseShaders
-:demo:generateReleaseAssets
-:design:mergeReleaseShaders
-:design:compileReleaseShaders
-:design:generateReleaseAssets
-:design:packageReleaseAssets
-:gson-adapter:mergeReleaseShaders
-:gson-adapter:compileReleaseShaders
-:gson-adapter:generateReleaseAssets
-:gson-adapter:packageReleaseAssets
-:proteus-core:mergeReleaseShaders
-:proteus-core:compileReleaseShaders
-:proteus-core:generateReleaseAssets
-:proteus-core:packageReleaseAssets
-:recyclerview-v7:mergeReleaseShaders
-:recyclerview-v7:compileReleaseShaders
-:recyclerview-v7:generateReleaseAssets
-:recyclerview-v7:packageReleaseAssets
-:support-v4:mergeReleaseShaders
-:support-v4:compileReleaseShaders
-:support-v4:generateReleaseAssets
-:support-v4:packageReleaseAssets
-:demo:mergeReleaseAssets
-:demo:transformClassesWithDexBuilderForRelease
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-JarCode: JSR encountered; reparse using JSRInlinerAdapter
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-:demo:transformDexArchiveWithExternalLibsDexMergerForRelease
-:demo:transformDexArchiveWithDexMergerForRelease
-:cardview-v7:compileReleaseNdk NO-SOURCE
-:cardview-v7:mergeReleaseJniLibFolders UP-TO-DATE
-:cardview-v7:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-:cardview-v7:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
-:cardview-v7:transformNativeLibsWithIntermediateJniLibsForRelease
-:demo:mergeReleaseJniLibFolders
-:design:compileReleaseNdk NO-SOURCE
-:design:mergeReleaseJniLibFolders
-:design:transformNativeLibsWithMergeJniLibsForRelease
-:design:transformNativeLibsWithStripDebugSymbolForRelease
-:design:transformNativeLibsWithIntermediateJniLibsForRelease
-:gson-adapter:compileReleaseNdk NO-SOURCE
-:gson-adapter:mergeReleaseJniLibFolders
-:gson-adapter:transformNativeLibsWithMergeJniLibsForRelease
-:gson-adapter:transformNativeLibsWithStripDebugSymbolForRelease
-:gson-adapter:transformNativeLibsWithIntermediateJniLibsForRelease
-:proteus-core:compileReleaseNdk NO-SOURCE
-:proteus-core:mergeReleaseJniLibFolders
-:proteus-core:transformNativeLibsWithMergeJniLibsForRelease
-:proteus-core:transformNativeLibsWithStripDebugSymbolForRelease
-:proteus-core:transformNativeLibsWithIntermediateJniLibsForRelease
-:recyclerview-v7:compileReleaseNdk NO-SOURCE
-:recyclerview-v7:mergeReleaseJniLibFolders
-:recyclerview-v7:transformNativeLibsWithMergeJniLibsForRelease
-:recyclerview-v7:transformNativeLibsWithStripDebugSymbolForRelease
-:recyclerview-v7:transformNativeLibsWithIntermediateJniLibsForRelease
-:support-v4:compileReleaseNdk NO-SOURCE
-:support-v4:mergeReleaseJniLibFolders
-:support-v4:transformNativeLibsWithMergeJniLibsForRelease
-:support-v4:transformNativeLibsWithStripDebugSymbolForRelease
-:support-v4:transformNativeLibsWithIntermediateJniLibsForRelease
-:demo:transformNativeLibsWithMergeJniLibsForRelease
-:demo:transformNativeLibsWithStripDebugSymbolForRelease
-:demo:checkReleaseLibraries
-:demo:processReleaseJavaRes NO-SOURCE
-:demo:transformResourcesWithMergeJavaResForRelease
-:demo:packageRelease
-:demo:assembleRelease
-:demo:assemble
-:demo:build
-
-BUILD SUCCESSFUL in 50s
-265 actionable tasks: 213 executed, 52 up-to-date
-
-2019-01-22 16:31:18,915 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149389308-0/src/proteus-master/demo/build/outputs/apk/release/demo-release-unsigned.apk
+2019-03-25 12:40:35,952 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492361521-0/src/proteus-master/demo/build/outputs/apk/release/demo-release-unsigned.apk

@@ -1,43 +1,44 @@
-2019-01-22 16:27:56,330 INFO  DownloadService - Downloading "https://github.com/smartdevicelink/sdl_android/archive/master.zip", attempt 3
-2019-01-22 16:28:01,029 INFO  DownloadService - Downloaded https://github.com/smartdevicelink/sdl_android/archive/master.zip, attempt 3
-2019-01-22 16:28:01,030 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/master.zip": 1 MB
-2019-01-22 16:28:01,030 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-22 16:28:01,038 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/master.zip: true
-2019-01-22 16:28:01,038 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src'.
-2019-01-22 16:28:01,289 INFO  FullProcessService - Size of directory with sources: 5 MB
-2019-01-22 16:28:01,289 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src]
-2019-01-22 16:28:01,312 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/.git/
+2019-03-25 12:37:33,145 INFO  DownloadService - Downloading "https://github.com/smartdevicelink/sdl_android/archive/master.zip", attempt 3
+2019-03-25 12:37:34,973 INFO  DownloadService - Downloaded https://github.com/smartdevicelink/sdl_android/archive/master.zip, attempt 3
+2019-03-25 12:37:34,973 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/master.zip": 1 MB
+2019-03-25 12:37:34,973 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-25 12:37:34,981 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/master.zip: true
+2019-03-25 12:37:34,981 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src'.
+2019-03-25 12:37:35,257 INFO  FullProcessService - Size of directory with sources: 5 MB
+2019-03-25 12:37:35,257 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src]
+2019-03-25 12:37:35,278 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/.git/
 
-2019-01-22 16:28:01,330 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/gradlew
-2019-01-22 16:28:01,348 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/sdl_android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/build.gradle
-2019-01-22 16:28:01,366 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/sdl_android/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/sdl_android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build.gradle
-2019-01-22 16:28:01,367 INFO  ProjectBuildService - Remote scripts: none
-2019-01-22 16:28:01,367 INFO  ProjectFixService - Fixing project...
-2019-01-22 16:28:01,407 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/local.properties
-2019-01-22 16:28:01,408 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-22 16:28:01,408 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-22 16:28:01,409 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/sdl_android/local.properties
-2019-01-22 16:28:01,410 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/sdl_android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=8,targetSdkVersion=26]
-2019-01-22 16:28:01,410 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/sdl_android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=8,targetSdkVersion=26]
-2019-01-22 16:28:01,411 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/local.properties
-2019-01-22 16:28:01,411 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-01-22 16:28:01,412 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-01-22 16:28:01,413 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=8,targetSdkVersion=26]
-2019-01-22 16:28:01,414 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=8,targetSdkVersion=26]
-2019-01-22 16:28:01,414 INFO  ProjectFixService - Project was maybe fixed
-2019-01-22 16:28:01,414 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-22 16:28:01,414 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-22 16:28:08,867 INFO  ProjectTaskService - Detected possible tasks: 152
-2019-01-22 16:28:08,867 INFO  ProjectTaskService - Excluded tasks (9): mockableAndroidJar deviceCheck lint deviceAndroidTest connectedCheck test check uninstallAll connectedAndroidTest
-2019-01-22 16:28:08,867 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, test, -x, check, -x, uninstallAll, -x, connectedAndroidTest, build]
-2019-01-22 16:29:37,171 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-25 12:37:35,296 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/gradlew
+2019-03-25 12:37:35,314 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/sdl_android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/build.gradle
+2019-03-25 12:37:35,333 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/sdl_android/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/sdl_android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build.gradle
+2019-03-25 12:37:35,334 INFO  ProjectBuildService - Remote scripts: none
+2019-03-25 12:37:35,334 INFO  ProjectFixService - Fixing project...
+2019-03-25 12:37:35,373 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/local.properties
+2019-03-25 12:37:35,374 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-25 12:37:35,374 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-25 12:37:35,375 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/sdl_android/local.properties
+2019-03-25 12:37:35,376 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/sdl_android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=8,targetSdkVersion=26]
+2019-03-25 12:37:35,376 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/sdl_android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=8,targetSdkVersion=26]
+2019-03-25 12:37:35,378 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/local.properties
+2019-03-25 12:37:35,378 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-03-25 12:37:35,378 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-03-25 12:37:35,380 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=8,targetSdkVersion=26]
+2019-03-25 12:37:35,380 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=8,targetSdkVersion=26]
+2019-03-25 12:37:35,381 INFO  ProjectFixService - Project was maybe fixed
+2019-03-25 12:37:35,381 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-25 12:37:35,381 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-25 12:37:41,907 INFO  ProjectTaskService - Detected possible tasks: 152
+2019-03-25 12:37:41,907 INFO  ProjectTaskService - Excluded tasks (9): mockableAndroidJar deviceCheck lint deviceAndroidTest connectedCheck test check uninstallAll connectedAndroidTest
+2019-03-25 12:37:41,907 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, test, -x, check, -x, uninstallAll, -x, connectedAndroidTest, build]
+2019-03-25 12:39:09,403 INFO  SysUtils - Configuration on demand is an incubating feature.
 :hello_sdl_android:preBuild UP-TO-DATE
 :sdl_android:preBuild UP-TO-DATE
 :sdl_android:preDebugBuild UP-TO-DATE
 :sdl_android:checkDebugManifest
 :sdl_android:processDebugManifest
 :hello_sdl_android:preMulti_high_bandwidthDebugBuild
-:sdl_android:compileDebugAidlaidl E 01-22 16:28:16 35693 3760552 aidl.cpp:580] refusing to generate code from aidl file defining parcelable
+Download https://jcenter.bintray.com/com/smartdevicelink/bson_java_port/1.1.1/bson_java_port-1.1.1.aar
+:sdl_android:compileDebugAidlaidl E 03-25 12:37:52 69264 3183112 aidl.cpp:580] refusing to generate code from aidl file defining parcelable
 
 
 :hello_sdl_android:compileMulti_high_bandwidthDebugAidl
@@ -100,6 +101,8 @@
 :hello_sdl_android:processMulti_sec_highDebugJavaRes NO-SOURCE
 :hello_sdl_android:validateSigningMulti_sec_highDebug
 :hello_sdl_android:preMulti_sec_lowDebugBuild
+:hello_sdl_android:compileMulti_sec_lowDebugAidl
+:hello_sdl_android:compileMulti_sec_lowDebugRenderscript
 :sdl_android:generateDebugRFile
 :hello_sdl_android:processMulti_high_bandwidthDebugResources
 :hello_sdl_android:generateMulti_high_bandwidthDebugSources
@@ -119,9 +122,9 @@ Note: Recompile with -Xlint:unchecked for details.
 :hello_sdl_android:transformDexArchiveWithDexMergerForMulti_high_bandwidthDebug
 :hello_sdl_android:transformNativeLibsWithMergeJniLibsForMulti_high_bandwidthDebug
 :hello_sdl_android:transformNativeLibsWithStripDebugSymbolForMulti_high_bandwidthDebug
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_high_bandwidth/debug/0/lib/mips/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_high_bandwidth/debug/0/lib/mips64/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_high_bandwidth/debug/0/lib/armeabi/libbson-c-lib.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_high_bandwidth/debug/0/lib/mips/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_high_bandwidth/debug/0/lib/mips64/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_high_bandwidth/debug/0/lib/armeabi/libbson-c-lib.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 :hello_sdl_android:transformResourcesWithMergeJavaResForMulti_high_bandwidthDebug
 :hello_sdl_android:packageMulti_high_bandwidthDebug
 :hello_sdl_android:assembleMulti_high_bandwidthDebug
@@ -135,14 +138,12 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 :hello_sdl_android:transformDexArchiveWithDexMergerForMulti_sec_highDebug
 :hello_sdl_android:transformNativeLibsWithMergeJniLibsForMulti_sec_highDebug
 :hello_sdl_android:transformNativeLibsWithStripDebugSymbolForMulti_sec_highDebug
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_high/debug/0/lib/mips/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_high/debug/0/lib/mips64/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_high/debug/0/lib/armeabi/libbson-c-lib.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_high/debug/0/lib/mips/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_high/debug/0/lib/mips64/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_high/debug/0/lib/armeabi/libbson-c-lib.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 :hello_sdl_android:transformResourcesWithMergeJavaResForMulti_sec_highDebug
 :hello_sdl_android:packageMulti_sec_highDebug
 :hello_sdl_android:assembleMulti_sec_highDebug
-:hello_sdl_android:compileMulti_sec_lowDebugAidl
-:hello_sdl_android:compileMulti_sec_lowDebugRenderscript
 :hello_sdl_android:checkMulti_sec_lowDebugManifest
 :hello_sdl_android:generateMulti_sec_lowDebugBuildConfig
 :hello_sdl_android:mainApkListPersistenceMulti_sec_lowDebug
@@ -168,9 +169,9 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 :hello_sdl_android:mergeMulti_sec_lowDebugJniLibFolders
 :hello_sdl_android:transformNativeLibsWithMergeJniLibsForMulti_sec_lowDebug
 :hello_sdl_android:transformNativeLibsWithStripDebugSymbolForMulti_sec_lowDebug
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_low/debug/0/lib/mips/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_low/debug/0/lib/mips64/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_low/debug/0/lib/armeabi/libbson-c-lib.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_low/debug/0/lib/mips/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_low/debug/0/lib/mips64/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_low/debug/0/lib/armeabi/libbson-c-lib.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 :hello_sdl_android:processMulti_sec_lowDebugJavaRes NO-SOURCE
 :hello_sdl_android:transformResourcesWithMergeJavaResForMulti_sec_lowDebug
 :hello_sdl_android:validateSigningMulti_sec_lowDebug
@@ -204,9 +205,9 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 :hello_sdl_android:mergeMulti_sec_medDebugJniLibFolders
 :hello_sdl_android:transformNativeLibsWithMergeJniLibsForMulti_sec_medDebug
 :hello_sdl_android:transformNativeLibsWithStripDebugSymbolForMulti_sec_medDebug
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_med/debug/0/lib/mips/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_med/debug/0/lib/mips64/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_med/debug/0/lib/armeabi/libbson-c-lib.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_med/debug/0/lib/mips/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_med/debug/0/lib/mips64/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_med/debug/0/lib/armeabi/libbson-c-lib.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 :hello_sdl_android:processMulti_sec_medDebugJavaRes NO-SOURCE
 :hello_sdl_android:transformResourcesWithMergeJavaResForMulti_sec_medDebug
 :hello_sdl_android:validateSigningMulti_sec_medDebug
@@ -240,9 +241,9 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 :hello_sdl_android:mergeMulti_sec_offDebugJniLibFolders
 :hello_sdl_android:transformNativeLibsWithMergeJniLibsForMulti_sec_offDebug
 :hello_sdl_android:transformNativeLibsWithStripDebugSymbolForMulti_sec_offDebug
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_off/debug/0/lib/mips/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_off/debug/0/lib/mips64/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_off/debug/0/lib/armeabi/libbson-c-lib.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_off/debug/0/lib/mips/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_off/debug/0/lib/mips64/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_off/debug/0/lib/armeabi/libbson-c-lib.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 :hello_sdl_android:processMulti_sec_offDebugJavaRes NO-SOURCE
 :hello_sdl_android:transformResourcesWithMergeJavaResForMulti_sec_offDebug
 :hello_sdl_android:validateSigningMulti_sec_offDebug
@@ -276,9 +277,9 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 :hello_sdl_android:mergeTcpDebugJniLibFolders
 :hello_sdl_android:transformNativeLibsWithMergeJniLibsForTcpDebug
 :hello_sdl_android:transformNativeLibsWithStripDebugSymbolForTcpDebug
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/tcp/debug/0/lib/mips/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/tcp/debug/0/lib/mips64/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/tcp/debug/0/lib/armeabi/libbson-c-lib.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/tcp/debug/0/lib/mips/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/tcp/debug/0/lib/mips64/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/tcp/debug/0/lib/armeabi/libbson-c-lib.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 :hello_sdl_android:processTcpDebugJavaRes NO-SOURCE
 :hello_sdl_android:transformResourcesWithMergeJavaResForTcpDebug
 :hello_sdl_android:validateSigningTcpDebug
@@ -289,7 +290,7 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 :sdl_android:checkReleaseManifest
 :sdl_android:processReleaseManifest
 :hello_sdl_android:preMulti_high_bandwidthReleaseBuild
-:sdl_android:compileReleaseAidlaidl E 01-22 16:28:55 35823 3761720 aidl.cpp:580] refusing to generate code from aidl file defining parcelable
+:sdl_android:compileReleaseAidlaidl E 03-25 12:38:33 69389 3184684 aidl.cpp:580] refusing to generate code from aidl file defining parcelable
 
 
 :hello_sdl_android:compileMulti_high_bandwidthReleaseAidl
@@ -326,11 +327,8 @@ Note: Recompile with -Xlint:unchecked for details.
 :hello_sdl_android:compileMulti_high_bandwidthReleaseNdk NO-SOURCE
 :hello_sdl_android:compileMulti_high_bandwidthReleaseSources
 :hello_sdl_android:lintVitalMulti_high_bandwidthRelease
-Download https://jcenter.bintray.com/org/mockito/mockito-android/2.9.0/mockito-android-2.9.0.jar
 Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-android/1.7.0/byte-buddy-android-1.7.0.jar
-Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-agent/1.7.0/byte-buddy-agent-1.7.0.jar
-Download https://jcenter.bintray.com/org/mockito/mockito-core/2.9.0/mockito-core-2.9.0.jar
-Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy/1.7.0/byte-buddy-1.7.0.jar
+Download https://jcenter.bintray.com/org/mockito/mockito-android/2.9.0/mockito-android-2.9.0.jar
 :hello_sdl_android:mergeMulti_high_bandwidthReleaseShaders
 :hello_sdl_android:compileMulti_high_bandwidthReleaseShaders
 :hello_sdl_android:generateMulti_high_bandwidthReleaseAssets
@@ -350,9 +348,9 @@ Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy/1.7.0/byte-buddy-1
 :sdl_android:transformNativeLibsWithIntermediateJniLibsForRelease
 :hello_sdl_android:transformNativeLibsWithMergeJniLibsForMulti_high_bandwidthRelease
 :hello_sdl_android:transformNativeLibsWithStripDebugSymbolForMulti_high_bandwidthRelease
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_high_bandwidth/release/0/lib/mips/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_high_bandwidth/release/0/lib/mips64/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_high_bandwidth/release/0/lib/armeabi/libbson-c-lib.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_high_bandwidth/release/0/lib/mips/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_high_bandwidth/release/0/lib/mips64/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_high_bandwidth/release/0/lib/armeabi/libbson-c-lib.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 :hello_sdl_android:processMulti_high_bandwidthReleaseJavaRes NO-SOURCE
 :hello_sdl_android:transformResourcesWithMergeJavaResForMulti_high_bandwidthRelease
 :hello_sdl_android:packageMulti_high_bandwidthRelease
@@ -386,9 +384,9 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 :hello_sdl_android:mergeMulti_sec_highReleaseJniLibFolders
 :hello_sdl_android:transformNativeLibsWithMergeJniLibsForMulti_sec_highRelease
 :hello_sdl_android:transformNativeLibsWithStripDebugSymbolForMulti_sec_highRelease
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_high/release/0/lib/mips/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_high/release/0/lib/mips64/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_high/release/0/lib/armeabi/libbson-c-lib.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_high/release/0/lib/mips/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_high/release/0/lib/mips64/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_high/release/0/lib/armeabi/libbson-c-lib.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 :hello_sdl_android:processMulti_sec_highReleaseJavaRes NO-SOURCE
 :hello_sdl_android:transformResourcesWithMergeJavaResForMulti_sec_highRelease
 :hello_sdl_android:packageMulti_sec_highRelease
@@ -422,9 +420,9 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 :hello_sdl_android:mergeMulti_sec_lowReleaseJniLibFolders
 :hello_sdl_android:transformNativeLibsWithMergeJniLibsForMulti_sec_lowRelease
 :hello_sdl_android:transformNativeLibsWithStripDebugSymbolForMulti_sec_lowRelease
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_low/release/0/lib/mips/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_low/release/0/lib/mips64/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_low/release/0/lib/armeabi/libbson-c-lib.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_low/release/0/lib/mips/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_low/release/0/lib/mips64/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_low/release/0/lib/armeabi/libbson-c-lib.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 :hello_sdl_android:processMulti_sec_lowReleaseJavaRes NO-SOURCE
 :hello_sdl_android:transformResourcesWithMergeJavaResForMulti_sec_lowRelease
 :hello_sdl_android:packageMulti_sec_lowRelease
@@ -458,9 +456,9 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 :hello_sdl_android:mergeMulti_sec_medReleaseJniLibFolders
 :hello_sdl_android:transformNativeLibsWithMergeJniLibsForMulti_sec_medRelease
 :hello_sdl_android:transformNativeLibsWithStripDebugSymbolForMulti_sec_medRelease
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_med/release/0/lib/mips/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_med/release/0/lib/mips64/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_med/release/0/lib/armeabi/libbson-c-lib.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_med/release/0/lib/mips/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_med/release/0/lib/mips64/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_med/release/0/lib/armeabi/libbson-c-lib.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 :hello_sdl_android:processMulti_sec_medReleaseJavaRes NO-SOURCE
 :hello_sdl_android:transformResourcesWithMergeJavaResForMulti_sec_medRelease
 :hello_sdl_android:packageMulti_sec_medRelease
@@ -494,9 +492,9 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 :hello_sdl_android:mergeMulti_sec_offReleaseJniLibFolders
 :hello_sdl_android:transformNativeLibsWithMergeJniLibsForMulti_sec_offRelease
 :hello_sdl_android:transformNativeLibsWithStripDebugSymbolForMulti_sec_offRelease
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_off/release/0/lib/mips/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_off/release/0/lib/mips64/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_off/release/0/lib/armeabi/libbson-c-lib.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_off/release/0/lib/mips/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_off/release/0/lib/mips64/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/multi_sec_off/release/0/lib/armeabi/libbson-c-lib.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 :hello_sdl_android:processMulti_sec_offReleaseJavaRes NO-SOURCE
 :hello_sdl_android:transformResourcesWithMergeJavaResForMulti_sec_offRelease
 :hello_sdl_android:packageMulti_sec_offRelease
@@ -530,9 +528,9 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 :hello_sdl_android:mergeTcpReleaseJniLibFolders
 :hello_sdl_android:transformNativeLibsWithMergeJniLibsForTcpRelease
 :hello_sdl_android:transformNativeLibsWithStripDebugSymbolForTcpRelease
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/tcp/release/0/lib/mips/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/tcp/release/0/lib/mips64/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/tcp/release/0/lib/armeabi/libbson-c-lib.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/tcp/release/0/lib/mips/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/tcp/release/0/lib/mips64/libbson-c-lib.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/intermediates/transforms/mergeJniLibs/tcp/release/0/lib/armeabi/libbson-c-lib.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 :hello_sdl_android:processTcpReleaseJavaRes NO-SOURCE
 :hello_sdl_android:transformResourcesWithMergeJavaResForTcpRelease
 :hello_sdl_android:packageTcpRelease
@@ -544,4 +542,4 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 BUILD SUCCESSFUL in 1m 27s
 352 actionable tasks: 352 executed
 
-2019-01-22 16:29:37,654 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149276322-0/src/sdl_android-master/hello_sdl_android/build/outputs/apk/multi_high_bandwidth/release/hello_sdl_android-multi_high_bandwidth-release-unsigned.apk
+2019-03-25 12:39:09,927 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492253141-0/src/sdl_android-master/hello_sdl_android/build/outputs/apk/multi_high_bandwidth/release/hello_sdl_android-multi_high_bandwidth-release-unsigned.apk
