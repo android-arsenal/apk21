@@ -1,34 +1,34 @@
-2019-03-25 12:32:10,185 INFO  DownloadService - Downloading "https://github.com/vicpinm/Kotlin-Realm-Extensions/archive/master.zip", attempt 3
-2019-03-25 12:32:11,263 INFO  DownloadService - Downloaded https://github.com/vicpinm/Kotlin-Realm-Extensions/archive/master.zip, attempt 3
-2019-03-25 12:32:11,263 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491930180-0/master.zip": 147 KB
-2019-03-25 12:32:11,263 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-25 12:32:11,265 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491930180-0/master.zip: true
-2019-03-25 12:32:11,265 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491930180-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491930180-0/src'.
-2019-03-25 12:32:11,287 INFO  FullProcessService - Size of directory with sources: 230 KB
-2019-03-25 12:32:11,287 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491930180-0/src]
-2019-03-25 12:32:11,305 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491930180-0/src/.git/
+2019-03-27 15:38:18,820 INFO  DownloadService - Downloading "https://github.com/vicpinm/Kotlin-Realm-Extensions/archive/master.zip", attempt 3
+2019-03-27 15:38:20,597 INFO  DownloadService - Downloaded https://github.com/vicpinm/Kotlin-Realm-Extensions/archive/master.zip, attempt 3
+2019-03-27 15:38:20,597 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675898815-0/master.zip": 147 KB
+2019-03-27 15:38:20,597 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-27 15:38:20,597 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675898815-0/master.zip: true
+2019-03-27 15:38:20,597 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675898815-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675898815-0/src'.
+2019-03-27 15:38:20,620 INFO  FullProcessService - Size of directory with sources: 230 KB
+2019-03-27 15:38:20,620 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675898815-0/src]
+2019-03-27 15:38:20,643 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675898815-0/src/.git/
 
-2019-03-25 12:32:11,308 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491930180-0/src/Kotlin-Realm-Extensions-master/gradlew
-2019-03-25 12:32:11,311 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491930180-0/src/Kotlin-Realm-Extensions-master/library-base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491930180-0/src/Kotlin-Realm-Extensions-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491930180-0/src/Kotlin-Realm-Extensions-master/build.gradle
-2019-03-25 12:32:11,314 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491930180-0/src/Kotlin-Realm-Extensions-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491930180-0/src/Kotlin-Realm-Extensions-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491930180-0/src/Kotlin-Realm-Extensions-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491930180-0/src/Kotlin-Realm-Extensions-master/library-base/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491930180-0/src/Kotlin-Realm-Extensions-master/library-base/build.gradle
-2019-03-25 12:32:11,314 INFO  ProjectBuildService - Remote scripts: none
-2019-03-25 12:32:11,314 INFO  ProjectFixService - Fixing project...
-2019-03-25 12:32:11,324 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491930180-0/src/Kotlin-Realm-Extensions-master/library-base/local.properties
-2019-03-25 12:32:11,324 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491930180-0/src/Kotlin-Realm-Extensions-master/library-base/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2019-03-25 12:32:11,325 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491930180-0/src/Kotlin-Realm-Extensions-master/sample/local.properties
-2019-03-25 12:32:11,325 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491930180-0/src/Kotlin-Realm-Extensions-master/sample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2019-03-25 12:32:11,325 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491930180-0/src/Kotlin-Realm-Extensions-master/local.properties
-2019-03-25 12:32:11,326 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-03-25 12:32:11,326 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-03-25 12:32:11,327 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491930180-0/src/Kotlin-Realm-Extensions-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2019-03-25 12:32:11,327 INFO  ProjectFixService - Project was maybe fixed
-2019-03-25 12:32:11,327 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-25 12:32:11,328 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491930180-0/src/Kotlin-Realm-Extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491930180-0/src/Kotlin-Realm-Extensions-master/library-base/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-25 12:32:18,670 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-25 12:32:18,670 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-25 12:32:18,670 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-25 12:32:18,670 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491930180-0/src/Kotlin-Realm-Extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491930180-0/src/Kotlin-Realm-Extensions-master/library-base/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-25 12:32:21,391 ERROR SysUtils - Could not process external command
+2019-03-27 15:38:20,646 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675898815-0/src/Kotlin-Realm-Extensions-master/gradlew
+2019-03-27 15:38:20,649 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675898815-0/src/Kotlin-Realm-Extensions-master/library-base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675898815-0/src/Kotlin-Realm-Extensions-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675898815-0/src/Kotlin-Realm-Extensions-master/build.gradle
+2019-03-27 15:38:20,652 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675898815-0/src/Kotlin-Realm-Extensions-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675898815-0/src/Kotlin-Realm-Extensions-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675898815-0/src/Kotlin-Realm-Extensions-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675898815-0/src/Kotlin-Realm-Extensions-master/library-base/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675898815-0/src/Kotlin-Realm-Extensions-master/library-base/build.gradle
+2019-03-27 15:38:20,653 INFO  ProjectBuildService - Remote scripts: none
+2019-03-27 15:38:20,653 INFO  ProjectFixService - Fixing project...
+2019-03-27 15:38:20,663 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675898815-0/src/Kotlin-Realm-Extensions-master/library-base/local.properties
+2019-03-27 15:38:20,664 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675898815-0/src/Kotlin-Realm-Extensions-master/library-base/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-27 15:38:20,664 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675898815-0/src/Kotlin-Realm-Extensions-master/sample/local.properties
+2019-03-27 15:38:20,665 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675898815-0/src/Kotlin-Realm-Extensions-master/sample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-27 15:38:20,665 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675898815-0/src/Kotlin-Realm-Extensions-master/local.properties
+2019-03-27 15:38:20,665 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-03-27 15:38:20,666 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-03-27 15:38:20,666 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675898815-0/src/Kotlin-Realm-Extensions-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-27 15:38:20,666 INFO  ProjectFixService - Project was maybe fixed
+2019-03-27 15:38:20,666 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-27 15:38:20,667 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675898815-0/src/Kotlin-Realm-Extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675898815-0/src/Kotlin-Realm-Extensions-master/library-base/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-27 15:38:25,961 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-27 15:38:25,961 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-27 15:38:25,961 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-27 15:38:25,961 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675898815-0/src/Kotlin-Realm-Extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675898815-0/src/Kotlin-Realm-Extensions-master/library-base/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-27 15:38:28,469 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -41,8 +41,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -56,7 +55,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-25 12:32:21,391 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-27 15:38:28,469 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -212,13 +211,13 @@ Searched in the following locations:
 
 BUILD FAILED in 2s
 
-2019-03-25 12:32:21,396 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-25 12:32:21,396 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491930180-0/src/Kotlin-Realm-Extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491930180-0/src/Kotlin-Realm-Extensions-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-25 12:32:24,013 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-25 12:32:24,013 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-25 12:32:24,013 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-25 12:32:24,013 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491930180-0/src/Kotlin-Realm-Extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491930180-0/src/Kotlin-Realm-Extensions-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-25 12:32:26,820 ERROR SysUtils - Could not process external command
+2019-03-27 15:38:28,473 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-27 15:38:28,473 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675898815-0/src/Kotlin-Realm-Extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675898815-0/src/Kotlin-Realm-Extensions-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-27 15:38:31,048 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-27 15:38:31,048 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-27 15:38:31,048 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-27 15:38:31,048 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675898815-0/src/Kotlin-Realm-Extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675898815-0/src/Kotlin-Realm-Extensions-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-27 15:38:33,879 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -231,8 +230,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -246,7 +244,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-25 12:32:26,820 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-27 15:38:33,879 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -402,13 +400,13 @@ Searched in the following locations:
 
 BUILD FAILED in 2s
 
-2019-03-25 12:32:26,824 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-25 12:32:26,825 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491930180-0/src/Kotlin-Realm-Extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491930180-0/src/Kotlin-Realm-Extensions-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-25 12:32:29,704 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-25 12:32:29,704 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-25 12:32:29,704 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-25 12:32:29,704 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491930180-0/src/Kotlin-Realm-Extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491930180-0/src/Kotlin-Realm-Extensions-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-25 12:32:32,204 ERROR SysUtils - Could not process external command
+2019-03-27 15:38:33,883 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-27 15:38:33,884 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675898815-0/src/Kotlin-Realm-Extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675898815-0/src/Kotlin-Realm-Extensions-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-27 15:38:36,775 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-27 15:38:36,775 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-27 15:38:36,775 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-27 15:38:36,775 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675898815-0/src/Kotlin-Realm-Extensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675898815-0/src/Kotlin-Realm-Extensions-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-27 15:38:39,760 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -421,8 +419,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -436,7 +433,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-25 12:32:32,204 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-27 15:38:39,760 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -592,5 +589,5 @@ Searched in the following locations:
 
 BUILD FAILED in 2s
 
-2019-03-25 12:32:32,209 ERROR FullProcessService - Project build has not produced APK file
-2019-03-25 12:32:32,212 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-27 15:38:39,765 ERROR FullProcessService - Project build has not produced APK file
+2019-03-27 15:38:39,769 ERROR FullProcessService - Could not find generated or existed APK file
