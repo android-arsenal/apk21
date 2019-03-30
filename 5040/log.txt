@@ -1,42 +1,42 @@
-2018-12-24 13:38:14,130 INFO  DownloadService - Downloading "https://github.com/uber/rides-android-sdk/archive/master.zip", attempt 3
-2018-12-24 13:38:16,384 INFO  DownloadService - Downloaded https://github.com/uber/rides-android-sdk/archive/master.zip, attempt 3
-2018-12-24 13:38:16,384 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/master.zip": 396 KB
-2018-12-24 13:38:16,384 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-24 13:38:16,390 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/master.zip: true
-2018-12-24 13:38:16,390 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src'.
-2018-12-24 13:38:16,451 INFO  FullProcessService - Size of directory with sources: 773 KB
-2018-12-24 13:38:16,452 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src]
-2018-12-24 13:38:16,471 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/.git/
+2019-03-30 22:07:35,320 INFO  DownloadService - Downloading "https://github.com/uber/rides-android-sdk/archive/master.zip", attempt 3
+2019-03-30 22:07:38,172 INFO  DownloadService - Downloaded https://github.com/uber/rides-android-sdk/archive/master.zip, attempt 3
+2019-03-30 22:07:38,172 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/master.zip": 396 KB
+2019-03-30 22:07:38,172 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-30 22:07:38,178 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/master.zip: true
+2019-03-30 22:07:38,178 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src'.
+2019-03-30 22:07:38,248 INFO  FullProcessService - Size of directory with sources: 779 KB
+2019-03-30 22:07:38,248 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src]
+2019-03-30 22:07:38,268 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/.git/
 
-2018-12-24 13:38:16,479 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/gradlew
-2018-12-24 13:38:16,487 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/core-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/rides-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/samples/login-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/samples/request-button-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/build.gradle
-2018-12-24 13:38:16,495 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/rides-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/gradle/verification.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/gradle/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/gradle/github-release.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/samples/request-button-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/samples/login-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/core-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/settings.gradle
-2018-12-24 13:38:16,496 INFO  ProjectBuildService - Remote scripts: none
-2018-12-24 13:38:16,496 INFO  ProjectFixService - Fixing project...
-2018-12-24 13:38:16,527 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/core-android/local.properties
-2018-12-24 13:38:16,535 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/core-android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-12-24 13:38:16,535 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/core-android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-12-24 13:38:16,536 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/rides-android/local.properties
-2018-12-24 13:38:16,544 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/rides-android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-12-24 13:38:16,544 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/rides-android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-12-24 13:38:16,545 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/samples/login-sample/local.properties
-2018-12-24 13:38:16,552 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/samples/login-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-12-24 13:38:16,552 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/samples/login-sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-12-24 13:38:16,553 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/samples/request-button-sample/local.properties
-2018-12-24 13:38:16,561 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/samples/request-button-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-12-24 13:38:16,561 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/samples/request-button-sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-12-24 13:38:16,562 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/local.properties
-2018-12-24 13:38:16,563 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.9-all.zip
-2018-12-24 13:38:16,564 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.9-bin.zip)
-2018-12-24 13:38:16,571 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-12-24 13:38:16,571 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-12-24 13:38:16,572 INFO  ProjectFixService - Project was maybe fixed
-2018-12-24 13:38:16,572 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-24 13:38:16,572 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/core-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-24 13:38:25,050 INFO  ProjectTaskService - Detected possible tasks: 73
-2018-12-24 13:38:25,050 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-12-24 13:38:25,050 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/core-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-12-24 13:38:42,761 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-30 22:07:38,275 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/gradlew
+2019-03-30 22:07:38,283 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/core-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/rides-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/samples/login-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/samples/request-button-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/build.gradle
+2019-03-30 22:07:38,290 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/rides-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/gradle/verification.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/gradle/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/gradle/github-release.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/samples/request-button-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/samples/login-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/core-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/settings.gradle
+2019-03-30 22:07:38,291 INFO  ProjectBuildService - Remote scripts: none
+2019-03-30 22:07:38,291 INFO  ProjectFixService - Fixing project...
+2019-03-30 22:07:38,316 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/core-android/local.properties
+2019-03-30 22:07:38,323 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/core-android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-30 22:07:38,323 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/core-android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-30 22:07:38,324 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/rides-android/local.properties
+2019-03-30 22:07:38,332 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/rides-android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-30 22:07:38,333 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/rides-android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-30 22:07:38,334 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/samples/login-sample/local.properties
+2019-03-30 22:07:38,342 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/samples/login-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-30 22:07:38,342 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/samples/login-sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-30 22:07:38,343 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/samples/request-button-sample/local.properties
+2019-03-30 22:07:38,353 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/samples/request-button-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-30 22:07:38,353 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/samples/request-button-sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-30 22:07:38,354 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/local.properties
+2019-03-30 22:07:38,355 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.9-all.zip
+2019-03-30 22:07:38,355 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.9-bin.zip)
+2019-03-30 22:07:38,366 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-30 22:07:38,366 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-30 22:07:38,367 INFO  ProjectFixService - Project was maybe fixed
+2019-03-30 22:07:38,367 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-30 22:07:38,367 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/core-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-30 22:07:48,754 INFO  ProjectTaskService - Detected possible tasks: 74
+2019-03-30 22:07:48,754 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-30 22:07:48,754 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/core-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-30 22:08:09,338 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :core-android
 Add signing.keyId to your ~/.gradle/gradle.properties file.
@@ -54,8 +54,10 @@ Add signing.secretKeyRingFile to your ~/.gradle/gradle.properties file.
 > Task :core-android:packageDebugResources
 > Task :core-android:processDebugManifest
 > Task :core-android:prepareLintJar
-Download https://jcenter.bintray.com/com/squareup/moshi/moshi/1.2.0/moshi-1.2.0.jar
+Download https://jcenter.bintray.com/com/uber/sdk/uber-core/0.8.0/uber-core-0.8.0.jar
 Download https://jcenter.bintray.com/com/squareup/okhttp3/logging-interceptor/3.2.0/logging-interceptor-3.2.0.jar
+Download https://jcenter.bintray.com/com/squareup/moshi/moshi/1.2.0/moshi-1.2.0.jar
+Download https://jcenter.bintray.com/com/squareup/retrofit2/converter-moshi/2.0.2/converter-moshi-2.0.2.jar
 > Task :core-android:javaPreCompileDebug
 > Task :core-android:mergeDebugConsumerProguardFiles
 > Task :core-android:mergeDebugShaders
@@ -96,58 +98,53 @@ Download https://jcenter.bintray.com/com/squareup/okhttp3/logging-interceptor/3.
 > Task :core-android:verifyReleaseResources
 
 > Task :core-android:androidJavadoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/install/SignupDeeplink.java:31: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/install/SignupDeeplink.java:31: error: cannot find symbol
 import com.uber.sdk.android.core.R;
                                 ^
   symbol:   class R
   location: package com.uber.sdk.android.core
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/SsoDeeplink.java:34: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/SsoDeeplink.java:34: error: cannot find symbol
 import com.uber.sdk.android.core.BuildConfig;
                                 ^
   symbol:   class BuildConfig
   location: package com.uber.sdk.android.core
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/LoginManager.java:31: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/LegacyUriRedirectHandler.java:9: error: cannot find symbol
+import com.uber.sdk.android.core.R;
+                                ^
+  symbol:   class R
+  location: package com.uber.sdk.android.core
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/LoginButton.java:37: error: cannot find symbol
+import com.uber.sdk.android.core.R;
+                                ^
+  symbol:   class R
+  location: package com.uber.sdk.android.core
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/LoginActivity.java:42: error: cannot find symbol
 import com.uber.sdk.android.core.BuildConfig;
                                 ^
   symbol:   class BuildConfig
   location: package com.uber.sdk.android.core
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/LegacyUriRedirectHandler.java:9: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/LoginActivity.java:43: error: cannot find symbol
 import com.uber.sdk.android.core.R;
                                 ^
   symbol:   class R
   location: package com.uber.sdk.android.core
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/LoginButton.java:37: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/utils/Utility.java:11: error: cannot find symbol
 import com.uber.sdk.android.core.R;
                                 ^
   symbol:   class R
   location: package com.uber.sdk.android.core
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/LoginActivity.java:42: error: cannot find symbol
-import com.uber.sdk.android.core.BuildConfig;
-                                ^
-  symbol:   class BuildConfig
-  location: package com.uber.sdk.android.core
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/LoginActivity.java:43: error: cannot find symbol
-import com.uber.sdk.android.core.R;
-                                ^
-  symbol:   class R
-  location: package com.uber.sdk.android.core
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/utils/Utility.java:11: error: cannot find symbol
-import com.uber.sdk.android.core.R;
-                                ^
-  symbol:   class R
-  location: package com.uber.sdk.android.core
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/LoginActivity.java:159: warning - @return tag has no arguments.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/LoginManager.java:324: warning - Tag @link: reference not found: Scope.ScopeType#PRIVILEGED
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/LoginManager.java:324: warning - @deprecated, is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/LoginManager.java:343: warning - Tag @link: reference not found: Scope.ScopeType#PRIVILEGED
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/LoginManager.java:343: warning - @deprecated, is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/SsoDeeplink.java:110: warning - Tag @link: reference not found: FlowVersion#DEFAULT
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/SsoDeeplink.java:174: warning - Tag @link: reference not found: FlowVersion#DEFAULT
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/SsoDeeplink.java:110: warning - Tag @link: reference not found: FlowVersion#DEFAULT
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/SsoDeeplink.java:174: warning - Tag @link: reference not found: FlowVersion#DEFAULT
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/SsoDeeplink.java:110: warning - Tag @link: reference not found: FlowVersion#DEFAULT
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/SsoDeeplink.java:174: warning - Tag @link: reference not found: FlowVersion#DEFAULT
-19 warnings
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/LoginActivity.java:159: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/LoginManager.java:324: warning - Tag @link: reference not found: Scope.ScopeType#PRIVILEGED
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/LoginManager.java:324: warning - @deprecated, is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/LoginManager.java:343: warning - Tag @link: reference not found: Scope.ScopeType#PRIVILEGED
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/LoginManager.java:343: warning - @deprecated, is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/SsoDeeplink.java:109: warning - Tag @link: reference not found: FlowVersion#DEFAULT
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/SsoDeeplink.java:173: warning - Tag @link: reference not found: FlowVersion#DEFAULT
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/SsoDeeplink.java:109: warning - Tag @link: reference not found: FlowVersion#DEFAULT
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/SsoDeeplink.java:173: warning - Tag @link: reference not found: FlowVersion#DEFAULT
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/SsoDeeplink.java:109: warning - Tag @link: reference not found: FlowVersion#DEFAULT
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/SsoDeeplink.java:173: warning - Tag @link: reference not found: FlowVersion#DEFAULT
+18 warnings
 
 > Task :core-android:docJar
 > Task :core-android:sourceJar
@@ -158,7 +155,7 @@ import com.uber.sdk.android.core.R;
 > Task :core-android:compileDebugJavaWithJavac
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/LoginActivity.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/LoginActivity.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :core-android:extractDebugAnnotations
@@ -173,7 +170,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :core-android:compileReleaseJavaWithJavac
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/LoginActivity.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/core-android/src/main/java/com/uber/sdk/android/core/auth/LoginActivity.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :core-android:extractReleaseAnnotations
@@ -190,15 +187,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/4.9/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 17s
+BUILD SUCCESSFUL in 20s
 52 actionable tasks: 52 executed
 
-2018-12-24 13:38:42,862 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-24 13:38:42,863 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/rides-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-24 13:38:49,418 INFO  ProjectTaskService - Detected possible tasks: 73
-2018-12-24 13:38:49,418 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-12-24 13:38:49,419 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/rides-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-12-24 13:39:04,103 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-30 22:08:09,451 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-30 22:08:09,451 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/rides-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-30 22:08:17,348 INFO  ProjectTaskService - Detected possible tasks: 73
+2019-03-30 22:08:17,348 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-30 22:08:17,348 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/rides-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-30 22:08:36,167 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :rides-android
 Add signing.keyId to your ~/.gradle/gradle.properties file.
@@ -240,6 +237,7 @@ Add signing.secretKeyRingFile to your ~/.gradle/gradle.properties file.
 > Task :rides-android:packageDebugResources
 > Task :rides-android:processDebugManifest
 > Task :rides-android:prepareLintJar
+Download https://jcenter.bintray.com/com/uber/sdk/uber-rides/0.8.0/uber-rides-0.8.0.jar
 > Task :rides-android:javaPreCompileDebug
 > Task :rides-android:mergeDebugConsumerProguardFiles
 > Task :rides-android:mergeDebugShaders
@@ -296,11 +294,11 @@ Add signing.secretKeyRingFile to your ~/.gradle/gradle.properties file.
 > Task :rides-android:verifyReleaseResources
 
 > Task :rides-android:androidJavadoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/rides-android/src/main/java/com/uber/sdk/android/rides/RequestDeeplink.java:36: warning - @Deprecated is an unknown tag -- same as a known tag except for case.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/rides-android/src/main/java/com/uber/sdk/android/rides/RideRequestButton.java:157: warning - Tag @link: reference not found: Deeplink.Fallback
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/rides-android/src/main/java/com/uber/sdk/android/rides/RideRequestButton.java:157: warning - Tag @link: reference not found: Deeplink.Fallback
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/rides-android/src/main/java/com/uber/sdk/android/rides/RideRequestView.java:94: warning - @return tag has no arguments.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/rides-android/src/main/java/com/uber/sdk/android/rides/RideRequestButton.java:157: warning - Tag @link: reference not found: Deeplink.Fallback
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/rides-android/src/main/java/com/uber/sdk/android/rides/RequestDeeplink.java:36: warning - @Deprecated is an unknown tag -- same as a known tag except for case.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/rides-android/src/main/java/com/uber/sdk/android/rides/RideRequestButton.java:157: warning - Tag @link: reference not found: Deeplink.Fallback
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/rides-android/src/main/java/com/uber/sdk/android/rides/RideRequestButton.java:157: warning - Tag @link: reference not found: Deeplink.Fallback
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/rides-android/src/main/java/com/uber/sdk/android/rides/RideRequestView.java:94: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/rides-android/src/main/java/com/uber/sdk/android/rides/RideRequestButton.java:157: warning - Tag @link: reference not found: Deeplink.Fallback
 5 warnings
 
 > Task :rides-android:docJar
@@ -340,15 +338,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/4.9/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 14s
+BUILD SUCCESSFUL in 18s
 76 actionable tasks: 54 executed, 22 up-to-date
 
-2018-12-24 13:39:04,292 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-24 13:39:04,292 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/samples/login-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-24 13:39:10,513 INFO  ProjectTaskService - Detected possible tasks: 71
-2018-12-24 13:39:10,513 INFO  ProjectTaskService - Excluded tasks (20): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-24 13:39:10,513 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/samples/login-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-24 13:39:29,628 ERROR SysUtils - Could not process external command
+2019-03-30 22:08:36,365 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-30 22:08:36,366 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/samples/login-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-30 22:08:44,278 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-03-30 22:08:44,278 INFO  ProjectTaskService - Excluded tasks (20): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-30 22:08:44,278 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/samples/login-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-30 22:09:14,496 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -361,22 +359,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-24 13:39:29,630 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-30 22:09:14,497 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :core-android
 Add signing.keyId to your ~/.gradle/gradle.properties file.
@@ -445,7 +442,7 @@ Add signing.secretKeyRingFile to your ~/.gradle/gradle.properties file.
 > Task :samples:login-sample:javaPreCompileDebug
 
 > Task :samples:login-sample:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/samples/login-sample/src/main/java/com/uber/sdk/android/samples/LoginSampleActivity.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/samples/login-sample/src/main/java/com/uber/sdk/android/samples/LoginSampleActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :samples:login-sample:compileDebugNdk NO-SOURCE
@@ -532,11 +529,11 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :samples:login-sample:javaPreCompileRelease
 
 > Task :samples:login-sample:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/samples/login-sample/src/main/java/com/uber/sdk/android/samples/LoginSampleActivity.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
 
 > Task :samples:login-sample:compileReleaseNdk NO-SOURCE
 > Task :samples:login-sample:compileReleaseSources
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/samples/login-sample/src/main/java/com/uber/sdk/android/samples/LoginSampleActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
 > Task :samples:login-sample:lintVitalRelease FAILED
 
 FAILURE: Build failed with an exception.
@@ -622,7 +619,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/4.9/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 18s
+BUILD FAILED in 29s
 104 actionable tasks: 46 executed, 58 up-to-date
 
-2018-12-24 13:39:29,919 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545633494126-0/src/rides-android-sdk-master/samples/login-sample/build/outputs/apk/debug/login-sample-debug.apk
+2019-03-30 22:09:14,781 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958455316-0/src/rides-android-sdk-master/samples/login-sample/build/outputs/apk/debug/login-sample-debug.apk

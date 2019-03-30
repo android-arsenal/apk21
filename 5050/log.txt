@@ -1,40 +1,36 @@
-2018-11-13 19:07:49,722 INFO  DownloadService - Downloading "https://github.com/atzcx/AppVerUpdater/archive/master.zip", attempt 3
-2018-11-13 19:07:50,463 INFO  DownloadService - Downloaded https://github.com/atzcx/AppVerUpdater/archive/master.zip, attempt 3
-2018-11-13 19:07:50,464 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542110869719-0/master.zip": 256 KB
-2018-11-13 19:07:50,464 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-13 19:07:50,469 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542110869719-0/master.zip: true
-2018-11-13 19:07:50,469 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542110869719-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542110869719-0/src'.
-2018-11-13 19:07:50,490 INFO  FullProcessService - Size of directory with sources: 325 KB
-2018-11-13 19:07:50,491 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542110869719-0/src]
-2018-11-13 19:07:50,509 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542110869719-0/src/.git/
+2019-03-30 22:04:33,094 INFO  DownloadService - Downloading "https://github.com/atzcx/AppVerUpdater/archive/master.zip", attempt 3
+2019-03-30 22:04:35,955 INFO  DownloadService - Downloaded https://github.com/atzcx/AppVerUpdater/archive/master.zip, attempt 3
+2019-03-30 22:04:35,955 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958273090-0/master.zip": 256 KB
+2019-03-30 22:04:35,955 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-30 22:04:35,961 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958273090-0/master.zip: true
+2019-03-30 22:04:35,961 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958273090-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958273090-0/src'.
+2019-03-30 22:04:35,983 INFO  FullProcessService - Size of directory with sources: 325 KB
+2019-03-30 22:04:35,983 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958273090-0/src]
+2019-03-30 22:04:36,011 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958273090-0/src/.git/
 
-2018-11-13 19:07:50,512 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542110869719-0/src/AppVerUpdater-master/gradlew
-2018-11-13 19:07:50,516 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542110869719-0/src/AppVerUpdater-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542110869719-0/src/AppVerUpdater-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542110869719-0/src/AppVerUpdater-master/build.gradle
-2018-11-13 19:07:50,518 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542110869719-0/src/AppVerUpdater-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542110869719-0/src/AppVerUpdater-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542110869719-0/src/AppVerUpdater-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542110869719-0/src/AppVerUpdater-master/settings.gradle
-2018-11-13 19:07:50,518 INFO  ProjectBuildService - Remote scripts: none
-2018-11-13 19:07:50,518 INFO  ProjectFixService - Fixing project...
-2018-11-13 19:07:50,526 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542110869719-0/src/AppVerUpdater-master/app/local.properties
-2018-11-13 19:07:50,526 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542110869719-0/src/AppVerUpdater-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-11-13 19:07:50,526 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542110869719-0/src/AppVerUpdater-master/library/local.properties
-2018-11-13 19:07:50,527 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542110869719-0/src/AppVerUpdater-master/library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-11-13 19:07:50,527 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542110869719-0/src/AppVerUpdater-master/local.properties
-2018-11-13 19:07:50,527 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-11-13 19:07:50,528 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-11-13 19:07:50,529 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542110869719-0/src/AppVerUpdater-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-11-13 19:07:50,529 INFO  ProjectFixService - Project was maybe fixed
-2018-11-13 19:07:50,529 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-13 19:07:50,529 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542110869719-0/src/AppVerUpdater-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542110869719-0/src/AppVerUpdater-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-13 19:07:57,313 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-11-13 19:07:57,313 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-13 19:07:57,313 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542110869719-0/src/AppVerUpdater-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542110869719-0/src/AppVerUpdater-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-13 19:08:32,291 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-30 22:04:36,015 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958273090-0/src/AppVerUpdater-master/gradlew
+2019-03-30 22:04:36,018 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958273090-0/src/AppVerUpdater-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958273090-0/src/AppVerUpdater-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958273090-0/src/AppVerUpdater-master/build.gradle
+2019-03-30 22:04:36,021 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958273090-0/src/AppVerUpdater-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958273090-0/src/AppVerUpdater-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958273090-0/src/AppVerUpdater-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958273090-0/src/AppVerUpdater-master/settings.gradle
+2019-03-30 22:04:36,022 INFO  ProjectBuildService - Remote scripts: none
+2019-03-30 22:04:36,022 INFO  ProjectFixService - Fixing project...
+2019-03-30 22:04:36,029 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958273090-0/src/AppVerUpdater-master/app/local.properties
+2019-03-30 22:04:36,029 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958273090-0/src/AppVerUpdater-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-30 22:04:36,029 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958273090-0/src/AppVerUpdater-master/library/local.properties
+2019-03-30 22:04:36,030 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958273090-0/src/AppVerUpdater-master/library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-30 22:04:36,030 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958273090-0/src/AppVerUpdater-master/local.properties
+2019-03-30 22:04:36,030 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-03-30 22:04:36,031 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-03-30 22:04:36,032 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958273090-0/src/AppVerUpdater-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-30 22:04:36,032 INFO  ProjectFixService - Project was maybe fixed
+2019-03-30 22:04:36,032 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-30 22:04:36,032 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958273090-0/src/AppVerUpdater-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958273090-0/src/AppVerUpdater-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-30 22:04:43,460 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-03-30 22:04:43,460 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-30 22:04:43,460 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958273090-0/src/AppVerUpdater-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958273090-0/src/AppVerUpdater-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-30 22:05:18,991 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
-Download https://jcenter.bintray.com/com/mikepenz/material-design-iconic-typeface/2.2.0.2/material-design-iconic-typeface-2.2.0.2.pom
-Download https://jcenter.bintray.com/com/mikepenz/iconics-core/2.8.2/iconics-core-2.8.2.pom
-Download https://jcenter.bintray.com/com/mikepenz/iconics-core/2.8.2/iconics-core-2.8.2.aar
 Download https://jcenter.bintray.com/com/mikepenz/material-design-iconic-typeface/2.2.0.2/material-design-iconic-typeface-2.2.0.2.aar
-Download https://jcenter.bintray.com/gun0912/ted/tedpermission/2.2.2/tedpermission-2.2.2.pom
-Download https://jcenter.bintray.com/com/mani/ThinDownloadManager/1.4.0/ThinDownloadManager-1.4.0.pom
+Download https://jcenter.bintray.com/com/mikepenz/iconics-core/2.8.2/iconics-core-2.8.2.aar
 Download https://jcenter.bintray.com/com/mani/ThinDownloadManager/1.4.0/ThinDownloadManager-1.4.0.aar
 Download https://jcenter.bintray.com/gun0912/ted/tedpermission/2.2.2/tedpermission-2.2.2.aar
 :app:preBuild UP-TO-DATE
@@ -167,7 +163,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 34s
+BUILD SUCCESSFUL in 35s
 90 actionable tasks: 90 executed
 
-2018-11-13 19:08:32,389 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542110869719-0/src/AppVerUpdater-master/app/build/outputs/apk/debug/app-debug.apk
+2019-03-30 22:05:19,099 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958273090-0/src/AppVerUpdater-master/app/build/outputs/apk/debug/app-debug.apk

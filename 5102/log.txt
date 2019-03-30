@@ -1,36 +1,36 @@
-2019-03-25 12:41:37,700 INFO  DownloadService - Downloading "https://github.com/GrenderG/Toasty/archive/master.zip", attempt 3
-2019-03-25 12:41:38,502 INFO  DownloadService - Downloaded https://github.com/GrenderG/Toasty/archive/master.zip, attempt 3
-2019-03-25 12:41:38,502 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492497698-0/master.zip": 475 KB
-2019-03-25 12:41:38,502 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-25 12:41:38,507 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492497698-0/master.zip: true
-2019-03-25 12:41:38,508 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492497698-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492497698-0/src'.
-2019-03-25 12:41:38,536 INFO  FullProcessService - Size of directory with sources: 555 KB
-2019-03-25 12:41:38,536 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492497698-0/src]
-2019-03-25 12:41:38,554 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492497698-0/src/.git/
+2019-03-30 21:57:26,779 INFO  DownloadService - Downloading "https://github.com/GrenderG/Toasty/archive/master.zip", attempt 3
+2019-03-30 21:57:29,494 INFO  DownloadService - Downloaded https://github.com/GrenderG/Toasty/archive/master.zip, attempt 3
+2019-03-30 21:57:29,494 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957846777-0/master.zip": 475 KB
+2019-03-30 21:57:29,495 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-30 21:57:29,495 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957846777-0/master.zip: true
+2019-03-30 21:57:29,495 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957846777-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957846777-0/src'.
+2019-03-30 21:57:29,538 INFO  FullProcessService - Size of directory with sources: 555 KB
+2019-03-30 21:57:29,538 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957846777-0/src]
+2019-03-30 21:57:29,585 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957846777-0/src/.git/
 
-2019-03-25 12:41:38,557 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492497698-0/src/Toasty-master/gradlew
-2019-03-25 12:41:38,562 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492497698-0/src/Toasty-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492497698-0/src/Toasty-master/toasty/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492497698-0/src/Toasty-master/build.gradle
-2019-03-25 12:41:38,565 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492497698-0/src/Toasty-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492497698-0/src/Toasty-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492497698-0/src/Toasty-master/toasty/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492497698-0/src/Toasty-master/settings.gradle
-2019-03-25 12:41:38,566 INFO  ProjectBuildService - Remote scripts: none
-2019-03-25 12:41:38,566 INFO  ProjectFixService - Fixing project...
-2019-03-25 12:41:38,574 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492497698-0/src/Toasty-master/app/local.properties
-2019-03-25 12:41:38,575 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492497698-0/src/Toasty-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
-2019-03-25 12:41:38,576 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492497698-0/src/Toasty-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-25 12:41:38,577 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492497698-0/src/Toasty-master/toasty/local.properties
-2019-03-25 12:41:38,578 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492497698-0/src/Toasty-master/toasty/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
-2019-03-25 12:41:38,578 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492497698-0/src/Toasty-master/toasty/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-25 12:41:38,579 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492497698-0/src/Toasty-master/local.properties
-2019-03-25 12:41:38,579 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.3-all.zip
-2019-03-25 12:41:38,580 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.3-bin.zip)
-2019-03-25 12:41:38,580 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492497698-0/src/Toasty-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
-2019-03-25 12:41:38,581 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492497698-0/src/Toasty-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-25 12:41:38,581 INFO  ProjectFixService - Project was maybe fixed
-2019-03-25 12:41:38,581 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-25 12:41:38,581 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492497698-0/src/Toasty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492497698-0/src/Toasty-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-25 12:41:46,809 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-03-25 12:41:46,809 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-25 12:41:46,809 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492497698-0/src/Toasty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492497698-0/src/Toasty-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-25 12:42:13,892 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-30 21:57:29,592 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957846777-0/src/Toasty-master/gradlew
+2019-03-30 21:57:29,599 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957846777-0/src/Toasty-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957846777-0/src/Toasty-master/toasty/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957846777-0/src/Toasty-master/build.gradle
+2019-03-30 21:57:29,604 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957846777-0/src/Toasty-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957846777-0/src/Toasty-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957846777-0/src/Toasty-master/toasty/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957846777-0/src/Toasty-master/settings.gradle
+2019-03-30 21:57:29,604 INFO  ProjectBuildService - Remote scripts: none
+2019-03-30 21:57:29,604 INFO  ProjectFixService - Fixing project...
+2019-03-30 21:57:29,617 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957846777-0/src/Toasty-master/app/local.properties
+2019-03-30 21:57:29,618 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957846777-0/src/Toasty-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2019-03-30 21:57:29,619 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957846777-0/src/Toasty-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-30 21:57:29,620 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957846777-0/src/Toasty-master/toasty/local.properties
+2019-03-30 21:57:29,622 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957846777-0/src/Toasty-master/toasty/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2019-03-30 21:57:29,622 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957846777-0/src/Toasty-master/toasty/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-30 21:57:29,623 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957846777-0/src/Toasty-master/local.properties
+2019-03-30 21:57:29,624 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.3-all.zip
+2019-03-30 21:57:29,625 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.3-bin.zip)
+2019-03-30 21:57:29,626 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957846777-0/src/Toasty-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2019-03-30 21:57:29,626 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957846777-0/src/Toasty-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-30 21:57:29,627 INFO  ProjectFixService - Project was maybe fixed
+2019-03-30 21:57:29,628 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-30 21:57:29,628 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957846777-0/src/Toasty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957846777-0/src/Toasty-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-30 21:57:39,250 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-03-30 21:57:39,250 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-30 21:57:39,250 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957846777-0/src/Toasty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957846777-0/src/Toasty-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-30 21:58:07,173 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :toasty:preBuild UP-TO-DATE
 > Task :toasty:preDebugBuild UP-TO-DATE
@@ -56,7 +56,7 @@
 > Task :toasty:javaPreCompileDebug
 
 > Task :toasty:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492497698-0/src/Toasty-master/toasty/src/main/java/es/dmoral/toasty/ToastyUtils.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957846777-0/src/Toasty-master/toasty/src/main/java/es/dmoral/toasty/ToastyUtils.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :toasty:processDebugJavaRes NO-SOURCE
@@ -69,10 +69,10 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:processDebugManifest
 > Task :app:processDebugResources
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957846777-0/src/Toasty-master/app/src/main/java/es/dmoral/toastysample/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492497698-0/src/Toasty-master/app/src/main/java/es/dmoral/toastysample/MainActivity.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileDebugNdk NO-SOURCE
 > Task :app:compileDebugSources
@@ -125,7 +125,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :toasty:javaPreCompileRelease
 
 > Task :toasty:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492497698-0/src/Toasty-master/toasty/src/main/java/es/dmoral/toasty/ToastyUtils.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957846777-0/src/Toasty-master/toasty/src/main/java/es/dmoral/toasty/ToastyUtils.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :toasty:processReleaseJavaRes NO-SOURCE
@@ -140,15 +140,12 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:processReleaseResources
 
 > Task :app:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492497698-0/src/Toasty-master/app/src/main/java/es/dmoral/toastysample/MainActivity.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957846777-0/src/Toasty-master/app/src/main/java/es/dmoral/toastysample/MainActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileReleaseNdk NO-SOURCE
 > Task :app:compileReleaseSources
-
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/513d80d714ffb3ff1bfa0f651a436db6/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
 > Task :toasty:createFullJarRelease
 > Transform full.jar (project :toasty) with IdentityTransform
 > Task :app:mergeExtDexRelease
@@ -179,7 +176,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 26s
+BUILD SUCCESSFUL in 27s
 88 actionable tasks: 88 executed
 
-2019-03-25 12:42:13,968 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553492497698-0/src/Toasty-master/app/build/outputs/apk/debug/app-debug.apk
+2019-03-30 21:58:07,263 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957846777-0/src/Toasty-master/app/build/outputs/apk/debug/app-debug.apk

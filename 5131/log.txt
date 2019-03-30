@@ -1,36 +1,36 @@
-2018-09-21 11:22:12,459 INFO  DownloadService - Downloading "https://github.com/patrickfav/under-the-hood/archive/master.zip", attempt 3
-2018-09-21 11:22:23,494 INFO  DownloadService - Downloaded https://github.com/patrickfav/under-the-hood/archive/master.zip, attempt 3
-2018-09-21 11:22:23,494 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/master.zip": 9 MB
-2018-09-21 11:22:23,494 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-09-21 11:22:23,496 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/master.zip: true
-2018-09-21 11:22:23,496 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src'.
-2018-09-21 11:22:23,636 INFO  FullProcessService - Size of directory with sources: 9 MB
-2018-09-21 11:22:23,636 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src]
-2018-09-21 11:22:23,652 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/.git/
+2019-03-30 21:52:25,060 INFO  DownloadService - Downloading "https://github.com/patrickfav/under-the-hood/archive/master.zip", attempt 3
+2019-03-30 21:52:32,357 INFO  DownloadService - Downloaded https://github.com/patrickfav/under-the-hood/archive/master.zip, attempt 3
+2019-03-30 21:52:32,357 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/master.zip": 9 MB
+2019-03-30 21:52:32,357 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-30 21:52:32,357 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/master.zip: true
+2019-03-30 21:52:32,358 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src'.
+2019-03-30 21:52:32,486 INFO  FullProcessService - Size of directory with sources: 9 MB
+2019-03-30 21:52:32,486 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src]
+2019-03-30 21:52:32,504 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/.git/
 
-2018-09-21 11:22:23,658 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/gradlew
-2018-09-21 11:22:23,664 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/hood-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/hood-extended/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/build.gradle
-2018-09-21 11:22:23,671 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/hood-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/gradle/checkstyle.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/gradle/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/gradle/common-build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/hood-extended/build.gradle
-2018-09-21 11:22:23,672 INFO  ProjectBuildService - Remote scripts: none
-2018-09-21 11:22:23,672 INFO  ProjectFixService - Fixing project...
-2018-09-21 11:22:23,689 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/app/local.properties
-2018-09-21 11:22:23,693 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-09-21 11:22:23,694 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/hood-core/local.properties
-2018-09-21 11:22:23,701 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/hood-core/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-09-21 11:22:23,701 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/hood-extended/local.properties
-2018-09-21 11:22:23,706 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/hood-extended/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-09-21 11:22:23,706 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/local.properties
-2018-09-21 11:22:23,707 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.8-all.zip
-2018-09-21 11:22:23,707 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.8-bin.zip)
-2018-09-21 11:22:23,708 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-09-21 11:22:23,708 INFO  ProjectFixService - Project was maybe fixed
-2018-09-21 11:22:23,708 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-21 11:22:23,708 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-21 11:22:28,237 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-09-21 11:22:28,237 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-09-21 11:22:28,237 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-09-21 11:22:28,237 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-21 11:22:31,362 ERROR SysUtils - Could not process external command
+2019-03-30 21:52:32,513 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/gradlew
+2019-03-30 21:52:32,522 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/build.gradle
+2019-03-30 21:52:32,530 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/gradle/checkstyle.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/gradle/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/gradle/common-build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/build.gradle
+2019-03-30 21:52:32,530 INFO  ProjectBuildService - Remote scripts: none
+2019-03-30 21:52:32,530 INFO  ProjectFixService - Fixing project...
+2019-03-30 21:52:32,549 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/app/local.properties
+2019-03-30 21:52:32,554 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-30 21:52:32,555 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/local.properties
+2019-03-30 21:52:32,559 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-30 21:52:32,560 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/local.properties
+2019-03-30 21:52:32,565 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-30 21:52:32,565 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/local.properties
+2019-03-30 21:52:32,566 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.3-all.zip
+2019-03-30 21:52:32,566 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.3-bin.zip)
+2019-03-30 21:52:32,567 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-30 21:52:32,567 INFO  ProjectFixService - Project was maybe fixed
+2019-03-30 21:52:32,567 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-30 21:52:32,567 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-30 21:52:43,064 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-30 21:52:43,064 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-30 21:52:43,064 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-30 21:52:43,064 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-30 21:52:50,563 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -57,17 +57,19 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-09-21 11:22:31,363 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-30 21:52:50,563 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :app
+fatal: your current branch 'master' does not have any commits yet
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/app/build.gradle' line: 1
+Script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/gradle/common-build.gradle' line: 13
 
 * What went wrong:
 A problem occurred evaluating project ':app'.
-> Failed to apply plugin [id 'com.android.application']
-   > Configuration on demand is not supported by the current version of the Android Gradle plugin since you are using Gradle version 4.6 or above. Suggestion: disable configuration on demand by setting org.gradle.configureondemand=false in your gradle.properties file or use a Gradle version less than 4.6.
+> Process 'command 'git'' finished with non-zero exit value 128
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -75,30 +77,31 @@ Run with --info or --debug option to get more log output. Run with --scan to get
 * Exception is:
 org.gradle.api.GradleScriptException: A problem occurred evaluating project ':app'.
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:92)
-	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:204)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:206)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
-	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:209)
-	at org.gradle.configuration.BuildOperationScriptPlugin$1.run(BuildOperationScriptPlugin.java:61)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:317)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:309)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:185)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:97)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:211)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1$1.run(BuildOperationScriptPlugin.java:69)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:58)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.execute(BuildOperationScriptPlugin.java:66)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.execute(BuildOperationScriptPlugin.java:63)
+	at org.gradle.configuration.internal.DefaultUserCodeApplicationContext.apply(DefaultUserCodeApplicationContext.java:48)
+	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:63)
 	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:41)
 	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
 	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:66)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:37)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:125)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:317)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:309)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:185)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:97)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$EvaluateProject.run(LifecycleProjectEvaluator.java:105)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:52)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:677)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:138)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:68)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:687)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:140)
 	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
 	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:60)
 	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
@@ -115,37 +118,37 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
 	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
 	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
-	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:287)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:317)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:309)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:185)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:97)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:305)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:183)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:136)
-	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:115)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:190)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:145)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:124)
 	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:77)
 	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:74)
-	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:154)
 	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:38)
 	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:96)
 	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:74)
 	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
 	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
 	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.run(RunAsBuildOperationBuildActionRunner.java:47)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:317)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:309)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:185)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:97)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.run(RunAsBuildOperationBuildActionRunner.java:50)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:45)
 	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:50)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:46)
-	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:65)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:46)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:32)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:47)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:44)
+	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:79)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:44)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
 	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
 	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
 	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
@@ -163,13 +166,13 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:46)
 	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
 	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:52)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:379)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:352)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:207)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:402)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:375)
 	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:37)
 	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:345)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:275)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:368)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:298)
 	at org.gradle.launcher.Main.doAction(Main.java:36)
 	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
 	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
@@ -178,49 +181,882 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to apply plugin [id 'com.android.application']
-	at org.gradle.api.internal.plugins.DefaultPluginManager.doApply(DefaultPluginManager.java:149)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.apply(DefaultPluginManager.java:124)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyType(DefaultObjectConfigurationAction.java:120)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.access$200(DefaultObjectConfigurationAction.java:38)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction$3.run(DefaultObjectConfigurationAction.java:86)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.execute(DefaultObjectConfigurationAction.java:143)
-	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
-	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
-	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_cbwv0u6ytnm57s21r8gkgixwu.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/app/build.gradle:1)
+Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' finished with non-zero exit value 128
+	at org.gradle.process.internal.DefaultExecHandle$ExecResultImpl.assertNormalExitValue(DefaultExecHandle.java:395)
+	at org.gradle.process.internal.DefaultExecAction.execute(DefaultExecAction.java:37)
+	at org.gradle.api.internal.file.DefaultFileOperations.exec(DefaultFileOperations.java:232)
+	at org.gradle.groovy.scripts.DefaultScript.exec(DefaultScript.java:255)
+	at org.gradle.api.Script$exec$2.callCurrent(Unknown Source)
+	at common_build_903as87mjdjbativ0b1xg4vn.getGitRev(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/gradle/common-build.gradle:13)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:479)
+	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
+	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:42)
+	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:133)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:78)
+	at org.gradle.internal.metaobject.BeanDynamicObject$GroovyObjectAdapter.invokeOpaqueMethod(BeanDynamicObject.java:579)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:506)
+	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:78)
+	at build_f3cfix1p100fx6in7vabuspsj$_run_closure1$_closure4.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/app/build.gradle:26)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
+	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:155)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
+	at org.gradle.util.ConfigureUtil$WrappedConfigureAction.execute(ConfigureUtil.java:167)
+	at com.android.build.gradle.BaseExtension.defaultConfig(BaseExtension.java:547)
+	at com.android.build.gradle.internal.dsl.BaseAppModuleExtension_Decorated.defaultConfig(Unknown Source)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:479)
+	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
+	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
+	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:57)
+	at build_f3cfix1p100fx6in7vabuspsj$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/app/build.gradle:18)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
+	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:155)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
+	at org.gradle.util.ConfigureUtil$WrappedConfigureAction.execute(ConfigureUtil.java:167)
+	at org.gradle.api.internal.plugins.ExtensionsStorage$ExtensionHolder.configure(ExtensionsStorage.java:197)
+	at org.gradle.api.internal.plugins.ExtensionsStorage.configureExtension(ExtensionsStorage.java:69)
+	at org.gradle.api.internal.plugins.DefaultConvention.configureExtension(DefaultConvention.java:412)
+	at org.gradle.api.internal.plugins.DefaultConvention.access$500(DefaultConvention.java:45)
+	at org.gradle.api.internal.plugins.DefaultConvention$ExtensionsDynamicObject.tryInvokeMethod(DefaultConvention.java:349)
+	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
+	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
+	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:133)
+	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
+	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:82)
+	at build_f3cfix1p100fx6in7vabuspsj.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/app/build.gradle:5)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
-	... 103 more
-Caused by: org.gradle.api.tasks.StopExecutionException: Configuration on demand is not supported by the current version of the Android Gradle plugin since you are using Gradle version 4.6 or above. Suggestion: disable configuration on demand by setting org.gradle.configureondemand=false in your gradle.properties file or use a Gradle version less than 4.6.
-	at com.android.build.gradle.BasePlugin.checkConfigureOnDemandGradleVersionCompat(BasePlugin.java:898)
-	at com.android.build.gradle.BasePlugin.apply(BasePlugin.java:259)
-	at com.android.build.gradle.AppPlugin.apply(AppPlugin.java:120)
-	at com.android.build.gradle.AppPlugin.apply(AppPlugin.java:47)
-	at org.gradle.api.internal.plugins.ImperativeOnlyPluginTarget.applyImperative(ImperativeOnlyPluginTarget.java:42)
-	at org.gradle.api.internal.plugins.RuleBasedPluginTarget.applyImperative(RuleBasedPluginTarget.java:50)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.addPlugin(DefaultPluginManager.java:163)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.access$200(DefaultPluginManager.java:46)
-	at org.gradle.api.internal.plugins.DefaultPluginManager$AddPluginBuildOperation.run(DefaultPluginManager.java:251)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:317)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:309)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:185)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:97)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.doApply(DefaultPluginManager.java:143)
-	... 113 more
+	... 104 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 2s
+BUILD FAILED in 7s
 
-2018-09-21 11:22:31,372 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-21 11:22:31,372 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/hood-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-21 11:22:34,912 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-09-21 11:22:34,912 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-09-21 11:22:34,912 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-09-21 11:22:34,912 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/hood-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-21 11:22:38,074 ERROR SysUtils - Could not process external command
+2019-03-30 21:52:50,573 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-30 21:52:50,573 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-30 21:52:59,840 INFO  ProjectTaskService - Detected possible tasks: 76
+2019-03-30 21:52:59,840 INFO  ProjectTaskService - Excluded tasks (11): deviceCheck lint testReleaseUnitTest deviceAndroidTest connectedCheck uninstallAll checkstyle test check connectedAndroidTest lintRelease
+2019-03-30 21:52:59,840 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-30 21:53:30,029 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :hood-core
+WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
+
+> Task :hood-core:preBuild UP-TO-DATE
+> Task :hood-core:preNoopBuild UP-TO-DATE
+> Task :hood-core:unMock
+> Task :hood-core:compileNoopAidl NO-SOURCE
+> Task :hood-core:compileNoopRenderscript
+> Task :hood-core:checkNoopManifest
+> Task :hood-core:generateNoopBuildConfig
+> Task :hood-core:generateNoopResValues
+> Task :hood-core:generateNoopResources
+> Task :hood-core:packageNoopResources
+> Task :hood-core:processNoopManifest
+> Task :hood-core:generateNoopRFile
+> Task :hood-core:prepareLintJar
+> Task :hood-core:generateNoopSources
+> Task :hood-core:javaPreCompileNoop
+
+> Task :hood-core:compileNoopJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/DebugEntriesAdapter.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :hood-core:extractNoopAnnotations
+> Task :hood-core:mergeNoopConsumerProguardFiles
+> Task :hood-core:mergeNoopShaders
+> Task :hood-core:compileNoopShaders
+> Task :hood-core:generateNoopAssets
+> Task :hood-core:packageNoopAssets
+> Task :hood-core:packageNoopRenderscript NO-SOURCE
+> Task :hood-core:processNoopJavaRes NO-SOURCE
+> Task :hood-core:transformResourcesWithMergeJavaResForNoop
+> Task :hood-core:transformClassesAndResourcesWithSyncLibJarsForNoop
+> Task :hood-core:compileNoopNdk NO-SOURCE
+> Task :hood-core:mergeNoopJniLibFolders
+> Task :hood-core:transformNativeLibsWithMergeJniLibsForNoop
+> Task :hood-core:transformNativeLibsWithStripDebugSymbolForNoop
+> Task :hood-core:transformNativeLibsWithSyncJniLibsForNoop
+> Task :hood-core:bundleNoopAar
+> Task :hood-core:compileNoopSources
+> Task :hood-core:mergeNoopResources
+> Task :hood-core:verifyNoopResources
+> Task :hood-core:assembleNoop
+> Task :hood-core:preReleaseBuild UP-TO-DATE
+> Task :hood-core:compileReleaseAidl NO-SOURCE
+> Task :hood-core:compileReleaseRenderscript
+> Task :hood-core:checkReleaseManifest
+> Task :hood-core:generateReleaseBuildConfig
+> Task :hood-core:generateReleaseResValues
+> Task :hood-core:generateReleaseResources
+> Task :hood-core:packageReleaseResources
+> Task :hood-core:processReleaseManifest
+> Task :hood-core:generateReleaseRFile
+> Task :hood-core:generateReleaseSources
+> Task :hood-core:javaPreCompileRelease
+
+> Task :hood-core:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/DebugEntriesAdapter.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :hood-core:extractReleaseAnnotations
+> Task :hood-core:mergeReleaseConsumerProguardFiles
+> Task :hood-core:mergeReleaseShaders
+> Task :hood-core:compileReleaseShaders
+> Task :hood-core:generateReleaseAssets
+> Task :hood-core:packageReleaseAssets
+> Task :hood-core:packageReleaseRenderscript NO-SOURCE
+> Task :hood-core:processReleaseJavaRes NO-SOURCE
+> Task :hood-core:transformResourcesWithMergeJavaResForRelease
+> Task :hood-core:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :hood-core:compileReleaseNdk NO-SOURCE
+> Task :hood-core:mergeReleaseJniLibFolders
+> Task :hood-core:transformNativeLibsWithMergeJniLibsForRelease
+> Task :hood-core:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :hood-core:transformNativeLibsWithSyncJniLibsForRelease
+> Task :hood-core:bundleReleaseAar
+> Task :hood-core:compileReleaseSources
+> Task :hood-core:mergeReleaseResources
+> Task :hood-core:verifyReleaseResources
+> Task :hood-core:assembleRelease
+
+> Task :hood-core:javadoc
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/interfaces/HoodAPI.java:22: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/interfaces/Pages.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/interfaces/Pages.java:20: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/interfaces/PageEntry.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/interfaces/actions/SingleSelectListConfigAction.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/interfaces/Page.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/interfaces/Page.java:20: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/interfaces/ViewTemplate.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.ColorInt;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/interfaces/ViewTemplate.java:20: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/util/PageUtil.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/util/PageUtil.java:20: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/util/defaults/DefaultMiscActions.java:30: error: package timber.log does not exist
+import timber.log.Timber;
+                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/util/defaults/DefaultButtonDefinitions.java:25: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/util/defaults/DefaultButtonDefinitions.java:26: error: package android.support.annotation does not exist
+import android.support.annotation.RequiresApi;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/util/defaults/DefaultProperties.java:36: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/util/defaults/DefaultProperties.java:37: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/util/defaults/DefaultProperties.java:38: error: package android.support.v4.content does not exist
+import android.support.v4.content.ContextCompat;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/util/defaults/DefaultProperties.java:60: error: package timber.log does not exist
+import timber.log.Timber;
+                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/util/defaults/DefaultConfigActions.java:21: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/util/defaults/DefaultConfigActions.java:22: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/util/HoodUtil.java:21: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/util/PackageInfoAssembler.java:31: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/util/PackageInfoAssembler.java:32: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/util/PackageInfoAssembler.java:48: error: package timber.log does not exist
+import timber.log.Timber;
+                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/util/ArbitraryTapListener.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/util/PermissionTranslator.java:22: error: package android.support.annotation does not exist
+import android.support.annotation.IntDef;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/util/PermissionTranslator.java:23: error: package android.support.v4.app does not exist
+import android.support.v4.app.ActivityCompat;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/util/PermissionTranslator.java:24: error: package android.support.v4.content does not exist
+import android.support.v4.content.ContextCompat;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/util/PermissionTranslator.java:34: error: cannot find symbol
+    @IntDef({GRANTED, GRANTED_ON_INSTALL, DENIED, BLOCKED})
+     ^
+  symbol:   class IntDef
+  location: class PermissionTranslator
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/util/DeviceStatusUtil.java:28: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/util/DeviceStatusUtil.java:29: error: package android.support.v4.content does not exist
+import android.support.v4.content.ContextCompat;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/HoodDebugPageView.java:26: error: package android.support.annotation does not exist
+import android.support.annotation.ColorInt;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/HoodDebugPageView.java:27: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/HoodDebugPageView.java:28: error: package android.support.annotation does not exist
+import android.support.annotation.Px;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/HoodDebugPageView.java:29: error: package android.support.v4.content does not exist
+import android.support.v4.content.ContextCompat;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/HoodDebugPageView.java:30: error: package android.support.v4.view does not exist
+import android.support.v4.view.PagerTitleStrip;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/HoodDebugPageView.java:31: error: package android.support.v4.view does not exist
+import android.support.v4.view.ViewPager;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/HoodDebugPageView.java:39: error: cannot find symbol
+import at.favre.lib.hood.R;
+                        ^
+  symbol:   class R
+  location: package at.favre.lib.hood
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/SwitchableViewpager.java:20: error: package android.support.v4.view does not exist
+import android.support.v4.view.ViewPager;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/SwitchableViewpager.java:24: error: cannot find symbol
+public class SwitchableViewpager extends ViewPager {
+                                         ^
+  symbol: class ViewPager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/HoodDebugPageView.java:51: error: cannot find symbol
+    private PagerTitleStrip tabs;
+            ^
+  symbol:   class PagerTitleStrip
+  location: class HoodDebugPageView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/HoodDebugPageView.java:179: error: package ViewPager does not exist
+    public void addViewPagerChangeListener(ViewPager.OnPageChangeListener listener) {
+                                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/HoodDebugPageView.java:214: error: cannot find symbol
+    public ViewPager getViewPager() {
+           ^
+  symbol:   class ViewPager
+  location: class HoodDebugPageView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/HoodDebugPageView.java:223: error: cannot find symbol
+    public PagerTitleStrip getTabs() {
+           ^
+  symbol:   class PagerTitleStrip
+  location: class HoodDebugPageView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/DebugPageContentView.java:21: error: package android.support.annotation does not exist
+import android.support.annotation.ColorInt;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/DebugPageContentView.java:22: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/DebugPageContentView.java:23: error: package android.support.v4.content.res does not exist
+import android.support.v4.content.res.ResourcesCompat;
+                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/DebugPageContentView.java:24: error: package android.support.v4.view does not exist
+import android.support.v4.view.NestedScrollingChild;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/DebugPageContentView.java:25: error: package android.support.v4.view does not exist
+import android.support.v4.view.NestedScrollingChildHelper;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/DebugPageContentView.java:26: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.LinearLayoutManager;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/DebugPageContentView.java:27: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/DebugPageContentView.java:31: error: cannot find symbol
+import at.favre.lib.hood.R;
+                        ^
+  symbol:   class R
+  location: package at.favre.lib.hood
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/DebugPageContentView.java:39: error: cannot find symbol
+    private RecyclerView mRecyclerView;
+            ^
+  symbol:   class RecyclerView
+  location: class DebugPageContentView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/DebugPageContentView.java:40: error: cannot find symbol
+    private NestedScrollingChildHelper mScrollingChildHelper;
+            ^
+  symbol:   class NestedScrollingChildHelper
+  location: class DebugPageContentView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/DebugPageContentView.java:137: error: cannot find symbol
+    private NestedScrollingChildHelper getScrollingChildHelper() {
+            ^
+  symbol:   class NestedScrollingChildHelper
+  location: class DebugPageContentView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/HoodController.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/DebugEntriesAdapter.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.ColorInt;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/DebugEntriesAdapter.java:20: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/DebugEntriesAdapter.java:32: error: package RecyclerView does not exist
+class DebugEntriesAdapter extends RecyclerView.Adapter<DebugEntriesAdapter.DebugViewHolder> {
+                                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/DebugEntriesAdapter.java:73: error: package RecyclerView does not exist
+    static class DebugViewHolder extends RecyclerView.ViewHolder {
+                                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/KeyValueDetailDialogs.java:33: error: cannot find symbol
+import at.favre.lib.hood.R;
+                        ^
+  symbol:   class R
+  location: package at.favre.lib.hood
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/KeyValueDetailDialogs.java:34: error: package timber.log does not exist
+import timber.log.Timber;
+                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/DebugViewPageAdapter.java:21: error: package android.support.annotation does not exist
+import android.support.annotation.ColorInt;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/DebugViewPageAdapter.java:22: error: package android.support.v4.view does not exist
+import android.support.v4.view.PagerAdapter;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/DebugViewPageAdapter.java:23: error: package android.support.v4.view does not exist
+import android.support.v4.view.ViewPager;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/DebugViewPageAdapter.java:30: error: package timber.log does not exist
+import timber.log.Timber;
+                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/DebugViewPageAdapter.java:36: error: cannot find symbol
+class DebugViewPageAdapter extends PagerAdapter {
+                                   ^
+  symbol: class PagerAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/DebugViewPageAdapter.java:43: error: cannot find symbol
+    private final ViewPager viewPager;
+                  ^
+  symbol:   class ViewPager
+  location: class DebugViewPageAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/DebugViewPageAdapter.java:45: error: cannot find symbol
+    public DebugViewPageAdapter(ViewPager viewPager, Pages pages, int zebraColor) {
+                                ^
+  symbol:   class ViewPager
+  location: class DebugViewPageAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/interfaces/HoodAPI.java:45: error: cannot find symbol
+    Pages createPages(@NonNull Config config);
+                       ^
+  symbol:   class NonNull
+  location: interface HoodAPI
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/interfaces/HoodAPI.java:44: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: interface HoodAPI
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/interfaces/HoodAPI.java:198: error: cannot find symbol
+        Section.ModifiableHeaderSection createSection(String header, @NonNull List<PageEntry<?>> entries);
+                                                                      ^
+  symbol:   class NonNull
+  location: interface Extension
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/interfaces/HoodAPI.java:265: error: cannot find symbol
+        View.OnTouchListener createArbitraryTapListener(int numOfTaps, @NonNull View.OnClickListener onClickListener);
+                                                                        ^
+  symbol:   class NonNull
+  location: interface Extension
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/interfaces/Pages.java:49: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: interface Pages
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/interfaces/Pages.java:58: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: interface Pages
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/interfaces/Pages.java:66: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: interface Pages
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/interfaces/Pages.java:104: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: interface Pages
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/interfaces/PageEntry.java:58: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: interface PageEntry<T>
+  where T is a type-variable:
+    T extends Object declared in interface PageEntry
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/interfaces/actions/SingleSelectListConfigAction.java:33: error: cannot find symbol
+    public SingleSelectListConfigAction(@Nullable String label, SpinnerValue<List<SpinnerElement>, SpinnerElement> value) {
+                                         ^
+  symbol:   class Nullable
+  location: class SingleSelectListConfigAction
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/interfaces/Page.java:40: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: interface Page
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/interfaces/Page.java:57: error: cannot find symbol
+    void add(@Nullable PageEntry<?> pageEntry);
+              ^
+  symbol:   class Nullable
+  location: interface Page
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/interfaces/Page.java:64: error: cannot find symbol
+    void add(@Nullable List<PageEntry<?>> entries);
+              ^
+  symbol:   class Nullable
+  location: interface Page
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/interfaces/Page.java:71: error: cannot find symbol
+    void add(@NonNull Section section);
+              ^
+  symbol:   class NonNull
+  location: interface Page
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/interfaces/Page.java:100: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: interface Page
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/interfaces/ViewTemplate.java:56: error: cannot find symbol
+    void setContent(T value, @NonNull View view);
+                              ^
+  symbol:   class NonNull
+  location: interface ViewTemplate<T>
+  where T is a type-variable:
+    T extends Object declared in interface ViewTemplate
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/interfaces/ViewTemplate.java:66: error: cannot find symbol
+    void decorateViewWithZebra(@NonNull View view, @ColorInt int zebraColor, boolean isOdd);
+                                ^
+  symbol:   class NonNull
+  location: interface ViewTemplate<T>
+  where T is a type-variable:
+    T extends Object declared in interface ViewTemplate
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/interfaces/ViewTemplate.java:66: error: cannot find symbol
+    void decorateViewWithZebra(@NonNull View view, @ColorInt int zebraColor, boolean isOdd);
+                                                    ^
+  symbol:   class ColorInt
+  location: interface ViewTemplate<T>
+  where T is a type-variable:
+    T extends Object declared in interface ViewTemplate
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/util/PageUtil.java:32: error: cannot find symbol
+    public void addProperty(@NonNull Page page, CharSequence key, DynamicValue<String> value) {
+                             ^
+  symbol:   class NonNull
+  location: class PageUtil
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/util/PageUtil.java:36: error: cannot find symbol
+    public static void addProperty(@NonNull Page page, CharSequence key, String value) {
+                                    ^
+  symbol:   class NonNull
+  location: class PageUtil
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/util/PageUtil.java:40: error: cannot find symbol
+    public static void addHeader(@NonNull Page page, CharSequence title) {
+                                  ^
+  symbol:   class NonNull
+  location: class PageUtil
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/util/PageUtil.java:44: error: cannot find symbol
+    public static void addAction(@NonNull Page page, @Nullable ButtonDefinition action) {
+                                  ^
+  symbol:   class NonNull
+  location: class PageUtil
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/util/PageUtil.java:44: error: cannot find symbol
+    public static void addAction(@NonNull Page page, @Nullable ButtonDefinition action) {
+                                                      ^
+  symbol:   class Nullable
+  location: class PageUtil
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/util/PageUtil.java:50: error: cannot find symbol
+    public static void addAction(@NonNull Page page, @Nullable ButtonDefinition action1, @Nullable ButtonDefinition action2) {
+                                  ^
+  symbol:   class NonNull
+  location: class PageUtil
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/util/PageUtil.java:50: error: cannot find symbol
+    public static void addAction(@NonNull Page page, @Nullable ButtonDefinition action1, @Nullable ButtonDefinition action2) {
+                                                      ^
+  symbol:   class Nullable
+  location: class PageUtil
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/util/PageUtil.java:50: error: cannot find symbol
+    public static void addAction(@NonNull Page page, @Nullable ButtonDefinition action1, @Nullable ButtonDefinition action2) {
+                                                                                          ^
+  symbol:   class Nullable
+  location: class PageUtil
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/util/defaults/DefaultButtonDefinitions.java:159: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class DefaultButtonDefinitions
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/util/defaults/DefaultButtonDefinitions.java:190: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class DefaultButtonDefinitions
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/util/defaults/DefaultProperties.java:97: error: cannot find symbol
+    public static List<PageEntry<?>> createDetailedDeviceInfo(@Nullable final Activity activity) {
+                                                               ^
+  symbol:   class Nullable
+  location: class DefaultProperties
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/util/defaults/DefaultProperties.java:127: error: cannot find symbol
+    public static Section.HeaderSection createInternalProcessDebugInfo(@Nullable final Context context) {
+                                                                        ^
+  symbol:   class Nullable
+  location: class DefaultProperties
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/util/defaults/DefaultProperties.java:271: error: cannot find symbol
+    public static Section.HeaderSection createSectionRuntimePermissions(@Nullable final Activity activity, List<String> androidPermissions) {
+                                                                         ^
+  symbol:   class Nullable
+  location: class DefaultProperties
+100 warnings
+
+> Task :hood-core:javadocJar
+> Task :hood-core:sourcesJar
+> Task :hood-core:assemble
+> Task :hood-core:build
+
+BUILD SUCCESSFUL in 29s
+51 actionable tasks: 51 executed
+
+2019-03-30 21:53:30,107 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-30 21:53:30,107 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-30 21:53:39,686 INFO  ProjectTaskService - Detected possible tasks: 73
+2019-03-30 21:53:39,686 INFO  ProjectTaskService - Excluded tasks (10): deviceCheck lint testReleaseUnitTest deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest lintRelease
+2019-03-30 21:53:39,686 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-30 21:53:57,714 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :hood-extended
+WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
+
+> Task :hood-core:preBuild UP-TO-DATE
+> Task :hood-core:preNoopBuild UP-TO-DATE
+> Task :hood-core:unMock UP-TO-DATE
+> Task :hood-core:compileNoopAidl NO-SOURCE
+> Task :hood-extended:preBuild UP-TO-DATE
+> Task :hood-extended:preNoopBuild UP-TO-DATE
+> Task :hood-extended:compileNoopAidl NO-SOURCE
+> Task :hood-core:compileNoopRenderscript UP-TO-DATE
+> Task :hood-core:checkNoopManifest UP-TO-DATE
+> Task :hood-core:generateNoopBuildConfig
+> Task :hood-core:generateNoopResValues UP-TO-DATE
+> Task :hood-core:generateNoopResources UP-TO-DATE
+> Task :hood-core:packageNoopResources UP-TO-DATE
+> Task :hood-core:processNoopManifest UP-TO-DATE
+> Task :hood-core:generateNoopRFile UP-TO-DATE
+> Task :hood-core:prepareLintJar UP-TO-DATE
+> Task :hood-core:generateNoopSources
+> Task :hood-core:javaPreCompileNoop UP-TO-DATE
+
+> Task :hood-core:compileNoopJavaWithJavac
+
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/DebugEntriesAdapter.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Task :hood-core:processNoopJavaRes NO-SOURCE
+> Task :hood-core:transformClassesAndResourcesWithPrepareIntermediateJarsForNoop
+> Task :hood-core:packageNoopRenderscript NO-SOURCE
+> Task :hood-extended:compileNoopRenderscript
+> Task :hood-extended:checkNoopManifest
+> Task :hood-extended:generateNoopBuildConfig
+> Task :hood-extended:generateNoopResValues
+> Task :hood-extended:generateNoopResources
+> Task :hood-extended:packageNoopResources
+> Task :hood-extended:processNoopManifest
+> Task :hood-extended:generateNoopRFile
+> Task :hood-extended:prepareLintJar
+> Task :hood-extended:generateNoopSources
+> Task :hood-extended:javaPreCompileNoop
+
+> Task :hood-extended:compileNoopJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :hood-extended:extractNoopAnnotations
+> Task :hood-extended:mergeNoopConsumerProguardFiles
+> Task :hood-extended:mergeNoopShaders
+> Task :hood-extended:compileNoopShaders
+> Task :hood-extended:generateNoopAssets
+> Task :hood-extended:packageNoopAssets
+> Task :hood-extended:packageNoopRenderscript NO-SOURCE
+> Task :hood-extended:processNoopJavaRes NO-SOURCE
+> Task :hood-extended:transformResourcesWithMergeJavaResForNoop
+> Task :hood-extended:transformClassesAndResourcesWithSyncLibJarsForNoop
+> Task :hood-extended:compileNoopNdk NO-SOURCE
+> Task :hood-extended:mergeNoopJniLibFolders
+> Task :hood-extended:transformNativeLibsWithMergeJniLibsForNoop
+> Task :hood-extended:transformNativeLibsWithStripDebugSymbolForNoop
+> Task :hood-extended:transformNativeLibsWithSyncJniLibsForNoop
+> Task :hood-extended:bundleNoopAar
+> Task :hood-extended:compileNoopSources
+> Task :hood-extended:mergeNoopResources
+> Task :hood-extended:verifyNoopResources
+> Task :hood-extended:assembleNoop
+> Task :hood-core:preReleaseBuild UP-TO-DATE
+> Task :hood-core:compileReleaseAidl NO-SOURCE
+> Task :hood-extended:preReleaseBuild UP-TO-DATE
+> Task :hood-extended:compileReleaseAidl NO-SOURCE
+> Task :hood-core:compileReleaseRenderscript UP-TO-DATE
+> Task :hood-core:checkReleaseManifest UP-TO-DATE
+> Task :hood-core:generateReleaseBuildConfig
+> Task :hood-core:generateReleaseResValues UP-TO-DATE
+> Task :hood-core:generateReleaseResources UP-TO-DATE
+> Task :hood-core:packageReleaseResources UP-TO-DATE
+> Task :hood-core:processReleaseManifest UP-TO-DATE
+> Task :hood-core:generateReleaseRFile UP-TO-DATE
+> Task :hood-core:generateReleaseSources
+> Task :hood-core:javaPreCompileRelease UP-TO-DATE
+
+> Task :hood-core:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-core/src/main/java/at/favre/lib/hood/view/DebugEntriesAdapter.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :hood-core:processReleaseJavaRes NO-SOURCE
+> Task :hood-core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :hood-core:packageReleaseRenderscript NO-SOURCE
+> Task :hood-extended:compileReleaseRenderscript
+> Task :hood-extended:checkReleaseManifest
+> Task :hood-extended:generateReleaseBuildConfig
+> Task :hood-extended:generateReleaseResValues
+> Task :hood-extended:generateReleaseResources
+> Task :hood-extended:packageReleaseResources
+> Task :hood-extended:processReleaseManifest
+> Task :hood-extended:generateReleaseRFile
+> Task :hood-extended:generateReleaseSources
+> Task :hood-extended:javaPreCompileRelease
+
+> Task :hood-extended:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :hood-extended:extractReleaseAnnotations
+> Task :hood-extended:mergeReleaseConsumerProguardFiles
+> Task :hood-extended:mergeReleaseShaders
+> Task :hood-extended:compileReleaseShaders
+> Task :hood-extended:generateReleaseAssets
+> Task :hood-extended:packageReleaseAssets
+> Task :hood-extended:packageReleaseRenderscript NO-SOURCE
+> Task :hood-extended:processReleaseJavaRes NO-SOURCE
+> Task :hood-extended:transformResourcesWithMergeJavaResForRelease
+> Task :hood-extended:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :hood-extended:compileReleaseNdk NO-SOURCE
+> Task :hood-extended:mergeReleaseJniLibFolders
+> Task :hood-extended:transformNativeLibsWithMergeJniLibsForRelease
+> Task :hood-extended:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :hood-extended:transformNativeLibsWithSyncJniLibsForRelease
+> Task :hood-extended:bundleReleaseAar
+> Task :hood-extended:compileReleaseSources
+> Task :hood-extended:mergeReleaseResources
+> Task :hood-extended:verifyReleaseResources
+> Task :hood-extended:assembleRelease
+
+> Task :hood-extended:javadoc
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:25: error: package android.support.annotation does not exist
+import android.support.annotation.ColorInt;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:26: error: package android.support.annotation does not exist
+import android.support.annotation.IdRes;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:27: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:28: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:29: error: package android.support.design.widget does not exist
+import android.support.design.widget.AppBarLayout;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:30: error: package android.support.v4.graphics.drawable does not exist
+import android.support.v4.graphics.drawable.DrawableCompat;
+                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:31: error: package android.support.v4.view does not exist
+import android.support.v4.view.ViewPager;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:32: error: package android.support.v7.app does not exist
+import android.support.v7.app.AppCompatActivity;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:33: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.Toolbar;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:40: error: cannot find symbol
+import at.favre.lib.hood.Hood;
+                        ^
+  symbol:   class Hood
+  location: package at.favre.lib.hood
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:41: error: package at.favre.lib.hood.interfaces does not exist
+import at.favre.lib.hood.interfaces.Config;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:42: error: package at.favre.lib.hood.interfaces does not exist
+import at.favre.lib.hood.interfaces.Pages;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:43: error: package at.favre.lib.hood.util.defaults does not exist
+import at.favre.lib.hood.util.defaults.DefaultMiscActions;
+                                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:44: error: package at.favre.lib.hood.view does not exist
+import at.favre.lib.hood.view.HoodController;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:45: error: package at.favre.lib.hood.view does not exist
+import at.favre.lib.hood.view.HoodDebugPageView;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:47: error: cannot find symbol
+public abstract class PopHoodActivity extends AppCompatActivity implements HoodController {
+                                              ^
+  symbol: class AppCompatActivity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:47: error: cannot find symbol
+public abstract class PopHoodActivity extends AppCompatActivity implements HoodController {
+                                                                           ^
+  symbol: class HoodController
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:50: error: cannot find symbol
+    private HoodDebugPageView debugView;
+            ^
+  symbol:   class HoodDebugPageView
+  location: class PopHoodActivity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:51: error: cannot find symbol
+    private Toolbar toolbar;
+            ^
+  symbol:   class Toolbar
+  location: class PopHoodActivity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:183: error: cannot find symbol
+    protected Toolbar getToolbar() {
+              ^
+  symbol:   class Toolbar
+  location: class PopHoodActivity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:187: error: cannot find symbol
+    protected HoodDebugPageView getDebugView() {
+              ^
+  symbol:   class HoodDebugPageView
+  location: class PopHoodActivity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:198: error: cannot find symbol
+    public abstract Pages getPageData(@NonNull Pages pages);
+                                               ^
+  symbol:   class Pages
+  location: class PopHoodActivity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:198: error: cannot find symbol
+    public abstract Pages getPageData(@NonNull Pages pages);
+                    ^
+  symbol:   class Pages
+  location: class PopHoodActivity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:206: error: cannot find symbol
+    public Config getConfig() {
+           ^
+  symbol:   class Config
+  location: class PopHoodActivity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:212: error: cannot find symbol
+    public Pages getCurrentPagesFromThisView() {
+           ^
+  symbol:   class Pages
+  location: class PopHoodActivity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:69: error: cannot find symbol
+    public static Intent createIntent(@NonNull Context context, Class<?> activityClass) {
+                                       ^
+  symbol:   class NonNull
+  location: class PopHoodActivity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:77: error: cannot find symbol
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+                             ^
+  symbol:   class Nullable
+  location: class PopHoodActivity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:140: error: cannot find symbol
+    private void tintMenuItem(Menu menu, @IdRes int iconId) {
+                                          ^
+  symbol:   class IdRes
+  location: class PopHoodActivity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:179: error: cannot find symbol
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+                                                             ^
+  symbol:   class NonNull
+  location: class PopHoodActivity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:179: error: cannot find symbol
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+                                                                                            ^
+  symbol:   class NonNull
+  location: class PopHoodActivity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:198: error: cannot find symbol
+    public abstract Pages getPageData(@NonNull Pages pages);
+                                       ^
+  symbol:   class NonNull
+  location: class PopHoodActivity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:197: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class PopHoodActivity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:205: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class PopHoodActivity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:210: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class PopHoodActivity
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:198: warning - Tag @link: reference not found: Pages
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:198: warning - Tag @link: reference not found: Pages
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:206: warning - Tag @link: reference not found: Config.Builder
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/hood-extended/src/main/java/at/favre/lib/hood/extended/PopHoodActivity.java:198: warning - Tag @link: reference not found: Pages
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+61 warnings
+
+> Task :hood-extended:javadocJar
+> Task :hood-extended:sourcesJar
+> Task :hood-extended:assemble
+> Task :hood-extended:build
+
+BUILD SUCCESSFUL in 17s
+72 actionable tasks: 56 executed, 16 up-to-date
+
+2019-03-30 21:53:57,863 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-30 21:53:57,864 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-30 21:54:03,506 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-30 21:54:03,506 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-30 21:54:03,506 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-30 21:54:03,506 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-30 21:54:09,149 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -247,397 +1083,19 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-09-21 11:22:38,074 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-30 21:54:09,149 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :app
+fatal: your current branch 'master' does not have any commits yet
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/hood-core/build.gradle' line: 1
-
-* What went wrong:
-A problem occurred evaluating project ':hood-core'.
-> Failed to apply plugin [id 'com.android.library']
-   > Configuration on demand is not supported by the current version of the Android Gradle plugin since you are using Gradle version 4.6 or above. Suggestion: disable configuration on demand by setting org.gradle.configureondemand=false in your gradle.properties file or use a Gradle version less than 4.6.
-
-* Try:
-Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-
-* Exception is:
-org.gradle.api.GradleScriptException: A problem occurred evaluating project ':hood-core'.
-	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:92)
-	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:204)
-	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
-	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:209)
-	at org.gradle.configuration.BuildOperationScriptPlugin$1.run(BuildOperationScriptPlugin.java:61)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:317)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:309)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:185)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:97)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:58)
-	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:41)
-	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
-	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:66)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:37)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:125)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:317)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:309)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:185)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:97)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:52)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:677)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:138)
-	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
-	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:60)
-	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
-	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:81)
-	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
-	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
-	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
-	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
-	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:287)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:317)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:309)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:185)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:97)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:183)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:136)
-	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:115)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:77)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:74)
-	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
-	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:38)
-	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:96)
-	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:74)
-	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
-	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
-	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.run(RunAsBuildOperationBuildActionRunner.java:47)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:317)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:309)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:185)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:97)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:43)
-	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:50)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:46)
-	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:65)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:46)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:32)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:62)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:34)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:59)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:31)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:46)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
-	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:52)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:379)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:352)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:37)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:345)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:275)
-	at org.gradle.launcher.Main.doAction(Main.java:36)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to apply plugin [id 'com.android.library']
-	at org.gradle.api.internal.plugins.DefaultPluginManager.doApply(DefaultPluginManager.java:149)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.apply(DefaultPluginManager.java:124)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyType(DefaultObjectConfigurationAction.java:120)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.access$200(DefaultObjectConfigurationAction.java:38)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction$3.run(DefaultObjectConfigurationAction.java:86)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.execute(DefaultObjectConfigurationAction.java:143)
-	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
-	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
-	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_adnx3nn26t475knb4mm138gji.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/hood-core/build.gradle:1)
-	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
-	... 103 more
-Caused by: org.gradle.api.tasks.StopExecutionException: Configuration on demand is not supported by the current version of the Android Gradle plugin since you are using Gradle version 4.6 or above. Suggestion: disable configuration on demand by setting org.gradle.configureondemand=false in your gradle.properties file or use a Gradle version less than 4.6.
-	at com.android.build.gradle.BasePlugin.checkConfigureOnDemandGradleVersionCompat(BasePlugin.java:898)
-	at com.android.build.gradle.BasePlugin.apply(BasePlugin.java:259)
-	at com.android.build.gradle.LibraryPlugin.apply(LibraryPlugin.java:135)
-	at com.android.build.gradle.LibraryPlugin.apply(LibraryPlugin.java:47)
-	at org.gradle.api.internal.plugins.ImperativeOnlyPluginTarget.applyImperative(ImperativeOnlyPluginTarget.java:42)
-	at org.gradle.api.internal.plugins.RuleBasedPluginTarget.applyImperative(RuleBasedPluginTarget.java:50)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.addPlugin(DefaultPluginManager.java:163)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.access$200(DefaultPluginManager.java:46)
-	at org.gradle.api.internal.plugins.DefaultPluginManager$AddPluginBuildOperation.run(DefaultPluginManager.java:251)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:317)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:309)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:185)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:97)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.doApply(DefaultPluginManager.java:143)
-	... 113 more
-
-
-* Get more help at https://help.gradle.org
-
-BUILD FAILED in 3s
-
-2018-09-21 11:22:38,082 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-21 11:22:38,083 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/hood-extended/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-21 11:22:41,594 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-09-21 11:22:41,594 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-09-21 11:22:41,594 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-09-21 11:22:41,594 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/hood-extended/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-21 11:22:44,784 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2018-09-21 11:22:44,784 INFO  SysUtils - Configuration on demand is an incubating feature.
-
-FAILURE: Build failed with an exception.
-
-* Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/hood-extended/build.gradle' line: 1
-
-* What went wrong:
-A problem occurred evaluating project ':hood-extended'.
-> Failed to apply plugin [id 'com.android.library']
-   > Configuration on demand is not supported by the current version of the Android Gradle plugin since you are using Gradle version 4.6 or above. Suggestion: disable configuration on demand by setting org.gradle.configureondemand=false in your gradle.properties file or use a Gradle version less than 4.6.
-
-* Try:
-Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-
-* Exception is:
-org.gradle.api.GradleScriptException: A problem occurred evaluating project ':hood-extended'.
-	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:92)
-	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:204)
-	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
-	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:209)
-	at org.gradle.configuration.BuildOperationScriptPlugin$1.run(BuildOperationScriptPlugin.java:61)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:317)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:309)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:185)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:97)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:58)
-	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:41)
-	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
-	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:66)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:37)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:125)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:317)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:309)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:185)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:97)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:52)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:677)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:138)
-	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
-	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:60)
-	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
-	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:81)
-	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
-	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
-	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
-	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
-	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:287)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:317)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:309)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:185)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:97)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:183)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:136)
-	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:115)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:77)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:74)
-	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
-	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:38)
-	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:96)
-	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:74)
-	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
-	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
-	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.run(RunAsBuildOperationBuildActionRunner.java:47)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:317)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:309)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:185)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:97)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:43)
-	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:50)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:46)
-	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:65)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:46)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:32)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:62)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:34)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:59)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:31)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:46)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
-	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:52)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:379)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:352)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:37)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:345)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:275)
-	at org.gradle.launcher.Main.doAction(Main.java:36)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to apply plugin [id 'com.android.library']
-	at org.gradle.api.internal.plugins.DefaultPluginManager.doApply(DefaultPluginManager.java:149)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.apply(DefaultPluginManager.java:124)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyType(DefaultObjectConfigurationAction.java:120)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.access$200(DefaultObjectConfigurationAction.java:38)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction$3.run(DefaultObjectConfigurationAction.java:86)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.execute(DefaultObjectConfigurationAction.java:143)
-	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
-	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
-	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_ac4klfgg1tnb3oa027b9zfe9.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/hood-extended/build.gradle:1)
-	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
-	... 103 more
-Caused by: org.gradle.api.tasks.StopExecutionException: Configuration on demand is not supported by the current version of the Android Gradle plugin since you are using Gradle version 4.6 or above. Suggestion: disable configuration on demand by setting org.gradle.configureondemand=false in your gradle.properties file or use a Gradle version less than 4.6.
-	at com.android.build.gradle.BasePlugin.checkConfigureOnDemandGradleVersionCompat(BasePlugin.java:898)
-	at com.android.build.gradle.BasePlugin.apply(BasePlugin.java:259)
-	at com.android.build.gradle.LibraryPlugin.apply(LibraryPlugin.java:135)
-	at com.android.build.gradle.LibraryPlugin.apply(LibraryPlugin.java:47)
-	at org.gradle.api.internal.plugins.ImperativeOnlyPluginTarget.applyImperative(ImperativeOnlyPluginTarget.java:42)
-	at org.gradle.api.internal.plugins.RuleBasedPluginTarget.applyImperative(RuleBasedPluginTarget.java:50)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.addPlugin(DefaultPluginManager.java:163)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.access$200(DefaultPluginManager.java:46)
-	at org.gradle.api.internal.plugins.DefaultPluginManager$AddPluginBuildOperation.run(DefaultPluginManager.java:251)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:317)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:309)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:185)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:97)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.doApply(DefaultPluginManager.java:143)
-	... 113 more
-
-
-* Get more help at https://help.gradle.org
-
-BUILD FAILED in 3s
-
-2018-09-21 11:22:44,793 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-21 11:22:44,793 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-21 11:22:48,093 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-09-21 11:22:48,093 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-09-21 11:22:48,093 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-09-21 11:22:48,093 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-21 11:22:51,312 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2018-09-21 11:22:51,312 INFO  SysUtils - Configuration on demand is an incubating feature.
-
-FAILURE: Build failed with an exception.
-
-* Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/app/build.gradle' line: 1
+Script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/gradle/common-build.gradle' line: 13
 
 * What went wrong:
 A problem occurred evaluating project ':app'.
-> Failed to apply plugin [id 'com.android.application']
-   > Configuration on demand is not supported by the current version of the Android Gradle plugin since you are using Gradle version 4.6 or above. Suggestion: disable configuration on demand by setting org.gradle.configureondemand=false in your gradle.properties file or use a Gradle version less than 4.6.
+> Process 'command 'git'' finished with non-zero exit value 128
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -645,30 +1103,31 @@ Run with --info or --debug option to get more log output. Run with --scan to get
 * Exception is:
 org.gradle.api.GradleScriptException: A problem occurred evaluating project ':app'.
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:92)
-	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:204)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:206)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
-	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:209)
-	at org.gradle.configuration.BuildOperationScriptPlugin$1.run(BuildOperationScriptPlugin.java:61)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:317)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:309)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:185)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:97)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:211)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1$1.run(BuildOperationScriptPlugin.java:69)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:58)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.execute(BuildOperationScriptPlugin.java:66)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.execute(BuildOperationScriptPlugin.java:63)
+	at org.gradle.configuration.internal.DefaultUserCodeApplicationContext.apply(DefaultUserCodeApplicationContext.java:48)
+	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:63)
 	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:41)
 	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
 	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:66)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:37)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:125)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:317)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:309)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:185)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:97)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$EvaluateProject.run(LifecycleProjectEvaluator.java:105)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:52)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:677)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:138)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:68)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:687)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:140)
 	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
 	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:62)
 	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
@@ -685,37 +1144,37 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
 	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
 	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
-	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:287)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:317)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:309)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:185)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:97)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:305)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:183)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:136)
-	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:115)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:190)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:145)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:124)
 	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:77)
 	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:74)
-	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:154)
 	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:38)
 	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:96)
 	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:74)
 	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
 	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
 	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.run(RunAsBuildOperationBuildActionRunner.java:47)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:317)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:309)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:185)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:97)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.run(RunAsBuildOperationBuildActionRunner.java:50)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:45)
 	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:50)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:46)
-	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:65)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:46)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:32)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:47)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:44)
+	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:79)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:44)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
 	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
 	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
 	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
@@ -733,13 +1192,13 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:46)
 	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
 	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:52)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:379)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:352)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:207)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:402)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:375)
 	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:37)
 	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:345)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:275)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:368)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:298)
 	at org.gradle.launcher.Main.doAction(Main.java:36)
 	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
 	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
@@ -748,41 +1207,57 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to apply plugin [id 'com.android.application']
-	at org.gradle.api.internal.plugins.DefaultPluginManager.doApply(DefaultPluginManager.java:149)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.apply(DefaultPluginManager.java:124)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyType(DefaultObjectConfigurationAction.java:120)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.access$200(DefaultObjectConfigurationAction.java:38)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction$3.run(DefaultObjectConfigurationAction.java:86)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.execute(DefaultObjectConfigurationAction.java:143)
-	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
-	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
-	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_cbwv0u6ytnm57s21r8gkgixwu.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537503732457-0/src/under-the-hood-master/app/build.gradle:1)
+Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' finished with non-zero exit value 128
+	at org.gradle.process.internal.DefaultExecHandle$ExecResultImpl.assertNormalExitValue(DefaultExecHandle.java:395)
+	at org.gradle.process.internal.DefaultExecAction.execute(DefaultExecAction.java:37)
+	at org.gradle.api.internal.file.DefaultFileOperations.exec(DefaultFileOperations.java:232)
+	at org.gradle.groovy.scripts.DefaultScript.exec(DefaultScript.java:255)
+	at org.gradle.api.Script$exec$2.callCurrent(Unknown Source)
+	at common_build_903as87mjdjbativ0b1xg4vn.getGitRev(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/gradle/common-build.gradle:13)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:479)
+	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
+	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:42)
+	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:133)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:78)
+	at org.gradle.internal.metaobject.BeanDynamicObject$GroovyObjectAdapter.invokeOpaqueMethod(BeanDynamicObject.java:579)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:506)
+	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:78)
+	at build_f3cfix1p100fx6in7vabuspsj$_run_closure1$_closure4.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/app/build.gradle:26)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
+	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:155)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
+	at org.gradle.util.ConfigureUtil$WrappedConfigureAction.execute(ConfigureUtil.java:167)
+	at com.android.build.gradle.BaseExtension.defaultConfig(BaseExtension.java:547)
+	at com.android.build.gradle.internal.dsl.BaseAppModuleExtension_Decorated.defaultConfig(Unknown Source)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:479)
+	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
+	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
+	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:57)
+	at build_f3cfix1p100fx6in7vabuspsj$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/app/build.gradle:18)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
+	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:155)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
+	at org.gradle.util.ConfigureUtil$WrappedConfigureAction.execute(ConfigureUtil.java:167)
+	at org.gradle.api.internal.plugins.ExtensionsStorage$ExtensionHolder.configure(ExtensionsStorage.java:197)
+	at org.gradle.api.internal.plugins.ExtensionsStorage.configureExtension(ExtensionsStorage.java:69)
+	at org.gradle.api.internal.plugins.DefaultConvention.configureExtension(DefaultConvention.java:412)
+	at org.gradle.api.internal.plugins.DefaultConvention.access$500(DefaultConvention.java:45)
+	at org.gradle.api.internal.plugins.DefaultConvention$ExtensionsDynamicObject.tryInvokeMethod(DefaultConvention.java:349)
+	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
+	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
+	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:133)
+	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
+	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:82)
+	at build_f3cfix1p100fx6in7vabuspsj.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957545056-0/src/under-the-hood-master/app/build.gradle:5)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
-	... 103 more
-Caused by: org.gradle.api.tasks.StopExecutionException: Configuration on demand is not supported by the current version of the Android Gradle plugin since you are using Gradle version 4.6 or above. Suggestion: disable configuration on demand by setting org.gradle.configureondemand=false in your gradle.properties file or use a Gradle version less than 4.6.
-	at com.android.build.gradle.BasePlugin.checkConfigureOnDemandGradleVersionCompat(BasePlugin.java:898)
-	at com.android.build.gradle.BasePlugin.apply(BasePlugin.java:259)
-	at com.android.build.gradle.AppPlugin.apply(AppPlugin.java:120)
-	at com.android.build.gradle.AppPlugin.apply(AppPlugin.java:47)
-	at org.gradle.api.internal.plugins.ImperativeOnlyPluginTarget.applyImperative(ImperativeOnlyPluginTarget.java:42)
-	at org.gradle.api.internal.plugins.RuleBasedPluginTarget.applyImperative(RuleBasedPluginTarget.java:50)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.addPlugin(DefaultPluginManager.java:163)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.access$200(DefaultPluginManager.java:46)
-	at org.gradle.api.internal.plugins.DefaultPluginManager$AddPluginBuildOperation.run(DefaultPluginManager.java:251)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:317)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:309)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:185)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:97)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.doApply(DefaultPluginManager.java:143)
-	... 113 more
+	... 104 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 3s
+BUILD FAILED in 5s
 
-2018-09-21 11:22:51,321 ERROR FullProcessService - Project build has not produced APK file
-2018-09-21 11:22:51,329 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-30 21:54:09,294 ERROR FullProcessService - Project build has not produced APK file
+2019-03-30 21:54:09,436 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,34 +1,34 @@
-2019-03-25 12:32:32,237 INFO  DownloadService - Downloading "https://github.com/patrickfav/Dali/archive/master.zip", attempt 3
-2019-03-25 12:32:40,815 INFO  DownloadService - Downloaded https://github.com/patrickfav/Dali/archive/master.zip, attempt 3
-2019-03-25 12:32:40,816 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/master.zip": 12 MB
-2019-03-25 12:32:40,816 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-25 12:32:40,817 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/master.zip: true
-2019-03-25 12:32:40,817 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src'.
-2019-03-25 12:32:40,920 INFO  FullProcessService - Size of directory with sources: 12 MB
-2019-03-25 12:32:40,920 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src]
-2019-03-25 12:32:40,940 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/.git/
+2019-03-30 21:54:10,325 INFO  DownloadService - Downloading "https://github.com/patrickfav/Dali/archive/master.zip", attempt 3
+2019-03-30 21:54:19,020 INFO  DownloadService - Downloaded https://github.com/patrickfav/Dali/archive/master.zip, attempt 3
+2019-03-30 21:54:19,020 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/master.zip": 12 MB
+2019-03-30 21:54:19,020 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-30 21:54:19,022 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/master.zip: true
+2019-03-30 21:54:19,022 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src'.
+2019-03-30 21:54:19,132 INFO  FullProcessService - Size of directory with sources: 12 MB
+2019-03-30 21:54:19,132 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src]
+2019-03-30 21:54:19,152 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/.git/
 
-2019-03-25 12:32:40,945 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/gradlew
-2019-03-25 12:32:40,950 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/build.gradle
-2019-03-25 12:32:40,954 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/gradle/checkstyle.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/gradle/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/gradle/common-build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build.gradle
-2019-03-25 12:32:40,955 INFO  ProjectBuildService - Remote scripts: none
-2019-03-25 12:32:40,955 INFO  ProjectFixService - Fixing project...
-2019-03-25 12:32:40,967 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/app/local.properties
-2019-03-25 12:32:40,971 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-25 12:32:40,971 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/local.properties
-2019-03-25 12:32:40,975 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-25 12:32:40,975 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/local.properties
-2019-03-25 12:32:40,976 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-03-25 12:32:40,976 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-03-25 12:32:40,977 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-25 12:32:40,977 INFO  ProjectFixService - Project was maybe fixed
-2019-03-25 12:32:40,977 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-25 12:32:40,977 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-25 12:32:52,053 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-25 12:32:52,053 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-25 12:32:52,054 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-25 12:32:52,054 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-25 12:32:57,265 ERROR SysUtils - Could not process external command
+2019-03-30 21:54:19,157 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/gradlew
+2019-03-30 21:54:19,161 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/build.gradle
+2019-03-30 21:54:19,166 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/gradle/checkstyle.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/gradle/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/gradle/common-build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build.gradle
+2019-03-30 21:54:19,167 INFO  ProjectBuildService - Remote scripts: none
+2019-03-30 21:54:19,167 INFO  ProjectFixService - Fixing project...
+2019-03-30 21:54:19,180 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/app/local.properties
+2019-03-30 21:54:19,183 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-30 21:54:19,184 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/local.properties
+2019-03-30 21:54:19,188 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-30 21:54:19,189 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/local.properties
+2019-03-30 21:54:19,189 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-03-30 21:54:19,190 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-03-30 21:54:19,190 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-30 21:54:19,190 INFO  ProjectFixService - Project was maybe fixed
+2019-03-30 21:54:19,190 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-30 21:54:19,190 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-30 21:54:26,131 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-30 21:54:26,131 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-30 21:54:26,131 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-30 21:54:26,132 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-30 21:54:32,344 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -41,7 +41,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -55,7 +55,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-25 12:32:57,265 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-30 21:54:32,344 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :app
 fatal: your current branch 'master' does not have any commits yet
@@ -63,7 +63,7 @@ fatal: your current branch 'master' does not have any commits yet
 FAILURE: Build failed with an exception.
 
 * Where:
-Script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/gradle/common-build.gradle' line: 13
+Script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/gradle/common-build.gradle' line: 13
 
 * What went wrong:
 A problem occurred evaluating project ':app'.
@@ -185,7 +185,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.api.internal.file.DefaultFileOperations.exec(DefaultFileOperations.java:232)
 	at org.gradle.groovy.scripts.DefaultScript.exec(DefaultScript.java:255)
 	at org.gradle.api.Script$exec$2.callCurrent(Unknown Source)
-	at common_build_18ss2seiybm9onxnr6x9w2gxt.getGitRev(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/gradle/common-build.gradle:13)
+	at common_build_bq79dski4o9e4p2bnbwo8q05a.getGitRev(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/gradle/common-build.gradle:13)
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:479)
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:42)
@@ -195,7 +195,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:506)
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:78)
-	at build_avha5zsuklgx7ec3kn4ndcdzb$_run_closure1$_closure5.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/app/build.gradle:30)
+	at build_8uu3kzsket79ecw4jnvu7hzsm$_run_closure1$_closure5.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/app/build.gradle:30)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:155)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -207,7 +207,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:57)
-	at build_avha5zsuklgx7ec3kn4ndcdzb$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/app/build.gradle:22)
+	at build_8uu3kzsket79ecw4jnvu7hzsm$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/app/build.gradle:22)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:155)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -222,7 +222,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:133)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:82)
-	at build_avha5zsuklgx7ec3kn4ndcdzb.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/app/build.gradle:5)
+	at build_8uu3kzsket79ecw4jnvu7hzsm.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/app/build.gradle:5)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 104 more
 
@@ -231,43 +231,61 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 
 BUILD FAILED in 5s
 
-2019-03-25 12:32:57,271 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-25 12:32:57,271 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-25 12:33:04,989 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-03-25 12:33:04,989 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-03-25 12:33:04,989 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-03-25 12:33:24,572 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-30 21:54:32,352 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-30 21:54:32,352 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-30 21:54:40,225 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-03-30 21:54:40,226 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-30 21:54:40,226 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-30 21:55:01,027 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :dali:preBuild UP-TO-DATE
 > Task :dali:preDebugBuild UP-TO-DATE
 > Task :dali:compileDebugAidl NO-SOURCE
-warning: Linking two modules of different data layouts: '/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/armeabi-v7a/libclcore.bc' is 'e-m:e-p:32:32-i64:64-v128:64:128-a:0:32-n32-S64' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc32/brightness.bc' is 'e-p:32:32-i64:64-v128:64:128-n32-S64'
+warning: Linking two modules of different data layouts: '/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/armeabi-v7a/libclcore.bc' is 'e-m:e-p:32:32-i64:64-v128:64:128-a:0:32-n32-S64' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc32/contrast.bc' is 'e-p:32:32-i64:64-v128:64:128-n32-S64'
 
-warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/armeabi-v7a/libclcore.bc' is 'armv7--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc32/brightness.bc' is 'armv7-none-linux-gnueabi'
-
-
-warning: Linking two modules of different data layouts: '/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/armeabi-v7a/libclcore.bc' is 'e-m:e-p:32:32-i64:64-v128:64:128-a:0:32-n32-S64' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc32/contrast.bc' is 'e-p:32:32-i64:64-v128:64:128-n32-S64'
-
-warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/armeabi-v7a/libclcore.bc' is 'armv7--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc32/contrast.bc' is 'armv7-none-linux-gnueabi'
+warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/armeabi-v7a/libclcore.bc' is 'armv7--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc32/contrast.bc' is 'armv7-none-linux-gnueabi'
 
 
-warning: Linking two modules of different data layouts: '/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86/libclcore.bc' is 'e-m:e-p:32:32-i64:64-v128:64:128-a:0:32-n32-S64' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc32/brightness.bc' is 'e-p:32:32-i64:64-v128:64:128-n32-S64'
+warning: Linking two modules of different data layouts: '/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/armeabi-v7a/libclcore.bc' is 'e-m:e-p:32:32-i64:64-v128:64:128-a:0:32-n32-S64' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc32/brightness.bc' is 'e-p:32:32-i64:64-v128:64:128-n32-S64'
 
-warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86/libclcore.bc' is 'armv7--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc32/brightness.bc' is 'armv7-none-linux-gnueabi'
-
-
-warning: Linking two modules of different data layouts: '/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86/libclcore.bc' is 'e-m:e-p:32:32-i64:64-v128:64:128-a:0:32-n32-S64' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc32/contrast.bc' is 'e-p:32:32-i64:64-v128:64:128-n32-S64'
-
-warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86/libclcore.bc' is 'armv7--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc32/contrast.bc' is 'armv7-none-linux-gnueabi'
+warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/armeabi-v7a/libclcore.bc' is 'armv7--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc32/brightness.bc' is 'armv7-none-linux-gnueabi'
 
 
-warning: Linking two modules of different data layouts: '/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/armeabi-v7a/libclcore.bc' is 'e-m:e-p:32:32-i64:64-v128:64:128-a:0:32-n32-S64' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc32/stackblur.bc' is 'e-p:32:32-i64:64-v128:64:128-n32-S64'
+warning: Linking two modules of different data layouts: '/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86/libclcore.bc' is 'e-m:e-p:32:32-i64:64-v128:64:128-a:0:32-n32-S64' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc32/brightness.bc' is 'e-p:32:32-i64:64-v128:64:128-n32-S64'
 
-warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/armeabi-v7a/libclcore.bc' is 'armv7--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc32/stackblur.bc' is 'armv7-none-linux-gnueabi'
+warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86/libclcore.bc' is 'armv7--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc32/brightness.bc' is 'armv7-none-linux-gnueabi'
 
 
-warning: Linking two modules of different data layouts: '/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86/libclcore.bc' is 'e-m:e-p:32:32-i64:64-v128:64:128-a:0:32-n32-S64' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc32/stackblur.bc' is 'e-p:32:32-i64:64-v128:64:128-n32-S64'
+warning: Linking two modules of different data layouts: '/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86/libclcore.bc' is 'e-m:e-p:32:32-i64:64-v128:64:128-a:0:32-n32-S64' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc32/contrast.bc' is 'e-p:32:32-i64:64-v128:64:128-n32-S64'
 
-warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86/libclcore.bc' is 'armv7--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc32/stackblur.bc' is 'armv7-none-linux-gnueabi'
+warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86/libclcore.bc' is 'armv7--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc32/contrast.bc' is 'armv7-none-linux-gnueabi'
+
+
+warning: Linking two modules of different data layouts: '/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86/libclcore.bc' is 'e-m:e-p:32:32-i64:64-v128:64:128-a:0:32-n32-S64' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc32/stackblur.bc' is 'e-p:32:32-i64:64-v128:64:128-n32-S64'
+
+warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86/libclcore.bc' is 'armv7--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc32/stackblur.bc' is 'armv7-none-linux-gnueabi'
+
+
+warning: Linking two modules of different data layouts: '/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/armeabi-v7a/libclcore.bc' is 'e-m:e-p:32:32-i64:64-v128:64:128-a:0:32-n32-S64' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc32/stackblur.bc' is 'e-p:32:32-i64:64-v128:64:128-n32-S64'
+
+warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/armeabi-v7a/libclcore.bc' is 'armv7--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc32/stackblur.bc' is 'armv7-none-linux-gnueabi'
+
+
+warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86_64/libclcore.bc' is 'aarch64--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc64/contrast.bc' is 'aarch64-none-linux-gnueabi'
+
+
+warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86_64/libclcore.bc' is 'aarch64--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc64/brightness.bc' is 'aarch64-none-linux-gnueabi'
+
+
+warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/arm64-v8a/libclcore.bc' is 'aarch64--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc64/brightness.bc' is 'aarch64-none-linux-gnueabi'
+
+
+warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/arm64-v8a/libclcore.bc' is 'aarch64--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc64/contrast.bc' is 'aarch64-none-linux-gnueabi'
+
+
+warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/arm64-v8a/libclcore.bc' is 'aarch64--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc64/stackblur.bc' is 'aarch64-none-linux-gnueabi'
+
+
+warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86_64/libclcore.bc' is 'aarch64--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc64/stackblur.bc' is 'aarch64-none-linux-gnueabi'
 
 
 
@@ -278,25 +296,6 @@ Skipped RenderScript support mode compilation for mips : required components not
 Please check and update your BuildTools.
 Skipped RenderScript support mode compilation for mips : required components not found in Build-Tools 28.0.3
 Please check and update your BuildTools.
-
-warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86_64/libclcore.bc' is 'aarch64--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc64/brightness.bc' is 'aarch64-none-linux-gnueabi'
-
-
-warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/arm64-v8a/libclcore.bc' is 'aarch64--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc64/contrast.bc' is 'aarch64-none-linux-gnueabi'
-
-
-warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/arm64-v8a/libclcore.bc' is 'aarch64--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc64/brightness.bc' is 'aarch64-none-linux-gnueabi'
-
-
-warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86_64/libclcore.bc' is 'aarch64--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc64/contrast.bc' is 'aarch64-none-linux-gnueabi'
-
-
-warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/arm64-v8a/libclcore.bc' is 'aarch64--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc64/stackblur.bc' is 'aarch64-none-linux-gnueabi'
-
-
-warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86_64/libclcore.bc' is 'aarch64--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/debug/raw/bc64/stackblur.bc' is 'aarch64-none-linux-gnueabi'
-
-
 
 > Task :dali:checkDebugManifest
 > Task :dali:generateDebugBuildConfig
@@ -333,52 +332,52 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :dali:assembleDebug
 > Task :dali:preReleaseBuild UP-TO-DATE
 > Task :dali:compileReleaseAidl NO-SOURCE
-warning: Linking two modules of different data layouts: '/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86/libclcore.bc' is 'e-m:e-p:32:32-i64:64-v128:64:128-a:0:32-n32-S64' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc32/brightness.bc' is 'e-p:32:32-i64:64-v128:64:128-n32-S64'
+warning: Linking two modules of different data layouts: '/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86/libclcore.bc' is 'e-m:e-p:32:32-i64:64-v128:64:128-a:0:32-n32-S64' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc32/brightness.bc' is 'e-p:32:32-i64:64-v128:64:128-n32-S64'
 
-warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86/libclcore.bc' is 'armv7--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc32/brightness.bc' is 'armv7-none-linux-gnueabi'
-
-
-warning: Linking two modules of different data layouts: '/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/armeabi-v7a/libclcore.bc' is 'e-m:e-p:32:32-i64:64-v128:64:128-a:0:32-n32-S64' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc32/brightness.bc' is 'e-p:32:32-i64:64-v128:64:128-n32-S64'
-
-warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/armeabi-v7a/libclcore.bc' is 'armv7--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc32/brightness.bc' is 'armv7-none-linux-gnueabi'
+warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86/libclcore.bc' is 'armv7--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc32/brightness.bc' is 'armv7-none-linux-gnueabi'
 
 
-warning: Linking two modules of different data layouts: '/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86/libclcore.bc' is 'e-m:e-p:32:32-i64:64-v128:64:128-a:0:32-n32-S64' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc32/contrast.bc' is 'e-p:32:32-i64:64-v128:64:128-n32-S64'
+warning: Linking two modules of different data layouts: '/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/armeabi-v7a/libclcore.bc' is 'e-m:e-p:32:32-i64:64-v128:64:128-a:0:32-n32-S64' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc32/brightness.bc' is 'e-p:32:32-i64:64-v128:64:128-n32-S64'
 
-warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86/libclcore.bc' is 'armv7--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc32/contrast.bc' is 'armv7-none-linux-gnueabi'
-
-
-warning: Linking two modules of different data layouts: '/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/armeabi-v7a/libclcore.bc' is 'e-m:e-p:32:32-i64:64-v128:64:128-a:0:32-n32-S64' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc32/contrast.bc' is 'e-p:32:32-i64:64-v128:64:128-n32-S64'
-
-warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/armeabi-v7a/libclcore.bc' is 'armv7--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc32/contrast.bc' is 'armv7-none-linux-gnueabi'
+warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/armeabi-v7a/libclcore.bc' is 'armv7--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc32/brightness.bc' is 'armv7-none-linux-gnueabi'
 
 
-warning: Linking two modules of different data layouts: '/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/armeabi-v7a/libclcore.bc' is 'e-m:e-p:32:32-i64:64-v128:64:128-a:0:32-n32-S64' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc32/stackblur.bc' is 'e-p:32:32-i64:64-v128:64:128-n32-S64'
+warning: Linking two modules of different data layouts: '/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/armeabi-v7a/libclcore.bc' is 'e-m:e-p:32:32-i64:64-v128:64:128-a:0:32-n32-S64' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc32/contrast.bc' is 'e-p:32:32-i64:64-v128:64:128-n32-S64'
 
-warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/armeabi-v7a/libclcore.bc' is 'armv7--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc32/stackblur.bc' is 'armv7-none-linux-gnueabi'
-
-
-warning: Linking two modules of different data layouts: '/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86/libclcore.bc' is 'e-m:e-p:32:32-i64:64-v128:64:128-a:0:32-n32-S64' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc32/stackblur.bc' is 'e-p:32:32-i64:64-v128:64:128-n32-S64'
-
-warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86/libclcore.bc' is 'armv7--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc32/stackblur.bc' is 'armv7-none-linux-gnueabi'
+warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/armeabi-v7a/libclcore.bc' is 'armv7--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc32/contrast.bc' is 'armv7-none-linux-gnueabi'
 
 
-warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/arm64-v8a/libclcore.bc' is 'aarch64--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc64/brightness.bc' is 'aarch64-none-linux-gnueabi'
+warning: Linking two modules of different data layouts: '/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86/libclcore.bc' is 'e-m:e-p:32:32-i64:64-v128:64:128-a:0:32-n32-S64' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc32/contrast.bc' is 'e-p:32:32-i64:64-v128:64:128-n32-S64'
+
+warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86/libclcore.bc' is 'armv7--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc32/contrast.bc' is 'armv7-none-linux-gnueabi'
 
 
-warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86_64/libclcore.bc' is 'aarch64--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc64/brightness.bc' is 'aarch64-none-linux-gnueabi'
+warning: Linking two modules of different data layouts: '/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/armeabi-v7a/libclcore.bc' is 'e-m:e-p:32:32-i64:64-v128:64:128-a:0:32-n32-S64' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc32/stackblur.bc' is 'e-p:32:32-i64:64-v128:64:128-n32-S64'
+
+warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/armeabi-v7a/libclcore.bc' is 'armv7--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc32/stackblur.bc' is 'armv7-none-linux-gnueabi'
 
 
-warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/arm64-v8a/libclcore.bc' is 'aarch64--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc64/contrast.bc' is 'aarch64-none-linux-gnueabi'
+warning: Linking two modules of different data layouts: '/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86/libclcore.bc' is 'e-m:e-p:32:32-i64:64-v128:64:128-a:0:32-n32-S64' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc32/stackblur.bc' is 'e-p:32:32-i64:64-v128:64:128-n32-S64'
+
+warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86/libclcore.bc' is 'armv7--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc32/stackblur.bc' is 'armv7-none-linux-gnueabi'
 
 
-warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86_64/libclcore.bc' is 'aarch64--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc64/contrast.bc' is 'aarch64-none-linux-gnueabi'
+warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86_64/libclcore.bc' is 'aarch64--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc64/brightness.bc' is 'aarch64-none-linux-gnueabi'
 
 
-warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/arm64-v8a/libclcore.bc' is 'aarch64--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc64/stackblur.bc' is 'aarch64-none-linux-gnueabi'
+warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/arm64-v8a/libclcore.bc' is 'aarch64--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc64/brightness.bc' is 'aarch64-none-linux-gnueabi'
 
 
-warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86_64/libclcore.bc' is 'aarch64--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc64/stackblur.bc' is 'aarch64-none-linux-gnueabi'
+warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/arm64-v8a/libclcore.bc' is 'aarch64--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc64/contrast.bc' is 'aarch64-none-linux-gnueabi'
+
+
+warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/arm64-v8a/libclcore.bc' is 'aarch64--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc64/stackblur.bc' is 'aarch64-none-linux-gnueabi'
+
+
+warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86_64/libclcore.bc' is 'aarch64--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc64/contrast.bc' is 'aarch64-none-linux-gnueabi'
+
+
+warning: Linking two modules of different target triples: /Users/vbauer/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/bc/x86_64/libclcore.bc' is 'aarch64--linux-android' whereas '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/build/generated/res/rs/release/raw/bc64/stackblur.bc' is 'aarch64-none-linux-gnueabi'
 
 
 
@@ -426,405 +425,405 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :dali:assembleRelease
 
 > Task :dali:javadoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/util/BuilderUtil.java:7: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/util/BuilderUtil.java:7: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.RenderScript;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/EBlurAlgorithm.java:3: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/EBlurAlgorithm.java:3: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.RenderScript;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/ContextWrapper.java:5: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/ContextWrapper.java:5: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.RenderScript;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/blur/BlurBuilder.java:25: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/blur/BlurBuilder.java:25: error: cannot find symbol
 import at.favre.lib.dali.R;
                         ^
   symbol:   class R
   location: package at.favre.lib.dali
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/EBlurAlgorithm.java:30: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/EBlurAlgorithm.java:30: error: cannot find symbol
     public static IBlur createDefaultBlur(RenderScript rs) {
                                           ^
   symbol:   class RenderScript
   location: class EBlurAlgorithm
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/ContextWrapper.java:12: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/ContextWrapper.java:12: error: cannot find symbol
     private RenderScript renderScript;
             ^
   symbol:   class RenderScript
   location: class ContextWrapper
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/ContextWrapper.java:13: error: package RenderScript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/ContextWrapper.java:13: error: package RenderScript does not exist
     private RenderScript.ContextType renderScriptContextType = RenderScript.ContextType.NORMAL;
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/ContextWrapper.java:19: error: package RenderScript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/ContextWrapper.java:19: error: package RenderScript does not exist
     public ContextWrapper(Context context, RenderScript.ContextType renderScriptContextType) {
                                                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/ContextWrapper.java:34: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/ContextWrapper.java:34: error: cannot find symbol
     public RenderScript getRenderScript() {
            ^
   symbol:   class RenderScript
   location: class ContextWrapper
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/TwoLevelCache.java:6: error: package android.support.v4.util does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/TwoLevelCache.java:6: error: package android.support.v4.util does not exist
 import android.support.v4.util.LruCache;
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/TwoLevelCache.java:9: error: package com.jakewharton.disklrucache does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/TwoLevelCache.java:9: error: package com.jakewharton.disklrucache does not exist
 import com.jakewharton.disklrucache.DiskLruCache;
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/TwoLevelCache.java:16: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/TwoLevelCache.java:16: error: cannot find symbol
 import at.favre.lib.dali.BuildConfig;
                         ^
   symbol:   class BuildConfig
   location: package at.favre.lib.dali
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/TwoLevelCache.java:37: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/TwoLevelCache.java:37: error: cannot find symbol
     private DiskLruCache diskLruCache;
             ^
   symbol:   class DiskLruCache
   location: class TwoLevelCache
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/TwoLevelCache.java:241: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/TwoLevelCache.java:241: error: cannot find symbol
     private static class BitmapLruMemoryCache extends LruCache<String, Bitmap> {
                                                       ^
   symbol:   class LruCache
   location: class TwoLevelCache
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/TwoLevelCache.java:69: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/TwoLevelCache.java:69: error: cannot find symbol
     public DiskLruCache getDiskCache() {
            ^
   symbol:   class DiskLruCache
   location: class TwoLevelCache
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptGaussian5x5Blur.java:4: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptGaussian5x5Blur.java:4: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.Allocation;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptGaussian5x5Blur.java:5: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptGaussian5x5Blur.java:5: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.Element;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptGaussian5x5Blur.java:6: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptGaussian5x5Blur.java:6: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.RenderScript;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptGaussian5x5Blur.java:7: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptGaussian5x5Blur.java:7: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.ScriptIntrinsicConvolve5x5;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptGaussian5x5Blur.java:17: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptGaussian5x5Blur.java:17: error: cannot find symbol
     private RenderScript rs;
             ^
   symbol:   class RenderScript
   location: class RenderScriptGaussian5x5Blur
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptGaussian5x5Blur.java:19: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptGaussian5x5Blur.java:19: error: cannot find symbol
     public RenderScriptGaussian5x5Blur(RenderScript rs) {
                                        ^
   symbol:   class RenderScript
   location: class RenderScriptGaussian5x5Blur
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptBox5x5Blur.java:4: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptBox5x5Blur.java:4: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.Allocation;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptBox5x5Blur.java:5: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptBox5x5Blur.java:5: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.Element;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptBox5x5Blur.java:6: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptBox5x5Blur.java:6: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.RenderScript;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptBox5x5Blur.java:7: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptBox5x5Blur.java:7: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.ScriptIntrinsicConvolve5x5;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptBox5x5Blur.java:17: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptBox5x5Blur.java:17: error: cannot find symbol
     private RenderScript rs;
             ^
   symbol:   class RenderScript
   location: class RenderScriptBox5x5Blur
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptBox5x5Blur.java:19: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptBox5x5Blur.java:19: error: cannot find symbol
     public RenderScriptBox5x5Blur(RenderScript rs) {
                                   ^
   symbol:   class RenderScript
   location: class RenderScriptBox5x5Blur
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptStackBlur.java:5: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptStackBlur.java:5: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.Allocation;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptStackBlur.java:6: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptStackBlur.java:6: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.Element;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptStackBlur.java:7: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptStackBlur.java:7: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.RenderScript;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptStackBlur.java:9: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptStackBlur.java:9: error: cannot find symbol
 import at.favre.lib.dali.ScriptC_stackblur;
                         ^
   symbol:   class ScriptC_stackblur
   location: package at.favre.lib.dali
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptStackBlur.java:17: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptStackBlur.java:17: error: cannot find symbol
     private RenderScript _rs;
             ^
   symbol:   class RenderScript
   location: class RenderScriptStackBlur
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptStackBlur.java:20: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptStackBlur.java:20: error: cannot find symbol
     public RenderScriptStackBlur(RenderScript rs, Context ctx) {
                                  ^
   symbol:   class RenderScript
   location: class RenderScriptStackBlur
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptBox3x3Blur.java:4: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptBox3x3Blur.java:4: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.Allocation;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptBox3x3Blur.java:5: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptBox3x3Blur.java:5: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.Element;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptBox3x3Blur.java:6: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptBox3x3Blur.java:6: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.RenderScript;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptBox3x3Blur.java:7: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptBox3x3Blur.java:7: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.ScriptIntrinsicConvolve3x3;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptBox3x3Blur.java:17: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptBox3x3Blur.java:17: error: cannot find symbol
     private RenderScript rs;
             ^
   symbol:   class RenderScript
   location: class RenderScriptBox3x3Blur
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptBox3x3Blur.java:19: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptBox3x3Blur.java:19: error: cannot find symbol
     public RenderScriptBox3x3Blur(RenderScript rs) {
                                   ^
   symbol:   class RenderScript
   location: class RenderScriptBox3x3Blur
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptGaussianBlur.java:4: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptGaussianBlur.java:4: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.Allocation;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptGaussianBlur.java:5: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptGaussianBlur.java:5: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.Element;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptGaussianBlur.java:6: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptGaussianBlur.java:6: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.RenderScript;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptGaussianBlur.java:7: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptGaussianBlur.java:7: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.ScriptIntrinsicBlur;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptGaussianBlur.java:16: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptGaussianBlur.java:16: error: cannot find symbol
     private RenderScript rs;
             ^
   symbol:   class RenderScript
   location: class RenderScriptGaussianBlur
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptGaussianBlur.java:18: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/blur/algorithms/RenderScriptGaussianBlur.java:18: error: cannot find symbol
     public RenderScriptGaussianBlur(RenderScript rs) {
                                     ^
   symbol:   class RenderScript
   location: class RenderScriptGaussianBlur
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/view/ObservableViewPager.java:5: error: package android.support.v4.view does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/view/ObservableViewPager.java:5: error: package android.support.v4.view does not exist
 import android.support.v4.view.ViewPager;
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/view/ObservableViewPager.java:11: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/view/ObservableViewPager.java:11: error: cannot find symbol
 public class ObservableViewPager extends ViewPager {
                                          ^
   symbol: class ViewPager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/view/ObservableRecyclerView.java:5: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/view/ObservableRecyclerView.java:5: error: package android.support.annotation does not exist
 import android.support.annotation.Nullable;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/view/ObservableRecyclerView.java:6: error: package android.support.v7.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/view/ObservableRecyclerView.java:6: error: package android.support.v7.widget does not exist
 import android.support.v7.widget.RecyclerView;
                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/view/ObservableRecyclerView.java:9: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/view/ObservableRecyclerView.java:9: error: cannot find symbol
 public class ObservableRecyclerView extends RecyclerView {
                                             ^
   symbol: class RecyclerView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/Dali.java:7: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/Dali.java:7: error: package android.support.annotation does not exist
 import android.support.annotation.Nullable;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/Dali.java:8: error: package android.support.v4.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/Dali.java:8: error: package android.support.v4.widget does not exist
 import android.support.v4.widget.DrawerLayout;
                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/Dali.java:9: error: package android.support.v7.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/Dali.java:9: error: package android.support.v7.widget does not exist
 import android.support.v7.widget.Toolbar;
                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/Dali.java:174: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/Dali.java:174: error: cannot find symbol
     public DaliBlurDrawerToggle constructNavToggle(Activity activity, DrawerLayout drawerLayout,
                                                                       ^
   symbol:   class DrawerLayout
   location: class Dali
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/Dali.java:175: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/Dali.java:175: error: cannot find symbol
                                                    Toolbar toolbar, int openDrawerContentDescRes,
                                                    ^
   symbol:   class Toolbar
   location: class Dali
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/DaliBlurDrawerToggle.java:4: error: package android.support.v4.view does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/DaliBlurDrawerToggle.java:4: error: package android.support.v4.view does not exist
 import android.support.v4.view.GravityCompat;
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/DaliBlurDrawerToggle.java:5: error: package android.support.v4.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/DaliBlurDrawerToggle.java:5: error: package android.support.v4.widget does not exist
 import android.support.v4.widget.DrawerLayout;
                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/DaliBlurDrawerToggle.java:6: error: package android.support.v7.app does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/DaliBlurDrawerToggle.java:6: error: package android.support.v7.app does not exist
 import android.support.v7.app.ActionBarDrawerToggle;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/DaliBlurDrawerToggle.java:7: error: package android.support.v7.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/DaliBlurDrawerToggle.java:7: error: package android.support.v7.widget does not exist
 import android.support.v7.widget.Toolbar;
                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/DaliBlurDrawerToggle.java:26: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/DaliBlurDrawerToggle.java:26: error: cannot find symbol
 public class DaliBlurDrawerToggle extends ActionBarDrawerToggle {
                                           ^
   symbol: class ActionBarDrawerToggle
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/live/LiveBlurWorker.java:8: error: package android.support.v4.view does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/live/LiveBlurWorker.java:8: error: package android.support.v4.view does not exist
 import android.support.v4.view.ViewCompat;
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/DaliBlurDrawerToggle.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/DaliBlurDrawerToggle.java:28: error: cannot find symbol
     private DrawerLayout drawerLayout;
             ^
   symbol:   class DrawerLayout
   location: class DaliBlurDrawerToggle
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/DaliBlurDrawerToggle.java:38: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/DaliBlurDrawerToggle.java:38: error: cannot find symbol
     public DaliBlurDrawerToggle(Activity activity, DrawerLayout drawerLayout, Toolbar toolbar,
                                                    ^
   symbol:   class DrawerLayout
   location: class DaliBlurDrawerToggle
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/DaliBlurDrawerToggle.java:38: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/DaliBlurDrawerToggle.java:38: error: cannot find symbol
     public DaliBlurDrawerToggle(Activity activity, DrawerLayout drawerLayout, Toolbar toolbar,
                                                                               ^
   symbol:   class Toolbar
   location: class DaliBlurDrawerToggle
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/BrightnessProcessor.java:4: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/BrightnessProcessor.java:4: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.Allocation;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/BrightnessProcessor.java:5: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/BrightnessProcessor.java:5: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.Element;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/BrightnessProcessor.java:6: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/BrightnessProcessor.java:6: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.RenderScript;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/BrightnessProcessor.java:7: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/BrightnessProcessor.java:7: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.ScriptIntrinsicConvolve3x3;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/BrightnessProcessor.java:16: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/BrightnessProcessor.java:16: error: cannot find symbol
     private RenderScript rs;
             ^
   symbol:   class RenderScript
   location: class BrightnessProcessor
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/BrightnessProcessor.java:19: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/BrightnessProcessor.java:19: error: cannot find symbol
     public BrightnessProcessor(RenderScript rs, float brightness) {
                                ^
   symbol:   class RenderScript
   location: class BrightnessProcessor
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/RenderscriptBrightnessProcessor.java:5: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/RenderscriptBrightnessProcessor.java:5: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.Allocation;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/RenderscriptBrightnessProcessor.java:6: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/RenderscriptBrightnessProcessor.java:6: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.RSRuntimeException;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/RenderscriptBrightnessProcessor.java:7: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/RenderscriptBrightnessProcessor.java:7: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.RenderScript;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/RenderscriptBrightnessProcessor.java:9: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/RenderscriptBrightnessProcessor.java:9: error: cannot find symbol
 import at.favre.lib.dali.ScriptC_brightness;
                         ^
   symbol:   class ScriptC_brightness
   location: package at.favre.lib.dali
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/RenderscriptBrightnessProcessor.java:17: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/RenderscriptBrightnessProcessor.java:17: error: cannot find symbol
     private RenderScript rs;
             ^
   symbol:   class RenderScript
   location: class RenderscriptBrightnessProcessor
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/RenderscriptBrightnessProcessor.java:21: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/RenderscriptBrightnessProcessor.java:21: error: cannot find symbol
     public RenderscriptBrightnessProcessor(RenderScript rs, float brightness, Resources res) {
                                            ^
   symbol:   class RenderScript
   location: class RenderscriptBrightnessProcessor
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/RenderScriptColorFilter.java:4: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/RenderScriptColorFilter.java:4: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.Allocation;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/RenderScriptColorFilter.java:5: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/RenderScriptColorFilter.java:5: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.Element;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/RenderScriptColorFilter.java:6: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/RenderScriptColorFilter.java:6: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.Matrix4f;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/RenderScriptColorFilter.java:7: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/RenderScriptColorFilter.java:7: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.RSRuntimeException;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/RenderScriptColorFilter.java:8: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/RenderScriptColorFilter.java:8: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.RenderScript;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/RenderScriptColorFilter.java:9: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/RenderScriptColorFilter.java:9: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.ScriptIntrinsicColorMatrix;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/RenderScriptColorFilter.java:15: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/RenderScriptColorFilter.java:15: error: cannot find symbol
     private RenderScript rs;
             ^
   symbol:   class RenderScript
   location: class RenderScriptColorFilter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/RenderScriptColorFilter.java:18: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/RenderScriptColorFilter.java:18: error: cannot find symbol
     public RenderScriptColorFilter(RenderScript rs, float[] matrix) {
                                    ^
   symbol:   class RenderScript
   location: class RenderScriptColorFilter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/ImageOverlayProcessor.java:6: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/ImageOverlayProcessor.java:6: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.Allocation;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/ImageOverlayProcessor.java:7: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/ImageOverlayProcessor.java:7: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.Element;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/ImageOverlayProcessor.java:8: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/ImageOverlayProcessor.java:8: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.RenderScript;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/ImageOverlayProcessor.java:9: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/ImageOverlayProcessor.java:9: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.ScriptIntrinsicBlend;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/ImageOverlayProcessor.java:11: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/ImageOverlayProcessor.java:11: error: cannot find symbol
 import at.favre.lib.dali.R;
                         ^
   symbol:   class R
   location: package at.favre.lib.dali
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/ImageOverlayProcessor.java:17: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/ImageOverlayProcessor.java:17: error: cannot find symbol
     private RenderScript rs;
             ^
   symbol:   class RenderScript
   location: class ImageOverlayProcessor
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/ImageOverlayProcessor.java:20: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/ImageOverlayProcessor.java:20: error: cannot find symbol
     public ImageOverlayProcessor(RenderScript rs, Resources res) {
                                  ^
   symbol:   class RenderScript
   location: class ImageOverlayProcessor
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/ContrastProcessor.java:4: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/ContrastProcessor.java:4: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.Allocation;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/ContrastProcessor.java:5: error: package android.support.v8.renderscript does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/ContrastProcessor.java:5: error: package android.support.v8.renderscript does not exist
 import android.support.v8.renderscript.RenderScript;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/ContrastProcessor.java:7: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/ContrastProcessor.java:7: error: cannot find symbol
 import at.favre.lib.dali.ScriptC_contrast;
                         ^
   symbol:   class ScriptC_contrast
   location: package at.favre.lib.dali
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/ContrastProcessor.java:16: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/ContrastProcessor.java:16: error: cannot find symbol
     private RenderScript rs;
             ^
   symbol:   class RenderScript
   location: class ContrastProcessor
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/ContrastProcessor.java:19: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/processor/ContrastProcessor.java:19: error: cannot find symbol
     public ContrastProcessor(RenderScript rs, float contrast) {
                              ^
   symbol:   class RenderScript
   location: class ContrastProcessor
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/DaliBlurDrawerTogglev4.java:4: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/DaliBlurDrawerTogglev4.java:4: error: package android.support.annotation does not exist
 import android.support.annotation.DrawableRes;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/DaliBlurDrawerTogglev4.java:5: error: package android.support.v4.app does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/DaliBlurDrawerTogglev4.java:5: error: package android.support.v4.app does not exist
 import android.support.v4.app.ActionBarDrawerToggle;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/DaliBlurDrawerTogglev4.java:6: error: package android.support.v4.view does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/DaliBlurDrawerTogglev4.java:6: error: package android.support.v4.view does not exist
 import android.support.v4.view.GravityCompat;
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/DaliBlurDrawerTogglev4.java:7: error: package android.support.v4.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/DaliBlurDrawerTogglev4.java:7: error: package android.support.v4.widget does not exist
 import android.support.v4.widget.DrawerLayout;
                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/DaliBlurDrawerToggle.java:123: error: reference not found
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/DaliBlurDrawerToggle.java:123: error: reference not found
      * {@link android.support.v4.app.ActionBarDrawerToggle}. Use this
               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/DaliBlurDrawerToggle.java:17: error: reference not found
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/DaliBlurDrawerToggle.java:17: error: reference not found
  * This is a {@link android.support.v7.app.ActionBarDrawerToggle} that
                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/DaliBlurDrawerToggle.java:20: error: self-closing element not allowed
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/DaliBlurDrawerToggle.java:20: error: self-closing element not allowed
  * <p/>
    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/DaliBlurDrawerTogglev4.java:117: error: reference not found
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/DaliBlurDrawerTogglev4.java:117: error: reference not found
      * {@link android.support.v4.app.ActionBarDrawerToggle}. Use this
               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/DaliBlurDrawerTogglev4.java:17: error: reference not found
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/DaliBlurDrawerTogglev4.java:17: error: reference not found
  * This is a {@link ActionBarDrawerToggle} version of the {@link DaliBlurDrawerToggle}. It is deprecated and
                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/NavigationDrawerListener.java:6: error: reference not found
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/NavigationDrawerListener.java:6: error: reference not found
  * Same as {@link android.support.v7.app.ActionBarDrawerToggle.DrawerToggle#onDrawerOpened(View)} and
                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/NavigationDrawerListener.java:7: error: reference not found
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/nav/NavigationDrawerListener.java:7: error: reference not found
  * {@link android.support.v7.app.ActionBarDrawerToggle.DrawerToggle#onDrawerClosed(View)}
           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/blur/BlurBuilder.java:191: error: reference not found
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/dali/src/main/java/at/favre/lib/dali/builder/blur/BlurBuilder.java:191: error: reference not found
      * algorithm, which uses Android's {@link android.support.v8.renderscript.ScriptIntrinsicBlur}
                                               ^
 8 errors
@@ -835,16 +834,16 @@ import android.support.v4.widget.DrawerLayout;
 > Task :dali:assemble
 > Task :dali:build
 
-BUILD SUCCESSFUL in 19s
+BUILD SUCCESSFUL in 20s
 50 actionable tasks: 50 executed
 
-2019-03-25 12:33:24,630 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-25 12:33:24,630 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-25 12:33:30,372 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-25 12:33:30,373 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-25 12:33:30,373 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-25 12:33:30,373 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-25 12:33:35,936 ERROR SysUtils - Could not process external command
+2019-03-30 21:55:01,083 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-30 21:55:01,083 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-30 21:55:07,122 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-30 21:55:07,122 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-30 21:55:07,122 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-30 21:55:07,122 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-30 21:55:15,039 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -857,7 +856,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -871,7 +870,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-25 12:33:35,936 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-30 21:55:15,039 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :app
 fatal: your current branch 'master' does not have any commits yet
@@ -879,7 +878,7 @@ fatal: your current branch 'master' does not have any commits yet
 FAILURE: Build failed with an exception.
 
 * Where:
-Script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/gradle/common-build.gradle' line: 13
+Script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/gradle/common-build.gradle' line: 13
 
 * What went wrong:
 A problem occurred evaluating project ':app'.
@@ -1001,7 +1000,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.api.internal.file.DefaultFileOperations.exec(DefaultFileOperations.java:232)
 	at org.gradle.groovy.scripts.DefaultScript.exec(DefaultScript.java:255)
 	at org.gradle.api.Script$exec$2.callCurrent(Unknown Source)
-	at common_build_18ss2seiybm9onxnr6x9w2gxt.getGitRev(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/gradle/common-build.gradle:13)
+	at common_build_bq79dski4o9e4p2bnbwo8q05a.getGitRev(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/gradle/common-build.gradle:13)
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:479)
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:42)
@@ -1011,7 +1010,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:506)
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:78)
-	at build_avha5zsuklgx7ec3kn4ndcdzb$_run_closure1$_closure5.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/app/build.gradle:30)
+	at build_8uu3kzsket79ecw4jnvu7hzsm$_run_closure1$_closure5.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/app/build.gradle:30)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:155)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -1023,7 +1022,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:57)
-	at build_avha5zsuklgx7ec3kn4ndcdzb$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/app/build.gradle:22)
+	at build_8uu3kzsket79ecw4jnvu7hzsm$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/app/build.gradle:22)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:155)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -1038,14 +1037,14 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:133)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:82)
-	at build_avha5zsuklgx7ec3kn4ndcdzb.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491952234-0/src/Dali-master/app/build.gradle:5)
+	at build_8uu3kzsket79ecw4jnvu7hzsm.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957650322-0/src/Dali-master/app/build.gradle:5)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 104 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 7s
 
-2019-03-25 12:33:35,993 ERROR FullProcessService - Project build has not produced APK file
-2019-03-25 12:33:36,043 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-30 21:55:15,100 ERROR FullProcessService - Project build has not produced APK file
+2019-03-30 21:55:15,161 ERROR FullProcessService - Could not find generated or existed APK file

@@ -31,8 +31,8 @@
   "dexClasses" : 2296,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.wajahatkarim3.easyflipview.demo\" platformBuildVersionCode=\"1\" platformBuildVersionName=\"{4:1065353216}\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0e0006\" android:label=\"EasyFlipView-Demo\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:appComponentFactory=\"android.support.v4.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.wajahatkarim3.easyflipview.demo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.wajahatkarim3.easyflipview.demo.SimpleViewFlipActivity\" />\n\t\t<activity android:name=\"com.wajahatkarim3.easyflipview.demo.RecyclerViewFlipActivity\" />\n\t\t<activity android:name=\"com.wajahatkarim3.easyflipview.demo.FlipOnceExampleActivity\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 3145322,
-  "crc32" : 3785787368,
-  "sha256" : "3ee925a8122de01d771d1338542402a3e31d264e3e024fdb7ad947b819d62bde",
-  "buildTime" : 1546954448000
+  "fileSize" : 3145280,
+  "crc32" : 1653667305,
+  "sha256" : "19f844296a01edb4e1940e47cab18a2cf8791e2790cfcbb95878df9261cdc4a2",
+  "buildTime" : 1553958238000
 }

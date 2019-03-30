@@ -1,11 +1,11 @@
-2019-03-25 12:19:31,079 INFO  DownloadService - Downloading "https://github.com/airbnb/lottie-android/archive/master.zip", attempt 3
-2019-03-25 12:20:11,602 INFO  DownloadService - Downloaded https://github.com/airbnb/lottie-android/archive/master.zip, attempt 3
-2019-03-25 12:20:11,603 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491171075-0/master.zip": 19 MB
-2019-03-25 12:20:11,603 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-25 12:20:11,610 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491171075-0/master.zip: true
-2019-03-25 12:20:11,610 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491171075-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553491171075-0/src'.
-2019-03-25 12:20:12,119 INFO  FullProcessService - Size of directory with sources: 53 MB
-2019-03-25 12:20:12,120 ERROR FullProcessService - Source directory should be less than 50 MB
-2019-03-25 12:20:12,120 ERROR FullProcessService - Project will not be processed
-2019-03-25 12:20:12,120 ERROR FullProcessService - Project build has not produced APK file
-2019-03-25 12:20:12,136 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-30 21:47:53,092 INFO  DownloadService - Downloading "https://github.com/airbnb/lottie-android/archive/master.zip", attempt 3
+2019-03-30 21:48:00,126 INFO  DownloadService - Downloaded https://github.com/airbnb/lottie-android/archive/master.zip, attempt 3
+2019-03-30 21:48:00,127 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957273084-0/master.zip": 19 MB
+2019-03-30 21:48:00,127 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-30 21:48:00,131 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957273084-0/master.zip: true
+2019-03-30 21:48:00,131 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957273084-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957273084-0/src'.
+2019-03-30 21:48:00,620 INFO  FullProcessService - Size of directory with sources: 53 MB
+2019-03-30 21:48:00,621 ERROR FullProcessService - Source directory should be less than 50 MB
+2019-03-30 21:48:00,621 ERROR FullProcessService - Project will not be processed
+2019-03-30 21:48:00,621 ERROR FullProcessService - Project build has not produced APK file
+2019-03-30 21:48:00,637 ERROR FullProcessService - Could not find generated or existed APK file
