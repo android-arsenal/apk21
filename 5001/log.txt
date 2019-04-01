@@ -1,34 +1,34 @@
-2018-10-14 01:38:31,771 INFO  DownloadService - Downloading "https://github.com/Quatja/Vorolay/archive/master.zip", attempt 3
-2018-10-14 01:38:32,941 INFO  DownloadService - Downloaded https://github.com/Quatja/Vorolay/archive/master.zip, attempt 3
-2018-10-14 01:38:32,941 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455911768-0/master.zip": 1 MB
-2018-10-14 01:38:32,941 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-14 01:38:32,951 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455911768-0/master.zip: true
-2018-10-14 01:38:32,951 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455911768-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455911768-0/src'.
-2018-10-14 01:38:32,992 INFO  FullProcessService - Size of directory with sources: 1 MB
-2018-10-14 01:38:32,993 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455911768-0/src]
-2018-10-14 01:38:33,010 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455911768-0/src/.git/
+2019-04-01 12:03:41,633 INFO  DownloadService - Downloading "https://github.com/Quatja/Vorolay/archive/master.zip", attempt 3
+2019-04-01 12:03:54,190 INFO  DownloadService - Downloaded https://github.com/Quatja/Vorolay/archive/master.zip, attempt 3
+2019-04-01 12:03:54,190 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095021630-0/master.zip": 1 MB
+2019-04-01 12:03:54,190 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-01 12:03:54,192 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095021630-0/master.zip: true
+2019-04-01 12:03:54,192 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095021630-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095021630-0/src'.
+2019-04-01 12:03:54,225 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-04-01 12:03:54,225 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095021630-0/src]
+2019-04-01 12:03:54,249 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095021630-0/src/.git/
 
-2018-10-14 01:38:33,014 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455911768-0/src/Vorolay-master/gradlew
-2018-10-14 01:38:33,018 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455911768-0/src/Vorolay-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455911768-0/src/Vorolay-master/vorolay/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455911768-0/src/Vorolay-master/build.gradle
-2018-10-14 01:38:33,023 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455911768-0/src/Vorolay-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455911768-0/src/Vorolay-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455911768-0/src/Vorolay-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455911768-0/src/Vorolay-master/vorolay/build.gradle
-2018-10-14 01:38:33,023 INFO  ProjectBuildService - Remote scripts: none
-2018-10-14 01:38:33,023 INFO  ProjectFixService - Fixing project...
-2018-10-14 01:38:33,033 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455911768-0/src/Vorolay-master/app/local.properties
-2018-10-14 01:38:33,034 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455911768-0/src/Vorolay-master/app/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=17,targetSdkVersion=24]
-2018-10-14 01:38:33,034 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455911768-0/src/Vorolay-master/vorolay/local.properties
-2018-10-14 01:38:33,035 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455911768-0/src/Vorolay-master/vorolay/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=17,targetSdkVersion=24]
-2018-10-14 01:38:33,035 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455911768-0/src/Vorolay-master/local.properties
-2018-10-14 01:38:33,035 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-14 01:38:33,036 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-14 01:38:33,036 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455911768-0/src/Vorolay-master/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=17,targetSdkVersion=24]
-2018-10-14 01:38:33,036 INFO  ProjectFixService - Project was maybe fixed
-2018-10-14 01:38:33,036 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 01:38:33,037 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455911768-0/src/Vorolay-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455911768-0/src/Vorolay-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 01:38:47,581 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 01:38:47,581 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 01:38:47,581 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 01:38:47,581 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455911768-0/src/Vorolay-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455911768-0/src/Vorolay-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 01:38:54,267 ERROR SysUtils - Could not process external command
+2019-04-01 12:03:54,253 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095021630-0/src/Vorolay-master/gradlew
+2019-04-01 12:03:54,257 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095021630-0/src/Vorolay-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095021630-0/src/Vorolay-master/vorolay/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095021630-0/src/Vorolay-master/build.gradle
+2019-04-01 12:03:54,261 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095021630-0/src/Vorolay-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095021630-0/src/Vorolay-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095021630-0/src/Vorolay-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095021630-0/src/Vorolay-master/vorolay/build.gradle
+2019-04-01 12:03:54,261 INFO  ProjectBuildService - Remote scripts: none
+2019-04-01 12:03:54,261 INFO  ProjectFixService - Fixing project...
+2019-04-01 12:03:54,270 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095021630-0/src/Vorolay-master/app/local.properties
+2019-04-01 12:03:54,270 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095021630-0/src/Vorolay-master/app/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=17,targetSdkVersion=24]
+2019-04-01 12:03:54,270 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095021630-0/src/Vorolay-master/vorolay/local.properties
+2019-04-01 12:03:54,271 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095021630-0/src/Vorolay-master/vorolay/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=17,targetSdkVersion=24]
+2019-04-01 12:03:54,271 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095021630-0/src/Vorolay-master/local.properties
+2019-04-01 12:03:54,272 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-01 12:03:54,272 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-01 12:03:54,273 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095021630-0/src/Vorolay-master/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=17,targetSdkVersion=24]
+2019-04-01 12:03:54,273 INFO  ProjectFixService - Project was maybe fixed
+2019-04-01 12:03:54,273 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:03:54,273 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095021630-0/src/Vorolay-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095021630-0/src/Vorolay-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:04:02,282 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-01 12:04:02,282 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-01 12:04:02,282 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-01 12:04:02,282 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095021630-0/src/Vorolay-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095021630-0/src/Vorolay-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-01 12:04:08,683 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -41,8 +41,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -56,7 +55,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 01:38:54,267 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:04:08,683 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -160,22 +159,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 6.09 secs
+Total time: 5.803 secs
 
-2018-10-14 01:38:54,273 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 01:38:54,273 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455911768-0/src/Vorolay-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455911768-0/src/Vorolay-master/vorolay/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 01:39:01,215 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 01:39:01,215 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 01:39:01,215 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 01:39:01,215 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455911768-0/src/Vorolay-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455911768-0/src/Vorolay-master/vorolay/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 01:39:13,198 ERROR SysUtils - Could not process external command
+2019-04-01 12:04:08,688 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:04:08,688 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095021630-0/src/Vorolay-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095021630-0/src/Vorolay-master/vorolay/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:04:16,981 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-01 12:04:16,987 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-01 12:04:16,987 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-01 12:04:16,987 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095021630-0/src/Vorolay-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095021630-0/src/Vorolay-master/vorolay/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-01 12:04:29,451 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -188,8 +187,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -203,7 +201,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 01:39:13,198 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:04:29,453 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :vorolay:preBuild UP-TO-DATE
 :vorolay:preDebugBuild UP-TO-DATE
@@ -384,15 +382,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 11.38 secs
+Total time: 11.849 secs
 
-2018-10-14 01:39:13,265 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 01:39:13,266 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455911768-0/src/Vorolay-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455911768-0/src/Vorolay-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 01:39:19,645 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-14 01:39:19,645 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 01:39:19,646 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 01:39:19,646 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455911768-0/src/Vorolay-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455911768-0/src/Vorolay-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 01:39:26,156 ERROR SysUtils - Could not process external command
+2019-04-01 12:04:29,526 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:04:29,527 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095021630-0/src/Vorolay-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095021630-0/src/Vorolay-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:04:36,224 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-01 12:04:36,224 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-01 12:04:36,224 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-01 12:04:36,224 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095021630-0/src/Vorolay-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554095021630-0/src/Vorolay-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-01 12:04:43,046 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -405,8 +403,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -420,7 +417,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-14 01:39:26,156 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:04:43,048 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -524,14 +521,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 5.922 secs
+Total time: 6.219 secs
 
-2018-10-14 01:39:26,222 ERROR FullProcessService - Project build has not produced APK file
-2018-10-14 01:39:26,284 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-01 12:04:43,119 ERROR FullProcessService - Project build has not produced APK file
+2019-04-01 12:04:43,181 ERROR FullProcessService - Could not find generated or existed APK file

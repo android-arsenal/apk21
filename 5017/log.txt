@@ -1,29 +1,29 @@
-2018-10-14 01:12:56,276 INFO  DownloadService - Downloading "https://github.com/geeckmc/CardForm/archive/master.zip", attempt 3
-2018-10-14 01:12:56,930 INFO  DownloadService - Downloaded https://github.com/geeckmc/CardForm/archive/master.zip, attempt 3
-2018-10-14 01:12:56,930 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454376271-0/master.zip": 286 KB
-2018-10-14 01:12:56,930 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-14 01:12:56,931 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454376271-0/master.zip: true
-2018-10-14 01:12:56,931 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454376271-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454376271-0/src'.
-2018-10-14 01:12:56,952 INFO  FullProcessService - Size of directory with sources: 424 KB
-2018-10-14 01:12:56,952 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454376271-0/src]
-2018-10-14 01:12:56,979 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454376271-0/src/.git/
+2019-04-01 12:02:23,430 INFO  DownloadService - Downloading "https://github.com/geeckmc/CardForm/archive/master.zip", attempt 3
+2019-04-01 12:02:26,928 INFO  DownloadService - Downloaded https://github.com/geeckmc/CardForm/archive/master.zip, attempt 3
+2019-04-01 12:02:26,929 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094943425-0/master.zip": 286 KB
+2019-04-01 12:02:26,929 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-01 12:02:26,929 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094943425-0/master.zip: true
+2019-04-01 12:02:26,929 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094943425-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094943425-0/src'.
+2019-04-01 12:02:26,941 INFO  FullProcessService - Size of directory with sources: 424 KB
+2019-04-01 12:02:26,941 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094943425-0/src]
+2019-04-01 12:02:26,969 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094943425-0/src/.git/
 
-2018-10-14 01:12:56,981 INFO  ProjectBuildService - Gradle wrapper(s): none
-2018-10-14 01:12:56,982 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
-2018-10-14 01:12:56,985 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454376271-0/src/CardForm-master/cardform/build.gradle
-2018-10-14 01:12:56,988 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454376271-0/src/CardForm-master/cardform/build.gradle
-2018-10-14 01:12:56,989 INFO  ProjectBuildService - Remote scripts: none
-2018-10-14 01:12:56,989 INFO  ProjectFixService - Fixing project...
-2018-10-14 01:12:56,996 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454376271-0/src/CardForm-master/cardform/local.properties
-2018-10-14 01:12:56,997 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454376271-0/src/CardForm-master/cardform/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-10-14 01:12:56,998 INFO  ProjectFixService - Project was maybe fixed
-2018-10-14 01:12:56,998 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 01:12:56,998 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454376271-0/src/CardForm-master/cardform/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 01:12:57,006 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2018-10-14 01:12:57,006 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 01:12:57,007 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 01:12:57,007 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539454376271-0/src/CardForm-master/cardform/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 01:12:57,013 ERROR SysUtils - Could not process external command
+2019-04-01 12:02:26,970 INFO  ProjectBuildService - Gradle wrapper(s): none
+2019-04-01 12:02:26,971 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2019-04-01 12:02:26,972 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094943425-0/src/CardForm-master/cardform/build.gradle
+2019-04-01 12:02:26,974 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094943425-0/src/CardForm-master/cardform/build.gradle
+2019-04-01 12:02:26,974 INFO  ProjectBuildService - Remote scripts: none
+2019-04-01 12:02:26,975 INFO  ProjectFixService - Fixing project...
+2019-04-01 12:02:26,979 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094943425-0/src/CardForm-master/cardform/local.properties
+2019-04-01 12:02:26,979 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094943425-0/src/CardForm-master/cardform/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-04-01 12:02:26,979 INFO  ProjectFixService - Project was maybe fixed
+2019-04-01 12:02:26,980 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:02:26,980 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094943425-0/src/CardForm-master/cardform/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:02:26,990 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-04-01 12:02:26,990 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-01 12:02:26,990 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-01 12:02:26,991 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094943425-0/src/CardForm-master/cardform/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-01 12:02:26,997 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -61,6 +61,6 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 29 common frames omitted
-2018-10-14 01:12:57,014 INFO  SysUtils - 
-2018-10-14 01:12:57,016 ERROR FullProcessService - Project build has not produced APK file
-2018-10-14 01:12:57,018 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-01 12:02:26,997 INFO  SysUtils - 
+2019-04-01 12:02:27,000 ERROR FullProcessService - Project build has not produced APK file
+2019-04-01 12:02:27,002 ERROR FullProcessService - Could not find generated or existed APK file

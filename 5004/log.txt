@@ -1,33 +1,33 @@
-2018-10-14 01:36:07,376 INFO  DownloadService - Downloading "https://github.com/markzhai/DataBindingAdapter/archive/master.zip", attempt 3
-2018-10-14 01:36:07,867 INFO  DownloadService - Downloaded https://github.com/markzhai/DataBindingAdapter/archive/master.zip, attempt 3
-2018-10-14 01:36:07,868 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455767371-0/master.zip": 39 KB
-2018-10-14 01:36:07,868 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-14 01:36:07,873 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455767371-0/master.zip: true
-2018-10-14 01:36:07,873 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455767371-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455767371-0/src'.
-2018-10-14 01:36:07,887 INFO  FullProcessService - Size of directory with sources: 62 KB
-2018-10-14 01:36:07,887 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455767371-0/src]
-2018-10-14 01:36:07,905 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455767371-0/src/.git/
+2019-04-01 12:02:58,796 INFO  DownloadService - Downloading "https://github.com/markzhai/DataBindingAdapter/archive/master.zip", attempt 3
+2019-04-01 12:03:00,193 INFO  DownloadService - Downloaded https://github.com/markzhai/DataBindingAdapter/archive/master.zip, attempt 3
+2019-04-01 12:03:00,194 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094978792-0/master.zip": 39 KB
+2019-04-01 12:03:00,194 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-01 12:03:00,199 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094978792-0/master.zip: true
+2019-04-01 12:03:00,199 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094978792-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094978792-0/src'.
+2019-04-01 12:03:00,213 INFO  FullProcessService - Size of directory with sources: 62 KB
+2019-04-01 12:03:00,213 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094978792-0/src]
+2019-04-01 12:03:00,233 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094978792-0/src/.git/
 
-2018-10-14 01:36:07,908 INFO  ProjectBuildService - Gradle wrapper(s): none
-2018-10-14 01:36:07,908 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
-2018-10-14 01:36:07,910 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455767371-0/src/DataBindingAdapter-master/adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455767371-0/src/DataBindingAdapter-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455767371-0/src/DataBindingAdapter-master/build.gradle
-2018-10-14 01:36:07,913 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455767371-0/src/DataBindingAdapter-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455767371-0/src/DataBindingAdapter-master/adapter/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455767371-0/src/DataBindingAdapter-master/adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455767371-0/src/DataBindingAdapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455767371-0/src/DataBindingAdapter-master/settings.gradle
-2018-10-14 01:36:07,916 INFO  ProjectBuildService - Remote scripts: none
-2018-10-14 01:36:07,916 INFO  ProjectFixService - Fixing project...
-2018-10-14 01:36:07,925 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455767371-0/src/DataBindingAdapter-master/adapter/local.properties
-2018-10-14 01:36:07,931 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455767371-0/src/DataBindingAdapter-master/adapter/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=22]
-2018-10-14 01:36:07,931 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455767371-0/src/DataBindingAdapter-master/demo/local.properties
-2018-10-14 01:36:07,934 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455767371-0/src/DataBindingAdapter-master/demo/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=22]
-2018-10-14 01:36:07,934 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455767371-0/src/DataBindingAdapter-master/local.properties
-2018-10-14 01:36:07,935 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455767371-0/src/DataBindingAdapter-master/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=22]
-2018-10-14 01:36:07,935 INFO  ProjectFixService - Project was maybe fixed
-2018-10-14 01:36:07,935 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 01:36:07,935 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455767371-0/src/DataBindingAdapter-master/adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 01:36:07,939 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2018-10-14 01:36:07,940 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 01:36:07,940 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 01:36:07,940 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455767371-0/src/DataBindingAdapter-master/adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 01:36:07,944 ERROR SysUtils - Could not process external command
+2019-04-01 12:03:00,236 INFO  ProjectBuildService - Gradle wrapper(s): none
+2019-04-01 12:03:00,236 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2019-04-01 12:03:00,239 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094978792-0/src/DataBindingAdapter-master/adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094978792-0/src/DataBindingAdapter-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094978792-0/src/DataBindingAdapter-master/build.gradle
+2019-04-01 12:03:00,241 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094978792-0/src/DataBindingAdapter-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094978792-0/src/DataBindingAdapter-master/adapter/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094978792-0/src/DataBindingAdapter-master/adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094978792-0/src/DataBindingAdapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094978792-0/src/DataBindingAdapter-master/settings.gradle
+2019-04-01 12:03:00,241 INFO  ProjectBuildService - Remote scripts: none
+2019-04-01 12:03:00,241 INFO  ProjectFixService - Fixing project...
+2019-04-01 12:03:00,249 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094978792-0/src/DataBindingAdapter-master/adapter/local.properties
+2019-04-01 12:03:00,251 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094978792-0/src/DataBindingAdapter-master/adapter/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=22]
+2019-04-01 12:03:00,252 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094978792-0/src/DataBindingAdapter-master/demo/local.properties
+2019-04-01 12:03:00,254 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094978792-0/src/DataBindingAdapter-master/demo/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=22]
+2019-04-01 12:03:00,254 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094978792-0/src/DataBindingAdapter-master/local.properties
+2019-04-01 12:03:00,254 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094978792-0/src/DataBindingAdapter-master/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=22]
+2019-04-01 12:03:00,254 INFO  ProjectFixService - Project was maybe fixed
+2019-04-01 12:03:00,255 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:03:00,255 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094978792-0/src/DataBindingAdapter-master/adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:03:00,260 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-04-01 12:03:00,260 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-01 12:03:00,260 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-01 12:03:00,260 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094978792-0/src/DataBindingAdapter-master/adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-01 12:03:00,265 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -65,14 +65,14 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 29 common frames omitted
-2018-10-14 01:36:07,944 INFO  SysUtils - 
-2018-10-14 01:36:07,946 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 01:36:07,946 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455767371-0/src/DataBindingAdapter-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 01:36:07,951 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2018-10-14 01:36:07,951 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 01:36:07,951 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 01:36:07,951 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455767371-0/src/DataBindingAdapter-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 01:36:07,956 ERROR SysUtils - Could not process external command
+2019-04-01 12:03:00,265 INFO  SysUtils - 
+2019-04-01 12:03:00,267 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:03:00,267 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094978792-0/src/DataBindingAdapter-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:03:00,272 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-04-01 12:03:00,272 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-01 12:03:00,272 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-01 12:03:00,273 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094978792-0/src/DataBindingAdapter-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-01 12:03:00,277 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -110,14 +110,14 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 29 common frames omitted
-2018-10-14 01:36:07,956 INFO  SysUtils - 
-2018-10-14 01:36:07,958 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 01:36:07,958 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455767371-0/src/DataBindingAdapter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 01:36:07,962 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2018-10-14 01:36:07,962 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-14 01:36:07,962 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-14 01:36:07,963 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539455767371-0/src/DataBindingAdapter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-14 01:36:07,967 ERROR SysUtils - Could not process external command
+2019-04-01 12:03:00,277 INFO  SysUtils - 
+2019-04-01 12:03:00,280 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:03:00,280 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094978792-0/src/DataBindingAdapter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:03:00,284 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-04-01 12:03:00,284 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-01 12:03:00,284 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-01 12:03:00,285 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554094978792-0/src/DataBindingAdapter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-01 12:03:00,289 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -155,6 +155,6 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 29 common frames omitted
-2018-10-14 01:36:07,967 INFO  SysUtils - 
-2018-10-14 01:36:07,969 ERROR FullProcessService - Project build has not produced APK file
-2018-10-14 01:36:07,971 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-01 12:03:00,289 INFO  SysUtils - 
+2019-04-01 12:03:00,292 ERROR FullProcessService - Project build has not produced APK file
+2019-04-01 12:03:00,294 ERROR FullProcessService - Could not find generated or existed APK file
