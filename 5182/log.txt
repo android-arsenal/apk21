@@ -1,74 +1,78 @@
-2019-03-30 21:48:00,756 INFO  DownloadService - Downloading "https://github.com/saschpe/PlanningPoker/archive/master.zip", attempt 3
-2019-03-30 21:48:05,758 INFO  DownloadService - Downloaded https://github.com/saschpe/PlanningPoker/archive/master.zip, attempt 3
-2019-03-30 21:48:05,759 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/master.zip": 8 MB
-2019-03-30 21:48:05,759 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-30 21:48:05,761 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/master.zip: true
-2019-03-30 21:48:05,761 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src'.
-2019-03-30 21:48:05,906 INFO  FullProcessService - Size of directory with sources: 9 MB
-2019-03-30 21:48:05,906 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src]
-2019-03-30 21:48:05,926 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/.git/
+2019-05-19 20:58:17,476 INFO  DownloadService - Downloading "https://github.com/saschpe/PlanningPoker/archive/master.zip", attempt 3
+2019-05-19 20:59:18,078 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-05-19 20:59:19,195 INFO  GithubDownloadService - Default branch of this repository: master
+2019-05-19 20:59:19,195 INFO  DownloadService - Downloading "https://github.com/saschpe/PlanningPoker/archive/master.zip", attempt 3
+2019-05-19 21:00:21,090 DEBUG FullProcessService - Repository https://github.com/saschpe/PlanningPoker available: true
+2019-05-19 21:00:21,090 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-05-19 21:00:21,090 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/saschpe/PlanningPoker, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558274297468-0/src]
+2019-05-19 21:00:26,422 INFO  SysUtils - 
+2019-05-19 21:00:26,433 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558274297468-0/src/.git": true
+2019-05-19 21:00:26,441 INFO  FullProcessService - Size of directory with sources: 9 MB
+2019-05-19 21:00:26,441 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558274297468-0/src]
+2019-05-19 21:00:26,460 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558274297468-0/src/.git/
 
-2019-03-30 21:48:05,932 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/gradlew
-2019-03-30 21:48:05,940 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/mobile/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/wear/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/build.gradle
-2019-03-30 21:48:05,947 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/mobile/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/wear/build.gradle
-2019-03-30 21:48:05,948 INFO  ProjectBuildService - Remote scripts: none
-2019-03-30 21:48:05,948 INFO  ProjectFixService - Fixing project...
-2019-03-30 21:48:05,965 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/common/local.properties
-2019-03-30 21:48:05,966 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/common/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-03-30 21:48:05,967 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/common/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-03-30 21:48:05,968 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/mobile/local.properties
-2019-03-30 21:48:05,969 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/mobile/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-03-30 21:48:05,969 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/mobile/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-03-30 21:48:05,970 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/wear/local.properties
-2019-03-30 21:48:05,971 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/wear/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-03-30 21:48:05,972 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/wear/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-03-30 21:48:05,973 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/local.properties
-2019-03-30 21:48:05,973 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-03-30 21:48:05,973 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-03-30 21:48:05,975 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-03-30 21:48:05,975 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-03-30 21:48:05,976 INFO  ProjectFixService - Project was maybe fixed
-2019-03-30 21:48:05,976 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-30 21:48:05,976 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-30 21:48:15,696 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-03-30 21:48:15,697 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-03-30 21:48:15,697 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-03-30 21:48:35,408 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
+2019-05-19 21:00:26,466 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558274297468-0/src/gradlew
+2019-05-19 21:00:26,473 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558274297468-0/src/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558274297468-0/src/mobile/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558274297468-0/src/wear/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558274297468-0/src/build.gradle
+2019-05-19 21:00:26,479 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558274297468-0/src/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558274297468-0/src/mobile/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558274297468-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558274297468-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558274297468-0/src/wear/build.gradle
+2019-05-19 21:00:26,480 INFO  ProjectBuildService - Remote scripts: none
+2019-05-19 21:00:26,480 INFO  ProjectFixService - Fixing project...
+2019-05-19 21:00:26,495 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558274297468-0/src/common/local.properties
+2019-05-19 21:00:26,496 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558274297468-0/src/common/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-05-19 21:00:26,496 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558274297468-0/src/common/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-05-19 21:00:26,497 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558274297468-0/src/mobile/local.properties
+2019-05-19 21:00:26,499 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558274297468-0/src/mobile/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-05-19 21:00:26,499 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558274297468-0/src/mobile/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-05-19 21:00:26,500 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558274297468-0/src/wear/local.properties
+2019-05-19 21:00:26,501 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558274297468-0/src/wear/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-05-19 21:00:26,501 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558274297468-0/src/wear/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-05-19 21:00:26,502 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558274297468-0/src/local.properties
+2019-05-19 21:00:26,502 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-05-19 21:00:26,503 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-05-19 21:00:26,504 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558274297468-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-05-19 21:00:26,504 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558274297468-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-05-19 21:00:26,505 INFO  ProjectFixService - Project was maybe fixed
+2019-05-19 21:00:26,505 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-19 21:00:26,505 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558274297468-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558274297468-0/src/common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-19 21:00:35,993 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-05-19 21:00:35,994 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-19 21:00:35,994 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558274297468-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558274297468-0/src/common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-19 21:00:54,561 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
 > Configure project :common
-WARNING: The option setting 'android.enableUnitTestBinaryResources=true' is experimental and unsupported.
-The current default is 'false'.
-
+WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 
 > Task :common:preBuild UP-TO-DATE
 > Task :common:preDebugBuild UP-TO-DATE
-> Task :common:compileDebugAidl NO-SOURCE
 > Task :common:checkDebugManifest
-> Task :common:compileDebugRenderscript
 > Task :common:generateDebugBuildConfig
 > Task :common:generateDebugResValues
+> Task :common:processDebugManifest
+> Task :common:prepareLintJar
+> Task :common:mergeDebugConsumerProguardFiles
+> Task :common:compileDebugRenderscript NO-SOURCE
+> Task :common:compileDebugAidl NO-SOURCE
 > Task :common:generateDebugResources
 > Task :common:packageDebugResources
-> Task :common:processDebugManifest
 > Task :common:generateDebugRFile
 > Task :common:compileDebugKotlin
-> Task :common:prepareLintJar
 > Task :common:generateDebugSources
 > Task :common:javaPreCompileDebug
 > Task :common:compileDebugJavaWithJavac
 > Task :common:extractDebugAnnotations
-> Task :common:mergeDebugConsumerProguardFiles
 > Task :common:mergeDebugShaders
 > Task :common:compileDebugShaders
 > Task :common:generateDebugAssets
 > Task :common:packageDebugAssets
 > Task :common:packageDebugRenderscript NO-SOURCE
+> Task :common:prepareLintJarForPublish
 > Task :common:processDebugJavaRes NO-SOURCE
 > Task :common:transformResourcesWithMergeJavaResForDebug
 > Task :common:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :common:compileDebugNdk NO-SOURCE
 > Task :common:mergeDebugJniLibFolders
 > Task :common:transformNativeLibsWithMergeJniLibsForDebug
 > Task :common:transformNativeLibsWithStripDebugSymbolForDebug
@@ -78,7 +82,7 @@ The current default is 'false'.
 > Task :common:assembleDebug
 > Task :common:preReleaseBuild UP-TO-DATE
 > Task :common:compileReleaseAidl NO-SOURCE
-> Task :common:compileReleaseRenderscript
+> Task :common:compileReleaseRenderscript NO-SOURCE
 > Task :common:checkReleaseManifest
 > Task :common:generateReleaseBuildConfig
 > Task :common:generateReleaseResValues
@@ -100,7 +104,6 @@ The current default is 'false'.
 > Task :common:processReleaseJavaRes NO-SOURCE
 > Task :common:transformResourcesWithMergeJavaResForRelease
 > Task :common:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :common:compileReleaseNdk NO-SOURCE
 > Task :common:mergeReleaseJniLibFolders
 > Task :common:transformNativeLibsWithMergeJniLibsForRelease
 > Task :common:transformNativeLibsWithStripDebugSymbolForRelease
@@ -117,40 +120,38 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 19s
-47 actionable tasks: 47 executed
+BUILD SUCCESSFUL in 17s
+46 actionable tasks: 46 executed
 
-2019-03-30 21:48:35,472 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-30 21:48:35,472 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/mobile/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-30 21:48:46,088 INFO  ProjectTaskService - Detected possible tasks: 76
-2019-03-30 21:48:46,088 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-30 21:48:46,088 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/mobile/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-30 21:50:09,757 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
+2019-05-19 21:00:54,615 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-19 21:00:54,615 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558274297468-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558274297468-0/src/mobile/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-19 21:01:04,533 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-05-19 21:01:04,534 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-05-19 21:01:04,534 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558274297468-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558274297468-0/src/mobile/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-05-19 21:02:17,174 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
 > Configure project :mobile
-WARNING: The option setting 'android.enableUnitTestBinaryResources=true' is experimental and unsupported.
-The current default is 'false'.
-
 WARNING: API 'variant.getPreBuild()' is obsolete and has been replaced with 'variant.getPreBuildProvider()'.
 It will be removed at the end of 2019.
 For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getPreBuild(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
+To determine what is calling variant.getPreBuild(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
 registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
 
 > Configure project :common
-WARNING: The option setting 'android.enableUnitTestBinaryResources=true' is experimental and unsupported.
-The current default is 'false'.
-
+WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 
 > Task :common:preBuild UP-TO-DATE
 > Task :common:preDebugBuild UP-TO-DATE
 > Task :common:compileDebugAidl NO-SOURCE
 > Task :common:checkDebugManifest UP-TO-DATE
+> Task :common:compileDebugRenderscript NO-SOURCE
 > Task :common:generateDebugBuildConfig UP-TO-DATE
-> Task :common:compileDebugRenderscript UP-TO-DATE
 > Task :common:generateDebugResValues UP-TO-DATE
 > Task :common:generateDebugResources UP-TO-DATE
 > Task :common:packageDebugResources UP-TO-DATE
@@ -161,59 +162,26 @@ The current default is 'false'.
 > Task :common:generateDebugSources UP-TO-DATE
 > Task :common:javaPreCompileDebug UP-TO-DATE
 > Task :common:compileDebugJavaWithJavac UP-TO-DATE
-> Task :common:processDebugJavaRes NO-SOURCE
-> Task :common:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :common:bundleLibCompileDebug
 > Task :mobile:getDependencies
 > Task :mobile:generateLicenses
 > Task :mobile:preBuild UP-TO-DATE
-> Task :mobile:preDebugBuild
-> Task :mobile:compileDebugAidl NO-SOURCE
 > Task :common:packageDebugRenderscript NO-SOURCE
-> Task :mobile:checkDebugManifest
-> Task :mobile:generateDebugBuildConfig
-> Task :mobile:compileDebugRenderscript
-> Task :mobile:mainApkListPersistenceDebug
-> Task :mobile:generateDebugResValues
-> Task :mobile:generateDebugResources
-> Task :mobile:mergeDebugResources
-> Task :mobile:createDebugCompatibleScreenManifests
-> Task :mobile:processDebugManifest
-> Task :mobile:processDebugResources
-> Task :mobile:compileDebugKotlin
 > Task :mobile:prepareLintJar
-> Task :mobile:generateDebugSources
-> Task :mobile:javaPreCompileDebug
-> Task :mobile:compileDebugJavaWithJavac
-> Task :mobile:compileDebugNdk NO-SOURCE
-> Task :mobile:compileDebugSources
 > Task :common:mergeDebugShaders UP-TO-DATE
 > Task :common:compileDebugShaders UP-TO-DATE
 > Task :common:generateDebugAssets UP-TO-DATE
 > Task :common:packageDebugAssets UP-TO-DATE
-> Task :mobile:mergeDebugShaders
-> Task :mobile:compileDebugShaders
-> Task :mobile:generateDebugAssets
-> Task :mobile:mergeDebugAssets
-> Task :mobile:validateSigningDebug
-> Task :mobile:signingConfigWriterDebug
-> Task :mobile:transformClassesWithDexBuilderForDebug
-> Task :mobile:transformDexArchiveWithExternalLibsDexMergerForDebug
-> Task :mobile:transformDexArchiveWithDexMergerForDebug
-> Task :common:compileDebugNdk NO-SOURCE
+> Task :common:bundleLibRuntimeDebug
+> Task :common:processDebugJavaRes NO-SOURCE
+> Task :common:bundleLibResDebug
 > Task :common:mergeDebugJniLibFolders UP-TO-DATE
 > Task :common:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
 > Task :common:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
 > Task :common:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :mobile:mergeDebugJniLibFolders
-> Task :mobile:transformNativeLibsWithMergeJniLibsForDebug
-> Task :mobile:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :mobile:processDebugJavaRes NO-SOURCE
-> Task :mobile:transformResourcesWithMergeJavaResForDebug
-> Task :mobile:packageDebug
-> Task :mobile:assembleDebug
 > Task :common:preReleaseBuild UP-TO-DATE
 > Task :common:compileReleaseAidl NO-SOURCE
-> Task :common:compileReleaseRenderscript UP-TO-DATE
+> Task :common:compileReleaseRenderscript NO-SOURCE
 > Task :common:checkReleaseManifest UP-TO-DATE
 > Task :common:generateReleaseBuildConfig UP-TO-DATE
 > Task :common:generateReleaseResValues UP-TO-DATE
@@ -225,13 +193,59 @@ The current default is 'false'.
 > Task :common:generateReleaseSources UP-TO-DATE
 > Task :common:javaPreCompileRelease UP-TO-DATE
 > Task :common:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :common:processReleaseJavaRes NO-SOURCE
-> Task :common:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :common:bundleLibCompileRelease
 > Task :mobile:extractProguardFiles
+> Task :common:packageReleaseRenderscript NO-SOURCE
+> Task :common:prepareLintJarForPublish UP-TO-DATE
+> Task :common:mergeReleaseShaders UP-TO-DATE
+> Task :common:compileReleaseShaders UP-TO-DATE
+> Task :common:generateReleaseAssets UP-TO-DATE
+> Task :common:packageReleaseAssets UP-TO-DATE
+> Task :common:bundleLibRuntimeRelease
+> Task :common:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :common:processReleaseJavaRes NO-SOURCE
+> Task :common:bundleLibResRelease
+> Task :common:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :common:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :common:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :common:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :mobile:preDebugBuild
+> Task :mobile:compileDebugAidl NO-SOURCE
+> Task :mobile:compileDebugRenderscript NO-SOURCE
+> Task :mobile:checkDebugManifest
+> Task :mobile:generateDebugBuildConfig
+> Task :mobile:mainApkListPersistenceDebug
+> Task :mobile:generateDebugResValues
+> Task :mobile:generateDebugResources
+> Task :mobile:mergeDebugResources
+> Task :mobile:createDebugCompatibleScreenManifests
+> Task :mobile:processDebugManifest
+> Task :mobile:processDebugResources
+> Task :mobile:compileDebugKotlin
+> Task :mobile:generateDebugSources
+> Task :mobile:javaPreCompileDebug
+> Task :mobile:compileDebugJavaWithJavac
+> Task :mobile:compileDebugSources
+> Task :mobile:mergeDebugShaders
+> Task :mobile:compileDebugShaders
+> Task :mobile:generateDebugAssets
+> Task :mobile:mergeDebugAssets
+> Task :mobile:validateSigningDebug
+> Task :mobile:signingConfigWriterDebug
+> Task :mobile:checkDebugDuplicateClasses
+> Task :mobile:transformClassesWithDexBuilderForDebug
+> Task :mobile:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :mobile:transformDexArchiveWithDexMergerForDebug
+> Task :mobile:mergeDebugJniLibFolders
+> Task :mobile:transformNativeLibsWithMergeJniLibsForDebug
+> Task :mobile:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :mobile:processDebugJavaRes NO-SOURCE
+> Task :mobile:transformResourcesWithMergeJavaResForDebug
+> Task :mobile:packageDebug
+> Task :mobile:assembleDebug
 > Task :mobile:preReleaseBuild
 > Task :mobile:compileReleaseAidl NO-SOURCE
-> Task :common:packageReleaseRenderscript NO-SOURCE
-> Task :mobile:compileReleaseRenderscript
+> Task :mobile:compileReleaseRenderscript NO-SOURCE
 > Task :mobile:checkReleaseManifest
 > Task :mobile:generateReleaseBuildConfig
 > Task :mobile:mainApkListPersistenceRelease
@@ -245,241 +259,33 @@ The current default is 'false'.
 > Task :mobile:generateReleaseSources
 > Task :mobile:javaPreCompileRelease
 > Task :mobile:compileReleaseJavaWithJavac
-> Task :mobile:compileReleaseNdk NO-SOURCE
 > Task :mobile:compileReleaseSources
-> Task :common:mergeReleaseShaders UP-TO-DATE
 
 > Task :mobile:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/76d878933ef1fd557c92ccfd5af20e88/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/ea863af2f252bdaa592868f59660353f/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
-> Task :common:compileReleaseShaders UP-TO-DATE
-> Task :common:generateReleaseAssets UP-TO-DATE
-> Task :common:packageReleaseAssets UP-TO-DATE
 > Task :mobile:mergeReleaseShaders
 > Task :mobile:compileReleaseShaders
 > Task :mobile:generateReleaseAssets
 > Task :mobile:mergeReleaseAssets
 > Task :mobile:validateSigningRelease
 > Task :mobile:signingConfigWriterRelease
-> Task :common:mergeReleaseConsumerProguardFiles UP-TO-DATE
 > Task :mobile:processReleaseJavaRes NO-SOURCE
 > Task :mobile:transformResourcesWithMergeJavaResForRelease
-ProGuard, version 6.0.3
-Reading input...
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/64bf6fd2b5cada6d19c90294851ebe2e/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/1832129fae6fb08959ff633e4df212bd/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/73e4e65705364323117c7846c7a35062/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/6a5658c102a97ead30d3f877dfe35fed/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/ad063ae43bc0ff508e48c0c13e46d988/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/51145e2edd46109287d149735fcd9301/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/b2a1434b107c1a67146dc99f5e7b3224/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/3d38e80ccff620ad728c85b4853a71de/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/f7c5f19d6e1aae7011119e424b68ff9f/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/d21f9b1b0d14b5f2ef6a070296d08241/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/efc6b2a9c2a178b03e0e692db0e6b7d7/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.3.11/dd9bff00d6cfca58b6c1fe89be8e0678e35cf35f/kotlin-stdlib-jdk8-1.3.11.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/b6f300a214ee57a38c384bc848aa8795/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/daac98645a5761ddba80b7dbc36c8160/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/ed9eed30152acc8e526bc31be5430123/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/fa0988bc72c7b1cbcffa7c0dde4a73bf/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/fe5ca04c3527de11cc58bee572aa7550/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/b8617d8db843298bcbbb20190162a180/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/4a4cb2fadc8c191d50d543406545b321/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/9b34ed63670861c4c62814343419e8f6/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/e50a2d76e09c7642af7312df4cb10ea6/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/c63e3c25c7542f275f28d53676efccc3/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/484becde49d6f208cd063cef6c55e9db/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/6320833ca6658a5c63f4a7abe92d4bd9/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/97802ef73e9cbdb2f677bfeeb101f5d2/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/b952bed116be5d8f1a9dc69b670b71fd/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/1e912b33bcc8842b26385aa8c98fb425/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/f44d30b591986f0e0548aa0cc418f47b/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/239cebf13021955a2a97e988f4ea739f/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/39657a8d2e22f43bce9f76513d22c72a/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/6fc113d0491a2ae42209106bd268f006/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/b91be964b3f6613786f340412b0292d2/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/a62572fa59329942b082369a6e7938b9/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/9d575049ec2211c72aff63deb9ea0a24/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.0.0/42858b26cafdaa69b6149f45dfc2894007bc2c7a/collection-1.0.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/e05aff5eb0b743d4428fe50f69a28991/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/47fdf4a84dc53186f642bf8fd1f3e7bc/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/24088fe8ec1be0cffe77768d0880312b/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/f85e7f54c0a927d824676b4096e53708/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/9b044b94de111bd3d9d7a84d47727e67/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/99fadabed68aabefe1cada97770b1efd/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/25340ecc5ea1aefd0b47ca655832a345/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/fa072df097eabe14156d18b39a9e08fb/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/e070ffae07452331bc5684734fce6831d531785c/lifecycle-common-2.0.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/f859f923143f99e5c6581f87a24e4017/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.0.0/bb21b9a11761451b51624ac428d1f1bb5deeac38/core-common-2.0.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.0.0/45599f2cd5965ac05a1488fa2a5c0cdd7c499ead/annotation-1.0.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout-solver/1.1.3/54abe9ffb22cc9019b0b6fcc10f185cc4e67b34e/constraintlayout-solver-1.1.3.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.11/4839661cf6ce3c14b65ed7dcf5b9249b44ecca16/kotlin-stdlib-jdk7-1.3.11.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.11/d8b8e746e279f1c4f5e08bc14a96b82e6bb1de02/kotlin-stdlib-common-1.3.11.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/common/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/mobile/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/mobile/build/tmp/kotlin-classes/release] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/mobile/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/org.apache.http.legacy.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.mock.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.base.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.runner.jar]
-Initializing...
-Note: the configuration refers to the unknown class 'com.google.android.gms.common.api.internal.BasePendingResult$ReleasableResultGuardian'
-Note: com.google.android.gms.common.util.WorkSourceUtil: can't find dynamically referenced class android.os.WorkSource$WorkChain
-Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.JRE8PlatformImplementations
-Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.JRE7PlatformImplementations
-Note: kotlin.jvm.internal.Reflection: can't find dynamically referenced class kotlin.reflect.jvm.internal.ReflectionFactoryImpl
 
-> Task :mobile:transformClassesAndResourcesWithProguardForRelease
-Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
-thread-pool size=4
+> Task :mobile:transformClassesAndResourcesWithR8ForRelease
+R8 is the new Android code shrinker. If you experience any issues, please file a bug at
+https://issuetracker.google.com, using 'Shrinker (R8)' as component name. You can
+disable R8 by updating gradle.properties with 'android.enableR8=false'.
+Current version is: 1.4.77 (build b74371231cb896b02f83285efb055b7c00ff64d8 from go/r8bot (luci-r8-ci-archive-0-eqqf)).
 
-Note: the configuration refers to the unknown field 'com.google.android.gms.common.api.internal.BasePendingResult$ReleasableResultGuardian mResultGuardian' in class 'com.google.android.gms.common.api.internal.BasePendingResult'
-Note: the configuration keeps the entry point 'com.google.android.gms.common.api.internal.BasePendingResult { void zaa(com.google.android.gms.common.api.internal.zacs); }', but not the descriptor class 'com.google.android.gms.common.api.internal.zacs'
-Note: the configuration keeps the entry point 'com.google.android.material.circularreveal.CircularRevealHelper { CircularRevealHelper(com.google.android.material.circularreveal.CircularRevealHelper$Delegate); }', but not the descriptor class 'com.google.android.material.circularreveal.CircularRevealHelper$Delegate'
-Note: the configuration keeps the entry point 'kotlin.KotlinVersion$Companion { KotlinVersion$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.NotImplementedError { NotImplementedError(java.lang.String,int,kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.Result$Companion { Result$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.SafePublicationLazyImpl$Companion { SafePublicationLazyImpl$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.UByte$Companion { UByte$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.UInt$Companion { UInt$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.ULong$Companion { ULong$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.UShort$Companion { UShort$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.collections.AbstractList$Companion { AbstractList$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.collections.AbstractMap$Companion { AbstractMap$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.collections.AbstractSet$Companion { AbstractSet$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.coroutines.CombinedContext$Serialized$Companion { CombinedContext$Serialized$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.coroutines.experimental.SafeContinuation$Companion { SafeContinuation$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.coroutines.experimental.migration.ContextMigration$Key { ContextMigration$Key(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.coroutines.experimental.migration.ExperimentalContextMigration$Key { ExperimentalContextMigration$Key(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.io.AccessDeniedException { AccessDeniedException(java.io.File,java.io.File,java.lang.String,int,kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.io.FileAlreadyExistsException { FileAlreadyExistsException(java.io.File,java.io.File,java.lang.String,int,kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.io.FileSystemException { FileSystemException(java.io.File,java.io.File,java.lang.String,int,kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.io.FileTreeWalk { FileTreeWalk(java.io.File,kotlin.io.FileWalkDirection,int,kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.io.NoSuchFileException { NoSuchFileException(java.io.File,java.io.File,java.lang.String,int,kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.random.Random$Default { Random$Default(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.ranges.CharProgression$Companion { CharProgression$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.ranges.CharRange$Companion { CharRange$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.ranges.IntProgression$Companion { IntProgression$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.ranges.IntRange$Companion { IntRange$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.ranges.LongProgression$Companion { LongProgression$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.ranges.LongRange$Companion { LongRange$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.ranges.UIntProgression { UIntProgression(int,int,int,kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.ranges.UIntProgression$Companion { UIntProgression$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.ranges.UIntRange { UIntRange(int,int,kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.ranges.UIntRange$Companion { UIntRange$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.ranges.ULongProgression { ULongProgression(long,long,long,kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.ranges.ULongProgression$Companion { ULongProgression$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.ranges.ULongRange { ULongRange(long,long,kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.ranges.ULongRange$Companion { ULongRange$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.reflect.KTypeProjection$Companion { KTypeProjection$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.sequences.FilteringSequence { FilteringSequence(kotlin.sequences.Sequence,boolean,kotlin.jvm.functions.Function1,int,kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.text.CharCategory$Companion { CharCategory$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.text.CharDirectionality$Companion { CharDirectionality$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.text.Regex$Companion { Regex$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'kotlin.text.Regex$Serialized$Companion { Regex$Serialized$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'saschpe.poker.activity.MainActivity$Companion { MainActivity$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'saschpe.poker.adapter.CardArrayAdapter$Companion { CardArrayAdapter$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'saschpe.poker.application.Application$Companion { Application$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'saschpe.poker.util.ShakeDetector$Companion { ShakeDetector$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: there were 1 references to unknown classes.
-      You should check your configuration for typos.
-      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)
-Note: there were 1 references to unknown class members.
-      You should check your configuration for typos.
-Note: there were 47 unkept descriptor classes in kept class members.
-      You should consider explicitly keeping the mentioned classes
-      (using '-keep').
-      (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
-Note: there were 4 unresolved dynamic references to classes or interfaces.
-      You should check if you need to specify additional program jars.
-      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
-Ignoring unused library classes...
-  Original number of library classes: 4803
-  Final number of library classes:    1437
-Printing kept classes, fields, and methods...
-Inlining subroutines...
-Shrinking...
-Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/mobile/build/outputs/mapping/release/usage.txt]...
-Removing unused program classes and class elements...
-  Original number of program classes: 4037
-  Final number of program classes:    4013
-Obfuscating...
-Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/mobile/build/outputs/mapping/release/mapping.txt]...
-Preverifying...
-Writing output...
-Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/mobile/build/intermediates/transforms/proguard/release/0.jar]
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/64bf6fd2b5cada6d19c90294851ebe2e/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/1832129fae6fb08959ff633e4df212bd/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/73e4e65705364323117c7846c7a35062/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/6a5658c102a97ead30d3f877dfe35fed/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/ad063ae43bc0ff508e48c0c13e46d988/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/51145e2edd46109287d149735fcd9301/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/b2a1434b107c1a67146dc99f5e7b3224/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/3d38e80ccff620ad728c85b4853a71de/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/f7c5f19d6e1aae7011119e424b68ff9f/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/d21f9b1b0d14b5f2ef6a070296d08241/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/efc6b2a9c2a178b03e0e692db0e6b7d7/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.3.11/dd9bff00d6cfca58b6c1fe89be8e0678e35cf35f/kotlin-stdlib-jdk8-1.3.11.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/b6f300a214ee57a38c384bc848aa8795/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/daac98645a5761ddba80b7dbc36c8160/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/ed9eed30152acc8e526bc31be5430123/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/fa0988bc72c7b1cbcffa7c0dde4a73bf/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/fe5ca04c3527de11cc58bee572aa7550/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/b8617d8db843298bcbbb20190162a180/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/4a4cb2fadc8c191d50d543406545b321/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/9b34ed63670861c4c62814343419e8f6/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/e50a2d76e09c7642af7312df4cb10ea6/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/c63e3c25c7542f275f28d53676efccc3/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/484becde49d6f208cd063cef6c55e9db/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/6320833ca6658a5c63f4a7abe92d4bd9/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/97802ef73e9cbdb2f677bfeeb101f5d2/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/b952bed116be5d8f1a9dc69b670b71fd/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/1e912b33bcc8842b26385aa8c98fb425/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/f44d30b591986f0e0548aa0cc418f47b/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/239cebf13021955a2a97e988f4ea739f/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/39657a8d2e22f43bce9f76513d22c72a/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/6fc113d0491a2ae42209106bd268f006/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/b91be964b3f6613786f340412b0292d2/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/a62572fa59329942b082369a6e7938b9/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/9d575049ec2211c72aff63deb9ea0a24/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.0.0/42858b26cafdaa69b6149f45dfc2894007bc2c7a/collection-1.0.0.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/e05aff5eb0b743d4428fe50f69a28991/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/47fdf4a84dc53186f642bf8fd1f3e7bc/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/24088fe8ec1be0cffe77768d0880312b/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/f85e7f54c0a927d824676b4096e53708/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/9b044b94de111bd3d9d7a84d47727e67/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/99fadabed68aabefe1cada97770b1efd/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/25340ecc5ea1aefd0b47ca655832a345/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/fa072df097eabe14156d18b39a9e08fb/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/e070ffae07452331bc5684734fce6831d531785c/lifecycle-common-2.0.0.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/f859f923143f99e5c6581f87a24e4017/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.0.0/bb21b9a11761451b51624ac428d1f1bb5deeac38/core-common-2.0.0.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.0.0/45599f2cd5965ac05a1488fa2a5c0cdd7c499ead/annotation-1.0.0.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout-solver/1.1.3/54abe9ffb22cc9019b0b6fcc10f185cc4e67b34e/constraintlayout-solver-1.1.3.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.11/4839661cf6ce3c14b65ed7dcf5b9249b44ecca16/kotlin-stdlib-jdk7-1.3.11.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.11/d8b8e746e279f1c4f5e08bc14a96b82e6bb1de02/kotlin-stdlib-common-1.3.11.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/common/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/mobile/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/mobile/build/tmp/kotlin-classes/release] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/mobile/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
 
-> Task :mobile:transformClassesWithDexBuilderForRelease
-> Task :mobile:transformDexArchiveWithDexMergerForRelease
-Removed unused resources: Binary resource data reduced from 938KB to 933KB: Removed 0%
+D8: The rule `-keep public class * extends androidx.versionedparcelable.VersionedParcelable {
+  <init>();
+}` uses extends but actually matches implements.
+Removed unused resources: Binary resource data reduced from 939KB to 922KB: Removed 1%
+
 > Task :mobile:transformClassesAndDexWithShrinkResForRelease
-> Task :common:compileReleaseNdk NO-SOURCE
-> Task :common:mergeReleaseJniLibFolders UP-TO-DATE
-> Task :common:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-> Task :common:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
-> Task :common:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :mobile:mergeReleaseJniLibFolders
 > Task :mobile:transformNativeLibsWithMergeJniLibsForRelease
 > Task :mobile:transformNativeLibsWithStripDebugSymbolForRelease
@@ -492,7 +298,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 22s
-96 actionable tasks: 62 executed, 34 up-to-date
+BUILD SUCCESSFUL in 1m 11s
+96 actionable tasks: 63 executed, 33 up-to-date
 
-2019-03-30 21:50:09,937 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957280753-0/src/PlanningPoker-master/mobile/build/outputs/apk/release/saschpe.poker-1.3.3-release.apk
+2019-05-19 21:02:17,357 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558274297468-0/src/mobile/build/outputs/apk/release/saschpe.poker-1.3.3-release.apk
