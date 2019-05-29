@@ -1,166 +1,192 @@
-2018-10-13 18:27:16,260 INFO  DownloadService - Downloading "https://github.com/franmontiel/PersistentCookieJar/archive/master.zip", attempt 3
-2018-10-13 18:27:16,825 INFO  DownloadService - Downloaded https://github.com/franmontiel/PersistentCookieJar/archive/master.zip, attempt 3
-2018-10-13 18:27:16,826 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539430036255-0/master.zip": 84 KB
-2018-10-13 18:27:16,826 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-13 18:27:16,826 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539430036255-0/master.zip: true
-2018-10-13 18:27:16,827 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539430036255-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539430036255-0/src'.
-2018-10-13 18:27:16,842 INFO  FullProcessService - Size of directory with sources: 120 KB
-2018-10-13 18:27:16,843 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539430036255-0/src]
-2018-10-13 18:27:16,859 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539430036255-0/src/.git/
+2019-05-29 12:08:27,205 INFO  DownloadService - Downloading "https://github.com/franmontiel/PersistentCookieJar/archive/master.zip", attempt 3
+2019-05-29 12:08:28,043 INFO  DownloadService - Downloaded https://github.com/franmontiel/PersistentCookieJar/archive/master.zip, attempt 3
+2019-05-29 12:08:28,043 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559106507203-0/master.zip": 84 KB
+2019-05-29 12:08:28,043 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-29 12:08:28,049 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559106507203-0/master.zip: true
+2019-05-29 12:08:28,049 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559106507203-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559106507203-0/src'.
+2019-05-29 12:08:28,060 INFO  FullProcessService - Size of directory with sources: 120 KB
+2019-05-29 12:08:28,060 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559106507203-0/src]
+2019-05-29 12:08:28,078 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559106507203-0/src/.git/
 
-2018-10-13 18:27:16,862 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539430036255-0/src/PersistentCookieJar-master/gradlew
-2018-10-13 18:27:16,865 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539430036255-0/src/PersistentCookieJar-master/okhttp3-persistent-cookiejar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539430036255-0/src/PersistentCookieJar-master/build.gradle
-2018-10-13 18:27:16,868 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539430036255-0/src/PersistentCookieJar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539430036255-0/src/PersistentCookieJar-master/okhttp3-persistent-cookiejar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539430036255-0/src/PersistentCookieJar-master/settings.gradle
-2018-10-13 18:27:16,868 INFO  ProjectBuildService - Remote scripts: none
-2018-10-13 18:27:16,868 INFO  ProjectFixService - Fixing project...
-2018-10-13 18:27:16,876 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539430036255-0/src/PersistentCookieJar-master/okhttp3-persistent-cookiejar/local.properties
-2018-10-13 18:27:16,876 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539430036255-0/src/PersistentCookieJar-master/okhttp3-persistent-cookiejar/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
-2018-10-13 18:27:16,877 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539430036255-0/src/PersistentCookieJar-master/local.properties
-2018-10-13 18:27:16,878 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-13 18:27:16,878 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-13 18:27:16,880 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539430036255-0/src/PersistentCookieJar-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
-2018-10-13 18:27:16,880 INFO  ProjectFixService - Project was maybe fixed
-2018-10-13 18:27:16,880 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-13 18:27:16,880 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539430036255-0/src/PersistentCookieJar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539430036255-0/src/PersistentCookieJar-master/okhttp3-persistent-cookiejar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-13 18:27:17,410 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-13 18:27:17,411 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-13 18:27:17,411 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-13 18:27:17,411 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539430036255-0/src/PersistentCookieJar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539430036255-0/src/PersistentCookieJar-master/okhttp3-persistent-cookiejar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-13 18:27:18,006 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-2018-10-13 18:27:18,007 INFO  SysUtils - 
-FAILURE: Build failed with an exception.
+2019-05-29 12:08:28,080 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559106507203-0/src/PersistentCookieJar-master/gradlew
+2019-05-29 12:08:28,082 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559106507203-0/src/PersistentCookieJar-master/okhttp3-persistent-cookiejar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559106507203-0/src/PersistentCookieJar-master/build.gradle
+2019-05-29 12:08:28,084 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559106507203-0/src/PersistentCookieJar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559106507203-0/src/PersistentCookieJar-master/okhttp3-persistent-cookiejar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559106507203-0/src/PersistentCookieJar-master/settings.gradle
+2019-05-29 12:08:28,084 INFO  ProjectBuildService - Remote scripts: none
+2019-05-29 12:08:28,084 INFO  ProjectFixService - Fixing project...
+2019-05-29 12:08:28,088 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559106507203-0/src/PersistentCookieJar-master/okhttp3-persistent-cookiejar/local.properties
+2019-05-29 12:08:28,088 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559106507203-0/src/PersistentCookieJar-master/okhttp3-persistent-cookiejar/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2019-05-29 12:08:28,088 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559106507203-0/src/PersistentCookieJar-master/local.properties
+2019-05-29 12:08:28,089 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-05-29 12:08:28,089 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-05-29 12:08:28,090 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559106507203-0/src/PersistentCookieJar-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2019-05-29 12:08:28,090 INFO  ProjectFixService - Project was maybe fixed
+2019-05-29 12:08:28,090 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-29 12:08:28,090 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559106507203-0/src/PersistentCookieJar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559106507203-0/src/PersistentCookieJar-master/okhttp3-persistent-cookiejar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-29 12:08:49,768 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-05-29 12:08:49,768 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-29 12:08:49,768 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559106507203-0/src/PersistentCookieJar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559106507203-0/src/PersistentCookieJar-master/okhttp3-persistent-cookiejar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-29 12:08:57,209 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:okhttp3-persistent-cookiejar:preBuild UP-TO-DATE
+:okhttp3-persistent-cookiejar:preDebugBuild UP-TO-DATE
+:okhttp3-persistent-cookiejar:compileDebugNdk UP-TO-DATE
+:okhttp3-persistent-cookiejar:compileLint
+:okhttp3-persistent-cookiejar:copyDebugLint UP-TO-DATE
+:okhttp3-persistent-cookiejar:mergeDebugProguardFiles
+:okhttp3-persistent-cookiejar:packageDebugRenderscript UP-TO-DATE
+:okhttp3-persistent-cookiejar:checkDebugManifest
+:okhttp3-persistent-cookiejar:prepareDebugDependencies
+:okhttp3-persistent-cookiejar:compileDebugRenderscript
+:okhttp3-persistent-cookiejar:generateDebugResValues
+:okhttp3-persistent-cookiejar:generateDebugResources
+:okhttp3-persistent-cookiejar:packageDebugResources
+:okhttp3-persistent-cookiejar:compileDebugAidl
+:okhttp3-persistent-cookiejar:generateDebugBuildConfig
+:okhttp3-persistent-cookiejar:mergeDebugShaders
+:okhttp3-persistent-cookiejar:compileDebugShaders
+:okhttp3-persistent-cookiejar:generateDebugAssets
+:okhttp3-persistent-cookiejar:mergeDebugAssets
+:okhttp3-persistent-cookiejar:processDebugManifest
+:okhttp3-persistent-cookiejar:processDebugResources
+:okhttp3-persistent-cookiejar:generateDebugSources
+:okhttp3-persistent-cookiejar:incrementalDebugJavaCompilationSafeguard
+:okhttp3-persistent-cookiejar:compileDebugJavaWithJavac
+:okhttp3-persistent-cookiejar:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:okhttp3-persistent-cookiejar:processDebugJavaRes UP-TO-DATE
+:okhttp3-persistent-cookiejar:transformResourcesWithMergeJavaResForDebug
+:okhttp3-persistent-cookiejar:transformClassesAndResourcesWithSyncLibJarsForDebug
+:okhttp3-persistent-cookiejar:mergeDebugJniLibFolders
+:okhttp3-persistent-cookiejar:transformNative_libsWithMergeJniLibsForDebug
+:okhttp3-persistent-cookiejar:transformNative_libsWithSyncJniLibsForDebug
+:okhttp3-persistent-cookiejar:bundleDebug
+:okhttp3-persistent-cookiejar:compileDebugSources
+:okhttp3-persistent-cookiejar:assembleDebug
+:okhttp3-persistent-cookiejar:preReleaseBuild UP-TO-DATE
+:okhttp3-persistent-cookiejar:compileReleaseNdk UP-TO-DATE
+:okhttp3-persistent-cookiejar:copyReleaseLint UP-TO-DATE
+:okhttp3-persistent-cookiejar:mergeReleaseProguardFiles
+:okhttp3-persistent-cookiejar:packageReleaseRenderscript UP-TO-DATE
+:okhttp3-persistent-cookiejar:checkReleaseManifest
+:okhttp3-persistent-cookiejar:prepareReleaseDependencies
+:okhttp3-persistent-cookiejar:compileReleaseRenderscript
+:okhttp3-persistent-cookiejar:generateReleaseResValues
+:okhttp3-persistent-cookiejar:generateReleaseResources
+:okhttp3-persistent-cookiejar:packageReleaseResources
+:okhttp3-persistent-cookiejar:compileReleaseAidl
+:okhttp3-persistent-cookiejar:generateReleaseBuildConfig
+:okhttp3-persistent-cookiejar:mergeReleaseShaders
+:okhttp3-persistent-cookiejar:compileReleaseShaders
+:okhttp3-persistent-cookiejar:generateReleaseAssets
+:okhttp3-persistent-cookiejar:mergeReleaseAssets
+:okhttp3-persistent-cookiejar:processReleaseManifest
+:okhttp3-persistent-cookiejar:processReleaseResources
+:okhttp3-persistent-cookiejar:generateReleaseSources
+:okhttp3-persistent-cookiejar:incrementalReleaseJavaCompilationSafeguard
+:okhttp3-persistent-cookiejar:compileReleaseJavaWithJavac
+:okhttp3-persistent-cookiejar:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:okhttp3-persistent-cookiejar:processReleaseJavaRes UP-TO-DATE
+:okhttp3-persistent-cookiejar:transformResourcesWithMergeJavaResForRelease
+:okhttp3-persistent-cookiejar:transformClassesAndResourcesWithSyncLibJarsForRelease
+:okhttp3-persistent-cookiejar:mergeReleaseJniLibFolders
+:okhttp3-persistent-cookiejar:transformNative_libsWithMergeJniLibsForRelease
+:okhttp3-persistent-cookiejar:transformNative_libsWithSyncJniLibsForRelease
+:okhttp3-persistent-cookiejar:bundleRelease
+:okhttp3-persistent-cookiejar:compileReleaseSources
+:okhttp3-persistent-cookiejar:assembleRelease
+:okhttp3-persistent-cookiejar:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559106507203-0/src/PersistentCookieJar-master/okhttp3-persistent-cookiejar/src/main/java/com/franmontiel/persistentcookiejar/cache/CookieCache.java:31: warning: no description for @param
+     * @param cookies
+       ^
 
-* What went wrong:
-Could not determine java version from '11'.
+1 warning
+:okhttp3-persistent-cookiejar:javadocJar
+:okhttp3-persistent-cookiejar:sourcesJar
+:okhttp3-persistent-cookiejar:assemble
+:okhttp3-persistent-cookiejar:build
 
-* Try:
-Run with --info or --debug option to get more log output.
+BUILD SUCCESSFUL
 
-* Exception is:
-java.lang.IllegalArgumentException: Could not determine java version from '11'.
-	at org.gradle.api.JavaVersion.toVersion(JavaVersion.java:68)
-	at org.gradle.api.JavaVersion.current(JavaVersion.java:78)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:32)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Total time: 6.947 secs
 
+2019-05-29 12:08:57,221 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-29 12:08:57,221 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559106507203-0/src/PersistentCookieJar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559106507203-0/src/PersistentCookieJar-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-29 12:09:02,390 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-05-29 12:09:02,390 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-29 12:09:02,390 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559106507203-0/src/PersistentCookieJar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559106507203-0/src/PersistentCookieJar-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-29 12:09:07,531 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:okhttp3-persistent-cookiejar:preBuild UP-TO-DATE
+:okhttp3-persistent-cookiejar:preDebugBuild UP-TO-DATE
+:okhttp3-persistent-cookiejar:compileDebugNdk UP-TO-DATE
+:okhttp3-persistent-cookiejar:compileLint
+:okhttp3-persistent-cookiejar:copyDebugLint UP-TO-DATE
+:okhttp3-persistent-cookiejar:mergeDebugProguardFiles UP-TO-DATE
+:okhttp3-persistent-cookiejar:packageDebugRenderscript UP-TO-DATE
+:okhttp3-persistent-cookiejar:checkDebugManifest
+:okhttp3-persistent-cookiejar:prepareDebugDependencies
+:okhttp3-persistent-cookiejar:compileDebugRenderscript UP-TO-DATE
+:okhttp3-persistent-cookiejar:generateDebugResValues UP-TO-DATE
+:okhttp3-persistent-cookiejar:generateDebugResources UP-TO-DATE
+:okhttp3-persistent-cookiejar:packageDebugResources UP-TO-DATE
+:okhttp3-persistent-cookiejar:compileDebugAidl UP-TO-DATE
+:okhttp3-persistent-cookiejar:generateDebugBuildConfig UP-TO-DATE
+:okhttp3-persistent-cookiejar:mergeDebugShaders UP-TO-DATE
+:okhttp3-persistent-cookiejar:compileDebugShaders UP-TO-DATE
+:okhttp3-persistent-cookiejar:generateDebugAssets UP-TO-DATE
+:okhttp3-persistent-cookiejar:mergeDebugAssets UP-TO-DATE
+:okhttp3-persistent-cookiejar:processDebugManifest UP-TO-DATE
+:okhttp3-persistent-cookiejar:processDebugResources UP-TO-DATE
+:okhttp3-persistent-cookiejar:generateDebugSources UP-TO-DATE
+:okhttp3-persistent-cookiejar:incrementalDebugJavaCompilationSafeguard UP-TO-DATE
+:okhttp3-persistent-cookiejar:compileDebugJavaWithJavac UP-TO-DATE
+:okhttp3-persistent-cookiejar:processDebugJavaRes UP-TO-DATE
+:okhttp3-persistent-cookiejar:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:okhttp3-persistent-cookiejar:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:okhttp3-persistent-cookiejar:mergeDebugJniLibFolders UP-TO-DATE
+:okhttp3-persistent-cookiejar:transformNative_libsWithMergeJniLibsForDebug UP-TO-DATE
+:okhttp3-persistent-cookiejar:transformNative_libsWithSyncJniLibsForDebug UP-TO-DATE
+:okhttp3-persistent-cookiejar:bundleDebug UP-TO-DATE
+:okhttp3-persistent-cookiejar:compileDebugSources UP-TO-DATE
+:okhttp3-persistent-cookiejar:assembleDebug UP-TO-DATE
+:okhttp3-persistent-cookiejar:preReleaseBuild UP-TO-DATE
+:okhttp3-persistent-cookiejar:compileReleaseNdk UP-TO-DATE
+:okhttp3-persistent-cookiejar:copyReleaseLint UP-TO-DATE
+:okhttp3-persistent-cookiejar:mergeReleaseProguardFiles UP-TO-DATE
+:okhttp3-persistent-cookiejar:packageReleaseRenderscript UP-TO-DATE
+:okhttp3-persistent-cookiejar:checkReleaseManifest
+:okhttp3-persistent-cookiejar:prepareReleaseDependencies
+:okhttp3-persistent-cookiejar:compileReleaseRenderscript UP-TO-DATE
+:okhttp3-persistent-cookiejar:generateReleaseResValues UP-TO-DATE
+:okhttp3-persistent-cookiejar:generateReleaseResources UP-TO-DATE
+:okhttp3-persistent-cookiejar:packageReleaseResources UP-TO-DATE
+:okhttp3-persistent-cookiejar:compileReleaseAidl UP-TO-DATE
+:okhttp3-persistent-cookiejar:generateReleaseBuildConfig UP-TO-DATE
+:okhttp3-persistent-cookiejar:mergeReleaseShaders UP-TO-DATE
+:okhttp3-persistent-cookiejar:compileReleaseShaders UP-TO-DATE
+:okhttp3-persistent-cookiejar:generateReleaseAssets UP-TO-DATE
+:okhttp3-persistent-cookiejar:mergeReleaseAssets UP-TO-DATE
+:okhttp3-persistent-cookiejar:processReleaseManifest UP-TO-DATE
+:okhttp3-persistent-cookiejar:processReleaseResources UP-TO-DATE
+:okhttp3-persistent-cookiejar:generateReleaseSources UP-TO-DATE
+:okhttp3-persistent-cookiejar:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:okhttp3-persistent-cookiejar:compileReleaseJavaWithJavac UP-TO-DATE
+:okhttp3-persistent-cookiejar:processReleaseJavaRes UP-TO-DATE
+:okhttp3-persistent-cookiejar:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:okhttp3-persistent-cookiejar:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:okhttp3-persistent-cookiejar:mergeReleaseJniLibFolders UP-TO-DATE
+:okhttp3-persistent-cookiejar:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:okhttp3-persistent-cookiejar:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:okhttp3-persistent-cookiejar:bundleRelease UP-TO-DATE
+:okhttp3-persistent-cookiejar:compileReleaseSources UP-TO-DATE
+:okhttp3-persistent-cookiejar:assembleRelease UP-TO-DATE
+:okhttp3-persistent-cookiejar:javadoc UP-TO-DATE
+:okhttp3-persistent-cookiejar:javadocJar UP-TO-DATE
+:okhttp3-persistent-cookiejar:sourcesJar UP-TO-DATE
+:okhttp3-persistent-cookiejar:assemble UP-TO-DATE
+:okhttp3-persistent-cookiejar:build
 
-2018-10-13 18:27:18,010 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-13 18:27:18,011 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539430036255-0/src/PersistentCookieJar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539430036255-0/src/PersistentCookieJar-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-13 18:27:18,511 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-13 18:27:18,511 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-13 18:27:18,511 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-13 18:27:18,512 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539430036255-0/src/PersistentCookieJar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539430036255-0/src/PersistentCookieJar-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-13 18:27:19,016 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-2018-10-13 18:27:19,016 INFO  SysUtils - 
-FAILURE: Build failed with an exception.
+BUILD SUCCESSFUL
 
-* What went wrong:
-Could not determine java version from '11'.
+Total time: 4.651 secs
 
-* Try:
-Run with --info or --debug option to get more log output.
-
-* Exception is:
-java.lang.IllegalArgumentException: Could not determine java version from '11'.
-	at org.gradle.api.JavaVersion.toVersion(JavaVersion.java:68)
-	at org.gradle.api.JavaVersion.current(JavaVersion.java:78)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:32)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-
-
-2018-10-13 18:27:19,020 ERROR FullProcessService - Project build has not produced APK file
-2018-10-13 18:27:19,024 ERROR FullProcessService - Could not find generated or existed APK file
+2019-05-29 12:09:07,542 ERROR FullProcessService - Project build has not produced APK file
+2019-05-29 12:09:07,551 ERROR FullProcessService - Could not find generated or existed APK file
