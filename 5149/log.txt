@@ -1,10 +1,10 @@
-2019-06-18 13:03:52,774 INFO  DownloadService - Downloading "https://github.com/xcesco/kripton/archive/master.zip", attempt 3
-2019-06-18 13:04:01,565 INFO  DownloadService - Downloaded https://github.com/xcesco/kripton/archive/master.zip, attempt 3
-2019-06-18 13:04:01,565 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837832766-0/master.zip": 11 MB
-2019-06-18 13:04:01,565 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-06-18 13:04:01,573 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837832766-0/master.zip: false
-2019-06-18 13:04:01,573 INFO  FullProcessService - Archive with sources does not contain any build script
-2019-06-18 13:04:01,573 ERROR FullProcessService - Could not find directory with sources
-2019-06-18 13:04:01,573 ERROR FullProcessService - Project will not be processed
-2019-06-18 13:04:01,573 ERROR FullProcessService - Project build has not produced APK file
-2019-06-18 13:04:01,573 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-05 19:48:32,247 INFO  DownloadService - Downloading "https://github.com/xcesco/kripton/archive/master.zip", attempt 3
+2019-07-05 19:48:38,105 INFO  DownloadService - Downloaded https://github.com/xcesco/kripton/archive/master.zip, attempt 3
+2019-07-05 19:48:38,105 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330912239-0/master.zip": 11 MB
+2019-07-05 19:48:38,105 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 19:48:38,114 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330912239-0/master.zip: false
+2019-07-05 19:48:38,114 INFO  FullProcessService - Archive with sources does not contain any build script
+2019-07-05 19:48:38,114 ERROR FullProcessService - Could not find directory with sources
+2019-07-05 19:48:38,114 ERROR FullProcessService - Project will not be processed
+2019-07-05 19:48:38,114 ERROR FullProcessService - Project build has not produced APK file
+2019-07-05 19:48:38,114 ERROR FullProcessService - Could not find generated or existed APK file

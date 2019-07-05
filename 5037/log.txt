@@ -1,36 +1,36 @@
-2019-03-31 22:11:53,310 INFO  DownloadService - Downloading "https://github.com/VerachadW/kraph/archive/master.zip", attempt 3
-2019-03-31 22:11:53,803 INFO  DownloadService - Downloaded https://github.com/VerachadW/kraph/archive/master.zip, attempt 3
-2019-03-31 22:11:53,803 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/master.zip": 79 KB
-2019-03-31 22:11:53,803 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-31 22:11:53,809 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/master.zip: true
-2019-03-31 22:11:53,809 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/src'.
-2019-03-31 22:11:53,823 INFO  FullProcessService - Size of directory with sources: 126 KB
-2019-03-31 22:11:53,824 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/src]
-2019-03-31 22:11:53,841 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/src/.git/
+2019-07-05 19:55:22,117 INFO  DownloadService - Downloading "https://github.com/VerachadW/kraph/archive/master.zip", attempt 3
+2019-07-05 19:55:22,730 INFO  DownloadService - Downloaded https://github.com/VerachadW/kraph/archive/master.zip, attempt 3
+2019-07-05 19:55:22,730 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/master.zip": 79 KB
+2019-07-05 19:55:22,730 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 19:55:22,736 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/master.zip: true
+2019-07-05 19:55:22,736 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/src'.
+2019-07-05 19:55:22,749 INFO  FullProcessService - Size of directory with sources: 126 KB
+2019-07-05 19:55:22,749 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/src]
+2019-07-05 19:55:22,769 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/src/.git/
 
-2019-03-31 22:11:53,843 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/src/kraph-master/gradlew
-2019-03-31 22:11:53,845 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/src/kraph-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/src/kraph-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/src/kraph-master/sample/build.gradle
-2019-03-31 22:11:53,847 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/src/kraph-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/src/kraph-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/src/kraph-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/src/kraph-master/settings.gradle
-2019-03-31 22:11:53,847 INFO  ProjectBuildService - Remote scripts: none
-2019-03-31 22:11:53,847 INFO  ProjectFixService - Fixing project...
-2019-03-31 22:11:53,855 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/src/kraph-master/local.properties
-2019-03-31 22:11:53,855 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.4.1-all.zip
-2019-03-31 22:11:53,855 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.4.1-bin.zip)
-2019-03-31 22:11:53,857 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/src/kraph-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-03-31 22:11:53,857 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/src/kraph-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-03-31 22:11:53,858 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/src/kraph-master/core/local.properties
-2019-03-31 22:11:53,859 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/src/kraph-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-03-31 22:11:53,859 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/src/kraph-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-03-31 22:11:53,860 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/src/kraph-master/sample/local.properties
-2019-03-31 22:11:53,862 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/src/kraph-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-03-31 22:11:53,862 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/src/kraph-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-03-31 22:11:53,862 INFO  ProjectFixService - Project was maybe fixed
-2019-03-31 22:11:53,862 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-31 22:11:53,862 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/src/kraph-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/src/kraph-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-31 22:11:59,298 INFO  ProjectTaskService - Detected possible tasks: 52
-2019-03-31 22:11:59,298 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-03-31 22:11:59,298 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/src/kraph-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/src/kraph-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-03-31 22:12:11,820 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 19:55:22,771 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/src/kraph-master/gradlew
+2019-07-05 19:55:22,773 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/src/kraph-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/src/kraph-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/src/kraph-master/sample/build.gradle
+2019-07-05 19:55:22,774 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/src/kraph-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/src/kraph-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/src/kraph-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/src/kraph-master/settings.gradle
+2019-07-05 19:55:22,775 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 19:55:22,775 INFO  ProjectFixService - Fixing project...
+2019-07-05 19:55:22,778 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/src/kraph-master/local.properties
+2019-07-05 19:55:22,779 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.4.1-all.zip
+2019-07-05 19:55:22,779 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.4.1-bin.zip)
+2019-07-05 19:55:22,780 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/src/kraph-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-05 19:55:22,781 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/src/kraph-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-05 19:55:22,781 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/src/kraph-master/core/local.properties
+2019-07-05 19:55:22,783 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/src/kraph-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-05 19:55:22,783 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/src/kraph-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-05 19:55:22,784 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/src/kraph-master/sample/local.properties
+2019-07-05 19:55:22,785 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/src/kraph-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-05 19:55:22,785 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/src/kraph-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-05 19:55:22,785 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 19:55:22,785 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 19:55:22,785 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/src/kraph-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/src/kraph-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 19:56:23,836 INFO  ProjectTaskService - Detected possible tasks: 57
+2019-07-05 19:56:23,836 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-07-05 19:56:23,836 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/src/kraph-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/src/kraph-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-07-05 19:56:36,119 INFO  SysUtils - Configuration on demand is an incubating feature.
 :core:compileKotlin
 Using Kotlin incremental compilation
 :core:compileJava NO-SOURCE
@@ -44,8 +44,8 @@ Using Kotlin incremental compilation
 Download https://jcenter.bintray.com/com/github/kittinunf/fuel/fuel/1.3.1/fuel-1.3.1.jar
 Download https://jcenter.bintray.com/com/github/kittinunf/result/result/1.0.2/result-1.0.2.jar
 Using Kotlin incremental compilation
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/src/kraph-master/sample/src/main/kotlin/StarWarExample.kt: (19, 144): Parameter 'request' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/src/kraph-master/sample/src/main/kotlin/StarWarExample.kt: (19, 163): Parameter 'result' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/src/kraph-master/sample/src/main/kotlin/StarWarExample.kt: (19, 144): Parameter 'request' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/src/kraph-master/sample/src/main/kotlin/StarWarExample.kt: (19, 163): Parameter 'result' is never used, could be renamed to _
 :sample:compileJava NO-SOURCE
 :sample:copyMainKotlinClasses
 :sample:processResources NO-SOURCE
@@ -56,14 +56,14 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/src/
 
 BUILD SUCCESSFUL
 
-Total time: 11.934 secs
+Total time: 11.703 secs
 
-2019-03-31 22:12:11,831 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-31 22:12:11,832 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/src/kraph-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/src/kraph-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-31 22:12:15,524 INFO  ProjectTaskService - Detected possible tasks: 52
-2019-03-31 22:12:15,524 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-03-31 22:12:15,524 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/src/kraph-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/src/kraph-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-03-31 22:12:19,218 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 19:56:36,127 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 19:56:36,127 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/src/kraph-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/src/kraph-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 19:56:39,626 INFO  ProjectTaskService - Detected possible tasks: 52
+2019-07-05 19:56:39,626 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-07-05 19:56:39,626 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/src/kraph-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/src/kraph-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-07-05 19:56:43,158 INFO  SysUtils - Configuration on demand is an incubating feature.
 :core:compileKotlin UP-TO-DATE
 :core:compileJava NO-SOURCE
 :core:copyMainKotlinClasses UP-TO-DATE
@@ -75,14 +75,14 @@ Total time: 11.934 secs
 
 BUILD SUCCESSFUL
 
-Total time: 3.516 secs
+Total time: 3.353 secs
 
-2019-03-31 22:12:19,228 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-31 22:12:19,228 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/src/kraph-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/src/kraph-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-31 22:12:22,295 INFO  ProjectTaskService - Detected possible tasks: 39
-2019-03-31 22:12:22,295 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
-2019-03-31 22:12:22,295 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/src/kraph-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554045113307-0/src/kraph-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
-2019-03-31 22:12:26,177 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 19:56:43,166 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 19:56:43,166 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/src/kraph-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/src/kraph-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 19:56:46,049 INFO  ProjectTaskService - Detected possible tasks: 39
+2019-07-05 19:56:46,050 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
+2019-07-05 19:56:46,050 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/src/kraph-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562331322113-0/src/kraph-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+2019-07-05 19:56:49,664 INFO  SysUtils - Configuration on demand is an incubating feature.
 :core:compileKotlin UP-TO-DATE
 :core:compileJava NO-SOURCE
 :core:copyMainKotlinClasses UP-TO-DATE
@@ -100,7 +100,7 @@ Total time: 3.516 secs
 
 BUILD SUCCESSFUL
 
-Total time: 3.699 secs
+Total time: 3.435 secs
 
-2019-03-31 22:12:26,187 ERROR FullProcessService - Project build has not produced APK file
-2019-03-31 22:12:26,195 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-05 19:56:49,671 ERROR FullProcessService - Project build has not produced APK file
+2019-07-05 19:56:49,677 ERROR FullProcessService - Could not find generated or existed APK file

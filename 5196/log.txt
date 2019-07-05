@@ -1,76 +1,80 @@
-2019-06-18 12:59:13,221 INFO  DownloadService - Downloading "https://github.com/tonyofrancis/Fetch/archive/master.zip", attempt 3
-2019-06-18 12:59:14,895 INFO  DownloadService - Downloaded https://github.com/tonyofrancis/Fetch/archive/master.zip, attempt 3
-2019-06-18 12:59:14,895 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/master.zip": 1 MB
-2019-06-18 12:59:14,895 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-06-18 12:59:14,898 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/master.zip: true
-2019-06-18 12:59:14,898 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src'.
-2019-06-18 12:59:15,196 INFO  FullProcessService - Size of directory with sources: 15 MB
-2019-06-18 12:59:15,197 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src]
-2019-06-18 12:59:15,213 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/.git/
+2019-07-05 19:44:06,693 INFO  DownloadService - Downloading "https://github.com/tonyofrancis/Fetch/archive/master.zip", attempt 3
+2019-07-05 19:44:08,726 INFO  DownloadService - Downloaded https://github.com/tonyofrancis/Fetch/archive/master.zip, attempt 3
+2019-07-05 19:44:08,726 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/master.zip": 1 MB
+2019-07-05 19:44:08,726 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 19:44:08,735 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/master.zip: true
+2019-07-05 19:44:08,735 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src'.
+2019-07-05 19:44:08,995 INFO  FullProcessService - Size of directory with sources: 15 MB
+2019-07-05 19:44:08,995 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src]
+2019-07-05 19:44:09,010 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/.git/
 
-2019-06-18 12:59:15,231 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/gradlew
-2019-06-18 12:59:15,250 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2downloaders/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2fileserver/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2okhttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2rx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetchmigrator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/sampleApp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/build.gradle
-2019-06-18 12:59:15,269 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2fileserver/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2downloaders/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetchmigrator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2rx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2okhttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/sampleApp/build.gradle
-2019-06-18 12:59:15,270 INFO  ProjectBuildService - Remote scripts: none
-2019-06-18 12:59:15,270 INFO  ProjectFixService - Fixing project...
-2019-06-18 12:59:15,310 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2/local.properties
-2019-06-18 12:59:15,315 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-06-18 12:59:15,315 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-06-18 12:59:15,316 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2core/local.properties
-2019-06-18 12:59:15,321 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-06-18 12:59:15,321 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-06-18 12:59:15,322 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2downloaders/local.properties
-2019-06-18 12:59:15,327 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2downloaders/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-06-18 12:59:15,327 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2downloaders/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-06-18 12:59:15,328 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2fileserver/local.properties
-2019-06-18 12:59:15,333 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2fileserver/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-06-18 12:59:15,334 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2fileserver/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-06-18 12:59:15,335 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2okhttp/local.properties
-2019-06-18 12:59:15,339 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2okhttp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-06-18 12:59:15,340 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2okhttp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-06-18 12:59:15,341 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2rx/local.properties
-2019-06-18 12:59:15,345 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2rx/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-06-18 12:59:15,346 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2rx/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-06-18 12:59:15,347 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetchmigrator/local.properties
-2019-06-18 12:59:15,352 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetchmigrator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-06-18 12:59:15,352 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetchmigrator/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-06-18 12:59:15,353 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/sampleApp/local.properties
-2019-06-18 12:59:15,358 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/sampleApp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-06-18 12:59:15,358 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/sampleApp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-06-18 12:59:15,359 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/local.properties
-2019-06-18 12:59:15,360 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-06-18 12:59:15,360 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-06-18 12:59:15,365 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-06-18 12:59:15,365 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-06-18 12:59:15,365 INFO  ProjectFixService - Project was maybe fixed
-2019-06-18 12:59:15,365 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-18 12:59:15,366 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-18 12:59:21,805 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-06-18 12:59:21,805 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-06-18 12:59:21,805 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-06-18 13:00:17,977 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 19:44:09,029 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/gradlew
+2019-07-05 19:44:09,047 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2downloaders/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2fileserver/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2okhttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2rx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetchmigrator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/sampleApp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/build.gradle
+2019-07-05 19:44:09,064 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2fileserver/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2downloaders/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetchmigrator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2rx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2okhttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/sampleApp/build.gradle
+2019-07-05 19:44:09,065 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 19:44:09,065 INFO  ProjectFixService - Fixing project...
+2019-07-05 19:44:09,105 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2/local.properties
+2019-07-05 19:44:09,110 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-05 19:44:09,110 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-05 19:44:09,111 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2core/local.properties
+2019-07-05 19:44:09,116 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-05 19:44:09,116 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-05 19:44:09,117 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2downloaders/local.properties
+2019-07-05 19:44:09,122 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2downloaders/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-05 19:44:09,122 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2downloaders/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-05 19:44:09,123 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2fileserver/local.properties
+2019-07-05 19:44:09,127 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2fileserver/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-05 19:44:09,128 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2fileserver/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-05 19:44:09,129 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2okhttp/local.properties
+2019-07-05 19:44:09,134 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2okhttp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-05 19:44:09,134 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2okhttp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-05 19:44:09,135 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2rx/local.properties
+2019-07-05 19:44:09,140 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2rx/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-05 19:44:09,140 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2rx/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-05 19:44:09,141 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetchmigrator/local.properties
+2019-07-05 19:44:09,146 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetchmigrator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-05 19:44:09,146 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetchmigrator/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-05 19:44:09,147 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/sampleApp/local.properties
+2019-07-05 19:44:09,151 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/sampleApp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-05 19:44:09,152 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/sampleApp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-05 19:44:09,153 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/local.properties
+2019-07-05 19:44:09,153 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-07-05 19:44:09,153 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-07-05 19:44:09,158 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-05 19:44:09,158 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-05 19:44:09,159 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 19:44:09,159 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 19:44:09,159 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 19:44:16,133 INFO  ProjectTaskService - Detected possible tasks: 80
+2019-07-05 19:44:16,133 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-05 19:44:16,133 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-05 19:45:10,332 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :fetch2
-WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
 It will be removed at the end of 2019.
 For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'variantOutput.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 
 > Task :fetch2:preBuild UP-TO-DATE
 > Task :fetch2:preDebugBuild UP-TO-DATE
 > Task :fetch2core:preBuild UP-TO-DATE
 > Task :fetch2core:preDebugBuild UP-TO-DATE
 > Task :fetch2core:compileDebugAidl NO-SOURCE
-> Task :fetch2:compileDebugAidl NO-SOURCE
 > Task :fetch2core:packageDebugRenderscript NO-SOURCE
-> Task :fetch2:compileDebugRenderscript NO-SOURCE
 > Task :fetch2:checkDebugManifest
 > Task :fetch2:generateDebugBuildConfig
 > Task :fetch2:generateDebugResValues
-> Task :fetch2:generateDebugResources
-> Task :fetch2:packageDebugResources
 > Task :fetch2:processDebugManifest
 > Task :fetch2core:compileDebugRenderscript NO-SOURCE
+> Task :fetch2:compileDebugRenderscript NO-SOURCE
+> Task :fetch2:compileDebugAidl NO-SOURCE
+> Task :fetch2:generateDebugResources
+> Task :fetch2:packageDebugResources
 > Task :fetch2core:generateDebugResValues
 > Task :fetch2core:generateDebugResources
 > Task :fetch2core:packageDebugResources
@@ -83,11 +87,9 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :fetch2core:kaptDebugKotlin
 
 > Task :fetch2core:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2core/src/main/java/com/tonyodev/fetch2core/AndroidExtentions.kt: (13, 27): 'getter for type: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2core/src/main/java/com/tonyodev/fetch2core/AndroidExtentions.kt: (13, 55): 'TYPE_WIFI: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2core/src/main/java/com/tonyodev/fetch2core/FileResource.kt: (90, 33): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2core/src/main/java/com/tonyodev/fetch2core/FileResource.kt: (92, 33): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2core/src/main/java/com/tonyodev/fetch2core/FileResource.kt: (94, 32): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2core/src/main/java/com/tonyodev/fetch2core/AndroidExtentions.kt: (13, 27): 'getter for type: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2core/src/main/java/com/tonyodev/fetch2core/AndroidExtentions.kt: (13, 55): 'TYPE_WIFI: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2core/src/main/java/com/tonyodev/fetch2core/AndroidExtentions.kt: (24, 29): 'getter for allNetworkInfo: Array<(out) NetworkInfo!>!' is deprecated. Deprecated in Java
 
 > Task :fetch2core:prepareLintJar
 > Task :fetch2core:generateDebugSources
@@ -98,8 +100,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/
 > Task :fetch2:kaptDebugKotlin
 
 > Task :fetch2:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2/src/main/java/com/tonyodev/fetch2/Request.kt: (99, 17): Variable 'autoRetryAttempts' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2/src/main/java/com/tonyodev/fetch2/provider/NetworkInfoProvider.kt: (54, 107): 'CONNECTIVITY_ACTION: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2/src/main/java/com/tonyodev/fetch2/provider/NetworkInfoProvider.kt: (54, 107): 'CONNECTIVITY_ACTION: String' is deprecated. Deprecated in Java
 
 > Task :fetch2:prepareLintJar
 > Task :fetch2:generateDebugSources
@@ -148,11 +149,9 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/
 > Task :fetch2core:kaptReleaseKotlin
 
 > Task :fetch2core:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2core/src/main/java/com/tonyodev/fetch2core/AndroidExtentions.kt: (13, 27): 'getter for type: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2core/src/main/java/com/tonyodev/fetch2core/AndroidExtentions.kt: (13, 55): 'TYPE_WIFI: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2core/src/main/java/com/tonyodev/fetch2core/FileResource.kt: (90, 33): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2core/src/main/java/com/tonyodev/fetch2core/FileResource.kt: (92, 33): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2core/src/main/java/com/tonyodev/fetch2core/FileResource.kt: (94, 32): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2core/src/main/java/com/tonyodev/fetch2core/AndroidExtentions.kt: (13, 27): 'getter for type: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2core/src/main/java/com/tonyodev/fetch2core/AndroidExtentions.kt: (13, 55): 'TYPE_WIFI: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2core/src/main/java/com/tonyodev/fetch2core/AndroidExtentions.kt: (24, 29): 'getter for allNetworkInfo: Array<(out) NetworkInfo!>!' is deprecated. Deprecated in Java
 
 > Task :fetch2core:generateReleaseSources
 > Task :fetch2core:javaPreCompileRelease
@@ -162,8 +161,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/
 > Task :fetch2:kaptReleaseKotlin
 
 > Task :fetch2:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2/src/main/java/com/tonyodev/fetch2/Request.kt: (99, 17): Variable 'autoRetryAttempts' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2/src/main/java/com/tonyodev/fetch2/provider/NetworkInfoProvider.kt: (54, 107): 'CONNECTIVITY_ACTION: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2/src/main/java/com/tonyodev/fetch2/provider/NetworkInfoProvider.kt: (54, 107): 'CONNECTIVITY_ACTION: String' is deprecated. Deprecated in Java
 
 > Task :fetch2:generateReleaseSources
 > Task :fetch2:javaPreCompileRelease
@@ -194,21 +192,25 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 55s
+BUILD SUCCESSFUL in 53s
 75 actionable tasks: 75 executed
 
-2019-06-18 13:00:18,044 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-18 13:00:18,044 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-18 13:00:24,497 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-06-18 13:00:24,498 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-06-18 13:00:24,498 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-06-18 13:00:31,847 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 19:45:10,396 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 19:45:10,396 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 19:45:16,941 INFO  ProjectTaskService - Detected possible tasks: 80
+2019-07-05 19:45:16,941 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-05 19:45:16,941 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-05 19:45:24,744 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :fetch2core
-WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
 It will be removed at the end of 2019.
 For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'variantOutput.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 
 > Task :fetch2core:preBuild UP-TO-DATE
 > Task :fetch2core:preDebugBuild UP-TO-DATE
@@ -218,8 +220,8 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :fetch2core:generateDebugBuildConfig UP-TO-DATE
 > Task :fetch2core:generateDebugResValues UP-TO-DATE
 > Task :fetch2core:generateDebugResources UP-TO-DATE
-> Task :fetch2core:packageDebugResources UP-TO-DATE
 > Task :fetch2core:processDebugManifest UP-TO-DATE
+> Task :fetch2core:packageDebugResources UP-TO-DATE
 > Task :fetch2core:generateDebugRFile UP-TO-DATE
 > Task :fetch2core:kaptGenerateStubsDebugKotlin UP-TO-DATE
 > Task :fetch2core:kaptDebugKotlin UP-TO-DATE
@@ -291,13 +293,13 @@ See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:comm
 BUILD SUCCESSFUL in 7s
 50 actionable tasks: 27 executed, 23 up-to-date
 
-2019-06-18 13:00:31,918 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-18 13:00:31,926 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2downloaders/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-18 13:00:33,546 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-06-18 13:00:33,546 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-06-18 13:00:33,546 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-06-18 13:00:33,546 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2downloaders/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-06-18 13:00:35,181 ERROR SysUtils - Could not process external command
+2019-07-05 19:45:24,807 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 19:45:24,808 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2downloaders/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 19:45:26,391 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 19:45:26,391 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 19:45:26,391 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 19:45:26,391 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2downloaders/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 19:45:27,977 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -324,17 +326,17 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-06-18 13:00:35,181 INFO  SysUtils - 
+2019-07-05 19:45:27,977 INFO  SysUtils - 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2downloaders/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2downloaders/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
 
 * Exception is:
-org.gradle.api.InvalidUserDataException: Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2downloaders/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+org.gradle.api.InvalidUserDataException: Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2downloaders/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
 	at org.gradle.initialization.AbstractProjectSpec.selectProject(AbstractProjectSpec.java:40)
 	at org.gradle.initialization.DefaultSettingsLoader.setDefaultProject(DefaultSettingsLoader.java:88)
 	at org.gradle.initialization.DefaultSettingsLoader.findAndLoadSettings(DefaultSettingsLoader.java:52)
@@ -417,25 +419,28 @@ org.gradle.api.InvalidUserDataException: Build file '/private/var/folders/bq/vtz
 
 BUILD FAILED in 1s
 
-2019-06-18 13:00:35,246 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-18 13:00:35,246 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2fileserver/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-18 13:00:41,589 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-06-18 13:00:41,589 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-06-18 13:00:41,589 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2fileserver/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-06-18 13:01:10,805 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 19:45:28,040 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 19:45:28,040 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2fileserver/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 19:45:34,986 INFO  ProjectTaskService - Detected possible tasks: 80
+2019-07-05 19:45:34,986 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-05 19:45:34,986 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2fileserver/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-05 19:45:59,945 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :fetch2fileserver
-WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
 It will be removed at the end of 2019.
 For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'variantOutput.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 
 > Task :fetch2core:preBuild UP-TO-DATE
 > Task :fetch2core:preDebugBuild UP-TO-DATE
 > Task :fetch2core:compileDebugAidl NO-SOURCE
 > Task :fetch2fileserver:preBuild UP-TO-DATE
 > Task :fetch2fileserver:preDebugBuild UP-TO-DATE
-> Task :fetch2fileserver:compileDebugAidl NO-SOURCE
 > Task :fetch2core:compileDebugRenderscript NO-SOURCE
 > Task :fetch2core:checkDebugManifest UP-TO-DATE
 > Task :fetch2core:generateDebugBuildConfig UP-TO-DATE
@@ -446,6 +451,7 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :fetch2core:generateDebugRFile UP-TO-DATE
 > Task :fetch2core:kaptGenerateStubsDebugKotlin UP-TO-DATE
 > Task :fetch2core:kaptDebugKotlin UP-TO-DATE
+> Task :fetch2fileserver:compileDebugAidl NO-SOURCE
 > Task :fetch2core:compileDebugKotlin UP-TO-DATE
 > Task :fetch2core:prepareLintJar UP-TO-DATE
 > Task :fetch2core:generateDebugSources UP-TO-DATE
@@ -453,18 +459,18 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :fetch2core:compileDebugJavaWithJavac UP-TO-DATE
 > Task :fetch2core:bundleLibCompileDebug UP-TO-DATE
 > Task :fetch2core:packageDebugRenderscript NO-SOURCE
-> Task :fetch2fileserver:compileDebugRenderscript NO-SOURCE
 > Task :fetch2fileserver:checkDebugManifest
+> Task :fetch2fileserver:compileDebugRenderscript NO-SOURCE
 > Task :fetch2fileserver:generateDebugBuildConfig
 > Task :fetch2fileserver:generateDebugResValues
 > Task :fetch2fileserver:generateDebugResources
 > Task :fetch2fileserver:packageDebugResources
 > Task :fetch2fileserver:processDebugManifest
 > Task :fetch2fileserver:generateDebugRFile
+> Task :fetch2fileserver:prepareLintJar
 > Task :fetch2fileserver:kaptGenerateStubsDebugKotlin
 > Task :fetch2fileserver:kaptDebugKotlin
 > Task :fetch2fileserver:compileDebugKotlin
-> Task :fetch2fileserver:prepareLintJar
 > Task :fetch2fileserver:generateDebugSources
 > Task :fetch2fileserver:javaPreCompileDebug
 > Task :fetch2fileserver:compileDebugJavaWithJavac
@@ -546,21 +552,25 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 28s
+BUILD SUCCESSFUL in 24s
 75 actionable tasks: 50 executed, 25 up-to-date
 
-2019-06-18 13:01:10,931 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-18 13:01:10,931 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2okhttp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-18 13:01:17,333 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-06-18 13:01:17,333 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-06-18 13:01:17,333 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2okhttp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-06-18 13:01:32,072 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 19:46:00,032 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 19:46:00,032 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2okhttp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 19:46:06,939 INFO  ProjectTaskService - Detected possible tasks: 80
+2019-07-05 19:46:06,939 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-05 19:46:06,939 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2okhttp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-05 19:46:23,937 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :fetch2okhttp
-WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
 It will be removed at the end of 2019.
 For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'variantOutput.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 
 > Task :fetch2core:preBuild UP-TO-DATE
 > Task :fetch2core:preDebugBuild UP-TO-DATE
@@ -573,8 +583,8 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :fetch2core:generateDebugBuildConfig UP-TO-DATE
 > Task :fetch2core:generateDebugResValues UP-TO-DATE
 > Task :fetch2core:generateDebugResources UP-TO-DATE
-> Task :fetch2core:packageDebugResources UP-TO-DATE
 > Task :fetch2core:processDebugManifest UP-TO-DATE
+> Task :fetch2core:packageDebugResources UP-TO-DATE
 > Task :fetch2core:generateDebugRFile UP-TO-DATE
 > Task :fetch2core:kaptGenerateStubsDebugKotlin UP-TO-DATE
 > Task :fetch2core:kaptDebugKotlin UP-TO-DATE
@@ -593,12 +603,8 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :fetch2okhttp:packageDebugResources
 > Task :fetch2okhttp:processDebugManifest
 > Task :fetch2okhttp:generateDebugRFile
-> Task :fetch2okhttp:compileDebugKotlin
 > Task :fetch2okhttp:prepareLintJar
 > Task :fetch2okhttp:generateDebugSources
-> Task :fetch2okhttp:javaPreCompileDebug
-> Task :fetch2okhttp:compileDebugJavaWithJavac
-> Task :fetch2okhttp:extractDebugAnnotations
 > Task :fetch2okhttp:mergeDebugConsumerProguardFiles
 > Task :fetch2okhttp:mergeDebugShaders
 > Task :fetch2okhttp:compileDebugShaders
@@ -607,15 +613,10 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :fetch2okhttp:packageDebugRenderscript NO-SOURCE
 > Task :fetch2okhttp:prepareLintJarForPublish
 > Task :fetch2okhttp:processDebugJavaRes NO-SOURCE
-> Task :fetch2okhttp:transformResourcesWithMergeJavaResForDebug
-> Task :fetch2okhttp:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :fetch2okhttp:mergeDebugJniLibFolders
 > Task :fetch2okhttp:transformNativeLibsWithMergeJniLibsForDebug
 > Task :fetch2okhttp:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :fetch2okhttp:transformNativeLibsWithSyncJniLibsForDebug
-> Task :fetch2okhttp:bundleDebugAar
-> Task :fetch2okhttp:compileDebugSources
-> Task :fetch2okhttp:assembleDebug
 > Task :fetch2core:preReleaseBuild UP-TO-DATE
 > Task :fetch2core:compileReleaseAidl NO-SOURCE
 > Task :fetch2okhttp:preReleaseBuild UP-TO-DATE
@@ -644,11 +645,7 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :fetch2okhttp:packageReleaseResources
 > Task :fetch2okhttp:processReleaseManifest
 > Task :fetch2okhttp:generateReleaseRFile
-> Task :fetch2okhttp:compileReleaseKotlin
 > Task :fetch2okhttp:generateReleaseSources
-> Task :fetch2okhttp:javaPreCompileRelease
-> Task :fetch2okhttp:compileReleaseJavaWithJavac
-> Task :fetch2okhttp:extractReleaseAnnotations
 > Task :fetch2okhttp:mergeReleaseConsumerProguardFiles
 > Task :fetch2okhttp:mergeReleaseShaders
 > Task :fetch2okhttp:compileReleaseShaders
@@ -656,6 +653,19 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :fetch2okhttp:packageReleaseAssets
 > Task :fetch2okhttp:packageReleaseRenderscript NO-SOURCE
 > Task :fetch2okhttp:processReleaseJavaRes NO-SOURCE
+> Task :fetch2okhttp:compileDebugKotlin
+> Task :fetch2okhttp:javaPreCompileDebug
+> Task :fetch2okhttp:compileDebugJavaWithJavac
+> Task :fetch2okhttp:extractDebugAnnotations
+> Task :fetch2okhttp:transformResourcesWithMergeJavaResForDebug
+> Task :fetch2okhttp:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :fetch2okhttp:bundleDebugAar
+> Task :fetch2okhttp:compileDebugSources
+> Task :fetch2okhttp:assembleDebug
+> Task :fetch2okhttp:compileReleaseKotlin
+> Task :fetch2okhttp:javaPreCompileRelease
+> Task :fetch2okhttp:compileReleaseJavaWithJavac
+> Task :fetch2okhttp:extractReleaseAnnotations
 > Task :fetch2okhttp:transformResourcesWithMergeJavaResForRelease
 > Task :fetch2okhttp:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :fetch2okhttp:mergeReleaseJniLibFolders
@@ -674,38 +684,42 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 14s
+BUILD SUCCESSFUL in 16s
 71 actionable tasks: 46 executed, 25 up-to-date
 
-2019-06-18 13:01:32,179 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-18 13:01:32,179 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2rx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-18 13:01:39,102 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-06-18 13:01:39,102 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-06-18 13:01:39,103 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2rx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-06-18 13:02:02,700 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 19:46:24,045 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 19:46:24,045 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2rx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 19:46:31,005 INFO  ProjectTaskService - Detected possible tasks: 80
+2019-07-05 19:46:31,006 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-05 19:46:31,006 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2rx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-05 19:46:53,429 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :fetch2rx
-WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
 It will be removed at the end of 2019.
 For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'variantOutput.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 
 > Task :fetch2:preBuild UP-TO-DATE
 > Task :fetch2:preDebugBuild UP-TO-DATE
 > Task :fetch2core:preBuild UP-TO-DATE
 > Task :fetch2core:preDebugBuild UP-TO-DATE
 > Task :fetch2core:compileDebugAidl NO-SOURCE
-> Task :fetch2:compileDebugAidl NO-SOURCE
 > Task :fetch2rx:preBuild UP-TO-DATE
 > Task :fetch2rx:preDebugBuild UP-TO-DATE
-> Task :fetch2rx:compileDebugAidl NO-SOURCE
+> Task :fetch2:compileDebugAidl NO-SOURCE
 > Task :fetch2core:packageDebugRenderscript NO-SOURCE
-> Task :fetch2:compileDebugRenderscript NO-SOURCE
 > Task :fetch2:checkDebugManifest UP-TO-DATE
+> Task :fetch2:compileDebugRenderscript NO-SOURCE
 > Task :fetch2:generateDebugBuildConfig UP-TO-DATE
 > Task :fetch2:generateDebugResValues UP-TO-DATE
 > Task :fetch2:generateDebugResources UP-TO-DATE
 > Task :fetch2:packageDebugResources UP-TO-DATE
+> Task :fetch2rx:compileDebugAidl NO-SOURCE
 > Task :fetch2:processDebugManifest UP-TO-DATE
 > Task :fetch2core:compileDebugRenderscript NO-SOURCE
 > Task :fetch2core:generateDebugResValues UP-TO-DATE
@@ -743,7 +757,7 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :fetch2rx:generateDebugRFile
 
 > Task :fetch2rx:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2rx/src/main/java/com/tonyodev/fetch2rx/RxFetchImpl.kt: (390, 54): The corresponding parameter in the supertype 'RxFetch' is named 'statuses'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2rx/src/main/java/com/tonyodev/fetch2rx/RxFetchImpl.kt: (390, 54): The corresponding parameter in the supertype 'RxFetch' is named 'statuses'. This may cause problems when calling this function with named arguments.
 
 > Task :fetch2rx:prepareLintJar
 > Task :fetch2rx:generateDebugSources
@@ -815,7 +829,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/
 > Task :fetch2rx:generateReleaseRFile
 
 > Task :fetch2rx:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetch2rx/src/main/java/com/tonyodev/fetch2rx/RxFetchImpl.kt: (390, 54): The corresponding parameter in the supertype 'RxFetch' is named 'statuses'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetch2rx/src/main/java/com/tonyodev/fetch2rx/RxFetchImpl.kt: (390, 54): The corresponding parameter in the supertype 'RxFetch' is named 'statuses'. This may cause problems when calling this function with named arguments.
 
 > Task :fetch2rx:generateReleaseSources
 > Task :fetch2rx:javaPreCompileRelease
@@ -846,39 +860,43 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 23s
+BUILD SUCCESSFUL in 21s
 96 actionable tasks: 48 executed, 48 up-to-date
 
-2019-06-18 13:02:02,823 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-18 13:02:02,823 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetchmigrator/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-18 13:02:09,047 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-06-18 13:02:09,047 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-06-18 13:02:09,047 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/fetchmigrator/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-06-18 13:02:25,662 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 19:46:53,549 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 19:46:53,550 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetchmigrator/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 19:47:00,414 INFO  ProjectTaskService - Detected possible tasks: 80
+2019-07-05 19:47:00,414 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-05 19:47:00,414 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/fetchmigrator/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-05 19:47:16,321 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :fetchmigrator
-WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
 It will be removed at the end of 2019.
 For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'variantOutput.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 
 > Task :fetch2:preBuild UP-TO-DATE
 > Task :fetch2:preDebugBuild UP-TO-DATE
 > Task :fetch2core:preBuild UP-TO-DATE
 > Task :fetch2core:preDebugBuild UP-TO-DATE
 > Task :fetch2core:compileDebugAidl NO-SOURCE
-> Task :fetch2:compileDebugAidl NO-SOURCE
 > Task :fetchmigrator:preBuild UP-TO-DATE
 > Task :fetchmigrator:preDebugBuild UP-TO-DATE
-> Task :fetchmigrator:compileDebugAidl NO-SOURCE
 > Task :fetch2core:packageDebugRenderscript NO-SOURCE
-> Task :fetch2:compileDebugRenderscript NO-SOURCE
 > Task :fetch2:checkDebugManifest UP-TO-DATE
 > Task :fetch2:generateDebugBuildConfig UP-TO-DATE
+> Task :fetch2:compileDebugAidl NO-SOURCE
+> Task :fetchmigrator:compileDebugAidl NO-SOURCE
+> Task :fetch2:compileDebugRenderscript NO-SOURCE
 > Task :fetch2:generateDebugResValues UP-TO-DATE
 > Task :fetch2:generateDebugResources UP-TO-DATE
-> Task :fetch2:packageDebugResources UP-TO-DATE
 > Task :fetch2:processDebugManifest UP-TO-DATE
+> Task :fetch2:packageDebugResources UP-TO-DATE
 > Task :fetch2core:compileDebugRenderscript NO-SOURCE
 > Task :fetch2core:generateDebugResValues UP-TO-DATE
 > Task :fetch2core:generateDebugResources UP-TO-DATE
@@ -1012,36 +1030,40 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 16s
+BUILD SUCCESSFUL in 15s
 96 actionable tasks: 46 executed, 50 up-to-date
 
-2019-06-18 13:02:25,834 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-18 13:02:25,834 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/sampleApp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-18 13:02:32,868 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-06-18 13:02:32,868 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-06-18 13:02:32,868 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/sampleApp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-06-18 13:03:16,414 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 19:47:16,457 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 19:47:16,457 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/sampleApp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 19:47:22,923 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-05 19:47:22,923 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-05 19:47:22,923 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/sampleApp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-05 19:48:14,156 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :fetch2okhttp
-WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
 It will be removed at the end of 2019.
 For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'variantOutput.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 
 > Task :fetch2:preBuild UP-TO-DATE
 > Task :fetch2:preDebugBuild UP-TO-DATE
 > Task :fetch2core:preBuild UP-TO-DATE
 > Task :fetch2core:preDebugBuild UP-TO-DATE
 > Task :fetch2core:compileDebugAidl NO-SOURCE
-> Task :fetch2:compileDebugAidl NO-SOURCE
 > Task :fetch2core:packageDebugRenderscript NO-SOURCE
-> Task :fetch2:compileDebugRenderscript NO-SOURCE
 > Task :fetch2:checkDebugManifest UP-TO-DATE
 > Task :fetch2:generateDebugBuildConfig UP-TO-DATE
+> Task :fetch2:compileDebugAidl NO-SOURCE
+> Task :fetch2:compileDebugRenderscript NO-SOURCE
 > Task :fetch2:generateDebugResValues UP-TO-DATE
 > Task :fetch2:generateDebugResources UP-TO-DATE
-> Task :fetch2:packageDebugResources UP-TO-DATE
 > Task :fetch2:processDebugManifest UP-TO-DATE
+> Task :fetch2:packageDebugResources UP-TO-DATE
 > Task :fetch2core:compileDebugRenderscript NO-SOURCE
 > Task :fetch2core:generateDebugResValues UP-TO-DATE
 > Task :fetch2core:generateDebugResources UP-TO-DATE
@@ -1070,9 +1092,9 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :fetch2fileserver:preBuild UP-TO-DATE
 > Task :fetch2fileserver:preDebugBuild UP-TO-DATE
 > Task :fetch2fileserver:compileDebugAidl NO-SOURCE
-> Task :fetch2fileserver:compileDebugRenderscript NO-SOURCE
 > Task :fetch2fileserver:checkDebugManifest UP-TO-DATE
 > Task :fetch2fileserver:generateDebugBuildConfig UP-TO-DATE
+> Task :fetch2fileserver:compileDebugRenderscript NO-SOURCE
 > Task :fetch2fileserver:generateDebugResValues UP-TO-DATE
 > Task :fetch2fileserver:generateDebugResources UP-TO-DATE
 > Task :fetch2fileserver:packageDebugResources UP-TO-DATE
@@ -1105,8 +1127,8 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :fetch2okhttp:bundleLibCompileDebug
 > Task :fetch2rx:preBuild UP-TO-DATE
 > Task :fetch2rx:preDebugBuild UP-TO-DATE
-> Task :fetch2rx:compileDebugAidl NO-SOURCE
 > Task :fetch2:packageDebugRenderscript NO-SOURCE
+> Task :fetch2rx:compileDebugAidl NO-SOURCE
 > Task :fetch2rx:compileDebugRenderscript NO-SOURCE
 > Task :fetch2rx:checkDebugManifest UP-TO-DATE
 > Task :fetch2rx:generateDebugBuildConfig UP-TO-DATE
@@ -1139,9 +1161,9 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :fetchmigrator:compileDebugJavaWithJavac UP-TO-DATE
 > Task :fetchmigrator:bundleLibCompileDebug
 > Task :sampleApp:preBuild UP-TO-DATE
+> Task :fetch2fileserver:packageDebugRenderscript NO-SOURCE
 > Task :sampleApp:preDebugBuild
 > Task :sampleApp:compileDebugAidl NO-SOURCE
-> Task :fetch2fileserver:packageDebugRenderscript NO-SOURCE
 > Task :fetch2okhttp:packageDebugRenderscript NO-SOURCE
 > Task :fetch2rx:packageDebugRenderscript NO-SOURCE
 > Task :fetchmigrator:packageDebugRenderscript NO-SOURCE
@@ -1151,8 +1173,8 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :sampleApp:mainApkListPersistenceDebug
 > Task :sampleApp:generateDebugResValues
 > Task :sampleApp:generateDebugResources
-> Task :sampleApp:mergeDebugResources
 > Task :sampleApp:createDebugCompatibleScreenManifests
+> Task :sampleApp:mergeDebugResources
 > Task :sampleApp:processDebugManifest
 > Task :sampleApp:processDebugResources
 > Task :sampleApp:compileDebugKotlin
@@ -1195,13 +1217,15 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :sampleApp:mergeDebugAssets
 > Task :sampleApp:validateSigningDebug
 > Task :sampleApp:signingConfigWriterDebug
-> Task :sampleApp:checkDebugDuplicateClasses
 > Task :fetch2:bundleLibRuntimeDebug
+> Task :sampleApp:checkDebugDuplicateClasses
 > Task :fetch2core:bundleLibRuntimeDebug
 > Task :fetch2fileserver:bundleLibRuntimeDebug
 > Task :fetch2okhttp:bundleLibRuntimeDebug
 > Task :fetch2rx:bundleLibRuntimeDebug
 > Task :fetchmigrator:bundleLibRuntimeDebug
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.3/4a1c4c7b89298e7a00e83e4b3bc75af9cc6307f1/okhttp-3.12.3.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `java.security.Provider okhttp3.internal.platform.ConscryptPlatform.getProvider()`
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/08672ba657a10b99a8516ad2810f5a83/jars/classes.jar: D8: Type `androidx.paging.PositionalDataSource` was not found, it is required for default or static interface methods desugaring of `boolean androidx.room.paging.LimitOffsetDataSource.isInvalid()`
 > Task :sampleApp:transformClassesWithDexBuilderForDebug
 > Task :sampleApp:transformDexArchiveWithExternalLibsDexMergerForDebug
 > Task :sampleApp:transformDexArchiveWithDexMergerForDebug
@@ -1377,7 +1401,10 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :fetch2okhttp:prepareLintJarForPublish UP-TO-DATE
 > Task :fetch2rx:prepareLintJarForPublish UP-TO-DATE
 > Task :fetchmigrator:prepareLintJarForPublish UP-TO-DATE
+
 > Task :sampleApp:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/5ac49ab3cfb5d67941a8d701b0cf8345/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
 > Task :fetch2:mergeReleaseShaders UP-TO-DATE
 > Task :fetch2:compileReleaseShaders UP-TO-DATE
 > Task :fetch2:generateReleaseAssets UP-TO-DATE
@@ -1414,6 +1441,8 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :fetch2okhttp:bundleLibRuntimeRelease
 > Task :fetch2rx:bundleLibRuntimeRelease
 > Task :fetchmigrator:bundleLibRuntimeRelease
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.3/4a1c4c7b89298e7a00e83e4b3bc75af9cc6307f1/okhttp-3.12.3.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `java.security.Provider okhttp3.internal.platform.ConscryptPlatform.getProvider()`
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/08672ba657a10b99a8516ad2810f5a83/jars/classes.jar: D8: Type `androidx.paging.PositionalDataSource` was not found, it is required for default or static interface methods desugaring of `boolean androidx.room.paging.LimitOffsetDataSource.isInvalid()`
 > Task :sampleApp:transformClassesWithDexBuilderForRelease
 > Task :sampleApp:transformDexArchiveWithExternalLibsDexMergerForRelease
 > Task :sampleApp:transformDexArchiveWithDexMergerForRelease
@@ -1467,7 +1496,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 42s
+BUILD SUCCESSFUL in 50s
 305 actionable tasks: 97 executed, 208 up-to-date
 
-2019-06-18 13:03:16,634 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837553217-0/src/Fetch-master/sampleApp/build/outputs/apk/release/sampleApp-release-unsigned.apk
+2019-07-05 19:48:14,348 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330646691-0/src/Fetch-master/sampleApp/build/outputs/apk/release/sampleApp-release-unsigned.apk
