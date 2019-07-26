@@ -1,38 +1,63 @@
-2019-05-29 11:59:04,014 INFO  DownloadService - Downloading "https://github.com/VladimirWrites/Lemniscate/archive/master.zip", attempt 3
-2019-05-29 11:59:05,661 INFO  DownloadService - Downloaded https://github.com/VladimirWrites/Lemniscate/archive/master.zip, attempt 3
-2019-05-29 11:59:05,661 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/master.zip": 213 KB
-2019-05-29 11:59:05,661 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-29 11:59:05,667 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/master.zip: true
-2019-05-29 11:59:05,668 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src'.
-2019-05-29 11:59:05,702 INFO  FullProcessService - Size of directory with sources: 312 KB
-2019-05-29 11:59:05,702 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src]
-2019-05-29 11:59:05,730 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/.git/
+2019-07-26 13:34:12,163 INFO  DownloadService - Downloading "https://github.com/VladimirWrites/Lemniscate/archive/master.zip", attempt 3
+2019-07-26 13:34:12,891 INFO  DownloadService - Downloaded https://github.com/VladimirWrites/Lemniscate/archive/master.zip, attempt 3
+2019-07-26 13:34:12,892 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/master.zip": 214 KB
+2019-07-26 13:34:12,892 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-26 13:34:12,897 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/master.zip: true
+2019-07-26 13:34:12,897 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/src'.
+2019-07-26 13:34:12,930 INFO  FullProcessService - Size of directory with sources: 312 KB
+2019-07-26 13:34:12,930 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/src]
+2019-07-26 13:34:12,949 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/src/.git/
 
-2019-05-29 11:59:05,735 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/Lemniscate-master/gradlew
-2019-05-29 11:59:05,739 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/Lemniscate-master/lemniscate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/Lemniscate-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/Lemniscate-master/build.gradle
-2019-05-29 11:59:05,743 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/Lemniscate-master/lemniscate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/Lemniscate-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/Lemniscate-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/Lemniscate-master/settings.gradle
-2019-05-29 11:59:05,743 INFO  ProjectBuildService - Remote scripts: none
-2019-05-29 11:59:05,743 INFO  ProjectFixService - Fixing project...
-2019-05-29 11:59:05,752 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/Lemniscate-master/lemniscate/local.properties
-2019-05-29 11:59:05,752 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/Lemniscate-master/lemniscate/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-29 11:59:05,752 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/Lemniscate-master/sample/local.properties
-2019-05-29 11:59:05,753 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/Lemniscate-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-29 11:59:05,753 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/Lemniscate-master/local.properties
-2019-05-29 11:59:05,753 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-05-29 11:59:05,754 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-05-29 11:59:05,755 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/Lemniscate-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-29 11:59:05,755 INFO  ProjectFixService - Project was maybe fixed
-2019-05-29 11:59:05,755 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-29 11:59:05,756 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/Lemniscate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/Lemniscate-master/lemniscate/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-29 11:59:11,899 INFO  ProjectTaskService - Detected possible tasks: 65
-2019-05-29 11:59:11,899 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-05-29 11:59:11,899 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/Lemniscate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/Lemniscate-master/lemniscate/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-05-29 11:59:34,104 INFO  SysUtils - /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/Lemniscate-master/gradlew: line 88: [: too many arguments
+2019-07-26 13:34:12,953 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/src/Lemniscate-master/gradlew
+2019-07-26 13:34:12,958 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/src/Lemniscate-master/lemniscate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/src/Lemniscate-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/src/Lemniscate-master/build.gradle
+2019-07-26 13:34:12,962 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/src/Lemniscate-master/lemniscate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/src/Lemniscate-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/src/Lemniscate-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/src/Lemniscate-master/settings.gradle
+2019-07-26 13:34:12,962 INFO  ProjectBuildService - Remote scripts: none
+2019-07-26 13:34:12,962 INFO  ProjectFixService - Fixing project...
+2019-07-26 13:34:12,971 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/src/Lemniscate-master/lemniscate/local.properties
+2019-07-26 13:34:12,972 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/src/Lemniscate-master/lemniscate/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-26 13:34:12,972 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/src/Lemniscate-master/lemniscate/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-26 13:34:12,974 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/src/Lemniscate-master/sample/local.properties
+2019-07-26 13:34:12,975 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/src/Lemniscate-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-26 13:34:12,975 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/src/Lemniscate-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-26 13:34:12,976 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/src/Lemniscate-master/local.properties
+2019-07-26 13:34:12,977 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-07-26 13:34:12,978 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-07-26 13:34:12,979 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/src/Lemniscate-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-26 13:34:12,980 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/src/Lemniscate-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-26 13:34:12,980 INFO  ProjectFixService - Project was maybe fixed
+2019-07-26 13:34:12,980 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-26 13:34:12,980 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/src/Lemniscate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/src/Lemniscate-master/lemniscate/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-26 13:34:33,238 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-07-26 13:34:33,239 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-26 13:34:33,239 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/src/Lemniscate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/src/Lemniscate-master/lemniscate/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-26 13:35:04,139 INFO  SysUtils - /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/src/Lemniscate-master/gradlew: line 88: [: too many arguments
+> Task :buildSrc:discoverMainScriptsExtensions
+> Task :buildSrc:generateScriptPluginAdapters UP-TO-DATE
+> Task :buildSrc:compileKotlin UP-TO-DATE
+> Task :buildSrc:compileJava NO-SOURCE
+> Task :buildSrc:compileGroovy NO-SOURCE
+> Task :buildSrc:pluginDescriptors UP-TO-DATE
+> Task :buildSrc:processResources NO-SOURCE
+> Task :buildSrc:classes UP-TO-DATE
+> Task :buildSrc:inspectClassesForKotlinIC UP-TO-DATE
+> Task :buildSrc:jar UP-TO-DATE
+> Task :buildSrc:assemble UP-TO-DATE
+> Task :buildSrc:discoverTestScriptsExtensions
+> Task :buildSrc:compileTestKotlin NO-SOURCE
+> Task :buildSrc:pluginUnderTestMetadata UP-TO-DATE
+> Task :buildSrc:compileTestJava NO-SOURCE
+> Task :buildSrc:compileTestGroovy NO-SOURCE
+> Task :buildSrc:processTestResources NO-SOURCE
+> Task :buildSrc:testClasses UP-TO-DATE
+> Task :buildSrc:test NO-SOURCE
+> Task :buildSrc:validateTaskProperties UP-TO-DATE
+> Task :buildSrc:check UP-TO-DATE
+> Task :buildSrc:build UP-TO-DATE
 Configuration on demand is an incubating feature.
 > Task :lemniscate:preBuild UP-TO-DATE
 > Task :lemniscate:preDebugBuild UP-TO-DATE
 > Task :lemniscate:compileDebugAidl NO-SOURCE
-> Task :lemniscate:compileDebugRenderscript
+> Task :lemniscate:compileDebugRenderscript NO-SOURCE
 > Task :lemniscate:checkDebugManifest
 > Task :lemniscate:generateDebugBuildConfig
 > Task :lemniscate:generateDebugResValues
@@ -40,10 +65,7 @@ Configuration on demand is an incubating feature.
 > Task :lemniscate:packageDebugResources
 > Task :lemniscate:processDebugManifest
 > Task :lemniscate:generateDebugRFile
-
 > Task :lemniscate:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/Lemniscate-master/lemniscate/src/main/java/com/vlad1m1r/lemniscate/base/settings/CurveSettings.kt: (53, 27): Type mismatch: inferred type is LineLength? but LineLength was expected
-
 > Task :lemniscate:prepareLintJar
 > Task :lemniscate:generateDebugSources
 > Task :lemniscate:javaPreCompileDebug
@@ -55,11 +77,11 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/
 > Task :lemniscate:generateDebugAssets
 > Task :lemniscate:packageDebugAssets
 > Task :lemniscate:packageDebugRenderscript NO-SOURCE
+> Task :lemniscate:prepareLintJarForPublish
 > Task :lemniscate:jacocoDebug
 > Task :lemniscate:processDebugJavaRes NO-SOURCE
 > Task :lemniscate:transformResourcesWithMergeJavaResForDebug
 > Task :lemniscate:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :lemniscate:compileDebugNdk NO-SOURCE
 > Task :lemniscate:mergeDebugJniLibFolders
 > Task :lemniscate:transformNativeLibsWithMergeJniLibsForDebug
 > Task :lemniscate:transformNativeLibsWithStripDebugSymbolForDebug
@@ -70,7 +92,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/
 > Task :lemniscate:assembleDebug
 > Task :lemniscate:preReleaseBuild UP-TO-DATE
 > Task :lemniscate:compileReleaseAidl NO-SOURCE
-> Task :lemniscate:compileReleaseRenderscript
+> Task :lemniscate:compileReleaseRenderscript NO-SOURCE
 > Task :lemniscate:checkReleaseManifest
 > Task :lemniscate:generateReleaseBuildConfig
 > Task :lemniscate:generateReleaseResValues
@@ -78,10 +100,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/
 > Task :lemniscate:packageReleaseResources
 > Task :lemniscate:processReleaseManifest
 > Task :lemniscate:generateReleaseRFile
-
 > Task :lemniscate:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/Lemniscate-master/lemniscate/src/main/java/com/vlad1m1r/lemniscate/base/settings/CurveSettings.kt: (53, 27): Type mismatch: inferred type is LineLength? but LineLength was expected
-
 > Task :lemniscate:generateReleaseSources
 > Task :lemniscate:javaPreCompileRelease
 > Task :lemniscate:compileReleaseJavaWithJavac
@@ -95,7 +114,6 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/
 > Task :lemniscate:processReleaseJavaRes NO-SOURCE
 > Task :lemniscate:transformResourcesWithMergeJavaResForRelease
 > Task :lemniscate:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :lemniscate:compileReleaseNdk NO-SOURCE
 > Task :lemniscate:mergeReleaseJniLibFolders
 > Task :lemniscate:transformNativeLibsWithMergeJniLibsForRelease
 > Task :lemniscate:transformNativeLibsWithStripDebugSymbolForRelease
@@ -108,20 +126,46 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/
 > Task :lemniscate:assemble
 > Task :lemniscate:build
 
-BUILD SUCCESSFUL in 21s
-49 actionable tasks: 49 executed
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2019-05-29 11:59:34,150 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-29 11:59:34,150 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/Lemniscate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/Lemniscate-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-29 11:59:40,052 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-05-29 11:59:40,052 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-29 11:59:40,052 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/Lemniscate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/Lemniscate-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-29 12:00:23,997 INFO  SysUtils - /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/Lemniscate-master/gradlew: line 88: [: too many arguments
+BUILD SUCCESSFUL in 30s
+48 actionable tasks: 48 executed
+
+2019-07-26 13:35:04,221 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-26 13:35:04,221 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/src/Lemniscate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/src/Lemniscate-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-26 13:35:14,322 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-07-26 13:35:14,322 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-26 13:35:14,322 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/src/Lemniscate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/src/Lemniscate-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-26 13:36:22,443 INFO  SysUtils - /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/src/Lemniscate-master/gradlew: line 88: [: too many arguments
+> Task :buildSrc:discoverMainScriptsExtensions
+> Task :buildSrc:generateScriptPluginAdapters UP-TO-DATE
+> Task :buildSrc:compileKotlin UP-TO-DATE
+> Task :buildSrc:compileJava NO-SOURCE
+> Task :buildSrc:compileGroovy NO-SOURCE
+> Task :buildSrc:pluginDescriptors UP-TO-DATE
+> Task :buildSrc:processResources NO-SOURCE
+> Task :buildSrc:classes UP-TO-DATE
+> Task :buildSrc:inspectClassesForKotlinIC UP-TO-DATE
+> Task :buildSrc:jar UP-TO-DATE
+> Task :buildSrc:assemble UP-TO-DATE
+> Task :buildSrc:discoverTestScriptsExtensions
+> Task :buildSrc:compileTestKotlin NO-SOURCE
+> Task :buildSrc:pluginUnderTestMetadata UP-TO-DATE
+> Task :buildSrc:compileTestJava NO-SOURCE
+> Task :buildSrc:compileTestGroovy NO-SOURCE
+> Task :buildSrc:processTestResources NO-SOURCE
+> Task :buildSrc:testClasses UP-TO-DATE
+> Task :buildSrc:test NO-SOURCE
+> Task :buildSrc:validateTaskProperties UP-TO-DATE
+> Task :buildSrc:check UP-TO-DATE
+> Task :buildSrc:build UP-TO-DATE
 Configuration on demand is an incubating feature.
 > Task :lemniscate:preBuild UP-TO-DATE
 > Task :lemniscate:preDebugBuild UP-TO-DATE
 > Task :lemniscate:compileDebugAidl NO-SOURCE
-> Task :lemniscate:compileDebugRenderscript UP-TO-DATE
+> Task :lemniscate:compileDebugRenderscript NO-SOURCE
 > Task :lemniscate:checkDebugManifest UP-TO-DATE
 > Task :lemniscate:generateDebugBuildConfig UP-TO-DATE
 > Task :lemniscate:generateDebugResValues UP-TO-DATE
@@ -134,14 +178,12 @@ Configuration on demand is an incubating feature.
 > Task :lemniscate:generateDebugSources UP-TO-DATE
 > Task :lemniscate:javaPreCompileDebug UP-TO-DATE
 > Task :lemniscate:compileDebugJavaWithJavac UP-TO-DATE
-> Task :lemniscate:jacocoDebug UP-TO-DATE
-> Task :lemniscate:processDebugJavaRes NO-SOURCE
-> Task :lemniscate:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :lemniscate:bundleLibCompileDebug
 > Task :sample:preBuild UP-TO-DATE
 > Task :sample:preDebugBuild
 > Task :sample:compileDebugAidl NO-SOURCE
 > Task :lemniscate:packageDebugRenderscript NO-SOURCE
-> Task :sample:compileDebugRenderscript
+> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:checkDebugManifest
 > Task :sample:generateDebugBuildConfig
 > Task :sample:mainApkListPersistenceDebug
@@ -153,13 +195,12 @@ Configuration on demand is an incubating feature.
 > Task :sample:processDebugResources
 
 > Task :sample:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/Lemniscate-master/sample/src/main/java/com/vlad1m1r/lemniscate/sample/FragmentSettings.kt: (50, 13): Type mismatch: inferred type is CurveData? but CurveData was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/src/Lemniscate-master/sample/src/main/java/com/vlad1m1r/lemniscate/sample/FragmentSettings.kt: (50, 13): Type mismatch: inferred type is CurveData? but CurveData was expected
 
 > Task :sample:prepareLintJar
 > Task :sample:generateDebugSources
 > Task :sample:javaPreCompileDebug
 > Task :sample:compileDebugJavaWithJavac
-> Task :sample:compileDebugNdk NO-SOURCE
 > Task :sample:compileDebugSources
 > Task :lemniscate:mergeDebugShaders UP-TO-DATE
 > Task :lemniscate:compileDebugShaders UP-TO-DATE
@@ -169,16 +210,17 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/
 > Task :sample:compileDebugShaders
 > Task :sample:generateDebugAssets
 > Task :sample:mergeDebugAssets
+> Task :lemniscate:processDebugJavaRes NO-SOURCE
+> Task :lemniscate:bundleLibResDebug
+> Task :lemniscate:jacocoDebug UP-TO-DATE
+> Task :lemniscate:bundleLibRuntimeDebug
 > Task :lemniscate:createFullJarDebug
-> Transform full.jar (project :lemniscate) with IdentityTransform
+> Task :sample:checkDebugDuplicateClasses
 > Task :sample:mergeExtDexDebug
-> Transform full.jar (project :lemniscate) with DexingTransform
-> Task :sample:jacocoDebug
 > Task :sample:transformClassesWithDexBuilderForDebug
 > Task :sample:mergeDexDebug
 > Task :sample:validateSigningDebug
 > Task :sample:signingConfigWriterDebug
-> Task :lemniscate:compileDebugNdk NO-SOURCE
 > Task :lemniscate:mergeDebugJniLibFolders UP-TO-DATE
 > Task :lemniscate:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
 > Task :lemniscate:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
@@ -192,7 +234,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/
 > Task :sample:assembleDebug
 > Task :lemniscate:preReleaseBuild UP-TO-DATE
 > Task :lemniscate:compileReleaseAidl NO-SOURCE
-> Task :lemniscate:compileReleaseRenderscript UP-TO-DATE
+> Task :lemniscate:compileReleaseRenderscript NO-SOURCE
 > Task :lemniscate:checkReleaseManifest UP-TO-DATE
 > Task :lemniscate:generateReleaseBuildConfig UP-TO-DATE
 > Task :lemniscate:generateReleaseResValues UP-TO-DATE
@@ -204,12 +246,11 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/
 > Task :lemniscate:generateReleaseSources UP-TO-DATE
 > Task :lemniscate:javaPreCompileRelease UP-TO-DATE
 > Task :lemniscate:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :lemniscate:processReleaseJavaRes NO-SOURCE
-> Task :lemniscate:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :lemniscate:bundleLibCompileRelease
 > Task :sample:preReleaseBuild
 > Task :sample:compileReleaseAidl NO-SOURCE
 > Task :lemniscate:packageReleaseRenderscript NO-SOURCE
-> Task :sample:compileReleaseRenderscript
+> Task :sample:compileReleaseRenderscript NO-SOURCE
 > Task :sample:checkReleaseManifest
 > Task :sample:generateReleaseBuildConfig
 > Task :sample:mainApkListPersistenceRelease
@@ -221,21 +262,23 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/
 > Task :sample:processReleaseResources
 
 > Task :sample:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/Lemniscate-master/sample/src/main/java/com/vlad1m1r/lemniscate/sample/FragmentSettings.kt: (50, 13): Type mismatch: inferred type is CurveData? but CurveData was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/src/Lemniscate-master/sample/src/main/java/com/vlad1m1r/lemniscate/sample/FragmentSettings.kt: (50, 13): Type mismatch: inferred type is CurveData? but CurveData was expected
 
 > Task :sample:generateReleaseSources
 > Task :sample:javaPreCompileRelease
 > Task :sample:compileReleaseJavaWithJavac
-> Task :sample:compileReleaseNdk NO-SOURCE
 > Task :sample:compileReleaseSources
+> Task :lemniscate:prepareLintJarForPublish UP-TO-DATE
 
 > Task :sample:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/6e8773906d7d4c2dfd718d602bd0b521/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/d57ceaa38eb8772a131f7f1ea33c5cec/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
+> Task :lemniscate:processReleaseJavaRes NO-SOURCE
+> Task :lemniscate:bundleLibResRelease
+> Task :lemniscate:bundleLibRuntimeRelease
 > Task :lemniscate:createFullJarRelease
-> Transform full.jar (project :lemniscate) with IdentityTransform
+> Task :sample:checkReleaseDuplicateClasses
 > Task :sample:mergeExtDexRelease
-> Transform full.jar (project :lemniscate) with DexingTransform
 > Task :sample:transformClassesWithDexBuilderForRelease
 > Task :sample:mergeDexRelease
 > Task :lemniscate:mergeReleaseShaders UP-TO-DATE
@@ -247,7 +290,6 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :sample:generateReleaseAssets
 > Task :sample:mergeReleaseAssets
 > Task :sample:signingConfigWriterRelease
-> Task :lemniscate:compileReleaseNdk NO-SOURCE
 > Task :lemniscate:mergeReleaseJniLibFolders UP-TO-DATE
 > Task :lemniscate:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
 > Task :lemniscate:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
@@ -262,7 +304,11 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :sample:assemble
 > Task :sample:build
 
-BUILD SUCCESSFUL in 43s
-94 actionable tasks: 60 executed, 34 up-to-date
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2019-05-29 12:00:24,106 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105944011-0/src/Lemniscate-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+BUILD SUCCESSFUL in 1m 7s
+96 actionable tasks: 63 executed, 33 up-to-date
+
+2019-07-26 13:36:22,559 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122852160-0/src/Lemniscate-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
