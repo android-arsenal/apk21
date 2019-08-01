@@ -11,8 +11,8 @@
     "maxSdkVersion" : null,
     "compileSdkVersion" : "28",
     "compileSdkVersionCodename" : "9",
-    "platformBuildVersionCode" : "1",
-    "platformBuildVersionName" : "{4:1065353216}",
+    "platformBuildVersionCode" : "28",
+    "platformBuildVersionName" : "9",
     "glEsVersion" : null,
     "anyDensity" : false,
     "smallScreens" : false,
@@ -30,9 +30,9 @@
   },
   "dexClasses" : 1525,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
-  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.nex3z.flowlayout.sample\" platformBuildVersionCode=\"1\" platformBuildVersionName=\"{4:1065353216}\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0d0005\" android:label=\"FlowLayout\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:appComponentFactory=\"android.support.v4.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.nex3z.flowlayout.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.nex3z.flowlayout.sample.RecyclerViewActivity\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 1427483,
-  "crc32" : 2889311796,
-  "sha256" : "189742274bd9a0712d31f6228fef8201733ede3d5fb0dd8b8aef48da917a75c6",
-  "buildTime" : 1560153325000
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.nex3z.flowlayout.sample\" platformBuildVersionCode=\"28\" platformBuildVersionName=\"9\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0d0005\" android:label=\"FlowLayout\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.nex3z.flowlayout.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.nex3z.flowlayout.sample.RecyclerViewActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1426901,
+  "crc32" : 199253963,
+  "sha256" : "07f4d13e5bbaccb8c20ad7bc00c884b0279db6dd0827c736ee26fe5f50e6ebcd",
+  "buildTime" : 1564633599000
 }
