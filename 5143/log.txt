@@ -1,42 +1,38 @@
-2019-07-21 20:11:14,558 INFO  DownloadService - Downloading "https://github.com/skydoves/ElasticViews/archive/master.zip", attempt 3
-2019-07-21 20:11:16,780 INFO  DownloadService - Downloaded https://github.com/skydoves/ElasticViews/archive/master.zip, attempt 3
-2019-07-21 20:11:16,781 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714674550-0/master.zip": 163 KB
-2019-07-21 20:11:16,781 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-21 20:11:16,786 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714674550-0/master.zip: true
-2019-07-21 20:11:16,786 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714674550-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714674550-0/src'.
-2019-07-21 20:11:16,806 INFO  FullProcessService - Size of directory with sources: 208 KB
-2019-07-21 20:11:16,806 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714674550-0/src]
-2019-07-21 20:11:16,834 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714674550-0/src/.git/
+2019-08-11 17:27:16,553 INFO  DownloadService - Downloading "https://github.com/skydoves/ElasticViews/archive/master.zip", attempt 3
+2019-08-11 17:27:17,056 INFO  DownloadService - Downloaded https://github.com/skydoves/ElasticViews/archive/master.zip, attempt 3
+2019-08-11 17:27:17,057 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519236547-0/master.zip": 163 KB
+2019-08-11 17:27:17,057 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-11 17:27:17,057 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519236547-0/master.zip: true
+2019-08-11 17:27:17,057 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519236547-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519236547-0/src'.
+2019-08-11 17:27:17,075 INFO  FullProcessService - Size of directory with sources: 208 KB
+2019-08-11 17:27:17,075 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519236547-0/src]
+2019-08-11 17:27:17,092 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519236547-0/src/.git/
 
-2019-07-21 20:11:16,837 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714674550-0/src/ElasticViews-master/gradlew
-2019-07-21 20:11:16,841 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714674550-0/src/ElasticViews-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714674550-0/src/ElasticViews-master/elasticviews/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714674550-0/src/ElasticViews-master/build.gradle
-2019-07-21 20:11:16,843 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714674550-0/src/ElasticViews-master/elasticviews/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714674550-0/src/ElasticViews-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714674550-0/src/ElasticViews-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714674550-0/src/ElasticViews-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714674550-0/src/ElasticViews-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714674550-0/src/ElasticViews-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714674550-0/src/ElasticViews-master/spotless.gradle
-2019-07-21 20:11:16,843 INFO  ProjectBuildService - Remote scripts: none
-2019-07-21 20:11:16,844 INFO  ProjectFixService - Fixing project...
-2019-07-21 20:11:16,849 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714674550-0/src/ElasticViews-master/app/local.properties
-2019-07-21 20:11:16,851 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714674550-0/src/ElasticViews-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-21 20:11:16,851 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714674550-0/src/ElasticViews-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-21 20:11:16,852 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714674550-0/src/ElasticViews-master/elasticviews/local.properties
-2019-07-21 20:11:16,854 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714674550-0/src/ElasticViews-master/elasticviews/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-21 20:11:16,854 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714674550-0/src/ElasticViews-master/elasticviews/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-21 20:11:16,855 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714674550-0/src/ElasticViews-master/local.properties
-2019-07-21 20:11:16,855 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-07-21 20:11:16,856 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-07-21 20:11:16,858 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714674550-0/src/ElasticViews-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-21 20:11:16,858 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714674550-0/src/ElasticViews-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-21 20:11:16,859 INFO  ProjectFixService - Project was maybe fixed
-2019-07-21 20:11:16,859 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-21 20:11:16,859 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714674550-0/src/ElasticViews-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714674550-0/src/ElasticViews-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-21 20:11:24,661 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-07-21 20:11:24,661 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-21 20:11:24,661 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714674550-0/src/ElasticViews-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714674550-0/src/ElasticViews-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-21 20:12:38,929 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-11 17:27:17,094 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519236547-0/src/ElasticViews-master/gradlew
+2019-08-11 17:27:17,097 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519236547-0/src/ElasticViews-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519236547-0/src/ElasticViews-master/elasticviews/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519236547-0/src/ElasticViews-master/build.gradle
+2019-08-11 17:27:17,099 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519236547-0/src/ElasticViews-master/elasticviews/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519236547-0/src/ElasticViews-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519236547-0/src/ElasticViews-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519236547-0/src/ElasticViews-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519236547-0/src/ElasticViews-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519236547-0/src/ElasticViews-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519236547-0/src/ElasticViews-master/spotless.gradle
+2019-08-11 17:27:17,100 INFO  ProjectBuildService - Remote scripts: none
+2019-08-11 17:27:17,100 INFO  ProjectFixService - Fixing project...
+2019-08-11 17:27:17,107 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519236547-0/src/ElasticViews-master/app/local.properties
+2019-08-11 17:27:17,110 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519236547-0/src/ElasticViews-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-08-11 17:27:17,110 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519236547-0/src/ElasticViews-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-08-11 17:27:17,111 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519236547-0/src/ElasticViews-master/elasticviews/local.properties
+2019-08-11 17:27:17,113 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519236547-0/src/ElasticViews-master/elasticviews/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-08-11 17:27:17,114 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519236547-0/src/ElasticViews-master/elasticviews/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-08-11 17:27:17,115 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519236547-0/src/ElasticViews-master/local.properties
+2019-08-11 17:27:17,115 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-08-11 17:27:17,116 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-08-11 17:27:17,119 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519236547-0/src/ElasticViews-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-08-11 17:27:17,119 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519236547-0/src/ElasticViews-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-08-11 17:27:17,120 INFO  ProjectFixService - Project was maybe fixed
+2019-08-11 17:27:17,120 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-11 17:27:17,120 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519236547-0/src/ElasticViews-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519236547-0/src/ElasticViews-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-11 17:27:25,411 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-08-11 17:27:25,411 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-11 17:27:25,412 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519236547-0/src/ElasticViews-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519236547-0/src/ElasticViews-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-11 17:28:41,109 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :elasticviews
-WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
-It will be removed at the end of 2019.
-For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
 It will be removed at the end of 2019.
 For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
@@ -51,34 +47,34 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :elasticviews:preDebugBuild UP-TO-DATE
 > Task :elasticviews:checkDebugManifest
 > Task :elasticviews:processDebugManifest
+> Task :elasticviews:compileDebugAidl NO-SOURCE
 > Task :app:preDebugBuild
+> Task :app:compileDebugAidl NO-SOURCE
 > Task :elasticviews:packageDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
-> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :elasticviews:compileDebugRenderscript NO-SOURCE
 > Task :elasticviews:generateDebugBuildConfig
 > Task :elasticviews:generateDebugResValues
-> Task :elasticviews:prepareLintJar
-> Task :app:mainApkListPersistenceDebug
-> Task :app:generateDebugResValues
-> Task :app:generateDebugResources
-> Task :app:createDebugCompatibleScreenManifests
-> Task :app:processDebugManifest
-> Task :elasticviews:compileDebugRenderscript NO-SOURCE
 > Task :elasticviews:generateDebugResources
 > Task :elasticviews:packageDebugResources
-> Task :elasticviews:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugAidl NO-SOURCE
-> Task :app:generateDebugSources
 > Task :elasticviews:generateDebugRFile
 > Task :elasticviews:compileDebugKotlin
+> Task :elasticviews:prepareLintJar
 > Task :elasticviews:generateDebugSources
 > Task :elasticviews:javaPreCompileDebug
 > Task :elasticviews:compileDebugJavaWithJavac
 > Task :elasticviews:bundleLibCompileDebug
 > Task :app:javaPreCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:createDebugCompatibleScreenManifests
 > Task :app:mergeDebugResources
+> Task :app:processDebugManifest
 > Task :app:processDebugResources
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
@@ -143,11 +139,8 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 > Task :elasticviews:prepareLintJarForPublish
-
-> Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/0c7abf481eb54d2ae0c322bef008ecd2/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
-
 > Task :app:mergeReleaseShaders
+> Task :app:lintVitalRelease
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
 > Task :elasticviews:mergeReleaseShaders
@@ -181,7 +174,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 13s
+BUILD SUCCESSFUL in 1m 15s
 91 actionable tasks: 91 executed
 
-2019-07-21 20:12:39,020 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563714674550-0/src/ElasticViews-master/app/build/outputs/apk/debug/app-debug.apk
+2019-08-11 17:28:41,178 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519236547-0/src/ElasticViews-master/app/build/outputs/apk/debug/app-debug.apk
