@@ -1,43 +1,46 @@
-2019-07-29 10:36:59,679 INFO  DownloadService - Downloading "https://github.com/markzhai/AndroidPerformanceMonitor/archive/master.zip", attempt 3
-2019-07-29 10:37:00,513 INFO  DownloadService - Downloaded https://github.com/markzhai/AndroidPerformanceMonitor/archive/master.zip, attempt 3
-2019-07-29 10:37:00,513 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/master.zip": 512 KB
-2019-07-29 10:37:00,513 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-29 10:37:00,519 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/master.zip: true
-2019-07-29 10:37:00,519 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src'.
-2019-07-29 10:37:00,551 INFO  FullProcessService - Size of directory with sources: 617 KB
-2019-07-29 10:37:00,551 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src]
-2019-07-29 10:37:00,574 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/.git/
+2019-08-29 14:09:05,137 INFO  DownloadService - Downloading "https://github.com/markzhai/AndroidPerformanceMonitor/archive/master.zip", attempt 3
+2019-08-29 14:10:05,787 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-08-29 14:10:07,976 INFO  GithubDownloadService - Default branch of this repository: master
+2019-08-29 14:10:07,977 INFO  DownloadService - Downloading "https://github.com/markzhai/AndroidPerformanceMonitor/archive/master.zip", attempt 3
+2019-08-29 14:11:09,716 DEBUG FullProcessService - Repository https://github.com/markzhai/AndroidPerformanceMonitor available: true
+2019-08-29 14:11:09,716 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-08-29 14:11:09,716 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/markzhai/AndroidPerformanceMonitor, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src]
+2019-08-29 14:11:12,005 INFO  SysUtils - 
+2019-08-29 14:11:12,011 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/.git": true
+2019-08-29 14:11:12,015 INFO  FullProcessService - Size of directory with sources: 617 KB
+2019-08-29 14:11:12,015 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src]
+2019-08-29 14:11:12,036 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/.git/
 
-2019-07-29 10:37:00,578 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/gradlew
-2019-07-29 10:37:00,583 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-analyzer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/build.gradle
-2019-07-29 10:37:00,586 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-analyzer/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-analyzer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android-no-op/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/settings.gradle
-2019-07-29 10:37:00,587 INFO  ProjectBuildService - Remote scripts: none
-2019-07-29 10:37:00,587 INFO  ProjectFixService - Fixing project...
-2019-07-29 10:37:00,602 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-analyzer/local.properties
-2019-07-29 10:37:00,607 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-analyzer/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-29 10:37:00,608 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-analyzer/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-29 10:37:00,609 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android-no-op/local.properties
-2019-07-29 10:37:00,615 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android-no-op/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-29 10:37:00,615 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android-no-op/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-29 10:37:00,616 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android/local.properties
-2019-07-29 10:37:00,621 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-29 10:37:00,622 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-29 10:37:00,623 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-sample/local.properties
-2019-07-29 10:37:00,629 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-29 10:37:00,629 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-29 10:37:00,630 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/local.properties
-2019-07-29 10:37:00,631 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2019-07-29 10:37:00,632 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2019-07-29 10:37:00,637 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-29 10:37:00,637 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-29 10:37:00,638 INFO  ProjectFixService - Project was maybe fixed
-2019-07-29 10:37:00,638 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-29 10:37:00,638 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-analyzer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-29 10:37:11,491 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-29 10:37:11,491 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-29 10:37:11,491 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-29 10:37:11,491 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-analyzer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-29 10:37:20,632 ERROR SysUtils - Could not process external command
+2019-08-29 14:11:12,040 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/gradlew
+2019-08-29 14:11:12,044 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-analyzer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/build.gradle
+2019-08-29 14:11:12,048 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-analyzer/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-analyzer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android-no-op/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/settings.gradle
+2019-08-29 14:11:12,048 INFO  ProjectBuildService - Remote scripts: none
+2019-08-29 14:11:12,048 INFO  ProjectFixService - Fixing project...
+2019-08-29 14:11:12,073 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-analyzer/local.properties
+2019-08-29 14:11:12,079 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-analyzer/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-08-29 14:11:12,080 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-analyzer/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-08-29 14:11:12,081 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android-no-op/local.properties
+2019-08-29 14:11:12,087 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android-no-op/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-08-29 14:11:12,087 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android-no-op/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-08-29 14:11:12,088 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android/local.properties
+2019-08-29 14:11:12,093 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-08-29 14:11:12,093 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-08-29 14:11:12,093 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-sample/local.properties
+2019-08-29 14:11:12,098 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-08-29 14:11:12,099 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-08-29 14:11:12,099 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/local.properties
+2019-08-29 14:11:12,100 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-08-29 14:11:12,100 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-08-29 14:11:12,105 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-08-29 14:11:12,105 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-08-29 14:11:12,105 INFO  ProjectFixService - Project was maybe fixed
+2019-08-29 14:11:12,105 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-29 14:11:12,105 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-analyzer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-29 14:11:22,074 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-29 14:11:22,075 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-29 14:11:22,075 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-29 14:11:22,075 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-analyzer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-29 14:11:31,055 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -50,23 +53,24 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-29 10:37:20,632 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-29 14:11:31,056 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
-:blockcanary-analyzer:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-analyzer/src/main/java/com/github/moduth/blockcanary/BlockCanaryContext.java:53: warning: no @return
+:blockcanary-analyzer:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-analyzer/src/main/java/com/github/moduth/blockcanary/BlockCanaryContext.java:53: warning: no @return
     public Context provideContext() {
                    ^
 
@@ -237,15 +241,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 8.36 secs
+Total time: 8.233 secs
 
-2019-07-29 10:37:20,645 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-29 10:37:20,645 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android-no-op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-29 10:37:28,056 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-29 10:37:28,056 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-29 10:37:28,056 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-29 10:37:28,057 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android-no-op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-29 10:37:36,470 ERROR SysUtils - Could not process external command
+2019-08-29 14:11:31,066 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-29 14:11:31,066 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android-no-op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-29 14:11:37,785 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-29 14:11:37,785 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-29 14:11:37,785 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-29 14:11:37,785 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android-no-op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-29 14:11:45,553 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -258,21 +262,22 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-29 10:37:36,470 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-29 14:11:45,553 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :blockcanary-android-no-op:androidJavadocs
 :blockcanary-android-no-op:androidJavadocsJar
@@ -441,15 +446,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 7.842 secs
+Total time: 7.191 secs
 
-2019-07-29 10:37:36,488 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-29 10:37:36,489 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-29 10:37:43,558 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-29 10:37:43,558 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-29 10:37:43,558 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-29 10:37:43,558 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-29 10:37:53,576 ERROR SysUtils - Could not process external command
+2019-08-29 14:11:45,571 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-29 14:11:45,571 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-29 14:11:52,315 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-29 14:11:52,316 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-29 14:11:52,316 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-29 14:11:52,316 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-29 14:12:01,839 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -462,111 +467,112 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-29 10:37:53,576 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-29 14:12:01,839 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
-:blockcanary-android:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android/src/main/java/com/github/moduth/blockcanary/BlockCanary.java:38: error: cannot find symbol
+:blockcanary-android:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android/src/main/java/com/github/moduth/blockcanary/BlockCanary.java:38: error: cannot find symbol
     private BlockCanaryInternals mBlockCanaryCore;
             ^
   symbol:   class BlockCanaryInternals
   location: class BlockCanary
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android/src/main/java/com/github/moduth/blockcanary/BlockCanary.java:59: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android/src/main/java/com/github/moduth/blockcanary/BlockCanary.java:59: error: cannot find symbol
     public static BlockCanary install(Context context, BlockCanaryContext blockCanaryContext) {
                                                        ^
   symbol:   class BlockCanaryContext
   location: class BlockCanary
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android/src/main/java/com/github/moduth/blockcanary/ui/DisplayActivity.java:45: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android/src/main/java/com/github/moduth/blockcanary/ui/DisplayActivity.java:45: error: cannot find symbol
 import com.github.moduth.blockcanary.BlockCanaryContext;
                                     ^
   symbol:   class BlockCanaryContext
   location: package com.github.moduth.blockcanary
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android/src/main/java/com/github/moduth/blockcanary/ui/DisplayActivity.java:46: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android/src/main/java/com/github/moduth/blockcanary/ui/DisplayActivity.java:46: error: cannot find symbol
 import com.github.moduth.blockcanary.BlockCanaryInternals;
                                     ^
   symbol:   class BlockCanaryInternals
   location: package com.github.moduth.blockcanary
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android/src/main/java/com/github/moduth/blockcanary/ui/DisplayActivity.java:47: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android/src/main/java/com/github/moduth/blockcanary/ui/DisplayActivity.java:47: error: cannot find symbol
 import com.github.moduth.blockcanary.LogWriter;
                                     ^
   symbol:   class LogWriter
   location: package com.github.moduth.blockcanary
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android/src/main/java/com/github/moduth/blockcanary/ui/DisplayActivity.java:48: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android/src/main/java/com/github/moduth/blockcanary/ui/DisplayActivity.java:48: error: cannot find symbol
 import com.github.moduth.blockcanary.R;
                                     ^
   symbol:   class R
   location: package com.github.moduth.blockcanary
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android/src/main/java/com/github/moduth/blockcanary/ui/BlockInfoEx.java:5: error: package com.github.moduth.blockcanary.internal does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android/src/main/java/com/github/moduth/blockcanary/ui/BlockInfoEx.java:5: error: package com.github.moduth.blockcanary.internal does not exist
 import com.github.moduth.blockcanary.internal.BlockInfo;
                                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android/src/main/java/com/github/moduth/blockcanary/ui/BlockInfoEx.java:12: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android/src/main/java/com/github/moduth/blockcanary/ui/BlockInfoEx.java:12: error: cannot find symbol
 final class BlockInfoEx extends BlockInfo {
                                 ^
   symbol: class BlockInfo
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android/src/main/java/com/github/moduth/blockcanary/ui/DetailAdapter.java:26: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android/src/main/java/com/github/moduth/blockcanary/ui/DetailAdapter.java:26: error: cannot find symbol
 import com.github.moduth.blockcanary.R;
                                     ^
   symbol:   class R
   location: package com.github.moduth.blockcanary
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android/src/main/java/com/github/moduth/blockcanary/ui/DetailAdapter.java:27: error: package com.github.moduth.blockcanary.internal does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android/src/main/java/com/github/moduth/blockcanary/ui/DetailAdapter.java:27: error: package com.github.moduth.blockcanary.internal does not exist
 import com.github.moduth.blockcanary.internal.BlockInfo;
                                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android/src/main/java/com/github/moduth/blockcanary/ui/DetailAdapter.java:38: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android/src/main/java/com/github/moduth/blockcanary/ui/DetailAdapter.java:38: error: cannot find symbol
     private BlockInfo mBlockInfo;
             ^
   symbol:   class BlockInfo
   location: class DetailAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android/src/main/java/com/github/moduth/blockcanary/ui/DetailAdapter.java:129: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android/src/main/java/com/github/moduth/blockcanary/ui/DetailAdapter.java:129: error: cannot find symbol
     public void update(BlockInfo blockInfo) {
                        ^
   symbol:   class BlockInfo
   location: class DetailAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android/src/main/java/com/github/moduth/blockcanary/ui/BlockCanaryUtils.java:5: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android/src/main/java/com/github/moduth/blockcanary/ui/BlockCanaryUtils.java:5: error: cannot find symbol
 import com.github.moduth.blockcanary.BlockCanaryInternals;
                                     ^
   symbol:   class BlockCanaryInternals
   location: package com.github.moduth.blockcanary
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android/src/main/java/com/github/moduth/blockcanary/ui/BlockCanaryUtils.java:6: error: package com.github.moduth.blockcanary.internal does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android/src/main/java/com/github/moduth/blockcanary/ui/BlockCanaryUtils.java:6: error: package com.github.moduth.blockcanary.internal does not exist
 import com.github.moduth.blockcanary.internal.BlockInfo;
                                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android/src/main/java/com/github/moduth/blockcanary/ui/BlockCanaryUtils.java:7: error: package com.github.moduth.blockcanary.internal does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android/src/main/java/com/github/moduth/blockcanary/ui/BlockCanaryUtils.java:7: error: package com.github.moduth.blockcanary.internal does not exist
 import com.github.moduth.blockcanary.internal.ProcessUtils;
                                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android/src/main/java/com/github/moduth/blockcanary/ui/BlockCanaryUtils.java:31: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android/src/main/java/com/github/moduth/blockcanary/ui/BlockCanaryUtils.java:31: error: cannot find symbol
     public static String concernStackString(BlockInfo blockInfo) {
                                             ^
   symbol:   class BlockInfo
   location: class BlockCanaryUtils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android/src/main/java/com/github/moduth/blockcanary/ui/BlockCanaryUtils.java:48: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android/src/main/java/com/github/moduth/blockcanary/ui/BlockCanaryUtils.java:48: error: cannot find symbol
     public static boolean isBlockInfoValid(BlockInfo blockInfo) {
                                            ^
   symbol:   class BlockInfo
   location: class BlockCanaryUtils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android/src/main/java/com/github/moduth/blockcanary/ui/BlockCanaryUtils.java:54: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android/src/main/java/com/github/moduth/blockcanary/ui/BlockCanaryUtils.java:54: error: cannot find symbol
     public static boolean isInWhiteList(BlockInfo info) {
                                         ^
   symbol:   class BlockInfo
   location: class BlockCanaryUtils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android/src/main/java/com/github/moduth/blockcanary/DisplayService.java:26: error: package com.github.moduth.blockcanary.internal does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android/src/main/java/com/github/moduth/blockcanary/DisplayService.java:26: error: package com.github.moduth.blockcanary.internal does not exist
 import com.github.moduth.blockcanary.internal.BlockInfo;
                                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android/src/main/java/com/github/moduth/blockcanary/DisplayService.java:37: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android/src/main/java/com/github/moduth/blockcanary/DisplayService.java:37: error: cannot find symbol
 final class DisplayService implements BlockInterceptor {
                                       ^
   symbol: class BlockInterceptor
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-android/src/main/java/com/github/moduth/blockcanary/DisplayService.java:42: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-android/src/main/java/com/github/moduth/blockcanary/DisplayService.java:42: error: cannot find symbol
     public void onBlock(Context context, BlockInfo blockInfo) {
                                          ^
   symbol:   class BlockInfo
@@ -749,15 +755,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 9.42 secs
+Total time: 8.931 secs
 
-2019-07-29 10:37:53,603 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-29 10:37:53,603 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-29 10:38:00,719 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-29 10:38:00,719 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-29 10:38:00,719 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-29 10:38:00,719 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/blockcanary-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-29 10:38:07,810 ERROR SysUtils - Could not process external command
+2019-08-29 14:12:01,865 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-29 14:12:01,865 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-29 14:12:08,233 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-29 14:12:08,233 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-29 14:12:08,233 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-29 14:12:08,233 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/blockcanary-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-29 14:12:14,819 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -770,21 +776,22 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-29 10:38:07,810 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-29 14:12:14,819 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -895,15 +902,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.52 secs
+Total time: 5.993 secs
 
-2019-07-29 10:38:07,838 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-29 10:38:07,838 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-29 10:38:14,431 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-29 10:38:14,431 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-29 10:38:14,431 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-29 10:38:14,431 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564371419671-0/src/AndroidPerformanceMonitor-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-29 10:38:21,777 ERROR SysUtils - Could not process external command
+2019-08-29 14:12:14,843 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-29 14:12:14,843 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-29 14:12:21,386 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-29 14:12:21,386 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-29 14:12:21,386 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-29 14:12:21,386 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062545133-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-29 14:12:27,804 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -916,21 +923,22 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-29 10:38:21,777 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-29 14:12:27,804 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -1034,14 +1042,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 6.76 secs
+Total time: 5.803 secs
 
-2019-07-29 10:38:21,806 ERROR FullProcessService - Project build has not produced APK file
-2019-07-29 10:38:21,828 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-29 14:12:27,830 ERROR FullProcessService - Project build has not produced APK file
+2019-08-29 14:12:27,850 ERROR FullProcessService - Could not find generated or existed APK file
