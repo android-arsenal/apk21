@@ -1,193 +1,204 @@
-2018-12-09 22:23:22,107 INFO  DownloadService - Downloading "https://github.com/mlykotom/valifi/archive/master.zip", attempt 3
-2018-12-09 22:23:24,393 INFO  DownloadService - Downloaded https://github.com/mlykotom/valifi/archive/master.zip, attempt 3
-2018-12-09 22:23:24,393 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/master.zip": 2 MB
-2018-12-09 22:23:24,393 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-09 22:23:24,396 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/master.zip: true
-2018-12-09 22:23:24,396 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/src'.
-2018-12-09 22:23:24,451 INFO  FullProcessService - Size of directory with sources: 2 MB
-2018-12-09 22:23:24,451 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/src]
-2018-12-09 22:23:24,469 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/src/.git/
+2019-08-30 11:10:14,645 INFO  DownloadService - Downloading "https://github.com/mlykotom/valifi/archive/master.zip", attempt 3
+2019-08-30 11:10:19,338 INFO  DownloadService - Downloaded https://github.com/mlykotom/valifi/archive/master.zip, attempt 3
+2019-08-30 11:10:19,339 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/master.zip": 2 MB
+2019-08-30 11:10:19,339 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-30 11:10:19,339 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/master.zip: true
+2019-08-30 11:10:19,340 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/src'.
+2019-08-30 11:10:19,396 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-08-30 11:10:19,396 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/src]
+2019-08-30 11:10:19,413 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/src/.git/
 
-2018-12-09 22:23:24,475 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/src/valifi-master/gradlew
-2018-12-09 22:23:24,479 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/src/valifi-master/example-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/src/valifi-master/example-arch-viewmodel/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/src/valifi-master/valifi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/src/valifi-master/build.gradle
-2018-12-09 22:23:24,484 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/src/valifi-master/example-arch-viewmodel/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/src/valifi-master/valifi/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/src/valifi-master/valifi/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/src/valifi-master/valifi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/src/valifi-master/example-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/src/valifi-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/src/valifi-master/settings.gradle
-2018-12-09 22:23:24,484 INFO  ProjectBuildService - Remote scripts: none
-2018-12-09 22:23:24,484 INFO  ProjectFixService - Fixing project...
-2018-12-09 22:23:24,495 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/src/valifi-master/example-android/local.properties
-2018-12-09 22:23:24,497 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/src/valifi-master/example-android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-09 22:23:24,497 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/src/valifi-master/example-android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-09 22:23:24,498 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/src/valifi-master/example-arch-viewmodel/local.properties
-2018-12-09 22:23:24,500 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/src/valifi-master/example-arch-viewmodel/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-09 22:23:24,501 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/src/valifi-master/example-arch-viewmodel/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-09 22:23:24,501 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/src/valifi-master/valifi/local.properties
-2018-12-09 22:23:24,503 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/src/valifi-master/valifi/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-09 22:23:24,503 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/src/valifi-master/valifi/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-09 22:23:24,504 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/src/valifi-master/local.properties
-2018-12-09 22:23:24,504 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-12-09 22:23:24,504 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-12-09 22:23:24,506 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/src/valifi-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-09 22:23:24,506 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/src/valifi-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-09 22:23:24,506 INFO  ProjectFixService - Project was maybe fixed
-2018-12-09 22:23:24,506 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-09 22:23:24,506 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/src/valifi-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/src/valifi-master/example-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-09 22:23:31,474 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-12-09 22:23:31,474 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-09 22:23:31,475 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/src/valifi-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/src/valifi-master/example-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-09 22:24:14,555 INFO  SysUtils - Configuration on demand is an incubating feature.
-:example-android:checkDebugClasspath
-:example-android:preBuild UP-TO-DATE
-:valifi:preBuild UP-TO-DATE
-:valifi:preDebugBuild UP-TO-DATE
-:valifi:checkDebugManifest
-:valifi:processDebugManifest
-:example-android:preDebugBuild
-:valifi:compileDebugAidl NO-SOURCE
-:example-android:compileDebugAidl NO-SOURCE
-:valifi:packageDebugRenderscript NO-SOURCE
-:example-android:compileDebugRenderscript
-:example-android:checkDebugManifest
-:example-android:generateDebugBuildConfig
-:example-android:prepareLintJar
-:example-android:mainApkListPersistenceDebug
-:example-android:generateDebugResValues
-:example-android:generateDebugResources
-:valifi:compileDebugRenderscript
-:valifi:generateDebugResValues
-:valifi:generateDebugResources
-:valifi:packageDebugResources
-:example-android:mergeDebugResources
-:example-android:createDebugCompatibleScreenManifests
-:example-android:processDebugManifest
-:example-android:splitsDiscoveryTaskDebug
-:valifi:generateDebugRFile
-:example-android:processDebugResources
-:example-android:generateDebugSources
-:example-android:dataBindingExportBuildInfoDebug
-:example-android:dataBindingExportFeaturePackageIdsDebug
-:valifi:generateDebugBuildConfig
-:valifi:prepareLintJar
-:valifi:generateDebugSources
-:valifi:dataBindingExportBuildInfoDebug
-:valifi:dataBindingMergeDependencyArtifactsDebug
-:valifi:mergeDebugResources
-:valifi:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
-:valifi:dataBindingGenBaseClassesDebug
-:valifi:javaPreCompileDebug
-ERROR: [TAG] Failed to resolve variable '${project.version}'
-ERROR: [TAG] Failed to resolve variable '${animal.sniffer.version}'
-:valifi:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/src/valifi-master/valifi/src/main/java/com/mlykotom/valifi/ValiFi.java uses unchecked or unsafe operations.
+2019-08-30 11:10:19,417 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/src/valifi-master/gradlew
+2019-08-30 11:10:19,422 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/src/valifi-master/example-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/src/valifi-master/example-arch-viewmodel/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/src/valifi-master/valifi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/src/valifi-master/build.gradle
+2019-08-30 11:10:19,425 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/src/valifi-master/example-arch-viewmodel/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/src/valifi-master/valifi/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/src/valifi-master/valifi/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/src/valifi-master/valifi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/src/valifi-master/example-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/src/valifi-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/src/valifi-master/settings.gradle
+2019-08-30 11:10:19,426 INFO  ProjectBuildService - Remote scripts: none
+2019-08-30 11:10:19,426 INFO  ProjectFixService - Fixing project...
+2019-08-30 11:10:19,435 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/src/valifi-master/example-android/local.properties
+2019-08-30 11:10:19,436 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/src/valifi-master/example-android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-08-30 11:10:19,436 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/src/valifi-master/example-android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-08-30 11:10:19,437 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/src/valifi-master/example-arch-viewmodel/local.properties
+2019-08-30 11:10:19,439 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/src/valifi-master/example-arch-viewmodel/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-08-30 11:10:19,439 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/src/valifi-master/example-arch-viewmodel/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-08-30 11:10:19,439 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/src/valifi-master/valifi/local.properties
+2019-08-30 11:10:19,441 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/src/valifi-master/valifi/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-08-30 11:10:19,441 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/src/valifi-master/valifi/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-08-30 11:10:19,442 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/src/valifi-master/local.properties
+2019-08-30 11:10:19,442 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.1-all.zip
+2019-08-30 11:10:19,442 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.1-bin.zip)
+2019-08-30 11:10:19,444 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/src/valifi-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-08-30 11:10:19,444 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/src/valifi-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-08-30 11:10:19,444 INFO  ProjectFixService - Project was maybe fixed
+2019-08-30 11:10:19,445 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-30 11:10:19,445 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/src/valifi-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/src/valifi-master/example-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-30 11:10:48,771 INFO  ProjectTaskService - Detected possible tasks: 73
+2019-08-30 11:10:48,772 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-30 11:10:48,772 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/src/valifi-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/src/valifi-master/example-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-30 11:11:35,707 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :example-android:preBuild UP-TO-DATE
+> Task :example-android:preDebugBuild UP-TO-DATE
+> Task :valifi:preBuild UP-TO-DATE
+> Task :valifi:preDebugBuild UP-TO-DATE
+> Task :valifi:compileDebugAidl NO-SOURCE
+> Task :example-android:compileDebugAidl NO-SOURCE
+> Task :valifi:packageDebugRenderscript NO-SOURCE
+> Task :example-android:checkDebugManifest
+> Task :example-android:compileDebugRenderscript NO-SOURCE
+> Task :example-android:generateDebugBuildConfig
+> Task :example-android:prepareLintJar
+> Task :example-android:prepareLintJarForPublish
+> Task :example-android:dataBindingExportFeaturePackageIdsDebug
+> Task :example-android:generateDebugSources
+> Task :example-android:dataBindingExportBuildInfoDebug
+> Task :valifi:checkDebugManifest
+> Task :valifi:compileDebugRenderscript NO-SOURCE
+> Task :valifi:generateDebugBuildConfig
+> Task :valifi:prepareLintJar
+> Task :valifi:prepareLintJarForPublish
+> Task :valifi:generateDebugSources
+> Task :valifi:dataBindingExportBuildInfoDebug
+> Task :valifi:dataBindingMergeDependencyArtifactsDebug
+> Task :valifi:generateDebugResValues
+> Task :valifi:generateDebugResources
+> Task :valifi:packageDebugResources
+> Task :valifi:dataBindingMergeGenClassesDebug
+> Task :valifi:dataBindingGenBaseClassesDebug
+> Task :valifi:parseDebugLibraryResources
+> Task :valifi:processDebugManifest
+> Task :valifi:javaPreCompileDebug
+> Task :example-android:dataBindingMergeGenClassesDebug
+> Task :example-android:generateDebugResValues
+> Task :example-android:generateDebugResources
+> Task :example-android:mainApkListPersistenceDebug
+> Task :example-android:createDebugCompatibleScreenManifests
+> Task :example-android:processDebugManifest
+> Task :valifi:generateDebugRFile
+
+> Task :valifi:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/src/valifi-master/valifi/src/main/java/com/mlykotom/valifi/ValiFi.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-:example-android:dataBindingMergeDependencyArtifactsDebug
-:example-android:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
-:example-android:dataBindingGenBaseClassesDebug
-:valifi:processDebugJavaRes NO-SOURCE
-:valifi:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:example-android:javaPreCompileDebug
-:example-android:compileDebugJavaWithJavac
-:example-android:compileDebugNdk NO-SOURCE
-:example-android:compileDebugSources
-:example-android:mergeDebugShaders
-:example-android:compileDebugShaders
-:example-android:generateDebugAssets
-:valifi:mergeDebugShaders
-:valifi:compileDebugShaders
-:valifi:generateDebugAssets
-:valifi:packageDebugAssets
-:example-android:mergeDebugAssets
-:example-android:transformClassesWithDexBuilderForDebug
-:example-android:transformDexArchiveWithExternalLibsDexMergerForDebug
-:example-android:transformDexArchiveWithDexMergerForDebug
-:example-android:mergeDebugJniLibFolders
-:valifi:compileDebugNdk NO-SOURCE
-:valifi:mergeDebugJniLibFolders
-:valifi:transformNativeLibsWithMergeJniLibsForDebug
-:valifi:transformNativeLibsWithStripDebugSymbolForDebug
-:valifi:transformNativeLibsWithIntermediateJniLibsForDebug
-:example-android:transformNativeLibsWithMergeJniLibsForDebug
-:example-android:transformNativeLibsWithStripDebugSymbolForDebug
-:example-android:checkDebugLibraries
-:example-android:processDebugJavaRes NO-SOURCE
-:example-android:transformResourcesWithMergeJavaResForDebug
-:example-android:validateSigningDebug
-:example-android:packageDebug
-:example-android:assembleDebug
-:example-android:checkReleaseClasspath
-:valifi:preReleaseBuild UP-TO-DATE
-:valifi:checkReleaseManifest
-:valifi:processReleaseManifest
-:example-android:preReleaseBuild
-:valifi:compileReleaseAidl NO-SOURCE
-:example-android:compileReleaseAidl NO-SOURCE
-:valifi:packageReleaseRenderscript NO-SOURCE
-:example-android:compileReleaseRenderscript
-:example-android:checkReleaseManifest
-:example-android:generateReleaseBuildConfig
-:example-android:mainApkListPersistenceRelease
-:example-android:generateReleaseResValues
-:example-android:generateReleaseResources
-:valifi:compileReleaseRenderscript
-:valifi:generateReleaseResValues
-:valifi:generateReleaseResources
-:valifi:packageReleaseResources
-:example-android:mergeReleaseResources
-:example-android:createReleaseCompatibleScreenManifests
-:example-android:processReleaseManifest
-:example-android:splitsDiscoveryTaskRelease
-:valifi:generateReleaseRFile
-:example-android:processReleaseResources
-:example-android:generateReleaseSources
-:example-android:dataBindingExportBuildInfoRelease
-:example-android:dataBindingExportFeaturePackageIdsRelease
-:valifi:generateReleaseBuildConfig
-:valifi:generateReleaseSources
-:valifi:dataBindingExportBuildInfoRelease
-:valifi:dataBindingMergeDependencyArtifactsRelease
-:valifi:mergeReleaseResources
-:valifi:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease
-:valifi:dataBindingGenBaseClassesRelease
-:valifi:javaPreCompileRelease
-:valifi:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/src/valifi-master/valifi/src/main/java/com/mlykotom/valifi/ValiFi.java uses unchecked or unsafe operations.
+> Task :example-android:mergeDebugResources
+> Task :example-android:processDebugResources
+> Task :example-android:dataBindingMergeDependencyArtifactsDebug
+> Task :example-android:dataBindingGenBaseClassesDebug
+> Task :valifi:bundleLibCompileDebug
+> Task :example-android:javaPreCompileDebug
+> Task :example-android:compileDebugJavaWithJavac
+> Task :example-android:compileDebugSources
+> Task :example-android:mergeDebugShaders
+> Task :example-android:compileDebugShaders
+> Task :example-android:generateDebugAssets
+> Task :valifi:mergeDebugShaders
+> Task :valifi:compileDebugShaders
+> Task :valifi:generateDebugAssets
+> Task :valifi:packageDebugAssets
+> Task :example-android:mergeDebugAssets
+> Task :example-android:processDebugJavaRes NO-SOURCE
+> Task :valifi:processDebugJavaRes NO-SOURCE
+> Task :valifi:bundleLibResDebug
+> Task :valifi:bundleLibRuntimeDebug
+> Task :valifi:createFullJarDebug
+> Task :example-android:checkDebugDuplicateClasses
+> Task :example-android:mergeDebugJavaResource
+> Task :example-android:transformClassesWithDexBuilderForDebug
+> Task :example-android:validateSigningDebug
+> Task :example-android:signingConfigWriterDebug
+> Task :example-android:mergeDebugJniLibFolders
+> Task :valifi:mergeDebugJniLibFolders
+> Task :example-android:preReleaseBuild UP-TO-DATE
+> Task :valifi:preReleaseBuild UP-TO-DATE
+> Task :valifi:compileReleaseAidl NO-SOURCE
+> Task :example-android:compileReleaseAidl NO-SOURCE
+> Task :valifi:packageReleaseRenderscript NO-SOURCE
+> Task :example-android:compileReleaseRenderscript NO-SOURCE
+> Task :example-android:checkReleaseManifest
+> Task :example-android:generateReleaseBuildConfig
+> Task :example-android:generateReleaseSources
+> Task :example-android:dataBindingExportBuildInfoRelease
+> Task :valifi:mergeDebugNativeLibs
+> Task :valifi:stripDebugDebugSymbols
+> Task :valifi:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :valifi:compileReleaseRenderscript NO-SOURCE
+> Task :valifi:checkReleaseManifest
+> Task :valifi:generateReleaseBuildConfig
+> Task :valifi:generateReleaseSources
+> Task :valifi:dataBindingExportBuildInfoRelease
+> Task :example-android:dataBindingExportFeaturePackageIdsRelease
+> Task :valifi:generateReleaseResValues
+> Task :valifi:generateReleaseResources
+> Task :valifi:packageReleaseResources
+> Task :valifi:dataBindingMergeGenClassesRelease
+> Task :valifi:dataBindingMergeDependencyArtifactsRelease
+> Task :valifi:dataBindingGenBaseClassesRelease
+> Task :valifi:parseReleaseLibraryResources
+> Task :valifi:processReleaseManifest
+> Task :example-android:dataBindingMergeGenClassesRelease
+> Task :example-android:generateReleaseResValues
+> Task :example-android:generateReleaseResources
+> Task :valifi:generateReleaseRFile
+> Task :example-android:mainApkListPersistenceRelease
+> Task :example-android:createReleaseCompatibleScreenManifests
+> Task :example-android:processReleaseManifest
+> Task :example-android:mergeDebugNativeLibs
+> Task :example-android:stripDebugDebugSymbols
+> Task :valifi:javaPreCompileRelease
+
+> Task :valifi:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/src/valifi-master/valifi/src/main/java/com/mlykotom/valifi/ValiFi.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-:example-android:dataBindingMergeDependencyArtifactsRelease
-:example-android:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease
-:example-android:dataBindingGenBaseClassesRelease
-:valifi:processReleaseJavaRes NO-SOURCE
-:valifi:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:example-android:javaPreCompileRelease
-:example-android:compileReleaseJavaWithJavac
-:example-android:compileReleaseNdk NO-SOURCE
-:example-android:compileReleaseSources
-:example-android:lintVitalRelease
-:example-android:mergeReleaseShaders
-:example-android:compileReleaseShaders
-:example-android:generateReleaseAssets
-:valifi:mergeReleaseShaders
-:valifi:compileReleaseShaders
-:valifi:generateReleaseAssets
-:valifi:packageReleaseAssets
-:example-android:mergeReleaseAssets
-:example-android:transformClassesWithDexBuilderForRelease
-:example-android:transformDexArchiveWithExternalLibsDexMergerForRelease
-:example-android:transformDexArchiveWithDexMergerForRelease
-:example-android:mergeReleaseJniLibFolders
-:valifi:compileReleaseNdk NO-SOURCE
-:valifi:mergeReleaseJniLibFolders
-:valifi:transformNativeLibsWithMergeJniLibsForRelease
-:valifi:transformNativeLibsWithStripDebugSymbolForRelease
-:valifi:transformNativeLibsWithIntermediateJniLibsForRelease
-:example-android:transformNativeLibsWithMergeJniLibsForRelease
-:example-android:transformNativeLibsWithStripDebugSymbolForRelease
-:example-android:checkReleaseLibraries
-:example-android:processReleaseJavaRes NO-SOURCE
-:example-android:transformResourcesWithMergeJavaResForRelease
-:example-android:packageRelease
-:example-android:assembleRelease
-:example-android:assemble
-:example-android:build
+> Task :example-android:dataBindingMergeDependencyArtifactsRelease
+> Task :example-android:mergeReleaseResources
+> Task :example-android:dataBindingGenBaseClassesRelease
+> Task :example-android:processReleaseResources
+> Task :valifi:bundleLibCompileRelease
+> Task :valifi:processReleaseJavaRes NO-SOURCE
+> Task :example-android:checkReleaseDuplicateClasses
+> Task :example-android:javaPreCompileRelease
+> Task :example-android:compileReleaseJavaWithJavac
+> Task :example-android:compileReleaseSources
 
-BUILD SUCCESSFUL in 42s
+> Task :example-android:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/1f7d917c164ad9f5cb170b63fb08f75e/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :valifi:bundleLibRuntimeRelease
+> Task :valifi:bundleLibResRelease
+> Task :valifi:createFullJarRelease
+> Task :example-android:mergeExtDexDebug
+> Task :example-android:mergeDexDebug
+> Task :example-android:packageDebug
+> Task :example-android:assembleDebug
+> Task :example-android:transformClassesWithDexBuilderForRelease
+> Task :example-android:mergeReleaseShaders
+> Task :example-android:compileReleaseShaders
+> Task :example-android:generateReleaseAssets
+> Task :valifi:mergeReleaseShaders
+> Task :valifi:compileReleaseShaders
+> Task :valifi:generateReleaseAssets
+> Task :valifi:packageReleaseAssets
+> Task :example-android:mergeReleaseAssets
+> Task :example-android:processReleaseJavaRes NO-SOURCE
+> Task :example-android:signingConfigWriterRelease
+> Task :example-android:mergeReleaseJniLibFolders
+> Task :valifi:mergeReleaseJniLibFolders
+> Task :valifi:mergeReleaseNativeLibs
+> Task :valifi:stripReleaseDebugSymbols
+> Task :valifi:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :example-android:mergeReleaseNativeLibs
+> Task :example-android:stripReleaseDebugSymbols
+> Task :example-android:mergeReleaseJavaResource
+> Task :example-android:mergeExtDexRelease
+> Task :example-android:mergeDexRelease
+> Task :example-android:packageRelease
+> Task :example-android:assembleRelease
+> Task :example-android:assemble
+> Task :example-android:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.6.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 46s
 110 actionable tasks: 110 executed
 
-2018-12-09 22:24:14,717 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544369002104-0/src/valifi-master/example-android/build/outputs/apk/release/example-android-release-unsigned.apk
+2019-08-30 11:11:35,783 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138214640-0/src/valifi-master/example-android/build/outputs/apk/release/example-android-release-unsigned.apk

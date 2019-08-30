@@ -31,8 +31,8 @@
   "dexClasses" : 3124,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"18\" android:versionName=\"2.0.4\" android:compileSdkVersion=\"29\" android:compileSdkVersionCodename=\"10\" package=\"com.skydoves.elasticviewsdemo\" platformBuildVersionCode=\"29\" platformBuildVersionName=\"10\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"29\" />\n\t<application android:theme=\"resourceId:0x7f0f0007\" android:label=\"ElasticViews\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.skydoves.elasticviewsdemo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.skydoves.elasticviewsdemo.ExampleActivity0\" />\n\t\t<activity android:name=\"com.skydoves.elasticviewsdemo.ExampleActivity1\" />\n\t\t<activity android:name=\"com.skydoves.elasticviewsdemo.ExampleActivity2\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 3212859,
-  "crc32" : 2463358685,
-  "sha256" : "338b7141e2c7d4e4ccad1319a961e631e2d71ba42fe18fd3005106478a9853bb",
-  "buildTime" : 1565519296000
+  "fileSize" : 3212941,
+  "crc32" : 2880786040,
+  "sha256" : "6e6f623d8f93adedf8c0aeb742b9bc3d990f22750f9f847220c7314bd8726cbd",
+  "buildTime" : 1567138468000
 }

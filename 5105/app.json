@@ -3,8 +3,8 @@
     "packageName" : "com.flipkart.android.proteus.demo",
     "label" : "Proteus Demo",
     "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
-    "versionName" : "5.0.0",
-    "versionCode" : 500016,
+    "versionName" : "5.0.1",
+    "versionCode" : 500017,
     "installLocation" : null,
     "minSdkVersion" : "19",
     "targetSdkVersion" : "28",
@@ -30,9 +30,9 @@
   },
   "dexClasses" : 3584,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
-  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"500016\" android:versionName=\"5.0.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.flipkart.android.proteus.demo\" platformBuildVersionCode=\"28\" platformBuildVersionName=\"9\">\n\t<uses-sdk android:minSdkVersion=\"19\" android:targetSdkVersion=\"28\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<application android:theme=\"resourceId:0x7f0f0008\" android:label=\"Proteus Demo\" android:icon=\"res/drawable-xxhdpi-v4/ic_launcher.png\" android:name=\"com.flipkart.android.proteus.demo.DemoApplication\" android:allowBackup=\"false\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.flipkart.android.proteus.demo.ProteusActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
-  "fileSize" : 2679419,
-  "crc32" : 1783232589,
-  "sha256" : "b50bed7f994a740384be7ff0faba289237baec57b76c56a63879aabbf7f669d7",
-  "buildTime" : 1555047441000
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"500017\" android:versionName=\"5.0.1\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.flipkart.android.proteus.demo\" platformBuildVersionCode=\"28\" platformBuildVersionName=\"9\">\n\t<uses-sdk android:minSdkVersion=\"19\" android:targetSdkVersion=\"28\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<application android:theme=\"resourceId:0x7f0f0008\" android:label=\"Proteus Demo\" android:icon=\"res/drawable-xxhdpi-v4/ic_launcher.png\" android:name=\"com.flipkart.android.proteus.demo.DemoApplication\" android:allowBackup=\"false\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.flipkart.android.proteus.demo.ProteusActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 2679395,
+  "crc32" : 2519162505,
+  "sha256" : "4495c4aa2b1f556db9fbc01e58bdf4cf4b1e42b3ea25379270aa3e4a7c1bd23a",
+  "buildTime" : 1567138832000
 }
