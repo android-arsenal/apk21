@@ -31,8 +31,8 @@
   "dexClasses" : 2906,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"2\" android:versionName=\"1.1\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.halilibo.bettervideoplayer\" platformBuildVersionCode=\"2\" platformBuildVersionName=\"{4:1066192077}\">\n\t<uses-sdk android:minSdkVersion=\"19\" android:targetSdkVersion=\"28\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f10000e\" android:label=\"BetterVideoPlayer\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.halilibo.sample.MainActivity\" android:configChanges=\"0x4a0\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f10016a\" android:name=\"com.halilibo.sample.BackgroundActivity\" android:screenOrientation=\"landscape\" />\n\t\t<activity android:theme=\"resourceId:0x7f1000d8\" android:label=\"FullscreenActivity\" android:name=\"com.halilibo.sample.FullscreenActivity\" android:screenOrientation=\"landscape\" android:configChanges=\"0x4a0\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 15070064,
-  "crc32" : 2803443890,
-  "sha256" : "c2b5766aad6a823acd7ffd805047d06eeec11560326caf378af7b05d88ed8374",
-  "buildTime" : 1553487527000
+  "fileSize" : 15070049,
+  "crc32" : 4246335574,
+  "sha256" : "545a9041a8c060e539e3c904262baaced07ff99c78379b7b058f5535bf8d5d02",
+  "buildTime" : 1570279585000
 }

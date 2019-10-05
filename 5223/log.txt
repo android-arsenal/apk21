@@ -1,38 +1,38 @@
-2019-03-25 11:17:50,049 INFO  DownloadService - Downloading "https://github.com/halilozercan/bettervideoplayer/archive/master.zip", attempt 3
-2019-03-25 11:18:02,662 INFO  DownloadService - Downloaded https://github.com/halilozercan/bettervideoplayer/archive/master.zip, attempt 3
-2019-03-25 11:18:02,662 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/master.zip": 20 MB
-2019-03-25 11:18:02,662 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-25 11:18:02,666 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/master.zip: true
-2019-03-25 11:18:02,666 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src'.
-2019-03-25 11:18:02,794 INFO  FullProcessService - Size of directory with sources: 20 MB
-2019-03-25 11:18:02,794 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src]
-2019-03-25 11:18:02,812 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src/.git/
+2019-10-05 19:45:17,314 INFO  DownloadService - Downloading "https://github.com/halilozercan/bettervideoplayer/archive/master.zip", attempt 3
+2019-10-05 19:45:27,362 INFO  DownloadService - Downloaded https://github.com/halilozercan/bettervideoplayer/archive/master.zip, attempt 3
+2019-10-05 19:45:27,363 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/master.zip": 20 MB
+2019-10-05 19:45:27,363 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-05 19:45:27,368 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/master.zip: true
+2019-10-05 19:45:27,368 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/src'.
+2019-10-05 19:45:27,505 INFO  FullProcessService - Size of directory with sources: 20 MB
+2019-10-05 19:45:27,505 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/src]
+2019-10-05 19:45:27,533 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/src/.git/
 
-2019-03-25 11:18:02,816 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src/BetterVideoPlayer-master/gradlew
-2019-03-25 11:18:02,819 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src/BetterVideoPlayer-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src/BetterVideoPlayer-master/bvpkotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src/BetterVideoPlayer-master/build.gradle
-2019-03-25 11:18:02,823 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src/BetterVideoPlayer-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src/BetterVideoPlayer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src/BetterVideoPlayer-master/bvpkotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src/BetterVideoPlayer-master/settings.gradle
-2019-03-25 11:18:02,823 INFO  ProjectBuildService - Remote scripts: none
-2019-03-25 11:18:02,823 INFO  ProjectFixService - Fixing project...
-2019-03-25 11:18:02,831 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src/BetterVideoPlayer-master/app/local.properties
-2019-03-25 11:18:02,832 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src/BetterVideoPlayer-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-03-25 11:18:02,833 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src/BetterVideoPlayer-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-03-25 11:18:02,833 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src/BetterVideoPlayer-master/bvpkotlin/local.properties
-2019-03-25 11:18:02,834 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src/BetterVideoPlayer-master/bvpkotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-03-25 11:18:02,834 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src/BetterVideoPlayer-master/bvpkotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-03-25 11:18:02,835 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src/BetterVideoPlayer-master/local.properties
-2019-03-25 11:18:02,835 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-03-25 11:18:02,835 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-03-25 11:18:02,837 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src/BetterVideoPlayer-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-03-25 11:18:02,837 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src/BetterVideoPlayer-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-03-25 11:18:02,837 INFO  ProjectFixService - Project was maybe fixed
-2019-03-25 11:18:02,837 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-25 11:18:02,837 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src/BetterVideoPlayer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src/BetterVideoPlayer-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-25 11:18:10,578 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-03-25 11:18:10,578 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-25 11:18:10,579 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src/BetterVideoPlayer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src/BetterVideoPlayer-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-25 11:19:08,466 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-05 19:45:27,536 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/src/BetterVideoPlayer-master/gradlew
+2019-10-05 19:45:27,540 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/src/BetterVideoPlayer-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/src/BetterVideoPlayer-master/bvpkotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/src/BetterVideoPlayer-master/build.gradle
+2019-10-05 19:45:27,543 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/src/BetterVideoPlayer-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/src/BetterVideoPlayer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/src/BetterVideoPlayer-master/bvpkotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/src/BetterVideoPlayer-master/settings.gradle
+2019-10-05 19:45:27,544 INFO  ProjectBuildService - Remote scripts: none
+2019-10-05 19:45:27,544 INFO  ProjectFixService - Fixing project...
+2019-10-05 19:45:27,551 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/src/BetterVideoPlayer-master/app/local.properties
+2019-10-05 19:45:27,552 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/src/BetterVideoPlayer-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-10-05 19:45:27,553 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/src/BetterVideoPlayer-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-10-05 19:45:27,553 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/src/BetterVideoPlayer-master/bvpkotlin/local.properties
+2019-10-05 19:45:27,554 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/src/BetterVideoPlayer-master/bvpkotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-10-05 19:45:27,554 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/src/BetterVideoPlayer-master/bvpkotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-10-05 19:45:27,554 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/src/BetterVideoPlayer-master/local.properties
+2019-10-05 19:45:27,555 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-10-05 19:45:27,555 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-10-05 19:45:27,557 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/src/BetterVideoPlayer-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-10-05 19:45:27,557 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/src/BetterVideoPlayer-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-10-05 19:45:27,557 INFO  ProjectFixService - Project was maybe fixed
+2019-10-05 19:45:27,557 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-05 19:45:27,557 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/src/BetterVideoPlayer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/src/BetterVideoPlayer-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-05 19:45:35,722 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-10-05 19:45:35,722 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-05 19:45:35,722 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/src/BetterVideoPlayer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/src/BetterVideoPlayer-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-05 19:46:55,730 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
-Download https://jcenter.bintray.com/org/jetbrains/annotations-java5/15.0/annotations-java5-15.0.jar
+Download https://dl.google.com/dl/android/maven2/com/google/android/material/material/1.1.0-alpha02/material-1.1.0-alpha02.aar
 :app:preBuild UP-TO-DATE
 :bvpkotlin:preBuild UP-TO-DATE
 :bvpkotlin:preDebugBuild UP-TO-DATE
@@ -60,8 +60,8 @@ Download https://jcenter.bintray.com/org/jetbrains/annotations-java5/15.0/annota
 :app:processDebugResources
 :bvpkotlin:generateDebugBuildConfig
 :bvpkotlin:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src/BetterVideoPlayer-master/bvpkotlin/src/main/java/com/halilibo/bvpkotlin/BetterVideoPlayer.kt: (884, 22): 'setAudioStreamType(Int): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src/BetterVideoPlayer-master/bvpkotlin/src/main/java/com/halilibo/bvpkotlin/captions/CaptionsView.kt: (34, 25): 'fromHtml(String!): Spanned!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/src/BetterVideoPlayer-master/bvpkotlin/src/main/java/com/halilibo/bvpkotlin/BetterVideoPlayer.kt: (884, 22): 'setAudioStreamType(Int): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/src/BetterVideoPlayer-master/bvpkotlin/src/main/java/com/halilibo/bvpkotlin/captions/CaptionsView.kt: (34, 25): 'fromHtml(String!): Spanned!' is deprecated. Deprecated in Java
 :bvpkotlin:prepareLintJar
 :bvpkotlin:generateDebugSources
 :bvpkotlin:javaPreCompileDebug
@@ -71,8 +71,8 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src/
 :app:kaptGenerateStubsDebugKotlin
 :app:kaptDebugKotlin
 :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src/BetterVideoPlayer-master/app/src/main/java/com/halilibo/sample/FullscreenActivity.kt: (43, 66): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src/BetterVideoPlayer-master/app/src/main/java/com/halilibo/sample/FullscreenActivity.kt: (43, 72): Parameter 'motionEvent' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/src/BetterVideoPlayer-master/app/src/main/java/com/halilibo/sample/FullscreenActivity.kt: (43, 66): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/src/BetterVideoPlayer-master/app/src/main/java/com/halilibo/sample/FullscreenActivity.kt: (43, 72): Parameter 'motionEvent' is never used, could be renamed to _
 :app:prepareLintJar
 :app:generateDebugSources
 :app:javaPreCompileDebug
@@ -88,6 +88,17 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src/
 :bvpkotlin:packageDebugAssets
 :app:mergeDebugAssets
 :app:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 2 methods.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.10/b178c1501609c6e4ee8be635513cb023a466457d/kotlin-stdlib-1.3.10.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.sequences.SequencesKt__SequencesKt$ifEmpty$1.invokeSuspend(java.lang.Object)
+  Attempt to read local this but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.10/b178c1501609c6e4ee8be635513cb023a466457d/kotlin-stdlib-1.3.10.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.invokeSuspend(java.lang.Object)
+  Attempt to read local this but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.10/b178c1501609c6e4ee8be635513cb023a466457d/kotlin-stdlib-1.3.10.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.invokeSuspend(java.lang.Object)
+  Attempt to read local this but no local information was associated with the value being read.
 :app:transformDexArchiveWithExternalLibsDexMergerForDebug
 :app:transformDexArchiveWithDexMergerForDebug
 :app:mergeDebugJniLibFolders
@@ -130,8 +141,8 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src/
 :app:processReleaseResources
 :bvpkotlin:generateReleaseBuildConfig
 :bvpkotlin:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src/BetterVideoPlayer-master/bvpkotlin/src/main/java/com/halilibo/bvpkotlin/BetterVideoPlayer.kt: (884, 22): 'setAudioStreamType(Int): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src/BetterVideoPlayer-master/bvpkotlin/src/main/java/com/halilibo/bvpkotlin/captions/CaptionsView.kt: (34, 25): 'fromHtml(String!): Spanned!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/src/BetterVideoPlayer-master/bvpkotlin/src/main/java/com/halilibo/bvpkotlin/BetterVideoPlayer.kt: (884, 22): 'setAudioStreamType(Int): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/src/BetterVideoPlayer-master/bvpkotlin/src/main/java/com/halilibo/bvpkotlin/captions/CaptionsView.kt: (34, 25): 'fromHtml(String!): Spanned!' is deprecated. Deprecated in Java
 :bvpkotlin:generateReleaseSources
 :bvpkotlin:javaPreCompileRelease
 :bvpkotlin:compileReleaseJavaWithJavac
@@ -140,8 +151,8 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src/
 :app:kaptGenerateStubsReleaseKotlin
 :app:kaptReleaseKotlin
 :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src/BetterVideoPlayer-master/app/src/main/java/com/halilibo/sample/FullscreenActivity.kt: (43, 66): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src/BetterVideoPlayer-master/app/src/main/java/com/halilibo/sample/FullscreenActivity.kt: (43, 72): Parameter 'motionEvent' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/src/BetterVideoPlayer-master/app/src/main/java/com/halilibo/sample/FullscreenActivity.kt: (43, 66): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/src/BetterVideoPlayer-master/app/src/main/java/com/halilibo/sample/FullscreenActivity.kt: (43, 72): Parameter 'motionEvent' is never used, could be renamed to _
 :app:generateReleaseSources
 :app:javaPreCompileRelease
 :app:compileReleaseJavaWithJavac
@@ -176,7 +187,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 57s
+BUILD SUCCESSFUL in 1m 19s
 98 actionable tasks: 98 executed
 
-2019-03-25 11:19:08,584 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487470041-0/src/BetterVideoPlayer-master/app/build/outputs/apk/debug/app-debug.apk
+2019-10-05 19:46:55,825 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279517311-0/src/BetterVideoPlayer-master/app/build/outputs/apk/debug/app-debug.apk
