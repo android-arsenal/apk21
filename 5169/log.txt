@@ -1,10 +1,10 @@
-2019-07-26 13:33:52,507 INFO  DownloadService - Downloading "https://github.com/jqno/equalsverifier/archive/master.zip", attempt 3
-2019-07-26 13:33:53,538 INFO  DownloadService - Downloaded https://github.com/jqno/equalsverifier/archive/master.zip, attempt 3
-2019-07-26 13:33:53,539 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122832499-0/master.zip": 320 KB
-2019-07-26 13:33:53,539 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-26 13:33:53,545 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564122832499-0/master.zip: false
-2019-07-26 13:33:53,545 INFO  FullProcessService - Archive with sources does not contain any build script
-2019-07-26 13:33:53,545 ERROR FullProcessService - Could not find directory with sources
-2019-07-26 13:33:53,545 ERROR FullProcessService - Project will not be processed
-2019-07-26 13:33:53,545 ERROR FullProcessService - Project build has not produced APK file
-2019-07-26 13:33:53,546 ERROR FullProcessService - Could not find generated or existed APK file
+2019-10-05 20:08:48,747 INFO  DownloadService - Downloading "https://github.com/jqno/equalsverifier/archive/master.zip", attempt 3
+2019-10-05 20:08:51,267 INFO  DownloadService - Downloaded https://github.com/jqno/equalsverifier/archive/master.zip, attempt 3
+2019-10-05 20:08:51,268 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570280928744-0/master.zip": 372 KB
+2019-10-05 20:08:51,268 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-05 20:08:51,274 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570280928744-0/master.zip: false
+2019-10-05 20:08:51,274 INFO  FullProcessService - Archive with sources does not contain any build script
+2019-10-05 20:08:51,274 ERROR FullProcessService - Could not find directory with sources
+2019-10-05 20:08:51,274 ERROR FullProcessService - Project will not be processed
+2019-10-05 20:08:51,274 ERROR FullProcessService - Project build has not produced APK file
+2019-10-05 20:08:51,275 ERROR FullProcessService - Could not find generated or existed APK file

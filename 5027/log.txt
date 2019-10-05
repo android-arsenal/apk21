@@ -1,36 +1,36 @@
-2018-12-13 01:40:53,852 INFO  DownloadService - Downloading "https://github.com/daniel-stoneuk/material-about-library/archive/master.zip", attempt 3
-2018-12-13 01:41:26,987 INFO  DownloadService - Downloaded https://github.com/daniel-stoneuk/material-about-library/archive/master.zip, attempt 3
-2018-12-13 01:41:26,988 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544640053846-0/master.zip": 791 KB
-2018-12-13 01:41:26,988 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-13 01:41:26,993 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544640053846-0/master.zip: true
-2018-12-13 01:41:26,994 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544640053846-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544640053846-0/src'.
-2018-12-13 01:41:27,045 INFO  FullProcessService - Size of directory with sources: 977 KB
-2018-12-13 01:41:27,045 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544640053846-0/src]
-2018-12-13 01:41:27,089 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544640053846-0/src/.git/
+2019-10-05 20:15:25,688 INFO  DownloadService - Downloading "https://github.com/daniel-stoneuk/material-about-library/archive/master.zip", attempt 3
+2019-10-05 20:15:28,615 INFO  DownloadService - Downloaded https://github.com/daniel-stoneuk/material-about-library/archive/master.zip, attempt 3
+2019-10-05 20:15:28,615 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570281325680-0/master.zip": 791 KB
+2019-10-05 20:15:28,615 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-05 20:15:28,621 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570281325680-0/master.zip: true
+2019-10-05 20:15:28,622 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570281325680-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570281325680-0/src'.
+2019-10-05 20:15:28,659 INFO  FullProcessService - Size of directory with sources: 977 KB
+2019-10-05 20:15:28,659 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570281325680-0/src]
+2019-10-05 20:15:28,675 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570281325680-0/src/.git/
 
-2018-12-13 01:41:27,095 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544640053846-0/src/material-about-library-master/gradlew
-2018-12-13 01:41:27,102 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544640053846-0/src/material-about-library-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544640053846-0/src/material-about-library-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544640053846-0/src/material-about-library-master/build.gradle
-2018-12-13 01:41:27,107 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544640053846-0/src/material-about-library-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544640053846-0/src/material-about-library-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544640053846-0/src/material-about-library-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544640053846-0/src/material-about-library-master/settings.gradle
-2018-12-13 01:41:27,107 INFO  ProjectBuildService - Remote scripts: none
-2018-12-13 01:41:27,107 INFO  ProjectFixService - Fixing project...
-2018-12-13 01:41:27,122 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544640053846-0/src/material-about-library-master/app/local.properties
-2018-12-13 01:41:27,124 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544640053846-0/src/material-about-library-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=<null>]
-2018-12-13 01:41:27,124 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544640053846-0/src/material-about-library-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-12-13 01:41:27,126 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544640053846-0/src/material-about-library-master/library/local.properties
-2018-12-13 01:41:27,127 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544640053846-0/src/material-about-library-master/library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=<null>]
-2018-12-13 01:41:27,127 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544640053846-0/src/material-about-library-master/library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-12-13 01:41:27,128 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544640053846-0/src/material-about-library-master/local.properties
-2018-12-13 01:41:27,129 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-12-13 01:41:27,130 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-12-13 01:41:27,130 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544640053846-0/src/material-about-library-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
-2018-12-13 01:41:27,130 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544640053846-0/src/material-about-library-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-13 01:41:27,131 INFO  ProjectFixService - Project was maybe fixed
-2018-12-13 01:41:27,131 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-13 01:41:27,131 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544640053846-0/src/material-about-library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544640053846-0/src/material-about-library-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-13 01:41:37,227 INFO  ProjectTaskService - Detected possible tasks: 71
-2018-12-13 01:41:37,227 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-13 01:41:37,227 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544640053846-0/src/material-about-library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544640053846-0/src/material-about-library-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-13 01:42:40,719 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-05 20:15:28,679 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570281325680-0/src/material-about-library-master/gradlew
+2019-10-05 20:15:28,682 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570281325680-0/src/material-about-library-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570281325680-0/src/material-about-library-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570281325680-0/src/material-about-library-master/build.gradle
+2019-10-05 20:15:28,685 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570281325680-0/src/material-about-library-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570281325680-0/src/material-about-library-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570281325680-0/src/material-about-library-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570281325680-0/src/material-about-library-master/settings.gradle
+2019-10-05 20:15:28,685 INFO  ProjectBuildService - Remote scripts: none
+2019-10-05 20:15:28,685 INFO  ProjectFixService - Fixing project...
+2019-10-05 20:15:28,692 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570281325680-0/src/material-about-library-master/app/local.properties
+2019-10-05 20:15:28,693 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570281325680-0/src/material-about-library-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=<null>]
+2019-10-05 20:15:28,693 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570281325680-0/src/material-about-library-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=29]
+2019-10-05 20:15:28,694 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570281325680-0/src/material-about-library-master/library/local.properties
+2019-10-05 20:15:28,695 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570281325680-0/src/material-about-library-master/library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=<null>]
+2019-10-05 20:15:28,695 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570281325680-0/src/material-about-library-master/library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=29]
+2019-10-05 20:15:28,696 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570281325680-0/src/material-about-library-master/local.properties
+2019-10-05 20:15:28,696 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-10-05 20:15:28,696 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-10-05 20:15:28,697 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570281325680-0/src/material-about-library-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2019-10-05 20:15:28,697 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570281325680-0/src/material-about-library-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=29]
+2019-10-05 20:15:28,697 INFO  ProjectFixService - Project was maybe fixed
+2019-10-05 20:15:28,698 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-05 20:15:28,698 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570281325680-0/src/material-about-library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570281325680-0/src/material-about-library-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-05 20:15:34,691 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-10-05 20:15:34,692 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-05 20:15:34,692 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570281325680-0/src/material-about-library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570281325680-0/src/material-about-library-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-05 20:16:15,327 INFO  SysUtils - Configuration on demand is an incubating feature.
 WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
 It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
 WARNING: Configuration 'androidTestCompile' is obsolete and has been replaced with 'androidTestImplementation' and 'androidTestApi'.
@@ -48,9 +48,18 @@ It will be removed at the end of 2018. For more information see: http://d.androi
 WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
 It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
 :app:checkDebugClasspath
+Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-service/2.0.0-rc01/lifecycle-service-2.0.0-rc01.aar
 Download https://dl.google.com/dl/android/maven2/androidx/browser/browser/1.0.0-rc01/browser-1.0.0-rc01.aar
-Download https://jcenter.bintray.com/net/yslibrary/licenseadapter/licenseadapter/2.2.2/licenseadapter-2.2.2.aar
+Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-extensions/2.0.0-rc01/lifecycle-extensions-2.0.0-rc01.aar
+Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-process/2.0.0-rc01/lifecycle-process-2.0.0-rc01.aar
+Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-android/1.5.4/leakcanary-android-1.5.4.aar
+Download https://dl.google.com/dl/android/maven2/androidx/constraintlayout/constraintlayout/1.1.2/constraintlayout-1.1.2.aar
 Download https://jcenter.bintray.com/com/mikepenz/iconics-core/2.9.5/iconics-core-2.9.5.aar
+Download https://jcenter.bintray.com/net/yslibrary/licenseadapter/licenseadapter/2.2.2/licenseadapter-2.2.2.aar
+Download https://dl.google.com/dl/android/maven2/androidx/constraintlayout/constraintlayout-solver/1.1.2/constraintlayout-solver-1.1.2.jar
+Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-analyzer/1.5.4/leakcanary-analyzer-1.5.4.aar
+Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-watcher/1.5.4/leakcanary-watcher-1.5.4.jar
+Download https://jcenter.bintray.com/com/squareup/haha/haha/2.0.3/haha-2.0.3.jar
 Download https://jcenter.bintray.com/com/mikepenz/community-material-typeface/2.0.46.1/community-material-typeface-2.0.46.1.aar
 :app:preBuild UP-TO-DATE
 :library:preBuild UP-TO-DATE
@@ -89,7 +98,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :library:processDebugJavaRes NO-SOURCE
 :library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :app:javaPreCompileDebug
-:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544640053846-0/src/material-about-library-master/app/src/main/java/com/danielstone/materialaboutlibrarydemo/custom/MyCustomItem.java uses or overrides a deprecated API.
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570281325680-0/src/material-about-library-master/app/src/main/java/com/danielstone/materialaboutlibrarydemo/custom/MyCustomItem.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :app:compileDebugNdk NO-SOURCE
@@ -153,15 +162,16 @@ Note: Recompile with -Xlint:deprecation for details.
 :library:processReleaseJavaRes NO-SOURCE
 :library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
 :app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544640053846-0/src/material-about-library-master/app/src/main/java/com/danielstone/materialaboutlibrarydemo/custom/MyCustomItem.java uses or overrides a deprecated API.
+:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570281325680-0/src/material-about-library-master/app/src/main/java/com/danielstone/materialaboutlibrarydemo/custom/MyCustomItem.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :app:compileReleaseNdk NO-SOURCE
 :app:compileReleaseSources
 :app:lintVitalRelease
+Download https://dl.google.com/dl/android/maven2/androidx/test/espresso/espresso-idling-resource/3.1.0-beta02/espresso-idling-resource-3.1.0-beta02.aar
+Download https://dl.google.com/dl/android/maven2/androidx/test/monitor/1.1.0-beta02/monitor-1.1.0-beta02.aar
 Download https://dl.google.com/dl/android/maven2/androidx/test/runner/1.1.0-beta02/runner-1.1.0-beta02.aar
 Download https://dl.google.com/dl/android/maven2/androidx/test/espresso/espresso-core/3.1.0-beta02/espresso-core-3.1.0-beta02.aar
-Download https://dl.google.com/dl/android/maven2/androidx/test/espresso/espresso-idling-resource/3.1.0-beta02/espresso-idling-resource-3.1.0-beta02.aar
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/1ffc82ae0ee857e3ecaeb1359293ab76/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 :app:mergeReleaseShaders
 :app:compileReleaseShaders
@@ -190,7 +200,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 1m 3s
+BUILD SUCCESSFUL in 40s
 90 actionable tasks: 90 executed
 
-2018-12-13 01:42:40,835 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544640053846-0/src/material-about-library-master/app/build/outputs/apk/debug/app-debug.apk
+2019-10-05 20:16:15,409 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570281325680-0/src/material-about-library-master/app/build/outputs/apk/debug/app-debug.apk
