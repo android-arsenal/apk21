@@ -1,42 +1,42 @@
-2019-03-30 22:02:23,865 INFO  DownloadService - Downloading "https://github.com/wajahatkarim3/EasyFlipView/archive/master.zip", attempt 3
-2019-03-30 22:02:36,467 INFO  DownloadService - Downloaded https://github.com/wajahatkarim3/EasyFlipView/archive/master.zip, attempt 3
-2019-03-30 22:02:36,467 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/master.zip": 10 MB
-2019-03-30 22:02:36,467 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-30 22:02:36,473 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/master.zip: true
-2019-03-30 22:02:36,473 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src'.
-2019-03-30 22:02:36,553 INFO  FullProcessService - Size of directory with sources: 11 MB
-2019-03-30 22:02:36,553 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src]
-2019-03-30 22:02:36,576 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/.git/
+2019-10-10 12:24:25,495 INFO  DownloadService - Downloading "https://github.com/wajahatkarim3/EasyFlipView/archive/master.zip", attempt 3
+2019-10-10 12:24:34,002 INFO  DownloadService - Downloaded https://github.com/wajahatkarim3/EasyFlipView/archive/master.zip, attempt 3
+2019-10-10 12:24:34,003 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/master.zip": 10 MB
+2019-10-10 12:24:34,003 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-10 12:24:34,011 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/master.zip: true
+2019-10-10 12:24:34,011 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src'.
+2019-10-10 12:24:34,086 INFO  FullProcessService - Size of directory with sources: 11 MB
+2019-10-10 12:24:34,087 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src]
+2019-10-10 12:24:34,107 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/.git/
 
-2019-03-30 22:02:36,579 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/gradlew
-2019-03-30 22:02:36,583 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/EasyFlipView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/build.gradle
-2019-03-30 22:02:36,586 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/EasyFlipView/android-release-aar.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/EasyFlipView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/settings.gradle
-2019-03-30 22:02:36,587 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
-2019-03-30 22:02:36,816 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
-2019-03-30 22:02:36,816 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2019-03-30 22:02:37,057 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2019-03-30 22:02:37,057 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2019-03-30 22:02:37,291 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2019-03-30 22:02:37,291 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2019-03-30 22:02:37,291 INFO  ProjectFixService - Fixing project...
-2019-03-30 22:02:37,299 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/EasyFlipView/local.properties
-2019-03-30 22:02:37,300 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/EasyFlipView/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-30 22:02:37,301 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/EasyFlipView/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-30 22:02:37,302 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/app/local.properties
-2019-03-30 22:02:37,303 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-30 22:02:37,303 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-30 22:02:37,304 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/local.properties
-2019-03-30 22:02:37,305 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-03-30 22:02:37,305 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-03-30 22:02:37,307 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-30 22:02:37,307 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-30 22:02:37,307 INFO  ProjectFixService - Project was maybe fixed
-2019-03-30 22:02:37,308 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-30 22:02:37,308 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/EasyFlipView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-30 22:02:47,737 INFO  ProjectTaskService - Detected possible tasks: 75
-2019-03-30 22:02:47,737 INFO  ProjectTaskService - Excluded tasks (21): lintDebug androidJavadocs javadocJar deviceCheck lint androidSourcesJar testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-03-30 22:02:47,737 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/EasyFlipView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, androidJavadocs, -x, javadocJar, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-03-30 22:02:56,321 ERROR SysUtils - Could not process external command
+2019-10-10 12:24:34,109 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/gradlew
+2019-10-10 12:24:34,112 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/EasyFlipView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/build.gradle
+2019-10-10 12:24:34,114 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/EasyFlipView/android-release-aar.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/EasyFlipView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/settings.gradle
+2019-10-10 12:24:34,119 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
+2019-10-10 12:24:34,932 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
+2019-10-10 12:24:34,932 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-10-10 12:24:35,122 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-10-10 12:24:35,122 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-10-10 12:24:35,363 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-10-10 12:24:35,363 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-10-10 12:24:35,363 INFO  ProjectFixService - Fixing project...
+2019-10-10 12:24:35,378 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/EasyFlipView/local.properties
+2019-10-10 12:24:35,380 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/EasyFlipView/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-10-10 12:24:35,380 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/EasyFlipView/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-10-10 12:24:35,381 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/app/local.properties
+2019-10-10 12:24:35,382 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-10-10 12:24:35,382 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-10-10 12:24:35,383 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/local.properties
+2019-10-10 12:24:35,383 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-10-10 12:24:35,384 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-10-10 12:24:35,385 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-10-10 12:24:35,385 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-10-10 12:24:35,386 INFO  ProjectFixService - Project was maybe fixed
+2019-10-10 12:24:35,386 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-10 12:24:35,386 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/EasyFlipView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-10 12:24:44,053 INFO  ProjectTaskService - Detected possible tasks: 75
+2019-10-10 12:24:44,054 INFO  ProjectTaskService - Excluded tasks (21): lintDebug androidJavadocs javadocJar deviceCheck lint androidSourcesJar testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-10-10 12:24:44,054 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/EasyFlipView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, androidJavadocs, -x, javadocJar, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-10-10 12:24:51,048 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -49,7 +49,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -63,7 +64,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-30 22:02:56,321 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-10 12:24:51,048 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -141,11 +142,11 @@ org.gradle.execution.TaskSelectionException: Task 'androidJavadocs' not found in
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 8s
+BUILD FAILED in 6s
 
-2019-03-30 22:02:56,321 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-03-30 22:02:56,321 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/EasyFlipView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-30 22:03:23,958 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-10 12:24:51,049 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-10-10 12:24:51,049 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/EasyFlipView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-10-10 12:25:15,155 INFO  SysUtils - Configuration on demand is an incubating feature.
 :EasyFlipView:preBuild UP-TO-DATE
 :EasyFlipView:preDebugBuild UP-TO-DATE
 :EasyFlipView:compileDebugAidl NO-SOURCE
@@ -212,22 +213,22 @@ BUILD FAILED in 8s
 :EasyFlipView:mergeReleaseResources
 :EasyFlipView:verifyReleaseResources
 :EasyFlipView:assembleRelease
-:EasyFlipView:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/EasyFlipView/src/main/java/com/wajahatkarim3/easyflipview/EasyFlipView.java:614: warning: no @return
+:EasyFlipView:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/EasyFlipView/src/main/java/com/wajahatkarim3/easyflipview/EasyFlipView.java:614: warning: no @return
     public boolean isHorizontalType() {
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/EasyFlipView/src/main/java/com/wajahatkarim3/easyflipview/EasyFlipView.java:621: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/EasyFlipView/src/main/java/com/wajahatkarim3/easyflipview/EasyFlipView.java:621: warning: no @return
     public boolean isVerticalType() {
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/EasyFlipView/src/main/java/com/wajahatkarim3/easyflipview/EasyFlipView.java:684: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/EasyFlipView/src/main/java/com/wajahatkarim3/easyflipview/EasyFlipView.java:684: warning: no @return
     public String getFlipTypeFrom() {
                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/EasyFlipView/src/main/java/com/wajahatkarim3/easyflipview/EasyFlipView.java:691: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/EasyFlipView/src/main/java/com/wajahatkarim3/easyflipview/EasyFlipView.java:691: warning: no @return
     public boolean isAutoFlipBack() {
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/EasyFlipView/src/main/java/com/wajahatkarim3/easyflipview/EasyFlipView.java:705: warning: no description for @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/EasyFlipView/src/main/java/com/wajahatkarim3/easyflipview/EasyFlipView.java:705: warning: no description for @return
      * @return
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/EasyFlipView/src/main/java/com/wajahatkarim3/easyflipview/EasyFlipView.java:729: warning: no @param for easyFlipView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/EasyFlipView/src/main/java/com/wajahatkarim3/easyflipview/EasyFlipView.java:729: warning: no @param for easyFlipView
         void onViewFlipCompleted(EasyFlipView easyFlipView, FlipState newCurrentSide);
              ^
 
@@ -237,10 +238,10 @@ BUILD FAILED in 8s
 :EasyFlipView:assemble
 :EasyFlipView:lint
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/39f2e77d9dc0a50917cb66a7426eab6f/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-Ran lint on variant debug: 2 issues found
-Ran lint on variant release: 2 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/EasyFlipView/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/EasyFlipView/build/reports/lint-results.xml
+Ran lint on variant debug: 3 issues found
+Ran lint on variant release: 3 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/EasyFlipView/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/EasyFlipView/build/reports/lint-results.xml
 :EasyFlipView:generateDebugUnitTestSources
 :EasyFlipView:preDebugUnitTestBuild UP-TO-DATE
 :EasyFlipView:javaPreCompileDebugUnitTest
@@ -259,15 +260,15 @@ Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgby
 :EasyFlipView:check
 :EasyFlipView:build
 
-BUILD SUCCESSFUL in 27s
+BUILD SUCCESSFUL in 23s
 53 actionable tasks: 53 executed
 
-2019-03-30 22:03:24,020 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-30 22:03:24,021 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-30 22:03:30,903 INFO  ProjectTaskService - Detected possible tasks: 76
-2019-03-30 22:03:30,903 INFO  ProjectTaskService - Excluded tasks (24): lintDebug androidJavadocs javadocJar deviceCheck lint androidSourcesJar testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-30 22:03:30,904 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, androidJavadocs, -x, javadocJar, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-30 22:03:37,946 ERROR SysUtils - Could not process external command
+2019-10-10 12:25:15,198 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-10 12:25:15,198 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-10 12:25:21,593 INFO  ProjectTaskService - Detected possible tasks: 76
+2019-10-10 12:25:21,593 INFO  ProjectTaskService - Excluded tasks (24): lintDebug androidJavadocs javadocJar deviceCheck lint androidSourcesJar testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-10 12:25:21,593 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, androidJavadocs, -x, javadocJar, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-10 12:25:27,665 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -280,7 +281,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -294,7 +296,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-30 22:03:37,946 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-10 12:25:27,665 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -372,11 +374,11 @@ org.gradle.execution.TaskSelectionException: Task 'androidJavadocs' not found in
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 5s
 
-2019-03-30 22:03:37,946 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-03-30 22:03:37,946 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-30 22:04:15,904 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-10 12:25:27,665 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-10-10 12:25:27,665 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-10-10 12:26:01,505 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
 :app:preBuild UP-TO-DATE
 :EasyFlipView:preBuild UP-TO-DATE
@@ -503,10 +505,10 @@ BUILD FAILED in 6s
 :app:assembleRelease
 :app:assemble
 :app:lint
-Ran lint on variant release: 46 issues found
-Ran lint on variant debug: 46 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/app/build/reports/lint-results.xml
+Ran lint on variant debug: 47 issues found
+Ran lint on variant release: 47 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/app/build/reports/lint-results.xml
 :app:generateDebugUnitTestSources
 :app:preDebugUnitTestBuild UP-TO-DATE
 :app:javaPreCompileDebugUnitTest
@@ -523,7 +525,7 @@ Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgby
 :app:check
 :app:build
 
-BUILD SUCCESSFUL in 37s
+BUILD SUCCESSFUL in 33s
 92 actionable tasks: 59 executed, 33 up-to-date
 
-2019-03-30 22:04:16,043 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553958143861-0/src/EasyFlipView-master/app/build/outputs/apk/debug/app-debug.apk
+2019-10-10 12:26:01,617 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685065492-0/src/EasyFlipView-master/app/build/outputs/apk/debug/app-debug.apk
