@@ -1,37 +1,37 @@
-2019-08-30 11:09:40,021 INFO  DownloadService - Downloading "https://github.com/saeedsh92/Banner-Slider/archive/master.zip", attempt 3
-2019-08-30 11:09:42,580 INFO  DownloadService - Downloaded https://github.com/saeedsh92/Banner-Slider/archive/master.zip, attempt 3
-2019-08-30 11:09:42,581 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138180015-0/master.zip": 1 MB
-2019-08-30 11:09:42,581 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-30 11:09:42,587 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138180015-0/master.zip: true
-2019-08-30 11:09:42,587 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138180015-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138180015-0/src'.
-2019-08-30 11:09:42,623 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-08-30 11:09:42,623 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138180015-0/src]
-2019-08-30 11:09:42,640 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138180015-0/src/.git/
+2019-10-19 21:01:45,128 INFO  DownloadService - Downloading "https://github.com/saeedsh92/Banner-Slider/archive/master.zip", attempt 3
+2019-10-19 21:01:49,007 INFO  DownloadService - Downloaded https://github.com/saeedsh92/Banner-Slider/archive/master.zip, attempt 3
+2019-10-19 21:01:49,008 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571493705124-0/master.zip": 1 MB
+2019-10-19 21:01:49,008 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-19 21:01:49,013 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571493705124-0/master.zip: true
+2019-10-19 21:01:49,014 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571493705124-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571493705124-0/src'.
+2019-10-19 21:01:49,047 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-10-19 21:01:49,047 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571493705124-0/src]
+2019-10-19 21:01:49,068 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571493705124-0/src/.git/
 
-2019-08-30 11:09:42,642 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138180015-0/src/Banner-Slider-master/gradlew
-2019-08-30 11:09:42,645 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138180015-0/src/Banner-Slider-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138180015-0/src/Banner-Slider-master/bannerslider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138180015-0/src/Banner-Slider-master/build.gradle
-2019-08-30 11:09:42,647 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138180015-0/src/Banner-Slider-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138180015-0/src/Banner-Slider-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138180015-0/src/Banner-Slider-master/bannerslider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138180015-0/src/Banner-Slider-master/settings.gradle
-2019-08-30 11:09:42,648 INFO  ProjectBuildService - Remote scripts: none
-2019-08-30 11:09:42,648 INFO  ProjectFixService - Fixing project...
-2019-08-30 11:09:42,655 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138180015-0/src/Banner-Slider-master/app/local.properties
-2019-08-30 11:09:42,656 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138180015-0/src/Banner-Slider-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2019-08-30 11:09:42,656 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138180015-0/src/Banner-Slider-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2019-08-30 11:09:42,657 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138180015-0/src/Banner-Slider-master/bannerslider/local.properties
-2019-08-30 11:09:42,658 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138180015-0/src/Banner-Slider-master/bannerslider/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2019-08-30 11:09:42,658 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138180015-0/src/Banner-Slider-master/bannerslider/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2019-08-30 11:09:42,659 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138180015-0/src/Banner-Slider-master/local.properties
-2019-08-30 11:09:42,659 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2019-08-30 11:09:42,660 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2019-08-30 11:09:42,661 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138180015-0/src/Banner-Slider-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2019-08-30 11:09:42,661 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138180015-0/src/Banner-Slider-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2019-08-30 11:09:42,662 INFO  ProjectFixService - Project was maybe fixed
-2019-08-30 11:09:42,662 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-30 11:09:42,662 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138180015-0/src/Banner-Slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138180015-0/src/Banner-Slider-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-30 11:09:49,442 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-08-30 11:09:49,442 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-08-30 11:09:49,442 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-08-30 11:09:49,442 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138180015-0/src/Banner-Slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138180015-0/src/Banner-Slider-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-08-30 11:09:54,322 ERROR SysUtils - Could not process external command
+2019-10-19 21:01:49,071 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571493705124-0/src/Banner-Slider-master/gradlew
+2019-10-19 21:01:49,073 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571493705124-0/src/Banner-Slider-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571493705124-0/src/Banner-Slider-master/bannerslider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571493705124-0/src/Banner-Slider-master/build.gradle
+2019-10-19 21:01:49,076 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571493705124-0/src/Banner-Slider-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571493705124-0/src/Banner-Slider-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571493705124-0/src/Banner-Slider-master/bannerslider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571493705124-0/src/Banner-Slider-master/settings.gradle
+2019-10-19 21:01:49,076 INFO  ProjectBuildService - Remote scripts: none
+2019-10-19 21:01:49,076 INFO  ProjectFixService - Fixing project...
+2019-10-19 21:01:49,081 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571493705124-0/src/Banner-Slider-master/app/local.properties
+2019-10-19 21:01:49,082 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571493705124-0/src/Banner-Slider-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-10-19 21:01:49,082 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571493705124-0/src/Banner-Slider-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-10-19 21:01:49,083 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571493705124-0/src/Banner-Slider-master/bannerslider/local.properties
+2019-10-19 21:01:49,083 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571493705124-0/src/Banner-Slider-master/bannerslider/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-10-19 21:01:49,083 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571493705124-0/src/Banner-Slider-master/bannerslider/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-10-19 21:01:49,084 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571493705124-0/src/Banner-Slider-master/local.properties
+2019-10-19 21:01:49,084 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-10-19 21:01:49,085 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-10-19 21:01:49,085 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571493705124-0/src/Banner-Slider-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-10-19 21:01:49,086 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571493705124-0/src/Banner-Slider-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-10-19 21:01:49,086 INFO  ProjectFixService - Project was maybe fixed
+2019-10-19 21:01:49,086 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-19 21:01:49,086 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571493705124-0/src/Banner-Slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571493705124-0/src/Banner-Slider-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-19 21:01:55,716 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-10-19 21:01:55,716 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-10-19 21:01:55,716 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-10-19 21:01:55,716 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571493705124-0/src/Banner-Slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571493705124-0/src/Banner-Slider-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-10-19 21:02:01,189 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -59,7 +59,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-30 11:09:54,322 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-19 21:02:01,189 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -195,15 +195,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 4s
+BUILD FAILED in 5s
 
-2019-08-30 11:09:54,326 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-30 11:09:54,327 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138180015-0/src/Banner-Slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138180015-0/src/Banner-Slider-master/bannerslider/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-30 11:09:59,150 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-08-30 11:09:59,150 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-08-30 11:09:59,150 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-08-30 11:09:59,150 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138180015-0/src/Banner-Slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138180015-0/src/Banner-Slider-master/bannerslider/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-08-30 11:10:04,515 ERROR SysUtils - Could not process external command
+2019-10-19 21:02:01,193 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-19 21:02:01,193 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571493705124-0/src/Banner-Slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571493705124-0/src/Banner-Slider-master/bannerslider/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-19 21:02:05,968 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-10-19 21:02:05,968 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-10-19 21:02:05,969 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-10-19 21:02:05,969 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571493705124-0/src/Banner-Slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571493705124-0/src/Banner-Slider-master/bannerslider/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-10-19 21:02:10,799 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -231,7 +231,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-30 11:10:04,515 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-19 21:02:10,800 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -360,22 +360,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	... 85 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 4s
 
-2019-08-30 11:10:04,519 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-30 11:10:04,519 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138180015-0/src/Banner-Slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138180015-0/src/Banner-Slider-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-30 11:10:09,535 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-08-30 11:10:09,535 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-08-30 11:10:09,536 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-08-30 11:10:09,536 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138180015-0/src/Banner-Slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567138180015-0/src/Banner-Slider-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-08-30 11:10:14,603 ERROR SysUtils - Could not process external command
+2019-10-19 21:02:10,804 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-19 21:02:10,804 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571493705124-0/src/Banner-Slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571493705124-0/src/Banner-Slider-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-19 21:02:15,561 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-10-19 21:02:15,561 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-10-19 21:02:15,561 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-10-19 21:02:15,561 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571493705124-0/src/Banner-Slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571493705124-0/src/Banner-Slider-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-10-19 21:02:20,435 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -403,7 +403,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-30 11:10:14,603 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-19 21:02:20,435 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -541,5 +541,5 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED in 4s
 
-2019-08-30 11:10:14,607 ERROR FullProcessService - Project build has not produced APK file
-2019-08-30 11:10:14,610 ERROR FullProcessService - Could not find generated or existed APK file
+2019-10-19 21:02:20,439 ERROR FullProcessService - Project build has not produced APK file
+2019-10-19 21:02:20,442 ERROR FullProcessService - Could not find generated or existed APK file
